@@ -1,0 +1,78 @@
+{
+category = Letter;
+color = 9;
+glyphname = "sad-ar.medi";
+kernLeft = sad;
+kernRight = sad;
+layers = (
+{
+anchors = (
+{
+name = entry;
+pos = (942,0);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+ref = "sad-ar.init";
+}
+);
+width = 942;
+},
+{
+anchors = (
+{
+name = entry;
+pos = (5987,0);
+}
+);
+associatedMasterId = m01;
+attr = {
+coordinates = (
+0,
+100
+);
+};
+layerId = "AC06EA14-DBCE-4354-9165-0B56B6B33B2D";
+name = "16 May 23 at 19:27";
+shapes = (
+{
+alignment = -1;
+ref = "sad-ar.init";
+}
+);
+width = 5987;
+},
+{
+anchors = (
+{
+name = entry;
+pos = (393,0);
+}
+);
+associatedMasterId = m01;
+attr = {
+coordinates = (
+0,
+0
+);
+};
+layerId = "89993892-A467-41EC-82A9-8FB0D89B668F";
+name = "17 May 23 at 16:05";
+shapes = (
+{
+alignment = -1;
+ref = "sad-ar.init";
+}
+);
+width = 393;
+}
+);
+metricLeft = "=sad-ar.init";
+metricRight = "=0@110";
+script = arabic;
+sortName = arL0029;
+sortNameKeep = arL0029;
+}

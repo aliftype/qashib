@@ -1,0 +1,44 @@
+{
+category = Letter;
+color = 9;
+glyphname = "yehbarree-ar.fina.baseline";
+kernRight = yehbarree;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (0,110);
+ref = "yehbarree-ar.fina";
+}
+);
+width = 1080;
+},
+{
+associatedMasterId = m01;
+attr = {
+coordinates = (
+0,
+100
+);
+};
+layerId = "F253E3D4-CF02-4FA7-B146-77A5FACE9C2A";
+name = "23 May 23 at 04:29";
+shapes = (
+{
+alignment = -1;
+pos = (0,110);
+ref = "yehbarree-ar.fina";
+}
+);
+width = 6000;
+}
+);
+metricLeft = "=0";
+metricRight = "=0";
+production = yehbarreear.fina.baseline;
+script = arabic;
+sortName = arL0082.baseline;
+sortNameKeep = arL0082.baseline;
+}

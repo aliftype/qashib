@@ -1,0 +1,22 @@
+{
+category = Mark;
+glyphname = "hamzabelow-ar";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "kasra-ar";
+}
+);
+width = 150;
+}
+);
+metricLeft = "=fatha-ar";
+metricRight = "=fatha-ar";
+script = arabic;
+sortName = arM1071;
+sortNameKeep = arM1071;
+subCategory = Nonspacing;
+unicode = 1621;
+}

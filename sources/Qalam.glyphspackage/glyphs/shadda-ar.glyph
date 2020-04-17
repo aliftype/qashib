@@ -1,0 +1,15 @@
+{
+category = Mark;
+glyphname = "shadda-ar";
+layers = (
+{
+layerId = m01;
+width = 1200;
+}
+);
+script = arabic;
+sortName = arM1080;
+sortNameKeep = arM1080;
+subCategory = Nonspacing;
+unicode = 1617;
+}

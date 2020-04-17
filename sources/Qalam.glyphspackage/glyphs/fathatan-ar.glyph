@@ -1,0 +1,43 @@
+{
+category = Mark;
+glyphname = "fathatan-ar";
+layers = (
+{
+anchors = (
+{
+name = _fatha;
+pos = (150,75);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "kasratan-ar";
+}
+);
+width = 300;
+},
+{
+associatedMasterId = m01;
+attr = {
+colorPalette = 3;
+};
+layerId = "B1CF235A-D426-403E-AC5F-FAE0BFC820A1";
+name = "Regular 25 Jun 22, 20:50";
+shapes = (
+{
+alignment = 1;
+ref = "kasratan-ar";
+}
+);
+width = 300;
+}
+);
+metricLeft = "=fatha-ar";
+metricRight = "=fatha-ar";
+script = arabic;
+sortName = arM1075;
+sortNameKeep = arM1075;
+subCategory = Nonspacing;
+unicode = 1611;
+}

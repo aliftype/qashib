@@ -1,0 +1,71 @@
+{
+category = Letter;
+glyphname = "lam-ar.init.hah2";
+kernLeft = lam;
+kernRight = lam;
+layers = (
+{
+anchors = (
+{
+name = damma;
+pos = (-5,405);
+},
+{
+name = exit;
+pos = (0,230);
+},
+{
+name = fatha;
+pos = (-31,767);
+},
+{
+name = kasra;
+pos = (123,153);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(72,230,ls),
+(85,230,o),
+(106,239,o),
+(106,252,cs),
+(104,356,o),
+(101,508,o),
+(103,590,cs),
+(106,668,o),
+(109,749,o),
+(97,907,cs),
+(96,915,o),
+(90,916,o),
+(86,908,cs),
+(53,847,o),
+(40,818,o),
+(8,789,cs),
+(-3,780,o),
+(0,772,o),
+(2,763,cs),
+(12,714,o),
+(13,672,o),
+(13,611,cs),
+(13,576,o),
+(13,524,o),
+(8,329,c),
+(41,340,l),
+(-20,340,l),
+(-20,230,l)
+);
+}
+);
+width = 106;
+}
+);
+metricLeft = "=-20@230";
+metricRight = "=0";
+production = lamar.init.hah2;
+script = arabic;
+sortName = arL0056.hah2;
+sortNameKeep = arL0056.hah2;
+}

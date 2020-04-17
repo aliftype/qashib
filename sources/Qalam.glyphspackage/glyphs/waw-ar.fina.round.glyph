@@ -1,0 +1,28 @@
+{
+category = Letter;
+glyphname = "waw-ar.fina.round";
+layers = (
+{
+anchors = (
+{
+name = entry;
+pos = (522,0);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (0,-83);
+ref = "waw-ar";
+}
+);
+width = 522;
+}
+);
+metricLeft = "=waw-ar";
+production = wawar.fina.round;
+script = arabic;
+sortName = arL0077.round;
+sortNameKeep = arL0077.round;
+}

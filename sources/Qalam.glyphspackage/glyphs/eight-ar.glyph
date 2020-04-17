@@ -1,0 +1,16 @@
+{
+category = Number;
+glyphname = "eight-ar";
+layers = (
+{
+layerId = m01;
+width = 0;
+}
+);
+metricWidth = "=0";
+script = arabic;
+sortName = arN0898;
+sortNameKeep = arN0898;
+subCategory = "Decimal Digit";
+unicode = 1640;
+}

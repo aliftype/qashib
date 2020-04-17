@@ -1,0 +1,24 @@
+{
+category = Placeholder;
+color = 0;
+glyphname = "sheen-ar";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "seen-ar";
+},
+{
+pos = (-43,301);
+ref = "threedotshorizontalabove-ar.fin";
+}
+);
+width = 449;
+}
+);
+script = arabic;
+sortName = arL0196;
+sortNameKeep = arL0196;
+unicode = 1588;
+}

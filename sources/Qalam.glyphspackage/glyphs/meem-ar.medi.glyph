@@ -1,0 +1,92 @@
+{
+category = Letter;
+glyphname = "meem-ar.medi";
+kernLeft = meem;
+layers = (
+{
+anchors = (
+{
+name = damma;
+pos = (0,171);
+},
+{
+name = entry;
+pos = (381,0);
+},
+{
+name = exit;
+},
+{
+name = fatha;
+pos = (197,424);
+},
+{
+name = kasra;
+pos = (222,-75);
+}
+);
+backgroundImage = {
+alpha = 80;
+angle = -2.5;
+imagePath = "images/meem-ar.medi.jpg";
+locked = 1;
+pos = (-246,-202);
+scale = (14.67,14.67);
+};
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(381,0,l),
+(381,110,l),
+(-20,110,l),
+(-20,115,o),
+(-20,8,o),
+(-20,0,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(311,-13,o),
+(381,-3,o),
+(381,90,cs),
+(381,180,o),
+(286,370,o),
+(184,370,cs),
+(95,370,o),
+(0,244,o),
+(0,82,cs),
+(0,11,o),
+(67,-12,o),
+(206,-13,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(201,156,o),
+(197,161,o),
+(197,166,cs),
+(197,171,o),
+(201,175,o),
+(206,175,cs),
+(211,175,o),
+(216,171,o),
+(216,166,cs),
+(216,161,o),
+(211,156,o),
+(206,156,cs)
+);
+}
+);
+width = 381;
+}
+);
+metricLeft = "=-20";
+metricRight = "=0";
+script = arabic;
+sortName = arL0059;
+sortNameKeep = arL0059;
+}

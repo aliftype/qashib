@@ -1,0 +1,26 @@
+{
+category = Letter;
+glyphname = "noonghunna-ar.fina";
+layers = (
+{
+anchors = (
+{
+name = entry;
+pos = (274,0);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "noonghunna-ar";
+}
+);
+width = 271;
+}
+);
+metricLeft = "=-0@74";
+metricRight = "=-33";
+script = arabic;
+sortName = arL0062;
+sortNameKeep = arL0062;
+}

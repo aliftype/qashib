@@ -1,0 +1,48 @@
+{
+category = Mark;
+glyphname = "dotabove-ar.reh";
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (69,50);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(34,40,o),
+(74,87,o),
+(104,126,cs),
+(106,129,o),
+(105,131,o),
+(104,133,cs),
+(99,137,ls),
+(97,139,o),
+(94,139,o),
+(92,136,cs),
+(50,95,o),
+(12,60,o),
+(-16,34,cs),
+(-19,33,o),
+(-19,29,o),
+(-16,27,cs),
+(4,17,ls),
+(6,16,o),
+(9,16,o),
+(11,18,cs)
+);
+}
+);
+width = 103;
+}
+);
+production = dotabovear.reh;
+script = arabic;
+sortName = arM1060.reh;
+sortNameKeep = arM1060.reh;
+subCategory = Nonspacing;
+}

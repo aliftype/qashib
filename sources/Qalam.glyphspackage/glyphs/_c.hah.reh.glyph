@@ -1,0 +1,28 @@
+{
+category = Mark;
+direction = RTL;
+glyphname = _c.hah.reh;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(91,59,l),
+(91,108,l),
+(32,114,o),
+(-1,128,o),
+(-42,171,c),
+(-53,171,l),
+(-53,0,l)
+);
+}
+);
+width = 91;
+}
+);
+metricRight = "=0";
+script = arabic;
+subCategory = Nonspacing;
+}

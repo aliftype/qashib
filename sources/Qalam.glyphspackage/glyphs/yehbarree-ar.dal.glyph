@@ -1,0 +1,141 @@
+{
+category = Letter;
+color = 9;
+glyphname = "yehbarree-ar.dal";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (722,-167);
+},
+{
+name = damma;
+pos = (-49,37);
+},
+{
+name = fatha;
+pos = (192,223);
+},
+{
+name = kasra;
+pos = (188,-162);
+}
+);
+backgroundImage = {
+alpha = 80;
+imagePath = "images/MS-Arabe-350-0000002.png";
+locked = 1;
+pos = (-41,-753);
+scale = (2.5,2.5);
+};
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(311,-109,o),
+(1125,-113,o),
+(1334,-109,cs),
+(1387,-108,o),
+(1425,-59,o),
+(1475,-28,cs),
+(1479,-25,o),
+(1478,-22,o),
+(1473,-22,cs),
+(1413,-24,o),
+(515,-27,o),
+(283,-19,cs),
+(179,-16,o),
+(76,3,o),
+(129,80,cs),
+(151,114,o),
+(192,152,o),
+(226,189,c),
+(219,198,l),
+(131,121,o),
+(29,33,o),
+(7,-14,cs),
+(-24,-81,o),
+(52,-105,o),
+(190,-107,cs)
+);
+}
+);
+width = 155;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (722,-167);
+},
+{
+name = damma;
+pos = (-49,37);
+},
+{
+name = fatha;
+pos = (192,223);
+},
+{
+name = kasra;
+pos = (188,-162);
+}
+);
+associatedMasterId = m01;
+attr = {
+coordinates = (
+0,
+100
+);
+};
+backgroundImage = {
+alpha = 80;
+imagePath = "images/MS-Arabe-350-0000002.png";
+locked = 1;
+pos = (-41,-753);
+scale = (2.5,2.5);
+};
+layerId = "6F366F50-ADC0-4B6D-9603-CEEBFF83328D";
+name = "23 May 23 at 04:23";
+shapes = (
+{
+closed = 1;
+nodes = (
+(843,-116,o),
+(4648,-137,o),
+(6157,-109,cs),
+(6210,-108,o),
+(6248,-59,o),
+(6298,-28,cs),
+(6302,-25,o),
+(6301,-22,o),
+(6296,-22,cs),
+(4636,-34,o),
+(915,-37,o),
+(283,-19,cs),
+(179,-16,o),
+(76,3,o),
+(129,80,cs),
+(151,114,o),
+(192,152,o),
+(226,189,c),
+(219,198,l),
+(131,121,o),
+(29,33,o),
+(7,-14,cs),
+(-24,-81,o),
+(52,-105,o),
+(190,-107,cs)
+);
+}
+);
+width = 155;
+}
+);
+metricLeft = "=0";
+script = arabic;
+sortName = arL0081;
+sortNameKeep = arL0081;
+}

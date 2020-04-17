@@ -1,0 +1,34 @@
+{
+category = Letter;
+glyphname = "hah-ar.medi.alt";
+kernLeft = hah;
+kernRight = hah.init;
+layers = (
+{
+anchors = (
+{
+name = entry;
+pos = (171,115);
+},
+{
+name = exit;
+},
+{
+name = fatha;
+pos = (81,337);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "hah-ar.init";
+}
+);
+width = 1022;
+}
+);
+production = hahar.medi.alt;
+script = arabic;
+sortName = arL0016.alt;
+sortNameKeep = arL0016.alt;
+}

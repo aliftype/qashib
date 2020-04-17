@@ -1,0 +1,48 @@
+{
+category = Letter;
+glyphname = "seen-ar.fina";
+kernLeft = seen.isol;
+kernRight = beh;
+layers = (
+{
+anchors = (
+{
+name = entry;
+pos = (455,0);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+ref = "seen-ar";
+},
+{
+closed = 1;
+nodes = (
+(481,0,l),
+(481,110,l),
+(381,110,l),
+(243,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(481,110,l),
+(464,117,o),
+(449,125,o),
+(448,221,c),
+(438,110,l)
+);
+}
+);
+width = 455;
+}
+);
+metricLeft = "=seen-ar";
+metricRight = "=3@157";
+script = arabic;
+sortName = arL0024;
+sortNameKeep = arL0024;
+}

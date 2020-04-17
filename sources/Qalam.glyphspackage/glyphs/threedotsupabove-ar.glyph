@@ -1,0 +1,34 @@
+{
+category = Mark;
+glyphname = "threedotsupabove-ar";
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (143,30);
+}
+);
+layerId = m01;
+shapes = (
+{
+pos = (64,-8);
+ref = "dotabove-ar";
+},
+{
+pos = (0,44);
+ref = "dotabove-ar";
+},
+{
+pos = (32,18);
+ref = "dotabove-ar";
+}
+);
+width = 174;
+}
+);
+script = arabic;
+sortName = arM1067a;
+sortNameKeep = arM1067a;
+subCategory = Nonspacing;
+}

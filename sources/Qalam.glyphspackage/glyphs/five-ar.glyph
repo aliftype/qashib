@@ -1,0 +1,16 @@
+{
+category = Number;
+glyphname = "five-ar";
+layers = (
+{
+layerId = m01;
+width = 0;
+}
+);
+metricWidth = "=0";
+script = arabic;
+sortName = arN0895;
+sortNameKeep = arN0895;
+subCategory = "Decimal Digit";
+unicode = 1637;
+}

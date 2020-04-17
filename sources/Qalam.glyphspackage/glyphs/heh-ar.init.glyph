@@ -1,0 +1,39 @@
+{
+category = Letter;
+glyphname = "heh-ar.init";
+kernLeft = heh;
+kernRight = heh.init;
+layers = (
+{
+anchors = (
+{
+name = damma;
+pos = (8,169);
+},
+{
+name = exit;
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (34,0);
+ref = "heh-ar.init.round";
+},
+{
+alignment = -1;
+pos = (20,0);
+ref = _p.heh;
+scale = (2,1);
+}
+);
+width = 372;
+}
+);
+metricLeft = "=-20";
+metricRight = "=0";
+script = arabic;
+sortName = arL0067;
+sortNameKeep = arL0067;
+}

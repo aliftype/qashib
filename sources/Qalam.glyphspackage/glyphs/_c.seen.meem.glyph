@@ -1,0 +1,34 @@
+{
+glyphname = _c.seen.meem;
+kernLeft = _c.meem;
+layers = (
+{
+anchors = (
+{
+name = entry;
+pos = (30,0);
+},
+{
+name = exit;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(60,0,l),
+(60,122,l),
+(17,129,o),
+(2,145,o),
+(-9,179,c),
+(-26,177,l),
+(-26,0,l)
+);
+}
+);
+width = 60;
+}
+);
+metricRight = "=0";
+}

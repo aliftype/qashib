@@ -1,0 +1,109 @@
+{
+category = Letter;
+glyphname = "heh-ar.init.round";
+kernRight = heh.init;
+layers = (
+{
+anchors = (
+{
+name = damma;
+pos = (-68,169);
+},
+{
+name = exit;
+},
+{
+name = fatha;
+pos = (195,589);
+},
+{
+name = kasra;
+pos = (189,-103);
+}
+);
+backgroundImage = {
+alpha = 80;
+angle = -0.8;
+imagePath = "images/seen-ar.init.jpg";
+locked = 1;
+pos = (-974,-185);
+scale = (14.67,14.67);
+};
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(240,-15,o),
+(290,-15,o),
+(318,4,cs),
+(330,13,o),
+(341,25,o),
+(338,39,cs),
+(320,112,o),
+(289,234,o),
+(240,555,cs),
+(238,569,o),
+(225,565,o),
+(225,552,cs),
+(225,516,o),
+(178,453,o),
+(151,417,cs),
+(148,412,o),
+(148,409,o),
+(148,403,cs),
+(156,356,l),
+(176,411,l),
+(68,343,o),
+(-25,257,o),
+(-20,157,cs),
+(-15,56,o),
+(98,-15,o),
+(207,-15,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(174,157,o),
+(169,162,o),
+(169,168,cs),
+(169,174,o),
+(174,179,o),
+(180,179,cs),
+(186,179,o),
+(191,174,o),
+(191,168,cs),
+(191,162,o),
+(186,157,o),
+(180,157,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(156,275,o),
+(151,280,o),
+(151,286,cs),
+(151,292,o),
+(156,297,o),
+(162,297,cs),
+(168,297,o),
+(173,292,o),
+(173,286,cs),
+(173,280,o),
+(168,275,o),
+(162,275,cs)
+);
+}
+);
+width = 338;
+}
+);
+metricLeft = "=meem-ar.medi.round";
+metricRight = "=0";
+production = hehar.init.round;
+script = arabic;
+sortName = arL0067.round;
+sortNameKeep = arL0067.round;
+}

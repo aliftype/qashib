@@ -1,0 +1,78 @@
+{
+category = Letter;
+color = 9;
+glyphname = "tah-ar.medi";
+kernLeft = sad;
+kernRight = sad;
+layers = (
+{
+anchors = (
+{
+name = entry;
+pos = (970,0);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+ref = "tah-ar.init";
+}
+);
+width = 970;
+},
+{
+anchors = (
+{
+name = entry;
+pos = (5989,0);
+}
+);
+associatedMasterId = m01;
+attr = {
+coordinates = (
+0,
+100
+);
+};
+layerId = "93A9B6F3-A20E-4B03-9BBD-A2DAB08266C3";
+name = "17 May 23 at 01:17";
+shapes = (
+{
+alignment = -1;
+ref = "tah-ar.init";
+}
+);
+width = 5989;
+},
+{
+anchors = (
+{
+name = entry;
+pos = (411,0);
+}
+);
+associatedMasterId = m01;
+attr = {
+coordinates = (
+0,
+0
+);
+};
+layerId = "993B0CEA-1A08-49CF-A442-A8659C976FD9";
+name = "17 May 23 at 16:11";
+shapes = (
+{
+alignment = -1;
+ref = "tah-ar.init";
+}
+);
+width = 411;
+}
+);
+metricLeft = "=tah-ar.init";
+metricRight = "=0@110";
+script = arabic;
+sortName = arL0033;
+sortNameKeep = arL0033;
+}

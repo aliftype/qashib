@@ -1,0 +1,19 @@
+{
+category = Placeholder;
+color = 0;
+glyphname = "ain-ar.medi.l1";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "ain-ar.medi";
+}
+);
+width = 247;
+}
+);
+script = arabic;
+sortName = arL0325;
+sortNameKeep = arL0325;
+}

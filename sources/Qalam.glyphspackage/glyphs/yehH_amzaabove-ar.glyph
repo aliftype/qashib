@@ -1,0 +1,20 @@
+{
+category = Placeholder;
+color = 0;
+glyphname = "yehHamzaabove-ar";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "alefMaksura-ar";
+}
+);
+width = 399;
+}
+);
+script = arabic;
+sortName = arL0308;
+sortNameKeep = arL0308;
+unicode = 1574;
+}

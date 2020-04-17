@@ -1,0 +1,20 @@
+{
+category = Placeholder;
+color = 0;
+glyphname = "tehMarbuta-ar";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "heh-ar";
+}
+);
+width = 354;
+}
+);
+script = arabic;
+sortName = arL0283;
+sortNameKeep = arL0283;
+unicode = 1577;
+}

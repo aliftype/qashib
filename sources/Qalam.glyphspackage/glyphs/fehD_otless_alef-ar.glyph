@@ -1,0 +1,133 @@
+{
+category = Letter;
+glyphname = "fehDotless_alef-ar";
+kernRight = feh.init;
+layers = (
+{
+anchors = (
+{
+name = bottom_1;
+pos = (537,28);
+},
+{
+name = caret_1;
+pos = (105,0);
+},
+{
+name = damma_1;
+pos = (118,192);
+},
+{
+name = damma_2;
+pos = (-87,61);
+},
+{
+name = fatha_1;
+pos = (334,554);
+},
+{
+name = fatha_2;
+pos = (124,800);
+},
+{
+name = kasra_1;
+pos = (342,-81);
+},
+{
+name = kasra_2;
+pos = (23,-66);
+},
+{
+name = madda_2;
+pos = (-57,785);
+},
+{
+name = top_1;
+pos = (246,502);
+}
+);
+backgroundImage = {
+alpha = 80;
+imagePath = "images/lam-ar.jpg";
+locked = 1;
+pos = (-1192,-524);
+scale = (14.67,14.67);
+};
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(329,257,o),
+(324,262,o),
+(324,268,cs),
+(324,274,o),
+(329,279,o),
+(335,279,cs),
+(340,279,o),
+(346,274,o),
+(346,268,cs),
+(346,262,o),
+(340,257,o),
+(335,257,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(86,459,o),
+(114,885,o),
+(100,993,cs),
+(98,1010,o),
+(87,1011,o),
+(87,993,cs),
+(87,984,o),
+(31,905,o),
+(12,885,cs),
+(1,874,o),
+(0,869,o),
+(6,844,cs),
+(10,825,o),
+(11,804,o),
+(11,777,cs),
+(11,607,o),
+(-5,359,o),
+(-5,137,cs),
+(-5,98,o),
+(-3,48,o),
+(30,19,cs),
+(59,-7,o),
+(161,-14,o),
+(265,-13,cs),
+(497,-11,o),
+(555,16,o),
+(555,67,cs),
+(555,309,o),
+(470,481,o),
+(318,482,cs),
+(204,483,o),
+(106,366,o),
+(121,223,cs),
+(129,144,o),
+(226,95,o),
+(415,114,c),
+(416,97,l),
+(272,82,o),
+(119,97,o),
+(93,225,cs),
+(87,254,o),
+(86,312,o),
+(86,382,cs)
+);
+}
+);
+width = 555;
+}
+);
+metricLeft = "=alef-ar.fina";
+metricRight = "=fehDotless-ar.init";
+script = arabic;
+sortName = arL0403;
+sortNameKeep = arL0403;
+subCategory = Ligature;
+}

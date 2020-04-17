@@ -1,0 +1,74 @@
+{
+category = Letter;
+glyphname = "meem-ar.init.round";
+kernLeft = meem.alt;
+layers = (
+{
+anchors = (
+{
+name = damma;
+pos = (-1,162);
+},
+{
+name = entry;
+pos = (390,0);
+},
+{
+name = exit;
+},
+{
+name = fatha;
+pos = (196,415);
+},
+{
+name = kasra;
+pos = (221,-84);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(354,-32,o),
+(390,-6,o),
+(390,85,cs),
+(390,210,o),
+(305,362,o),
+(195,362,cs),
+(84,362,o),
+(-10,237,o),
+(-10,74,cs),
+(-10,-8,o),
+(58,-32,o),
+(195,-32,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(195,150,o),
+(191,154,o),
+(191,159,cs),
+(191,164,o),
+(195,169,o),
+(200,169,cs),
+(205,169,o),
+(210,164,o),
+(210,159,cs),
+(210,154,o),
+(205,150,o),
+(200,150,cs)
+);
+}
+);
+width = 390;
+}
+);
+metricLeft = "=-10";
+metricRight = "=0";
+production = meemar.init.round;
+script = arabic;
+sortName = arL0060.round;
+sortNameKeep = arL0060.round;
+}

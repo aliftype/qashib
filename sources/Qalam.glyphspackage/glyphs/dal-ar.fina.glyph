@@ -1,0 +1,78 @@
+{
+category = Letter;
+color = 9;
+glyphname = "dal-ar.fina";
+kernLeft = dal.fina;
+kernRight = sad;
+layers = (
+{
+anchors = (
+{
+name = entry;
+pos = (1114,0);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+ref = "dal-ar";
+}
+);
+width = 1114;
+},
+{
+anchors = (
+{
+name = entry;
+pos = (5975,0);
+}
+);
+associatedMasterId = m01;
+attr = {
+coordinates = (
+0,
+100
+);
+};
+layerId = "1C08AE65-7D33-4305-928A-8761C156C024";
+name = "15 May 23 at 22:26";
+shapes = (
+{
+alignment = -1;
+ref = "dal-ar";
+}
+);
+width = 5975;
+},
+{
+anchors = (
+{
+name = entry;
+pos = (514,0);
+}
+);
+associatedMasterId = m01;
+attr = {
+coordinates = (
+0,
+0
+);
+};
+layerId = "DE254147-8D56-4ECF-9DB1-F3ECAF2BC0B4";
+name = "17 May 23 at 04:00";
+shapes = (
+{
+alignment = -1;
+ref = "dal-ar";
+}
+);
+width = 514;
+}
+);
+metricLeft = "=0";
+metricRight = "=0@110";
+script = arabic;
+sortName = arL0019;
+sortNameKeep = arL0019;
+}

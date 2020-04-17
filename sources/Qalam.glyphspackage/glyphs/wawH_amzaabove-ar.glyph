@@ -1,0 +1,24 @@
+{
+category = Placeholder;
+color = 0;
+glyphname = "wawHamzaabove-ar";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "waw-ar";
+},
+{
+pos = (-17,201);
+ref = "hamzaabove-ar";
+}
+);
+width = 540;
+}
+);
+script = arabic;
+sortName = arL0288;
+sortNameKeep = arL0288;
+unicode = 1572;
+}

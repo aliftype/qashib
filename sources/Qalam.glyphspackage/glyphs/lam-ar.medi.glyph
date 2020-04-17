@@ -1,0 +1,84 @@
+{
+category = Letter;
+glyphname = "lam-ar.medi";
+kernLeft = lam;
+kernRight = beh;
+layers = (
+{
+anchors = (
+{
+name = damma;
+pos = (-22,175);
+},
+{
+name = entry;
+pos = (101,0);
+},
+{
+name = exit;
+},
+{
+name = fatha;
+pos = (-64,766);
+},
+{
+name = kasra;
+pos = (83,-59);
+}
+);
+backgroundImage = {
+alpha = 80;
+imagePath = "images/lam-ar.medi.jpg";
+pos = (-696,-266);
+scale = (14.67,14.67);
+};
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(127,0,l),
+(127,110,l),
+(95,110,l),
+(95,191,l),
+(95,405,o),
+(92,670,o),
+(88,921,cs),
+(88,929,o),
+(84,930,o),
+(81,925,cs),
+(60,887,o),
+(27,827,o),
+(1,804,cs),
+(-12,792,o),
+(-9,787,o),
+(-7,775,cs),
+(5,712,o),
+(6,634,o),
+(7,547,cs),
+(9,61,l),
+(59,110,l),
+(-20,110,l),
+(-20,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(127,110,l),
+(111,117,o),
+(97,124,o),
+(95,191,c),
+(84,110,l)
+);
+}
+);
+width = 101;
+}
+);
+metricLeft = "=-20";
+metricRight = "=3@157";
+script = arabic;
+sortName = arL0055;
+sortNameKeep = arL0055;
+}

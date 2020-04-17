@@ -1,0 +1,19 @@
+{
+category = Placeholder;
+color = 0;
+glyphname = "fehDotless-ar.medi.l1";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "fehDotless-ar.medi";
+}
+);
+width = 361;
+}
+);
+script = arabic;
+sortName = arL0326;
+sortNameKeep = arL0326;
+}

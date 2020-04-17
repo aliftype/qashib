@@ -1,0 +1,28 @@
+{
+category = Mark;
+direction = RTL;
+glyphname = _c.ain.medi.reh;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(34,0,l),
+(34,109,l),
+(4,132,o),
+(-25,154,o),
+(-54,182,c),
+(-64,182,l),
+(-10,0,l)
+);
+}
+);
+width = 34;
+}
+);
+metricLeft = "=-64";
+script = arabic;
+subCategory = Nonspacing;
+}

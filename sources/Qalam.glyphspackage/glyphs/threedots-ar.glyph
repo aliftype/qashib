@@ -1,0 +1,33 @@
+{
+category = Punctuation;
+glyphname = "threedots-ar";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+angle = -11.47961;
+pos = (62,45);
+ref = "dotabove-ar";
+},
+{
+angle = -11.47961;
+pos = (0,123);
+ref = "dotabove-ar";
+},
+{
+angle = -11.47961;
+pos = (31,84);
+ref = "dotabove-ar";
+}
+);
+width = 201;
+}
+);
+metricLeft = "=0";
+metricRight = "=0";
+script = arabic;
+sortName = arP0954;
+sortNameKeep = arP0954;
+unicode = 1566;
+}

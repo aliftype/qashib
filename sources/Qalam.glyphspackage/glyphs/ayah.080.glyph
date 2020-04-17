@@ -1,0 +1,68 @@
+{
+category = Mark;
+glyphname = ayah.080;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (-783,170);
+ref = _ayah.080;
+},
+{
+alignment = -1;
+pos = (-627,10);
+ref = _ayah.noon;
+}
+);
+width = 0;
+},
+{
+associatedMasterId = m01;
+attr = {
+colorPalette = 4;
+};
+layerId = "D542F106-890E-45CF-A3C8-AEA4B940F3D6";
+name = "17 Apr 23 at 00:00";
+shapes = (
+{
+alignment = -1;
+pos = (-783,170);
+ref = _ayah.080.1;
+},
+{
+alignment = -1;
+pos = (-627,10);
+ref = _ayah.noon.1;
+}
+);
+width = 0;
+},
+{
+associatedMasterId = m01;
+attr = {
+colorPalette = 1;
+};
+layerId = "A4C02AA6-6022-44EC-AFA7-E0EFF98AA081";
+name = "Color 1 17 Apr 23 at 00:03";
+shapes = (
+{
+alignment = -1;
+pos = (-783,170);
+ref = _ayah.080;
+},
+{
+alignment = -1;
+pos = (-627,10);
+ref = _ayah.noon;
+}
+);
+width = 0;
+}
+);
+script = arabic;
+sortName = arM1086.080;
+sortNameKeep = arM1086.080;
+subCategory = Nonspacing;
+}

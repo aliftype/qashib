@@ -1,0 +1,71 @@
+{
+category = Letter;
+glyphname = "lam-ar.medi.hah2.round";
+kernLeft = lam;
+kernRight = beh;
+layers = (
+{
+anchors = (
+{
+name = damma;
+pos = (-36,301);
+},
+{
+name = entry;
+pos = (100,230);
+},
+{
+name = exit;
+pos = (15,230);
+},
+{
+name = fatha;
+pos = (-75,730);
+},
+{
+name = kasra;
+pos = (69,134);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(121,340,l),
+(114,341,o),
+(96,349,o),
+(95,413,cs),
+(91,592,o),
+(89,808,o),
+(85,903,cs),
+(85,913,o),
+(78,920,o),
+(72,903,cs),
+(60,869,o),
+(22,814,o),
+(1,792,cs),
+(-3,788,o),
+(-5,785,o),
+(-4,779,cs),
+(10,656,o),
+(13,436,o),
+(10,327,cs),
+(9,244,o),
+(29,234,o),
+(56,232,cs),
+(82,230,o),
+(95,230,o),
+(121,230,c)
+);
+}
+);
+width = 100;
+}
+);
+metricRight = "=3@387";
+production = lamar.medi.hah2.round;
+script = arabic;
+sortName = arL0055.hah2.round;
+sortNameKeep = arL0055.hah2.round;
+}

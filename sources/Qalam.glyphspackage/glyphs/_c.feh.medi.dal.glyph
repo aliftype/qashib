@@ -1,0 +1,35 @@
+{
+glyphname = _c.feh.medi.dal;
+layers = (
+{
+anchors = (
+{
+name = entry;
+pos = (-22,0);
+},
+{
+name = exit;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(56,0,l),
+(56,104,l),
+(20,131,o),
+(-12,162,o),
+(-38,200,cs),
+(-46,211,o),
+(-69,207,o),
+(-75,207,c),
+(-75,0,l)
+);
+}
+);
+width = 56;
+}
+);
+metricRight = "=0";
+}

@@ -1,0 +1,26 @@
+{
+category = Mark;
+direction = RTL;
+glyphname = _c.ain.medi.waw;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(116,0,l),
+(116,110,l),
+(79,114,o),
+(-8,147,o),
+(-54,220,c),
+(-4,0,l)
+);
+}
+);
+width = 116;
+}
+);
+script = arabic;
+subCategory = Nonspacing;
+}

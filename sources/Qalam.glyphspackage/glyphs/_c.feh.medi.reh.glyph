@@ -1,0 +1,28 @@
+{
+category = Mark;
+direction = RTL;
+glyphname = _c.feh.medi.reh;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(37,0,l),
+(37,110,l),
+(20,109,o),
+(4,119,o),
+(-9,134,c),
+(-20,134,l),
+(-20,0,l)
+);
+}
+);
+width = 37;
+}
+);
+metricRight = "=0";
+script = arabic;
+subCategory = Nonspacing;
+}

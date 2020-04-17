@@ -1,0 +1,78 @@
+{
+category = Letter;
+glyphname = "behDotless-ar.init";
+kernLeft = beh.init;
+kernRight = beh.init;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (98,21);
+},
+{
+name = damma;
+pos = (-4,207);
+},
+{
+name = exit;
+},
+{
+name = fatha;
+pos = (92,535);
+},
+{
+name = kasra;
+pos = (83,-83);
+},
+{
+name = top;
+pos = (56,373);
+}
+);
+backgroundImage = {
+alpha = 80;
+imagePath = "images/behDotless-ar.init.jpg";
+locked = 1;
+pos = (-423,-546);
+scale = (14.67,14.67);
+};
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(68,0,ls),
+(96,0,o),
+(121,11,o),
+(119,35,cs),
+(111,183,o),
+(109,223,o),
+(102,413,cs),
+(102,420,o),
+(97,420,o),
+(93,414,cs),
+(68,373,o),
+(36,324,o),
+(12,302,cs),
+(7,297,o),
+(6,293,o),
+(7,286,cs),
+(15,197,o),
+(15,182,o),
+(18,62,c),
+(44,110,l),
+(-20,110,l),
+(-20,0,l)
+);
+}
+);
+width = 119;
+}
+);
+metricLeft = "=-20";
+metricRight = "=0";
+script = arabic;
+sortName = arL0012;
+sortNameKeep = arL0012;
+}

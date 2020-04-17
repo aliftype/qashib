@@ -1,0 +1,81 @@
+{
+category = Letter;
+glyphname = "alef-ar.fina.kashida";
+kernLeft = alef.fina;
+layers = (
+{
+anchors = (
+{
+name = damma;
+pos = (-66,61);
+},
+{
+name = entry;
+pos = (187,0);
+},
+{
+name = fatha;
+pos = (145,750);
+},
+{
+name = kasra;
+pos = (44,-86);
+},
+{
+name = madda;
+pos = (-76,735);
+}
+);
+backgroundImage = {
+alpha = 80;
+angle = -1.88885;
+imagePath = "images/CBL-MS-1407-000002.png";
+locked = 1;
+pos = (-4585,-3502);
+scale = (3.4,3.4);
+};
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(211,110,l),
+(151,110,o),
+(94,154,o),
+(89,290,cs),
+(86,367,o),
+(99,798,o),
+(95,893,cs),
+(95,903,o),
+(88,910,o),
+(82,893,cs),
+(69,856,o),
+(26,797,o),
+(7,785,cs),
+(-5,777,o),
+(-9,775,o),
+(1,756,cs),
+(9,742,o),
+(8,725,o),
+(9,698,cs),
+(15,528,o),
+(4,259,o),
+(0,37,cs),
+(0,20,o),
+(6,1,o),
+(44,0,cs),
+(70,-1,o),
+(185,0,o),
+(211,0,c)
+);
+}
+);
+width = 211;
+}
+);
+metricRight = "=0";
+production = alefar.fina.kashida;
+script = arabic;
+sortName = arL0005.kashida;
+sortNameKeep = arL0005.kashida;
+}

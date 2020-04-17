@@ -1,0 +1,15 @@
+{
+category = Separator;
+glyphname = hairspace;
+layers = (
+{
+layerId = m01;
+width = 36;
+}
+);
+production = uni200A;
+sortName = "-s013";
+sortNameKeep = "-s013";
+subCategory = Space;
+unicode = 8202;
+}

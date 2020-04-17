@@ -1,0 +1,88 @@
+{
+category = Letter;
+color = 9;
+glyphname = "kaf-ar.medi";
+kernLeft = kaf;
+kernRight = sad;
+layers = (
+{
+anchors = (
+{
+name = entry;
+pos = (992,0);
+},
+{
+name = exit;
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+ref = "kaf-ar.init";
+}
+);
+width = 992;
+},
+{
+anchors = (
+{
+name = entry;
+pos = (5982,0);
+},
+{
+name = exit;
+}
+);
+associatedMasterId = m01;
+attr = {
+coordinates = (
+0,
+100
+);
+};
+layerId = "79BB94E9-709B-4B8D-A308-DC550F0444BD";
+name = "17 May 23 at 02:07";
+shapes = (
+{
+alignment = -1;
+ref = "kaf-ar.init";
+}
+);
+width = 5982;
+},
+{
+anchors = (
+{
+name = entry;
+pos = (387,0);
+},
+{
+name = exit;
+}
+);
+associatedMasterId = m01;
+attr = {
+coordinates = (
+0,
+0
+);
+};
+layerId = "28EC70D9-F0B5-4C86-945B-568F26E866FE";
+name = "17 May 23 at 13:22";
+shapes = (
+{
+alignment = -1;
+ref = "kaf-ar.init";
+}
+);
+width = 387;
+}
+);
+metricLeft = "=-10";
+metricRight = "=0@110";
+production = kafar.medi.alt;
+script = arabic;
+sortName = arL0048;
+sortNameKeep = arL0048.alt;
+}

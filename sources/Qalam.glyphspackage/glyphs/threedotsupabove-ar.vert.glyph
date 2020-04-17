@@ -1,0 +1,31 @@
+{
+category = Mark;
+glyphname = "threedotsupabove-ar.vert";
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (69,11);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "twodotsverticalabove-ar.vert";
+},
+{
+angle = -10.23963;
+pos = (-23,118);
+ref = "dotabove-ar";
+}
+);
+width = 110;
+}
+);
+production = threedotsupabovear.vert;
+script = arabic;
+sortName = arM1067a.vert;
+sortNameKeep = arM1067a.vert;
+subCategory = Nonspacing;
+}

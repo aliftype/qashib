@@ -1,0 +1,72 @@
+{
+category = Letter;
+glyphname = "behDotless-ar.init.hah";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (115,262);
+},
+{
+name = damma;
+pos = (-22,250);
+},
+{
+name = exit;
+pos = (-79,115);
+},
+{
+name = fatha;
+pos = (82,525);
+},
+{
+name = kasra;
+pos = (97,59);
+},
+{
+name = top;
+pos = (22,367);
+}
+);
+backgroundImage = {
+alpha = 80;
+angle = 0.38163;
+imagePath = "images/MS-Arabe-350-0000005.png";
+pos = (-1798,-662);
+scale = (2.25,2.25);
+};
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-16,277,o),
+(5,83,o),
+(7,55,c),
+(101,55,l),
+(101,63,o),
+(70,396,o),
+(66,427,cs),
+(65,435,o),
+(59,436,o),
+(55,428,cs),
+(22,367,o),
+(17,360,o),
+(-15,331,cs),
+(-26,322,o),
+(-23,314,o),
+(-21,305,cs)
+);
+}
+);
+width = 101;
+}
+);
+metricLeft = "=0@130";
+metricRight = "=0";
+production = behDotlessar.init.hah;
+script = arabic;
+sortName = arL0012.hah;
+sortNameKeep = arL0012.hah;
+}

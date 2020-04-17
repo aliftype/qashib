@@ -1,0 +1,109 @@
+{
+category = Mark;
+glyphname = "dotabove-ar";
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (79,38);
+}
+);
+backgroundImage = {
+alpha = 80;
+angle = -11.97341;
+imagePath = "images/MS-Arabe-350-0000001.png";
+locked = 1;
+pos = (-655,-506);
+scale = (2.1,2.1);
+};
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(48,28,o),
+(87,75,o),
+(117,115,cs),
+(119,118,o),
+(118,120,o),
+(116,122,cs),
+(111,126,ls),
+(109,128,o),
+(106,128,o),
+(104,125,cs),
+(63,83,o),
+(26,47,o),
+(-2,21,cs),
+(-5,19,o),
+(-4,15,o),
+(-1,14,cs),
+(19,4,ls),
+(21,3,o),
+(24,3,o),
+(26,5,cs)
+);
+}
+);
+width = 110;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (90,50);
+}
+);
+associatedMasterId = m01;
+layerId = "1951D83C-027C-46A2-BBE7-A485E6845D98";
+name = "1 May 21, 00:30";
+shapes = (
+{
+closed = 1;
+nodes = (
+(128,152,l),
+(112,164,l),
+(0,12,l),
+(16,0,l)
+);
+}
+);
+width = 128;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (79,38);
+}
+);
+associatedMasterId = m01;
+layerId = "35FFA398-3489-4430-A27C-01EFA9C459D5";
+name = "25 Feb 23 at 15:48";
+shapes = (
+{
+closed = 1;
+nodes = (
+(52,38,o),
+(81,71,o),
+(106,100,cs),
+(117,113,o),
+(101,126,o),
+(91,113,cs),
+(67,84,o),
+(36,52,o),
+(6,27,cs),
+(-8,14,o),
+(4,1,o),
+(19,13,cs)
+);
+}
+);
+width = 110;
+}
+);
+script = arabic;
+sortName = arM1060;
+sortNameKeep = arM1060;
+subCategory = Nonspacing;
+}

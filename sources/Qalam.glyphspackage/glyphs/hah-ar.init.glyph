@@ -1,0 +1,93 @@
+{
+category = Letter;
+glyphname = "hah-ar.init";
+kernLeft = hah;
+kernRight = hah.init;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (368,-54);
+},
+{
+name = damma;
+pos = (0,175);
+},
+{
+name = exit;
+},
+{
+name = fatha;
+pos = (107,338);
+},
+{
+name = kasra;
+pos = (473,-52);
+},
+{
+name = top;
+pos = (59,215);
+}
+);
+backgroundImage = {
+alpha = 80;
+angle = 0.5;
+imagePath = "images/hah-ar.init.jpg";
+locked = 1;
+pos = (-335,-208);
+scale = (14.67,14.67);
+};
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(111,264,o),
+(106,266,o),
+(101,260,cs),
+(67,218,o),
+(38,186,o),
+(12,169,cs),
+(5,165,o),
+(2,161,o),
+(12,155,cs),
+(67,120,o),
+(158,83,o),
+(215,64,c),
+(205,110,l),
+(-20,110,l),
+(-20,0,l),
+(170,2,o),
+(392,4,o),
+(555,4,cs),
+(697,4,o),
+(806,1,o),
+(842,1,cs),
+(851,1,o),
+(884,0,o),
+(896,11,cs),
+(917,30,o),
+(968,46,o),
+(1017,68,cs),
+(1023,71,o),
+(1023,78,o),
+(1018,78,cs),
+(885,78,o),
+(720,87,o),
+(585,98,cs),
+(467,106,o),
+(274,161,o),
+(115,262,c)
+);
+}
+);
+width = 1022;
+}
+);
+metricLeft = "=-20";
+metricRight = "=0";
+script = arabic;
+sortName = arL0017;
+sortNameKeep = arL0017;
+}

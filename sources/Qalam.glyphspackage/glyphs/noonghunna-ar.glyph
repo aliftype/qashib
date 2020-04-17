@@ -1,0 +1,89 @@
+{
+category = Letter;
+glyphname = "noonghunna-ar";
+layers = (
+{
+anchors = (
+{
+name = damma;
+pos = (132,-239);
+},
+{
+name = fatha;
+pos = (80,251);
+},
+{
+name = hamza;
+pos = (-75,60);
+},
+{
+name = kasra;
+pos = (391,-303);
+},
+{
+name = top;
+pos = (39,154);
+}
+);
+backgroundImage = {
+alpha = 80;
+imagePath = "images/image-0056.jpg";
+locked = 1;
+pos = (-8145,-2377);
+scale = (14.67,14.67);
+};
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(288,-647,o),
+(297,-632,o),
+(297,-615,cs),
+(297,-434,o),
+(306,-254,o),
+(303,-73,cs),
+(300,99,o),
+(238,186,o),
+(101,231,cs),
+(98,232,o),
+(96,232,o),
+(94,229,cs),
+(0,105,ls),
+(-2,102,o),
+(-1,100,o),
+(3,99,cs),
+(77,86,o),
+(158,45,o),
+(188,-32,cs),
+(229,-139,o),
+(218,-348,o),
+(206,-531,c),
+(143,-537,o),
+(74,-528,o),
+(15,-509,cs),
+(12,-508,o),
+(10,-509,o),
+(9,-512,cs),
+(-18,-556,o),
+(-50,-598,o),
+(-90,-630,cs),
+(-93,-633,o),
+(-93,-636,o),
+(-89,-637,cs),
+(23,-666,o),
+(158,-666,o),
+(267,-650,cs)
+);
+}
+);
+width = 304;
+}
+);
+metricLeft = "=0@100";
+metricRight = "=0";
+script = arabic;
+sortName = arL0061;
+sortNameKeep = arL0061;
+unicode = 1722;
+}

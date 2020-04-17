@@ -1,0 +1,74 @@
+{
+category = Letter;
+glyphname = "ain-ar.init";
+kernLeft = ain.init;
+kernRight = hah.init;
+layers = (
+{
+anchors = (
+{
+name = damma;
+pos = (0,175);
+},
+{
+name = exit;
+},
+{
+name = fatha;
+pos = (130,440);
+},
+{
+name = kasra;
+pos = (360,-84);
+},
+{
+name = top;
+pos = (175,387);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(220,-3,o),
+(448,0,o),
+(688,0,cs),
+(694,0,o),
+(701,0,o),
+(708,7,cs),
+(730,27,o),
+(759,54,o),
+(800,78,cs),
+(803,80,o),
+(803,84,o),
+(799,84,cs),
+(643,78,o),
+(470,84,o),
+(329,119,cs),
+(193,153,o),
+(84,263,o),
+(130,314,cs),
+(210,403,ls),
+(217,411,o),
+(208,419,o),
+(201,412,cs),
+(27,222,ls),
+(-19,171,o),
+(36,91,o),
+(108,76,c),
+(124,110,l),
+(-20,110,l),
+(-20,0,l)
+);
+}
+);
+width = 802;
+}
+);
+metricLeft = "=-20";
+metricRight = "=0";
+script = arabic;
+sortName = arL0038;
+sortNameKeep = arL0038;
+}

@@ -1,0 +1,71 @@
+{
+category = Letter;
+glyphname = "alef-ar.fina.short";
+kernLeft = alef.fina;
+kernRight = beh;
+layers = (
+{
+anchors = (
+{
+name = damma;
+pos = (-67,61);
+},
+{
+name = entry;
+pos = (97,0);
+},
+{
+name = fatha;
+pos = (144,750);
+},
+{
+name = kasra;
+pos = (66,-56);
+},
+{
+name = madda;
+pos = (-77,645);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(120,110,l),
+(113,111,o),
+(95,119,o),
+(95,183,cs),
+(96,362,o),
+(107,645,o),
+(84,793,cs),
+(82,803,o),
+(77,810,o),
+(71,793,cs),
+(58,756,o),
+(25,707,o),
+(6,695,cs),
+(-6,687,o),
+(-5,687,o),
+(0,666,cs),
+(30,527,o),
+(0,70,o),
+(-1,31,cs),
+(-1,14,o),
+(5,4,o),
+(43,2,cs),
+(69,0,o),
+(94,0,o),
+(120,0,c)
+);
+}
+);
+width = 99;
+}
+);
+metricLeft = "=0@55";
+metricRight = "=3@157";
+script = arabic;
+sortName = arL0005.short;
+sortNameKeep = arL0005.short;
+}
