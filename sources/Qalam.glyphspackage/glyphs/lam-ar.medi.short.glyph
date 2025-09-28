@@ -1,77 +1,24 @@
 {
 category = Letter;
 glyphname = "lam-ar.medi.short";
-kernLeft = lam;
+kernLeft = beh;
 kernRight = beh;
 layers = (
 {
-anchors = (
-{
-name = damma;
-pos = (-22,175);
-},
-{
-name = entry;
-pos = (101,0);
-},
-{
-name = exit;
-},
-{
-name = fatha;
-pos = (-68,663);
-},
-{
-name = kasra;
-pos = (83,-59);
-}
-);
 layerId = m01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(127,0,l),
-(127,110,l),
-(92,110,l),
-(93,171,ls),
-(97,385,o),
-(109,641,o),
-(88,798,c),
-(87,806,o),
-(84,807,o),
-(81,802,cs),
-(60,764,o),
-(34,734,o),
-(8,711,cs),
-(-5,699,o),
-(-2,694,o),
-(0,682,cs),
-(12,619,o),
-(15,511,o),
-(14,424,cs),
-(9,61,l),
-(59,110,l),
-(-20,110,l),
-(-20,0,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(127,110,l),
-(111,117,o),
-(93,114,o),
-(93,171,c),
-(84,110,l)
-);
+alignment = -1;
+pos = (0,-115);
+ref = "lam-ar.medi.hah1";
 }
 );
-width = 101;
+width = 100;
 }
 );
-metricLeft = "=-20";
-metricRight = "=8@157";
+metricLeft = "=lam-ar.medi";
+metricRight = "=lam-ar.medi";
+metricWidth = "=lam-ar.medi";
 production = lamar.medi.short;
 script = arabic;
 sortName = arL0055.short;

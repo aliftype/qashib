@@ -6,6 +6,71 @@ layers = (
 anchors = (
 {
 name = damma;
+pos = (109,-259);
+},
+{
+name = fatha;
+pos = (57,231);
+},
+{
+name = hamza;
+pos = (-98,40);
+},
+{
+name = kasra;
+pos = (368,-323);
+},
+{
+name = top;
+pos = (16,134);
+}
+);
+backgroundImage = {
+alpha = 80;
+imagePath = "images/image-0056.jpg";
+locked = 1;
+pos = (-8168,-2377);
+scale = (14.67,14.67);
+};
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-133,-415,l),
+(223,-415,ls),
+(261,-415,o),
+(263,-392,o),
+(263,-375,cs),
+(263,-307,ls),
+(263,-28,o),
+(277,128,o),
+(54,219,c),
+(115,276,l),
+(93,149,o),
+(36,100,o),
+(-38,19,c),
+(-45,71,l),
+(197,32,o),
+(183,-112,o),
+(183,-297,cs),
+(183,-325,l),
+(131,-325,o),
+(10,-316,o),
+(-6,-290,c),
+(22,-294,l),
+(-6,-344,o),
+(-104,-421,o),
+(-153,-436,c)
+);
+}
+);
+width = 283;
+},
+{
+anchors = (
+{
+name = damma;
 pos = (132,-239);
 },
 {
@@ -25,6 +90,7 @@ name = top;
 pos = (39,154);
 }
 );
+associatedMasterId = m01;
 backgroundImage = {
 alpha = 80;
 imagePath = "images/image-0056.jpg";
@@ -32,7 +98,8 @@ locked = 1;
 pos = (-8145,-2377);
 scale = (14.67,14.67);
 };
-layerId = m01;
+layerId = "E1EA3C2F-626F-4255-B51F-3F4EACA3D84C";
+name = "28 Sep 25 at 19:21";
 shapes = (
 {
 closed = 1;
@@ -77,11 +144,12 @@ nodes = (
 );
 }
 );
+visible = 1;
 width = 304;
 }
 );
-metricLeft = "=0@100";
-metricRight = "=0";
+metricLeft = "=-110";
+metricRight = "=20";
 script = arabic;
 sortName = arL0061;
 sortNameKeep = arL0061;

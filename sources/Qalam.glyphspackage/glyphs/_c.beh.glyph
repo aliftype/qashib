@@ -1,0 +1,29 @@
+{
+glyphname = _c.beh;
+layers = (
+{
+anchors = (
+{
+name = entry;
+pos = (120,0);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(140,0,l),
+(140,70,l),
+(102,70,o),
+(100,93,o),
+(100,110,c),
+(20,110,l),
+(20,0,l)
+);
+}
+);
+width = 140;
+}
+);
+}

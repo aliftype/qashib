@@ -1,31 +1,31 @@
 {
 category = Letter;
 glyphname = "lam-ar.init";
-kernLeft = lam;
-kernRight = lam;
+kernLeft = beh;
+kernRight = beh;
 layers = (
 {
 anchors = (
 {
 name = damma;
-pos = (0,175);
+pos = (-20,175);
 },
 {
 name = exit;
 },
 {
 name = fatha;
-pos = (-26,787);
+pos = (-46,787);
 },
 {
 name = kasra;
-pos = (68,-77);
+pos = (48,-77);
 }
 );
 backgroundImage = {
 alpha = 80;
 imagePath = "images/lam-ar.init.jpg";
-pos = (-368,-151);
+pos = (-388,-151);
 scale = (14.67,14.67);
 };
 layerId = m01;
@@ -33,42 +33,40 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(77,0,ls),
-(90,0,o),
-(111,9,o),
-(111,22,cs),
-(109,126,o),
-(101,288,o),
-(104,420,cs),
-(106,578,o),
-(114,739,o),
-(101,897,cs),
-(101,905,o),
-(95,906,o),
-(90,898,cs),
-(58,837,o),
-(45,808,o),
-(13,779,cs),
-(2,770,o),
-(5,762,o),
-(7,753,cs),
-(17,704,o),
-(20,662,o),
-(20,601,cs),
-(20,456,o),
-(14,294,o),
-(9,99,c),
-(46,110,l),
-(-20,110,l),
+(78,0,o),
+(80,23,o),
+(80,40,cs),
+(80,947,l),
+(111,967,l),
+(96,918,o),
+(19,822,o),
+(-31,794,c),
+(-25,820,l),
+(1,804,o),
+(0,683,o),
+(0,631,cs),
+(0,40,ls),
+(0,23,o),
+(0,0,o),
+(40,0,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(40,0,l),
+(40,80,l),
+(-20,80,l),
 (-20,0,l)
 );
 }
 );
-width = 111;
+width = 100;
 }
 );
-metricLeft = "=-20@0";
-metricRight = "=0";
+metricLeft = "=behDotless-ar.init";
+metricRight = "=behDotless-ar.init";
+metricWidth = "=behDotless-ar.init";
 script = arabic;
 sortName = arL0056;
 sortNameKeep = arL0056;

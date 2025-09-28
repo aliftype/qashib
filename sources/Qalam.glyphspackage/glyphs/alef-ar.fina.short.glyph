@@ -8,64 +8,64 @@ layers = (
 anchors = (
 {
 name = damma;
-pos = (-67,61);
+pos = (-71,61);
 },
 {
 name = entry;
-pos = (97,0);
+pos = (100,0);
 },
 {
 name = fatha;
-pos = (144,750);
+pos = (140,635);
 },
 {
 name = kasra;
-pos = (66,-56);
+pos = (62,-56);
 },
 {
 name = madda;
-pos = (-77,645);
+pos = (-81,620);
 }
 );
+backgroundImage = {
+alpha = 80;
+imagePath = "images/alef-ar.fina.jpg";
+pos = (-183,-215);
+scale = (14.67,14.67);
+};
 layerId = m01;
 shapes = (
 {
 closed = 1;
 nodes = (
-(120,110,l),
-(113,111,o),
-(95,119,o),
-(95,183,cs),
-(96,362,o),
-(107,645,o),
-(84,793,cs),
-(82,803,o),
-(77,810,o),
-(71,793,cs),
-(58,756,o),
-(25,707,o),
-(6,695,cs),
-(-6,687,o),
-(-5,687,o),
-(0,666,cs),
-(30,527,o),
-(0,70,o),
-(-1,31,cs),
-(-1,14,o),
-(5,4,o),
-(43,2,cs),
-(69,0,o),
-(94,0,o),
-(120,0,c)
+(120,0,l),
+(120,70,l),
+(82,70,o),
+(80,93,o),
+(80,110,cs),
+(80,832,l),
+(111,852,l),
+(96,803,o),
+(19,707,o),
+(-31,679,c),
+(-25,705,l),
+(1,689,o),
+(0,568,o),
+(0,516,cs),
+(0,40,ls),
+(0,23,o),
+(2,0,o),
+(40,0,cs)
 );
 }
 );
-width = 99;
+width = 100;
 }
 );
-metricLeft = "=0@55";
-metricRight = "=3@157";
+metricLeft = "=alef-ar.fina";
+metricRight = "=alef-ar.fina";
+metricWidth = "=alef-ar.fina";
 script = arabic;
-sortName = arL0005.short;
-sortNameKeep = arL0005.short;
+sortName = arL0005;
+sortNameKeep = arL0005;
 }

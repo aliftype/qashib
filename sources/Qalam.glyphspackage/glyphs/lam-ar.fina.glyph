@@ -5,12 +5,6 @@ kernLeft = lam.fina;
 kernRight = beh;
 layers = (
 {
-anchors = (
-{
-name = entry;
-pos = (298,0);
-}
-);
 backgroundImage = {
 alpha = 80;
 angle = -0.6;
@@ -26,30 +20,16 @@ alignment = -1;
 ref = "lam-ar";
 },
 {
-closed = 1;
-nodes = (
-(324,0,l),
-(324,110,l),
-(252,110,l),
-(252,0,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(324,110,l),
-(307,117,o),
-(292,125,o),
-(292,208,c),
-(281,110,l)
-);
+pos = (153,0);
+ref = _c.beh;
 }
 );
-width = 298;
+width = 273;
 }
 );
 metricLeft = "=lam-ar";
-metricRight = "=3@157";
+metricRight = "=behDotless-ar.medi";
+metricWidth = "=lam-ar";
 script = arabic;
 sortName = arL0054;
 sortNameKeep = arL0054;

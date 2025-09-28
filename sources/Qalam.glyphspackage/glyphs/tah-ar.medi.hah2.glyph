@@ -6,86 +6,70 @@ kernLeft = sad;
 kernRight = sad;
 layers = (
 {
-anchors = (
-{
-name = entry;
-pos = (970,230);
-},
-{
-name = exit;
-pos = (0,230);
-}
-);
 layerId = m01;
 shapes = (
 {
 alignment = -1;
 ref = "tah-ar.init.hah2";
-}
-);
-width = 970;
 },
 {
-anchors = (
-{
-name = entry;
-pos = (5989,230);
-},
-{
-name = exit;
-pos = (0,230);
+alignment = -1;
+pos = (688,229);
+ref = _c.dal;
 }
 );
+width = 790;
+},
+{
 associatedMasterId = m01;
 attr = {
 coordinates = (
-0,
 100
 );
 };
-layerId = "7F2682AE-2152-4552-959B-82C2C0DE2FB5";
+layerId = "38739E7F-577A-4A83-AB3C-831977F0C6EC";
 name = "17 May 23 at 01:16";
 shapes = (
 {
 alignment = -1;
 ref = "tah-ar.init.hah2";
-}
-);
-width = 5989;
 },
 {
-anchors = (
-{
-name = entry;
-pos = (411,230);
-},
-{
-name = exit;
-pos = (0,230);
+alignment = -1;
+pos = (5748,229);
+ref = _c.dal;
 }
 );
+width = 5850;
+},
+{
 associatedMasterId = m01;
 attr = {
 coordinates = (
-0,
 0
 );
 };
-layerId = "EC8DE6B6-AFA2-439A-8CB2-6F77A5D9F003";
+layerId = "EDA50E51-B7D0-4425-BC97-B40C0DFCAC93";
 name = "17 May 23 at 16:11";
 shapes = (
 {
 alignment = -1;
 ref = "tah-ar.init.hah2";
+},
+{
+alignment = -1;
+pos = (258,230);
+ref = _c.dal;
 }
 );
-width = 411;
+width = 360;
 }
 );
-metricLeft = "=tah-ar.init";
-metricRight = "=0@340";
-production = tahar.medi.hah2;
+metricLeft = "=tah-ar.medi";
+metricRight = "=tah-ar.medi";
+metricWidth = "=tah-ar.medi";
+production = tahar.medi.hah1.001;
 script = arabic;
-sortName = arL0033.hah2;
-sortNameKeep = arL0033.hah2;
+sortName = arL0033.hah1;
+sortNameKeep = arL0033.hah1;
 }

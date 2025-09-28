@@ -2,7 +2,7 @@
 category = Letter;
 color = 9;
 glyphname = "kaf-ar.fina";
-kernRight = sad;
+kernRight = dal.fina;
 layers = (
 {
 anchors = (
@@ -30,7 +30,6 @@ pos = (5983,0);
 associatedMasterId = m01;
 attr = {
 coordinates = (
-0,
 100
 );
 };
@@ -54,7 +53,6 @@ pos = (514,0);
 associatedMasterId = m01;
 attr = {
 coordinates = (
-0,
 0
 );
 };

@@ -5,82 +5,23 @@ kernLeft = beh;
 kernRight = beh;
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (46,-38);
-},
-{
-name = damma;
-pos = (-3,191);
-},
-{
-name = entry;
-pos = (109,0);
-},
-{
-name = exit;
-},
-{
-name = fatha;
-pos = (84,609);
-},
-{
-name = kasra;
-pos = (48,-73);
-},
-{
-name = top;
-pos = (48,447);
-}
-);
 layerId = m01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(32,0,o),
-(83,0,o),
-(135,0,c),
-(135,110,l),
-(107,110,l),
-(102,204,o),
-(100,333,o),
-(94,486,cs),
-(94,493,o),
-(89,493,o),
-(85,487,cs),
-(60,447,o),
-(27,400,o),
-(3,378,cs),
-(-2,373,o),
-(-3,368,o),
-(-2,361,cs),
-(8,285,o),
-(10,189,o),
-(10,110,c),
-(-8,110,o),
-(-2,110,o),
-(-20,110,c),
-(-20,0,l)
-);
+ref = "behDotless-ar.init.high";
 },
 {
-closed = 1;
-nodes = (
-(135,110,l),
-(118,117,o),
-(103,125,o),
-(103,208,c),
-(92,110,l)
-);
+alignment = -1;
+pos = (-20,0);
+ref = _c.beh;
 }
 );
-width = 109;
+width = 100;
 }
 );
-metricLeft = "=-20@0";
-metricRight = "=3@157";
+metricLeft = "=behDotless-ar.medi";
+metricRight = "=behDotless-ar.medi";
+metricWidth = "=behDotless-ar.medi";
 script = arabic;
 sortName = arL0010d;
 sortNameKeep = arL0010d;

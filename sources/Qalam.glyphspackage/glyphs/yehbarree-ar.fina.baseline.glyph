@@ -19,7 +19,6 @@ width = 1080;
 associatedMasterId = m01;
 attr = {
 coordinates = (
-0,
 100
 );
 };

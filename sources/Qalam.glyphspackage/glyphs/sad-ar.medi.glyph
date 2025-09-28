@@ -2,36 +2,28 @@
 category = Letter;
 color = 9;
 glyphname = "sad-ar.medi";
-kernLeft = sad;
-kernRight = sad;
+kernLeft = beh;
+kernRight = dal.fina;
 layers = (
 {
-anchors = (
-{
-name = entry;
-pos = (942,0);
-}
-);
 layerId = m01;
 shapes = (
 {
 alignment = -1;
 ref = "sad-ar.init";
-}
-);
-width = 942;
 },
 {
-anchors = (
-{
-name = entry;
-pos = (5987,0);
+alignment = -1;
+pos = (688,0);
+ref = _c.dal;
 }
 );
+width = 790;
+},
+{
 associatedMasterId = m01;
 attr = {
 coordinates = (
-0,
 100
 );
 };
@@ -41,21 +33,19 @@ shapes = (
 {
 alignment = -1;
 ref = "sad-ar.init";
-}
-);
-width = 5987;
 },
 {
-anchors = (
-{
-name = entry;
-pos = (393,0);
+alignment = -1;
+pos = (5748,0);
+ref = _c.dal;
 }
 );
+width = 5850;
+},
+{
 associatedMasterId = m01;
 attr = {
 coordinates = (
-0,
 0
 );
 };
@@ -65,13 +55,19 @@ shapes = (
 {
 alignment = -1;
 ref = "sad-ar.init";
+},
+{
+alignment = -1;
+pos = (258,0);
+ref = _c.dal;
 }
 );
-width = 393;
+width = 360;
 }
 );
 metricLeft = "=sad-ar.init";
-metricRight = "=0@110";
+metricRight = "=dal-ar.fina";
+metricWidth = "=sad-ar.init";
 script = arabic;
 sortName = arL0029;
 sortNameKeep = arL0029;

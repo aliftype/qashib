@@ -1,14 +1,14 @@
 {
 category = Letter;
 glyphname = "lam-ar.init.hah1";
-kernLeft = lam;
-kernRight = lam;
+kernLeft = beh;
+kernRight = beh;
 layers = (
 {
 anchors = (
 {
 name = damma;
-pos = (-5,290);
+pos = (-25,290);
 },
 {
 name = exit;
@@ -16,11 +16,11 @@ pos = (0,115);
 },
 {
 name = fatha;
-pos = (-31,752);
+pos = (-51,752);
 },
 {
 name = kasra;
-pos = (123,38);
+pos = (103,38);
 }
 );
 layerId = m01;
@@ -28,42 +28,40 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(72,115,ls),
-(85,115,o),
-(106,124,o),
-(106,137,cs),
-(104,241,o),
-(98,403,o),
-(101,535,cs),
-(103,643,o),
-(109,744,o),
-(97,902,cs),
-(96,910,o),
-(90,911,o),
-(86,903,cs),
-(53,842,o),
-(40,813,o),
-(8,784,cs),
-(-3,775,o),
-(0,767,o),
-(2,758,cs),
-(12,709,o),
-(13,667,o),
-(13,606,cs),
-(13,521,o),
-(13,409,o),
-(8,214,c),
-(41,225,l),
-(-20,225,l),
+(78,115,o),
+(80,138,o),
+(80,155,cs),
+(80,947,l),
+(111,967,l),
+(96,918,o),
+(19,822,o),
+(-31,794,c),
+(-25,820,l),
+(1,804,o),
+(0,683,o),
+(0,631,cs),
+(0,155,ls),
+(0,138,o),
+(0,115,o),
+(40,115,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(40,115,l),
+(40,195,l),
+(-20,195,l),
 (-20,115,l)
 );
 }
 );
-width = 106;
+width = 100;
 }
 );
-metricLeft = "=-20@115";
-metricRight = "=0";
+metricLeft = "=lam-ar.init";
+metricRight = "=lam-ar.init";
+metricWidth = "=lam-ar.init";
 production = lamar.init.hah1;
 script = arabic;
 sortName = arL0056.hah1;

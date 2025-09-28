@@ -1,33 +1,33 @@
 {
 category = Letter;
 glyphname = "behDotless-ar.init.high";
-kernLeft = beh.init;
+kernLeft = beh;
 kernRight = beh.init;
 layers = (
 {
 anchors = (
 {
 name = bottom;
-pos = (101,21);
+pos = (42,-48);
 },
 {
 name = damma;
-pos = (-1,175);
+pos = (-23,175);
 },
 {
 name = exit;
 },
 {
 name = fatha;
-pos = (92,608);
+pos = (64,471);
 },
 {
 name = kasra;
-pos = (86,-83);
+pos = (44,-73);
 },
 {
 name = top;
-pos = (56,446);
+pos = (49,359);
 }
 );
 layerId = m01;
@@ -35,36 +35,40 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(71,0,ls),
-(99,0,o),
-(124,11,o),
-(122,35,cs),
-(114,183,o),
-(110,296,o),
-(103,486,cs),
-(103,493,o),
-(98,493,o),
-(94,487,cs),
-(69,446,o),
-(36,399,o),
-(12,377,cs),
-(7,372,o),
-(6,368,o),
-(7,361,cs),
-(14,272,o),
-(18,182,o),
-(18,62,c),
-(47,110,l),
-(-20,110,l),
+(40,0,l),
+(40,70,l),
+(-20,70,l),
 (-20,0,l)
 );
+},
+{
+closed = 1;
+nodes = (
+(78,0,o),
+(80,23,o),
+(80,40,cs),
+(80,442,l),
+(111,463,l),
+(96,414,o),
+(19,348,o),
+(-31,320,c),
+(-25,334,l),
+(2,312,o),
+(0,240,o),
+(0,180,cs),
+(0,40,ls),
+(0,23,o),
+(2,0,o),
+(40,0,cs)
+);
 }
 );
-width = 122;
+width = 100;
 }
 );
-metricLeft = "=-20@0";
-metricRight = "=0";
+metricLeft = "=behDotless-ar.init";
+metricRight = "=behDotless-ar.init";
+metricWidth = "=behDotless-ar.init";
 script = arabic;
 sortName = arL0013;
 sortNameKeep = arL0013;

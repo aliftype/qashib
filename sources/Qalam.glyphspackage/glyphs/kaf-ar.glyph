@@ -2,7 +2,7 @@
 category = Letter;
 color = 9;
 glyphname = "kaf-ar";
-kernRight = dal.isol;
+kernRight = dal;
 layers = (
 {
 anchors = (
@@ -127,7 +127,6 @@ pos = (3088,-67);
 associatedMasterId = m01;
 attr = {
 coordinates = (
-0,
 100
 );
 };
@@ -230,7 +229,6 @@ pos = (658,-67);
 associatedMasterId = m01;
 attr = {
 coordinates = (
-0,
 0
 );
 };

@@ -1,16 +1,10 @@
 {
 category = Letter;
 glyphname = "lam-ar.medi.hah2";
-kernLeft = lam;
+kernLeft = beh;
 kernRight = beh;
 layers = (
 {
-anchors = (
-{
-name = entry;
-pos = (107,230);
-}
-);
 layerId = m01;
 shapes = (
 {
@@ -18,30 +12,17 @@ alignment = -1;
 ref = "lam-ar.init.hah2";
 },
 {
-closed = 1;
-nodes = (
-(138,230,l),
-(138,340,l),
-(18,340,l),
-(18,230,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(133,340,l),
-(117,347,o),
-(103,354,o),
-(101,421,c),
-(95,340,l)
-);
+alignment = -1;
+pos = (-20,230);
+ref = _c.beh;
 }
 );
-width = 107;
+width = 100;
 }
 );
-metricLeft = "=-20";
-metricRight = "=3@387";
+metricLeft = "=lam-ar.medi";
+metricRight = "=lam-ar.medi";
+metricWidth = "=lam-ar.medi";
 production = lamar.medi.hah2;
 script = arabic;
 sortName = arL0055.hah2;
