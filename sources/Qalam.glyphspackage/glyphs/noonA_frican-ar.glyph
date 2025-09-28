@@ -10,7 +10,7 @@ shapes = (
 ref = "noonghunna-ar";
 }
 );
-width = 283;
+width = 270;
 }
 );
 script = arabic;

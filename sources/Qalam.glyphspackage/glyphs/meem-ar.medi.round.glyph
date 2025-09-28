@@ -6,10 +6,7 @@ layers = (
 anchors = (
 {
 name = entry;
-pos = (402,0);
-},
-{
-name = exit;
+pos = (298,0);
 }
 );
 layerId = m01;
@@ -18,7 +15,7 @@ shapes = (
 ref = "meem-ar.init";
 }
 );
-width = 402;
+width = 328;
 }
 );
 metricLeft = "=0";

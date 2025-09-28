@@ -7,6 +7,42 @@ layers = (
 anchors = (
 {
 name = damma;
+pos = (-20,60);
+},
+{
+name = entry;
+pos = (620,0);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-23,0,l),
+(640,0,l),
+(640,70,l),
+(293,70,ls),
+(241,70,o),
+(120,79,o),
+(104,105,c),
+(130,121,l),
+(102,71,o),
+(6,-6,o),
+(-43,-21,c)
+);
+},
+{
+pos = (292,0);
+ref = "meem-ar.init.round";
+}
+);
+width = 620;
+},
+{
+anchors = (
+{
+name = damma;
 pos = (-15,61);
 },
 {
@@ -22,7 +58,9 @@ name = kasra;
 pos = (507,-75);
 }
 );
-layerId = m01;
+associatedMasterId = m01;
+layerId = "A1D796BC-EBC9-4665-84C9-2B3CBAA4BDFF";
+name = "28 Sep 25 at 21:27";
 shapes = (
 {
 closed = 1;
@@ -93,7 +131,7 @@ width = 681;
 }
 );
 metricLeft = "=0";
-metricRight = "=0";
+metricRight = "=-20";
 script = arabic;
 sortName = arL0058;
 sortNameKeep = arL0058;

@@ -13,11 +13,11 @@ alignment = -1;
 ref = "sad-ar";
 },
 {
-pos = (787,0);
+pos = (774,0);
 ref = _c.dal;
 }
 );
-width = 889;
+width = 876;
 },
 {
 associatedMasterId = m01;
@@ -34,11 +34,11 @@ alignment = -1;
 ref = "sad-ar";
 },
 {
-pos = (5847,0);
+pos = (5834,0);
 ref = _c.dal;
 }
 );
-width = 5949;
+width = 5936;
 },
 {
 associatedMasterId = m01;
@@ -55,11 +55,11 @@ alignment = -1;
 ref = "sad-ar";
 },
 {
-pos = (357,0);
+pos = (344,0);
 ref = _c.dal;
 }
 );
-width = 459;
+width = 446;
 }
 );
 metricLeft = "=sad-ar";

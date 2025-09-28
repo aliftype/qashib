@@ -1,0 +1,84 @@
+{
+category = Letter;
+color = 7;
+glyphname = "ain-ar.medi.hist";
+kernRight = beh;
+layers = (
+{
+anchors = (
+{
+name = damma;
+pos = (-1,110);
+},
+{
+name = entry;
+pos = (236,0);
+},
+{
+name = exit;
+},
+{
+name = fatha;
+pos = (123,290);
+},
+{
+name = kasra;
+pos = (151,-69);
+},
+{
+name = top;
+pos = (176,230);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(256,0,l),
+(256,70,l),
+(183,70,l),
+(216,55,l),
+(216,322,l),
+(182,271,o),
+(125,210,o),
+(92,185,c),
+(152,166,l),
+(114,191,o),
+(74,223,o),
+(55,262,c),
+(84,273,l),
+(53,230,o),
+(19,184,o),
+(-22,156,c),
+(-22,179,l),
+(25,122,o),
+(105,62,o),
+(151,40,c),
+(165,70,l),
+(-20,70,l),
+(-20,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(256,0,l),
+(256,70,l),
+(218,70,o),
+(216,93,o),
+(216,110,c),
+(176,110,l),
+(176,0,l)
+);
+}
+);
+width = 236;
+}
+);
+metricLeft = "=-10@165";
+metricRight = "=behDotless-ar.medi";
+script = arabic;
+sortName = arL0037.hist;
+sortNameKeep = arL0037;
+}

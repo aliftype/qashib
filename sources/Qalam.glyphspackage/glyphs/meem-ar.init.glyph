@@ -7,18 +7,18 @@ layers = (
 anchors = (
 {
 name = damma;
-pos = (8,167);
+pos = (0,175);
 },
 {
 name = exit;
 },
 {
 name = fatha;
-pos = (216,454);
+pos = (154,384);
 },
 {
 name = kasra;
-pos = (313,-59);
+pos = (154,-80);
 }
 );
 backgroundImage = {
@@ -33,54 +33,22 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(399,-5,o),
-(402,20,o),
-(402,81,cs),
-(402,220,o),
-(324,384,o),
-(220,384,cs),
-(102,384,o),
-(19,244,o),
-(17,126,cs),
-(16,36,o),
-(97,-5,o),
-(245,-5,cs)
+(148,0,l),
+(148,70,l),
+(0,70,l),
+(0,0,l)
 );
 },
 {
-closed = 1;
-nodes = (
-(221,182,o),
-(217,186,o),
-(217,191,cs),
-(217,197,o),
-(221,201,o),
-(226,201,cs),
-(231,201,o),
-(236,197,o),
-(236,191,cs),
-(236,186,o),
-(231,182,o),
-(226,182,cs)
-);
-},
-{
-closed = 1;
-nodes = (
-(-20,0,l),
-(68,0,o),
-(157,-4,o),
-(245,-5,c),
-(245,110,l),
-(-20,110,l)
-);
+pos = (0,10);
+ref = "meem-ar.init.round";
 }
 );
-width = 402;
+width = 328;
 }
 );
-metricLeft = "=-20";
-metricRight = "=0";
+metricLeft = "=meem-ar.medi";
+metricRight = "=meem-ar";
 script = arabic;
 sortName = arL0060;
 sortNameKeep = arL0060;

@@ -23,11 +23,11 @@ ref = "noonghunna-ar";
 },
 {
 alignment = -1;
-pos = (79,0);
+pos = (66,0);
 ref = _body.sad;
 }
 );
-width = 889;
+width = 876;
 },
 {
 associatedMasterId = m01;
@@ -54,11 +54,11 @@ ref = "noonghunna-ar";
 },
 {
 alignment = -1;
-pos = (99,0);
+pos = (86,0);
 ref = _body.sad;
 }
 );
-width = 5949;
+width = 5936;
 },
 {
 associatedMasterId = m01;
@@ -85,11 +85,11 @@ ref = "noonghunna-ar";
 },
 {
 alignment = -1;
-pos = (119,0);
+pos = (106,0);
 ref = _body.sad;
 }
 );
-width = 459;
+width = 446;
 },
 {
 anchors = (

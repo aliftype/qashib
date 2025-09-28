@@ -458,11 +458,6 @@ lookup above_hah1 {
 lookup rlig_hah_init {
 	lookupflag IgnoreMarks;
 
-	sub	[fehDotless-ar.init ain-ar.init]'
-		[hah-ar.medi hah-ar.medi.l1 hah-ar.medi.l2 hah-ar.fina]
-	by	[fehDotless-ar.init.hah ain-ar.init.hah]
-	;
-
 	sub	[behDotless-ar.init lam-ar.init.hah1]' lookup above_hah
 		[hah-ar.medi hah-ar.medi.l1 hah-ar.medi.l2 hah-ar.fina]' lookup above_hah
 	;
@@ -488,16 +483,8 @@ code = "lookup rlig_ligatures_1 {
 	sub lam-ar.init alef-ar.fina			by lam_alef-ar;
 	sub lam-ar.medi alef-ar.fina			by lam_alef-ar.fina;
 
-	sub fehDotless-ar.init alef-ar.fina		by fehDotless_alef-ar;
-
 	sub lam-ar.init lam-ar.medi heh-ar.fina	by lam_lam_heh-ar;
 } rlig_ligatures_1;
-
-lookup rlig_ligatures_2 {
-	lookupflag UseMarkFilteringSet [@dotsbelow kasra-ar kasratan-ar];
-	sub seen-ar.init alefMaksura-ar.fina	by seen_alefMaksura-ar;
-	sub seen-ar.medi alefMaksura-ar.fina	by seen_alefMaksura-ar.fina;
-} rlig_ligatures_2;
 ";
 name = ligatures;
 },
@@ -506,19 +493,6 @@ code = "lookup high_beh {
 	sub behDotless-ar.init	by behDotless-ar.init.high;
 	sub behDotless-ar.medi	by behDotless-ar.medi.high;
 } high_beh;
-
-lookup rlig_teeth_1 {
-	lookupflag IgnoreMarks;
-
-	sub	[behDotless-ar.init behDotless-ar.medi]'
-		[behDotless-ar.medi]' lookup high_beh
-		[seen_alefMaksura-ar.fina]
-	;
-
-	sub	[behDotless-ar.init behDotless-ar.medi]' lookup high_beh
-		[seen_alefMaksura-ar.fina]
-	;
-} rlig_teeth_1;
 
 lookup rlig_teeth_2 {
 	lookupflag IgnoreMarks;
@@ -535,12 +509,12 @@ lookup rlig_teeth_3 {
 	ignore
 	sub [behDotless-ar.init.high behDotless-ar.medi.high]
 		[behDotless-ar.init behDotless-ar.medi]'
-		[ain-ar.medi ain-ar.fina
+		[ain-ar.medi.hist ain-ar.fina.hist
 		 fehDotless-ar.medi fehDotless-ar.medi.alt fehDotless-ar.fina
 		 heh-ar.medi heh-ar.fina]
 	;
 	sub	[behDotless-ar.init behDotless-ar.medi]' lookup high_beh
-		[ain-ar.medi ain-ar.fina
+		[ain-ar.medi.hist ain-ar.fina.hist
 		 seen-ar.medi seen-ar.fina]
 	;
 } rlig_teeth_3;
@@ -548,13 +522,8 @@ lookup rlig_teeth_3 {
 name = teeth;
 },
 {
-code = "lookup tooth_yeh {
-	sub [alefMaksura-ar.fina alefMaksura-ar.fina.salt] by alefMaksura-ar.fina.tooth;
-} tooth_yeh;
-
-lookup wide_yeh {
+code = "lookup wide_yeh {
 	sub alefMaksura-ar.fina	by alefMaksura-ar.fina.wide;
-	sub fehDotless-ar.init	by fehDotless-ar.init.yeh;
 } wide_yeh;
 
 lookup rlig_wide_yeh {
@@ -628,7 +597,7 @@ lookup rclt_kasratan {
 lookup rlig_sheen_dots {
 	lookupflag UseMarkFilteringSet [threedotshorizontalabove-ar];
 
-	sub [seen-ar.medi seen_alefMaksura-ar.fina]
+	sub [seen-ar.medi]
 		[threedotshorizontalabove-ar]'
 	by	[threedotshorizontalabove-ar.mid]
 	;
@@ -693,12 +662,10 @@ lookup rlig_hah_medi_l2;
 lookup rlig_hah_init;
 lookup rlig_hah_cleanup;
 lookup rlig_vertical_dots;
-lookup rlig_teeth_1;
 lookup rlig_teeth_2;
 lookup rlig_teeth_3;
 lookup rlig_wide_yeh;
 lookup rlig_ligatures_1;
-lookup rlig_ligatures_2;
 lookup rlig_sheen_dots;
 lookup rlig_beh_dots;
 lookup rlig_dal_yehbarre;
@@ -712,6 +679,15 @@ lookup rclt_fathatan;
 lookup rclt_kasratan;
 ";
 tag = rclt;
+},
+{
+automatic = 1;
+code = "sub ain-ar by ain-ar.hist;
+sub ain-ar.fina by ain-ar.fina.hist;
+sub ain-ar.medi by ain-ar.medi.hist;
+sub ain-ar.init by ain-ar.init.hist;
+";
+tag = hist;
 },
 {
 code = "lookup ss01_dots;
@@ -925,6 +901,19 @@ value = "Qasab-Compact";
 );
 }
 );
+kerningRTL = {
+m01 = {
+"ain-ar.medi.hist.alt" = {
+"@MMK_L_dal.fina" = -32;
+};
+"fehDotless-ar.init" = {
+"meem-ar.medi" = -20;
+};
+"fehDotless-ar.medi" = {
+"meem-ar.medi" = -12;
+};
+};
+};
 metrics = (
 {
 type = ascender;

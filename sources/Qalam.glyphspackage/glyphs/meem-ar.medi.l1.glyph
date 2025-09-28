@@ -10,7 +10,7 @@ shapes = (
 ref = "meem-ar.medi";
 }
 );
-width = 381;
+width = 328;
 }
 );
 script = arabic;
