@@ -2,7 +2,7 @@
 category = Letter;
 color = 9;
 glyphname = "yehbarree-ar";
-kernRight = hah.init;
+kernRight = hah;
 layers = (
 {
 anchors = (

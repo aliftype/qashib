@@ -444,29 +444,6 @@ lookup rlig_hah_medi_l2 {
 	;
 } rlig_hah_medi_l2;
 
-# Substitute signle initial glyphs before hah with alternate ones
-lookup above_hah {
-	sub lam-ar.init.hah1	by lam-ar.init.hah1.alt;
-	sub behDotless-ar.init	by behDotless-ar.init.hah;
-} above_hah;
-
-lookup above_hah1 {
-	sub lam-ar.init.hah2	by lam-ar.init.hah2.alt;
-	sub behDotless-ar.init	by behDotless-ar.init.hah;
-} above_hah1;
-
-lookup rlig_hah_init {
-	lookupflag IgnoreMarks;
-
-	sub	[behDotless-ar.init lam-ar.init.hah1]' lookup above_hah
-		[hah-ar.medi hah-ar.medi.l1 hah-ar.medi.l2 hah-ar.fina]' lookup above_hah
-	;
-
-	sub	[behDotless-ar.init lam-ar.init.hah2]' lookup above_hah1
-		[hah-ar.medi.l1 hah-ar.medi.l2]' lookup above_hah
-	;
-} rlig_hah_init;
-
 # Some of the alternates are superflous but we needed them as context, not any more.
 # Replace them back with the original glyphs.
 lookup rlig_hah_cleanup {
@@ -510,7 +487,7 @@ lookup rlig_teeth_3 {
 	sub [behDotless-ar.init.high behDotless-ar.medi.high]
 		[behDotless-ar.init behDotless-ar.medi]'
 		[ain-ar.medi.hist ain-ar.fina.hist
-		 fehDotless-ar.medi fehDotless-ar.medi.alt fehDotless-ar.fina
+		 fehDotless-ar.medi fehDotless-ar.fina
 		 heh-ar.medi heh-ar.fina]
 	;
 	sub	[behDotless-ar.init behDotless-ar.medi]' lookup high_beh
@@ -616,8 +593,7 @@ lookup rlig_beh_dots {
 
 	sub [behDotless-ar.medi
 		 behDotless-ar.medi.high
-		 behDotless-ar.init.high
-		 behDotless-ar.init.hah]
+		 behDotless-ar.init.high]
 		@beh1_dots'
 	by	[dotabove-ar.beh twodotsverticalabove-ar.beh threedotsupabove-ar.beh
 		 twodotsverticalabove-ar.vert.beh threedotsupabove-ar.vert.beh]
@@ -659,7 +635,6 @@ tag = fina;
 {
 code = "lookup rlig_hah_medi_l1;
 lookup rlig_hah_medi_l2;
-lookup rlig_hah_init;
 lookup rlig_hah_cleanup;
 lookup rlig_vertical_dots;
 lookup rlig_teeth_2;
@@ -682,10 +657,16 @@ tag = rclt;
 },
 {
 automatic = 1;
-code = "sub ain-ar by ain-ar.hist;
+code = "sub hah-ar by hah-ar.hist;
+sub hah-ar.fina by hah-ar.fina.hist;
+sub reh-ar by reh-ar.hist;
+sub reh-ar.fina by reh-ar.fina.hist;
+sub ain-ar by ain-ar.hist;
 sub ain-ar.fina by ain-ar.fina.hist;
 sub ain-ar.medi by ain-ar.medi.hist;
 sub ain-ar.init by ain-ar.init.hist;
+sub qafDotless-ar by qafDotless-ar.hist;
+sub qafDotless-ar.fina by qafDotless-ar.fina.hist;
 ";
 tag = hist;
 },
@@ -903,13 +884,36 @@ value = "Qasab-Compact";
 );
 kerningRTL = {
 m01 = {
+"@MMK_R_ain.init" = {
+"@MMK_L_hah" = -40;
+};
+"@MMK_R_beh" = {
+"@MMK_L_hah" = -30;
+};
+"@MMK_R_sad" = {
+"@MMK_L_hah" = -10;
+};
+"@MMK_R_seen" = {
+"@MMK_L_hah" = -5;
+};
+"ain-ar.medi" = {
+"@MMK_L_hah" = -60;
+};
+"ain-ar.medi.hist" = {
+"@MMK_L_hah" = -60;
+};
 "ain-ar.medi.hist.alt" = {
-"@MMK_L_dal.fina" = -32;
+"@MMK_L_dal" = -53;
+};
+"ain-ar.medi.salt" = {
+"@MMK_L_hah" = -45;
 };
 "fehDotless-ar.init" = {
+"@MMK_L_hah" = -60;
 "meem-ar.medi" = -20;
 };
 "fehDotless-ar.medi" = {
+"@MMK_L_hah" = -25;
 "meem-ar.medi" = -12;
 };
 };

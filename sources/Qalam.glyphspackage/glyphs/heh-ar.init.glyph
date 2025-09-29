@@ -2,13 +2,13 @@
 category = Letter;
 glyphname = "heh-ar.init";
 kernLeft = heh;
-kernRight = heh.init;
+kernRight = beh.init;
 layers = (
 {
 anchors = (
 {
 name = damma;
-pos = (8,169);
+pos = (-26,169);
 },
 {
 name = exit;
@@ -18,7 +18,6 @@ layerId = m01;
 shapes = (
 {
 alignment = -1;
-pos = (34,0);
 ref = "heh-ar.init.round";
 },
 {
@@ -28,11 +27,11 @@ ref = _p.heh;
 scale = (2,1);
 }
 );
-width = 372;
+width = 290;
 }
 );
 metricLeft = "=-20";
-metricRight = "=0";
+metricRight = "=heh-ar";
 script = arabic;
 sortName = arL0067;
 sortNameKeep = arL0067;

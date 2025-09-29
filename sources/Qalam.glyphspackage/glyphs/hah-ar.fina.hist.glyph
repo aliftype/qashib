@@ -2,26 +2,22 @@
 category = Letter;
 color = 7;
 glyphname = "hah-ar.fina.hist";
-kernRight = hah.init;
+kernRight = hah;
 layers = (
 {
 anchors = (
 {
 name = entry;
-pos = (407,130);
-},
-{
-name = fatha;
-pos = (359,328);
+pos = (340,90);
 }
 );
 layerId = m01;
 shapes = (
 {
-ref = "hah-ar";
+ref = "hah-ar.hist";
 }
 );
-width = 1308;
+width = 851;
 }
 );
 production = hahar.fina.alt.001;

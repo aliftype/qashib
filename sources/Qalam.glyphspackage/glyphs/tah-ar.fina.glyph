@@ -2,7 +2,7 @@
 category = Letter;
 color = 9;
 glyphname = "tah-ar.fina";
-kernRight = dal.fina;
+kernRight = dal;
 layers = (
 {
 anchors = (

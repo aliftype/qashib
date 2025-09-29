@@ -10,7 +10,7 @@ shapes = (
 ref = "heh-ar.medi";
 }
 );
-width = 325;
+width = 290;
 }
 );
 script = arabic;

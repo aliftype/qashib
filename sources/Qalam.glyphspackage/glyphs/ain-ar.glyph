@@ -1,16 +1,13 @@
 {
 category = Letter;
 glyphname = "ain-ar";
-kernRight = hah.init;
+kernRight = hah;
 layers = (
 {
 anchors = (
 {
 name = damma;
 pos = (-30,175);
-},
-{
-name = exit;
 },
 {
 name = fatha;
@@ -33,20 +30,20 @@ nodes = (
 (291,-13,o),
 (362,44,o),
 (437,77,c),
-(556,55,l),
-(419,55,o),
-(317,67,o),
-(243,86,cs),
-(128,116,o),
-(84,164,o),
-(84,216,cs),
-(84,274,o),
-(147,312,o),
-(213,330,c),
-(64,306,o),
-(0,230,o),
-(0,160,cs),
-(0,97,o),
+(556,64,l),
+(419,64,o),
+(317,76,o),
+(243,95,cs),
+(128,125,o),
+(84,173,o),
+(84,225,cs),
+(84,283,o),
+(147,321,o),
+(213,339,c),
+(64,315,o),
+(0,239,o),
+(0,169,cs),
+(0,106,o),
 (53,38,o),
 (146,29,c),
 (106,72,l),
@@ -81,7 +78,7 @@ nodes = (
 );
 }
 );
-width = 424;
+width = 439;
 },
 {
 anchors = (
@@ -159,7 +156,7 @@ width = 847;
 }
 );
 metricLeft = "=0";
-metricRight = "=20@61";
+metricRight = "=20@69";
 script = arabic;
 sortName = arL0035;
 sortNameKeep = arL0035;

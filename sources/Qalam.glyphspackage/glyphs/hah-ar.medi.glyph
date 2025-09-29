@@ -2,13 +2,13 @@
 category = Letter;
 glyphname = "hah-ar.medi";
 kernLeft = hah;
-kernRight = hah.init;
+kernRight = hah;
 layers = (
 {
 anchors = (
 {
 name = entry;
-pos = (171,115);
+pos = (160,90);
 },
 {
 name = exit;
@@ -32,7 +32,7 @@ shapes = (
 ref = "hah-ar.init";
 }
 );
-width = 1022;
+width = 661;
 }
 );
 metricRight = "=0";

@@ -2,7 +2,7 @@
 category = Letter;
 color = 9;
 glyphname = "fehDotless-ar";
-kernRight = feh.init;
+kernRight = dal;
 layers = (
 {
 anchors = (

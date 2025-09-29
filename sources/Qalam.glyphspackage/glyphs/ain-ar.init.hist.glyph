@@ -3,7 +3,7 @@ category = Letter;
 color = 7;
 glyphname = "ain-ar.init.hist";
 kernLeft = ain.init;
-kernRight = hah.init;
+kernRight = hah;
 layers = (
 {
 anchors = (

@@ -5,6 +5,16 @@ kernLeft = beh;
 kernRight = beh;
 layers = (
 {
+anchors = (
+{
+name = entry;
+pos = (100,115);
+},
+{
+name = exit;
+pos = (0,115);
+}
+);
 layerId = m01;
 shapes = (
 {

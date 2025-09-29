@@ -3,7 +3,7 @@ category = Letter;
 color = 9;
 glyphname = "dal-ar.fina";
 kernLeft = dal.fina;
-kernRight = dal.fina;
+kernRight = dal;
 layers = (
 {
 layerId = m01;

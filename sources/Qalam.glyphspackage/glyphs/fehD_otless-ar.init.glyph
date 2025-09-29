@@ -131,7 +131,6 @@ nodes = (
 );
 }
 );
-visible = 1;
 width = 392;
 }
 );

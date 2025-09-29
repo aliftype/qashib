@@ -3,7 +3,7 @@ category = Letter;
 color = 9;
 glyphname = "kaf-ar.init.alt";
 kernLeft = kaf;
-kernRight = dal.isol;
+kernRight = dal;
 layers = (
 {
 anchors = (

@@ -3,9 +3,18 @@ category = Letter;
 color = 9;
 glyphname = "tah-ar.medi";
 kernLeft = sad;
-kernRight = dal.fina;
+kernRight = dal;
 layers = (
 {
+anchors = (
+{
+name = entry;
+pos = (790,0);
+},
+{
+name = exit;
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -21,6 +30,15 @@ ref = _c.dal;
 width = 790;
 },
 {
+anchors = (
+{
+name = entry;
+pos = (5850,0);
+},
+{
+name = exit;
+}
+);
 associatedMasterId = m01;
 attr = {
 coordinates = (
@@ -43,6 +61,15 @@ ref = _c.dal;
 width = 5850;
 },
 {
+anchors = (
+{
+name = entry;
+pos = (360,0);
+},
+{
+name = exit;
+}
+);
 associatedMasterId = m01;
 attr = {
 coordinates = (

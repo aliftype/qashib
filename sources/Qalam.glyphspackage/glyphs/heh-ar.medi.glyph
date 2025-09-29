@@ -8,7 +8,7 @@ layers = (
 anchors = (
 {
 name = entry;
-pos = (325,0);
+pos = (290,0);
 },
 {
 name = exit;
@@ -18,8 +18,13 @@ layerId = m01;
 shapes = (
 {
 alignment = -1;
-pos = (34,0);
-ref = "heh-ar.medi.round";
+pos = (0,-10);
+ref = "heh-ar.init.round";
+},
+{
+alignment = -1;
+pos = (170,0);
+ref = _c.beh;
 },
 {
 alignment = -1;
@@ -28,11 +33,11 @@ ref = _p.heh;
 scale = (2,1);
 }
 );
-width = 325;
+width = 290;
 }
 );
-metricLeft = "=-20";
-metricRight = "=3@157";
+metricLeft = "=heh-ar.init";
+metricRight = "=heh-ar.fina";
 script = arabic;
 sortName = arL0066;
 sortNameKeep = arL0066;

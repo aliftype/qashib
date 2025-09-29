@@ -2,8 +2,75 @@
 category = Letter;
 glyphname = "hah-ar.init";
 kernLeft = hah;
-kernRight = hah.init;
+kernRight = hah;
 layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (388,-38);
+},
+{
+name = damma;
+pos = (0,175);
+},
+{
+name = exit;
+},
+{
+name = fatha;
+pos = (86,260);
+},
+{
+name = kasra;
+pos = (470,-75);
+},
+{
+name = top;
+pos = (41,175);
+}
+);
+backgroundImage = {
+alpha = 80;
+angle = 0.5;
+imagePath = "images/hah-ar.init.jpg";
+locked = 1;
+pos = (-528,-208);
+scale = (14.67,14.67);
+};
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(564,0,l),
+(545,-7,l),
+(570,12,o),
+(607,52,o),
+(669,81,c),
+(706,68,l),
+(585,64,o),
+(543,67,o),
+(447,70,cs),
+(222,78,o),
+(138,171,o),
+(64,233,c),
+(93,242,l),
+(59,192,o),
+(21,153,o),
+(-19,116,c),
+(-19,151,l),
+(18,114,o),
+(69,80,o),
+(115,56,c),
+(105,70,l),
+(-20,70,l),
+(-20,0,l)
+);
+}
+);
+width = 661;
+},
 {
 anchors = (
 {
@@ -30,6 +97,7 @@ name = top;
 pos = (59,215);
 }
 );
+associatedMasterId = m01;
 backgroundImage = {
 alpha = 80;
 angle = 0.5;
@@ -38,7 +106,8 @@ locked = 1;
 pos = (-335,-208);
 scale = (14.67,14.67);
 };
-layerId = m01;
+layerId = "B51E4E94-5C4A-4B16-92BF-8159F020CE5C";
+name = "29 Sep 25 at 01:12";
 shapes = (
 {
 closed = 1;
@@ -86,7 +155,7 @@ width = 1022;
 }
 );
 metricLeft = "=-20";
-metricRight = "=0";
+metricRight = "=hah-ar.hist";
 script = arabic;
 sortName = arL0017;
 sortNameKeep = arL0017;

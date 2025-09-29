@@ -3,9 +3,14 @@ category = Letter;
 color = 9;
 glyphname = "tah-ar.init.hah1";
 kernLeft = sad;
+kernRight = dal;
 layers = (
 {
 anchors = (
+{
+name = exit;
+pos = (0,114);
+},
 {
 name = kasra;
 pos = (702,48);
@@ -26,6 +31,10 @@ width = 790;
 },
 {
 anchors = (
+{
+name = exit;
+pos = (0,114);
+},
 {
 name = kasra;
 pos = (2819,48);
@@ -53,6 +62,10 @@ width = 5850;
 },
 {
 anchors = (
+{
+name = exit;
+pos = (0,114);
+},
 {
 name = kasra;
 pos = (306,27);

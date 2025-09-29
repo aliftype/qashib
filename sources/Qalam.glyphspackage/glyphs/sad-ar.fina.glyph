@@ -3,7 +3,7 @@ category = Letter;
 color = 9;
 glyphname = "sad-ar.fina";
 kernLeft = sad.isol;
-kernRight = beh;
+kernRight = dal;
 layers = (
 {
 layerId = m01;

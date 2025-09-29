@@ -5,6 +5,15 @@ kernLeft = beh;
 kernRight = beh;
 layers = (
 {
+anchors = (
+{
+name = entry;
+pos = (100,0);
+},
+{
+name = exit;
+}
+);
 backgroundImage = {
 alpha = 80;
 imagePath = "images/lam-ar.medi.jpg";

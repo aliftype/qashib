@@ -1,17 +1,13 @@
 {
 category = Letter;
 glyphname = "hah-ar.fina";
-kernRight = hah.init;
+kernRight = hah;
 layers = (
 {
 anchors = (
 {
 name = entry;
-pos = (407,130);
-},
-{
-name = fatha;
-pos = (359,328);
+pos = (162,90);
 }
 );
 layerId = m01;
@@ -20,7 +16,7 @@ shapes = (
 ref = "hah-ar";
 }
 );
-width = 1308;
+width = 508;
 }
 );
 production = hahar.fina.alt;

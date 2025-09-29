@@ -2,6 +2,7 @@
 category = Letter;
 color = 9;
 glyphname = "behDotless-ar";
+kernRight = dal;
 layers = (
 {
 anchors = (

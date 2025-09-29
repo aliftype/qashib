@@ -14,7 +14,7 @@ pos = (288,-177);
 ref = "hamzabelow-ar";
 }
 );
-width = 590;
+width = 592;
 }
 );
 script = arabic;

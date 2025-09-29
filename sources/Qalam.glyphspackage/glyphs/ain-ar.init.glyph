@@ -2,7 +2,7 @@
 category = Letter;
 glyphname = "ain-ar.init";
 kernLeft = ain.init;
-kernRight = hah.init;
+kernRight = hah;
 layers = (
 {
 anchors = (
@@ -92,7 +92,6 @@ nodes = (
 );
 }
 );
-visible = 1;
 width = 513;
 }
 );
