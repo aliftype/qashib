@@ -1,7 +1,7 @@
 {
 category = Letter;
-color = 9;
-glyphname = "kaf-ar.medi.alt";
+color = 7;
+glyphname = "kaf-ar.medi.hist";
 kernLeft = kaf;
 kernRight = dal;
 layers = (
@@ -9,23 +9,33 @@ layers = (
 anchors = (
 {
 name = entry;
-pos = (988,0);
+pos = (815,0);
+},
+{
+name = exit;
 }
 );
 layerId = m01;
 shapes = (
 {
+ref = "kaf-ar.init.hist";
+},
+{
 alignment = -1;
-ref = "kaf-ar.init.alt";
+pos = (713,0);
+ref = _c.dal;
 }
 );
-width = 988;
+width = 815;
 },
 {
 anchors = (
 {
 name = entry;
-pos = (5982,0);
+pos = (5874,0);
+},
+{
+name = exit;
 }
 );
 associatedMasterId = m01;
@@ -38,17 +48,24 @@ layerId = "79BB94E9-709B-4B8D-A308-DC550F0444BD";
 name = "17 May 23 at 02:07";
 shapes = (
 {
+ref = "kaf-ar.init.hist";
+},
+{
 alignment = -1;
-ref = "kaf-ar.init.alt";
+pos = (5772,0);
+ref = _c.dal;
 }
 );
-width = 5982;
+width = 5874;
 },
 {
 anchors = (
 {
 name = entry;
-pos = (383,0);
+pos = (384,0);
+},
+{
+name = exit;
 }
 );
 associatedMasterId = m01;
@@ -61,16 +78,22 @@ layerId = "28EC70D9-F0B5-4C86-945B-568F26E866FE";
 name = "17 May 23 at 13:22";
 shapes = (
 {
+ref = "kaf-ar.init.hist";
+},
+{
 alignment = -1;
-ref = "kaf-ar.init.alt";
+pos = (282,0);
+ref = _c.dal;
 }
 );
-width = 383;
+width = 384;
 }
 );
-metricLeft = "=-10";
-metricRight = "=0@110";
+metricLeft = "=kaf-ar.init";
+metricRight = "=kaf-ar.fina";
+metricWidth = "=kaf-ar.init";
+production = kafar.medi.alt.001;
 script = arabic;
-sortName = arL0048.alt;
-sortNameKeep = arL0048;
+sortName = arL0048;
+sortNameKeep = arL0048.alt;
 }

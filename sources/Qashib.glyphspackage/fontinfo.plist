@@ -667,6 +667,10 @@ sub ain-ar.medi by ain-ar.medi.hist;
 sub ain-ar.init by ain-ar.init.hist;
 sub qafDotless-ar by qafDotless-ar.hist;
 sub qafDotless-ar.fina by qafDotless-ar.fina.hist;
+sub kaf-ar by kaf-ar.hist;
+sub kaf-ar.fina by kaf-ar.fina.hist;
+sub kaf-ar.medi by kaf-ar.medi.hist;
+sub kaf-ar.init by kaf-ar.init.hist;
 ";
 tag = hist;
 },

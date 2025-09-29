@@ -10,7 +10,7 @@ shapes = (
 ref = "kaf-ar";
 }
 );
-width = 1155;
+width = 940;
 }
 );
 script = arabic;
