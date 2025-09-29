@@ -17,7 +17,7 @@ pos = (20,0);
 },
 {
 name = top.hist;
-pos = (203,230);
+pos = (187,250);
 }
 );
 layerId = m01;

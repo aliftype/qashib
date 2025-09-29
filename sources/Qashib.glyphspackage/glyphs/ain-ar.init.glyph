@@ -7,11 +7,15 @@ layers = (
 {
 anchors = (
 {
+name = bottom;
+pos = (170,-20);
+},
+{
 name = exit;
 },
 {
-name = top.hist;
-pos = (145,387);
+name = top;
+pos = (102,355);
 }
 );
 layerId = m01;

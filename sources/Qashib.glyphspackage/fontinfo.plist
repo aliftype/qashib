@@ -432,15 +432,17 @@ lookup rclt_hist_beh_dots {
 	;
 } rclt_hist_beh_dots;
 
+@vert_dots = [twodotsabove-ar threedotsabove-ar twodotsbelow-ar threedotsbelow-ar];
+@vert_dots.vert = [twodotsabove-ar.vert threedotsabove-ar.vert twodotsbelow-ar.vert threedotsbelow-ar.vert];
 lookup rclt_vert_dots {
-	lookupflag UseMarkFilteringSet [twodotsabove-ar threedotsabove-ar];
+	lookupflag UseMarkFilteringSet @vert_dots;
 
 	sub	[behDotless-ar.init behDotless-ar.medi behDotless-ar.init.high behDotless-ar.medi.high]
-		[twodotsabove-ar threedotsabove-ar]'
+		 @vert_dots'
 		[alef-ar.fina behDotless-ar.fina behDotless-ar.medi behDotless-ar.medi.high
 		 lam-ar.medi lam-ar.medi.hah1 lam-ar.medi.hah2 lam-ar.fina
 		 heh-ar.medi heh-ar.medi.l1 heh-ar.medi.l2 heh-ar.medi.round heh-ar.fina]
-	by	[twodotsabove-ar.vert threedotsabove-ar.vert]
+	by	 @vert_dots.vert
 	;
 } rclt_vert_dots;
 

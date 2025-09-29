@@ -6,12 +6,16 @@ layers = (
 {
 anchors = (
 {
+name = bottom;
+pos = (220,-100);
+},
+{
 name = entry;
 pos = (320,0);
 },
 {
-name = top.hist;
-pos = (28,198);
+name = top;
+pos = (140,313);
 }
 );
 backgroundImage = {

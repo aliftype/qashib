@@ -7,11 +7,19 @@ layers = (
 {
 anchors = (
 {
+name = bottom;
+pos = (114,-20);
+},
+{
 name = entry;
 pos = (160,90);
 },
 {
 name = exit;
+},
+{
+name = top;
+pos = (40,230);
 }
 );
 backgroundImage = {

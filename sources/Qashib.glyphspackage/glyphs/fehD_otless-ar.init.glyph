@@ -6,11 +6,19 @@ layers = (
 {
 anchors = (
 {
+name = bottom;
+pos = (196,-20);
+},
+{
 name = bottom.hist;
 pos = (362,7);
 },
 {
 name = exit;
+},
+{
+name = top;
+pos = (152,420);
 },
 {
 name = top.hist;

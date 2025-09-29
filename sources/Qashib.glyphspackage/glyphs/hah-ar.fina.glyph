@@ -8,6 +8,10 @@ anchors = (
 {
 name = entry;
 pos = (162,90);
+},
+{
+name = top;
+pos = (40,230);
 }
 );
 layerId = m01;

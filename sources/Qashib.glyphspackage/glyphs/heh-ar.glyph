@@ -7,8 +7,16 @@ layers = (
 {
 anchors = (
 {
+name = bottom;
+pos = (145,-20);
+},
+{
+name = top;
+pos = (145,420);
+},
+{
 name = top.hist;
-pos = (230,420);
+pos = (228,410);
 }
 );
 backgroundImage = {

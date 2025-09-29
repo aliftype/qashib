@@ -10,6 +10,10 @@ anchors = (
 name = exit;
 },
 {
+name = top;
+pos = (126,260);
+},
+{
 name = top.hist;
 pos = (111,220);
 }

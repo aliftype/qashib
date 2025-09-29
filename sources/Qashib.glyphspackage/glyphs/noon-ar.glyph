@@ -10,11 +10,11 @@ shapes = (
 ref = "noonghunna-ar";
 },
 {
-pos = (-73,110);
+pos = (-38,101);
 ref = "dotabove-ar.hist";
 }
 );
-width = 270;
+width = 263;
 }
 );
 script = arabic;

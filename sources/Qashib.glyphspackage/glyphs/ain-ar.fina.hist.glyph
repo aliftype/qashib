@@ -12,7 +12,7 @@ pos = (180,0);
 },
 {
 name = top.hist;
-pos = (18,198);
+pos = (134,224);
 }
 );
 backgroundImage = {

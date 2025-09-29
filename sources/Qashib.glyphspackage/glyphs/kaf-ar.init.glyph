@@ -8,7 +8,15 @@ layers = (
 {
 anchors = (
 {
+name = bottom;
+pos = (345,-20);
+},
+{
 name = exit;
+},
+{
+name = top;
+pos = (407,220);
 }
 );
 backgroundImage = {
@@ -67,7 +75,15 @@ width = 815;
 {
 anchors = (
 {
+name = bottom;
+pos = (2906,-20);
+},
+{
 name = exit;
+},
+{
+name = top;
+pos = (2906,220);
 }
 );
 associatedMasterId = m01;
@@ -133,7 +149,15 @@ width = 5874;
 {
 anchors = (
 {
+name = bottom;
+pos = (124,-20);
+},
+{
 name = exit;
+},
+{
+name = top;
+pos = (236,220);
 }
 );
 associatedMasterId = m01;

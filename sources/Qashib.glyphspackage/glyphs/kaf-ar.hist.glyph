@@ -5,6 +5,16 @@ glyphname = "kaf-ar.hist";
 kernRight = dal;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (470,-20);
+},
+{
+name = top;
+pos = (532,220);
+}
+);
 backgroundImage = {
 alpha = 80;
 imagePath = "images/kaf-ar.jpg";
@@ -64,6 +74,16 @@ nodes = (
 width = 940;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (3032,-20);
+},
+{
+name = top;
+pos = (3032,220);
+}
+);
 associatedMasterId = m01;
 attr = {
 coordinates = (
@@ -124,6 +144,16 @@ nodes = (
 width = 6000;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (250,-20);
+},
+{
+name = top;
+pos = (362,220);
+}
+);
 associatedMasterId = m01;
 attr = {
 coordinates = (

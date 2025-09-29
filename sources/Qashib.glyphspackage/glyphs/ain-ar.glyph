@@ -6,8 +6,12 @@ layers = (
 {
 anchors = (
 {
-name = top.hist;
-pos = (145,387);
+name = bottom;
+pos = (220,-100);
+},
+{
+name = top;
+pos = (102,345);
 }
 );
 layerId = m01;

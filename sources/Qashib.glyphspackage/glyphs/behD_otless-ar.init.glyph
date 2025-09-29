@@ -18,10 +18,6 @@ pos = (40,-10);
 name = exit;
 },
 {
-name = ring;
-pos = (50,0);
-},
-{
 name = top;
 pos = (42,316);
 },
