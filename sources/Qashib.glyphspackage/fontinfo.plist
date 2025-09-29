@@ -7,35 +7,6 @@ name = Mashq;
 tag = MSHQ;
 }
 );
-classes = (
-{
-code = "$[name LIKE \"*-ar\" && category == \"Letter\" && ! colorIndex == 0 &&
-  name != \"kashida-ar\" && name != \"hamza-ar\"]
-
-period
-threedots-ar
-zerowidthspace
-endofayah-ar
-dottedCircle
-";
-name = isol;
-},
-{
-code = "$[name LIKE \"*.init*\" && ! name BEGINSWITH \"_\"]
-";
-name = init;
-},
-{
-code = "$[name LIKE \"*.fina*\" && ! name BEGINSWITH \"_\"]
-";
-name = fina;
-},
-{
-code = "$[name LIKE '*dot*below-ar']
-";
-name = dotsbelow;
-}
-);
 customParameters = (
 {
 name = "Write lastChange";
@@ -335,7 +306,7 @@ lookup yehbarree_baseline {
 lookup rclt_yehbarree_baseline {
 	lookupflag IgnoreMarks;
 
-	sub @init' lookup yehbarree_baseline
+	sub [$[name LIKE \"*.init*\" && ! name BEGINSWITH \"_\"]]' lookup yehbarree_baseline
 		 yehbarree-ar.fina' lookup yehbarree_baseline
 	;
 } rclt_yehbarree_baseline;

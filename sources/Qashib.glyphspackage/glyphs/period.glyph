@@ -8,15 +8,22 @@ alpha = 80;
 angle = -1.4;
 imagePath = "images/MS-ADD-01116-000-00009.jpg";
 locked = 1;
-pos = (-1907,-3694);
+pos = (-1914,-3694);
 scale = (5,5);
 };
 layerId = m01;
-width = 600;
+shapes = (
+{
+alignment = -1;
+pos = (-7,-10);
+ref = _dot;
+}
+);
+width = 156;
 }
 );
 metricLeft = "=0";
-metricRight = "=0";
+metricRight = "=20";
 script = arabic;
 sortName = arP0945;
 sortNameKeep = arP0945;
