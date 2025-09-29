@@ -3,12 +3,36 @@ category = Mark;
 glyphname = "fathatan-ar";
 layers = (
 {
-layerId = m01;
-width = 600;
+anchors = (
+{
+name = _top;
+pos = (83,406);
 }
 );
-metricLeft = "=fatha-ar";
-metricRight = "=fatha-ar";
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(136,539,l),
+(125,557,l),
+(2,469,l),
+(10,456,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(152,511,l),
+(141,529,l),
+(16,446,l),
+(24,433,l)
+);
+}
+);
+width = 150;
+}
+);
 script = arabic;
 sortName = arM1075;
 sortNameKeep = arM1075;

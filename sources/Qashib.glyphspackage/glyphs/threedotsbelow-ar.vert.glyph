@@ -7,6 +7,10 @@ anchors = (
 {
 name = _bottom;
 pos = (39,97);
+},
+{
+name = bottom;
+pos = (38,-172);
 }
 );
 layerId = m01;

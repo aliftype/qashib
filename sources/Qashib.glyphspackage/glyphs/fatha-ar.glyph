@@ -3,12 +3,27 @@ category = Mark;
 glyphname = "fatha-ar";
 layers = (
 {
-layerId = m01;
-width = 600;
+anchors = (
+{
+name = _top;
+pos = (75,400);
 }
 );
-metricLeft = "=14";
-metricRight = "=14";
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(144,504,l),
+(133,523,l),
+(8,440,l),
+(16,427,l)
+);
+}
+);
+width = 150;
+}
+);
 script = arabic;
 sortName = arM1074;
 sortNameKeep = arM1074;

@@ -779,11 +779,6 @@ m01 = {
 "lam_alef-ar.fina" = -40;
 "reh-ar.fina" = -10;
 };
-"@MMK_R_hah" = {
-"@MMK_L_hah" = -40;
-"lam_alef-ar.fina" = -40;
-"reh-ar.fina" = -10;
-};
 "@MMK_R_kaf" = {
 "lam_alef-ar.fina" = -20;
 };

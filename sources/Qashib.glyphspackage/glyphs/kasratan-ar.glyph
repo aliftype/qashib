@@ -3,12 +3,36 @@ category = Mark;
 glyphname = "kasratan-ar";
 layers = (
 {
-layerId = m01;
-width = 600;
+anchors = (
+{
+name = _bottom;
+pos = (75,-100);
 }
 );
-metricLeft = "=kasra-ar";
-metricRight = "=kasra-ar";
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(160,-171,l),
+(150,-154,l),
+(22,-230,l),
+(30,-243,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(144,-146,l),
+(133,-127,l),
+(8,-210,l),
+(16,-223,l)
+);
+}
+);
+width = 150;
+}
+);
 script = arabic;
 sortName = arM1077;
 sortNameKeep = arM1077;

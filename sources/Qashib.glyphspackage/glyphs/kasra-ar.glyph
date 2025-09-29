@@ -3,12 +3,27 @@ category = Mark;
 glyphname = "kasra-ar";
 layers = (
 {
-layerId = m01;
-width = 600;
+anchors = (
+{
+name = _bottom;
+pos = (75,-100);
 }
 );
-metricLeft = "=fatha-ar";
-metricRight = "=fatha-ar";
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(144,-146,l),
+(133,-127,l),
+(8,-210,l),
+(16,-223,l)
+);
+}
+);
+width = 150;
+}
+);
 script = arabic;
 sortName = arM1076;
 sortNameKeep = arM1076;
