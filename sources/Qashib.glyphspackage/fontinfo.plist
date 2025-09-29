@@ -347,7 +347,7 @@ lookup short_lam {
 	sub alef-ar.fina		by alef-ar.fina.short;
 } short_lam;
 
-@aftermeem = [meem-ar.medi meem-ar.fina waw-ar.fina reh-ar.fina noonghunna-ar.fina];
+@aftermeem = [meem-ar.medi meem-ar.fina waw-ar.fina reh-ar.fina.hist noonghunna-ar.fina];
 lookup rounded {
 	sub meem-ar.init		by meem-ar.init.round;
 	sub meem-ar.medi		by meem-ar.medi.round;
@@ -368,7 +368,6 @@ lookup rlig_short_lam {
 	sub [alef-ar.fina lam-ar.init lam-ar.medi tah-ar.init tah-ar.medi]
 		[lam-ar lam-ar.medi lam-ar.fina alef-ar.fina]' lookup short_lam
 	;
-
 
 	sub [meem-ar.init heh-ar.init]' lookup rounded
 		 @aftermeem' lookup rounded
@@ -398,6 +397,15 @@ lookup hist_1 {
 	sub twodotsbelow-ar		by twodotsbelow-ar.hist;
 	sub threedotsabove-ar	by threedotsabove-ar.hist;
 } hist_1;
+
+
+lookup rclt_rounded {
+	lookupflag IgnoreMarks;
+
+	sub [meem-ar.init heh-ar.init]' lookup rounded
+		 @aftermeem' lookup rounded
+	;
+} rclt_rounded;
 ";
 name = misc;
 },
@@ -453,6 +461,7 @@ lookup rclt_vert_dots {
 	sub	[behDotless-ar.init behDotless-ar.medi behDotless-ar.init.high behDotless-ar.medi.high]
 		 @vert_dots'
 		[alef-ar.fina behDotless-ar.fina behDotless-ar.medi behDotless-ar.medi.high
+		 reh-ar.fina
 		 lam-ar.medi lam-ar.medi.hah1 lam-ar.medi.hah2 lam-ar.fina
 		 heh-ar.medi heh-ar.medi.l1 heh-ar.medi.l2 heh-ar.medi.round heh-ar.fina]
 	by	 @vert_dots.vert
@@ -513,6 +522,7 @@ code = "lookup rclt_yehbarree_baseline;
 lookup rclt_hist_sheen_dots;
 lookup rclt_hist_beh_dots;
 lookup rclt_vert_dots;
+lookup rclt_rounded;
 ";
 tag = rclt;
 },
@@ -742,9 +752,13 @@ m01 = {
 };
 "@MMK_R_hah" = {
 "@MMK_L_hah" = -40;
+"lam_alef-ar.fina" = -40;
+"reh-ar.fina" = -10;
 };
 "@MMK_R_hah" = {
 "@MMK_L_hah" = -40;
+"lam_alef-ar.fina" = -40;
+"reh-ar.fina" = -10;
 };
 "@MMK_R_kaf" = {
 "lam_alef-ar.fina" = -20;
