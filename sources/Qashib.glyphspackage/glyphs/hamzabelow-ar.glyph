@@ -3,12 +3,28 @@ category = Mark;
 glyphname = "hamzabelow-ar";
 layers = (
 {
-layerId = m01;
-width = 600;
+anchors = (
+{
+name = _bottom;
+pos = (106,0);
+},
+{
+name = bottom;
+pos = (106,-160);
 }
 );
-metricLeft = "=fatha-ar";
-metricRight = "=fatha-ar";
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (0,-160);
+ref = "hamza-ar";
+scale = (0.5,0.5);
+}
+);
+width = 213;
+}
+);
 script = arabic;
 sortName = arM1071;
 sortNameKeep = arM1071;

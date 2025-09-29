@@ -4,6 +4,16 @@ color = 9;
 glyphname = "alef-ar";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (230,-26);
+},
+{
+name = tophamza;
+pos = (203,755);
+}
+);
 layerId = m01;
 name = Regular;
 shapes = (
@@ -37,6 +47,16 @@ nodes = (
 width = 591;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (118,-20);
+},
+{
+name = tophamza;
+pos = (203,755);
+}
+);
 associatedMasterId = m01;
 attr = {
 coordinates = (
@@ -76,6 +96,16 @@ nodes = (
 width = 271;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (300,-68);
+},
+{
+name = tophamza;
+pos = (203,755);
+}
+);
 associatedMasterId = m01;
 attr = {
 coordinates = (
