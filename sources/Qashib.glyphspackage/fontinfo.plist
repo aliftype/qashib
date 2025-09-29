@@ -438,7 +438,7 @@ lookup rclt_vert_dots {
 	sub	[behDotless-ar.init behDotless-ar.medi behDotless-ar.init.high behDotless-ar.medi.high]
 		 @vert_dots'
 		[alef-ar.fina behDotless-ar.fina behDotless-ar.medi behDotless-ar.medi.high
-		 reh-ar.fina
+		 reh-ar.fina alefMaksura-ar.fina alefMaksura-ar.salt
 		 lam-ar.medi lam-ar.medi.hah1 lam-ar.medi.hah2 lam-ar.fina
 		 heh-ar.medi heh-ar.medi.l1 heh-ar.medi.l2 heh-ar.medi.round heh-ar.fina]
 	by	 @vert_dots.vert
