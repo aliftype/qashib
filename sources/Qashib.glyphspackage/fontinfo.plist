@@ -5,6 +5,10 @@ axes = (
 {
 name = Mashq;
 tag = MSHQ;
+},
+{
+name = Ascender;
+tag = ASCD;
 }
 );
 classes = (
@@ -106,13 +110,14 @@ space
 {
 name = "Axis Mappings";
 value = {
+ASCD = {
+0 = 0;
+700 = 700;
+900 = 900;
+};
 MSHQ = {
 0 = 0;
 100 = 100;
-};
-SPAC = {
--100 = -100;
-125 = 125;
 };
 };
 }
@@ -532,7 +537,8 @@ tag = mark;
 fontMaster = (
 {
 axesValues = (
-10
+10,
+700
 );
 customParameters = (
 {
@@ -571,22 +577,14 @@ value = 50;
 guides = (
 {
 locked = 1;
-name = "tail, eye, noon.fina";
-pos = (0,115);
-},
-{
-locked = 1;
-name = "alef, lam";
 pos = (0,920);
 },
 {
 locked = 1;
-name = "7";
 pos = (0,805);
 },
 {
 locked = 1;
-name = "6";
 pos = (0,690);
 },
 {
@@ -595,18 +593,14 @@ pos = (0,575);
 },
 {
 locked = 1;
-name = "tooth high";
 pos = (0,460);
 },
 {
 locked = 1;
-name = tooth;
 pos = (0,345);
 },
 {
 lockAngle = 1;
-locked = 1;
-name = "sad, dal, kaf";
 pos = (0,230);
 },
 {
@@ -631,6 +625,15 @@ pos = (0,-345);
 locked = 1;
 name = beh;
 pos = (0,285);
+},
+{
+locked = 1;
+name = "alef, lam";
+pos = (500,700);
+},
+{
+locked = 1;
+pos = (0,115);
 }
 );
 id = m01;
@@ -671,7 +674,8 @@ visible = 1;
 instances = (
 {
 axesValues = (
-10
+10,
+700
 );
 name = Regular;
 properties = (

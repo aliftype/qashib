@@ -33,7 +33,8 @@ width = 876;
 associatedMasterId = m01;
 attr = {
 coordinates = (
-100
+100,
+0
 );
 };
 backgroundImage = {
@@ -64,6 +65,7 @@ width = 5936;
 associatedMasterId = m01;
 attr = {
 coordinates = (
+0,
 0
 );
 };
