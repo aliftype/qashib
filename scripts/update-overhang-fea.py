@@ -96,6 +96,13 @@ def open_font(path):
 def main(args):
     font = open_font(args.font)
 
+    face = font.face
+
+    script_tags = face.get_table_script_tags("GSUB")
+    assert "arab" in script_tags
+    feature_tags = face.get_language_feature_tags("GSUB", script_tags.index("arab"))
+    has_hist = "hist" in feature_tags
+
     rules = []
     for overhanger in OVERHANGERS:
         i = 0
@@ -116,19 +123,24 @@ def main(args):
                 if text.count("ح") > 1:
                     continue
 
-                glyphs, adj, adj2 = shape(font, text, features={"kern": False})
-                if adj < THRESHOLD:
-                    continue
-                found = True
+                for hist in [False, True]:
+                    if hist and not has_hist:
+                        continue
+                    glyphs, adj, adj2 = shape(
+                        font, text, features={"kern": False, "hist": hist}
+                    )
+                    if adj < THRESHOLD:
+                        continue
+                    found = True
 
-                if adj2 is not None:
-                    adj = adj2
+                    if adj2 is not None:
+                        adj = adj2
 
-                match = glyphs[0]
-                lookahead = "' ".join(glyphs[1:])
-                rule = f"\tpos {match}' {adj} {lookahead}';"
-                if rule not in rules:
-                    rules.append(rule)
+                    match = glyphs[0]
+                    lookahead = "' ".join(glyphs[1:])
+                    rule = f"\tpos {match}' {adj} {lookahead}';"
+                    if rule not in rules:
+                        rules.append(rule)
             if not found:
                 break
             i += 1

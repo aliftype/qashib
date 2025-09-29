@@ -8,11 +8,11 @@ layers = (
 anchors = (
 {
 name = entry;
-pos = (100,230);
+pos = (100,180);
 },
 {
 name = exit;
-pos = (0,230);
+pos = (0,180);
 }
 );
 layerId = m01;
@@ -23,7 +23,7 @@ ref = "lam-ar.init.hah2";
 },
 {
 alignment = -1;
-pos = (-20,230);
+pos = (-20,180);
 ref = _c.beh;
 }
 );

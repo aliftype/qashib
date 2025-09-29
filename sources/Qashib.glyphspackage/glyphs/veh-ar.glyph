@@ -10,7 +10,7 @@ shapes = (
 ref = "fehDotless-ar";
 },
 {
-pos = (551,337);
+pos = (581,308);
 ref = "threedotsabove-ar.hist";
 }
 );

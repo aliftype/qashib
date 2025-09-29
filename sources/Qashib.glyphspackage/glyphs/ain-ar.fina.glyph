@@ -97,42 +97,6 @@ nodes = (
 }
 );
 width = 320;
-},
-{
-associatedMasterId = m01;
-backgroundImage = {
-alpha = 80;
-angle = -1.3;
-imagePath = "images/seen-ar.init.2.jpg";
-locked = 1;
-pos = (-96,-667);
-scale = (9.2421,9.2421);
-};
-layerId = "EA0E3B7D-EAE2-43AA-89FC-40831E560FB2";
-name = "28 Sep 25 at 23:28";
-shapes = (
-{
-closed = 1;
-nodes = (
-(-78,179,c),
-(-31,122,o),
-(49,62,o),
-(95,40,c),
-(109,70,l),
-(-76,70,l),
-(-76,0,l),
-(200,0,l),
-(200,70,l),
-(127,70,l),
-(160,55,l),
-(160,367,l),
-(178,291,l),
-(84,217,o),
-(10,188,o)
-);
-}
-);
-width = 180;
 }
 );
 metricLeft = "=-10@190";

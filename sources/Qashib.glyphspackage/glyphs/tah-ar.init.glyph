@@ -41,33 +41,6 @@ name = exit;
 associatedMasterId = m01;
 attr = {
 coordinates = (
-100,
-0
-);
-};
-layerId = "342120A2-69CB-4D5B-B997-48E2238AD02F";
-name = "{0, 100} 17 May 23 at 01:25";
-shapes = (
-{
-ref = "lam-ar.medi";
-},
-{
-alignment = -1;
-ref = _body.sad;
-}
-);
-width = 5850;
-},
-{
-anchors = (
-{
-name = exit;
-}
-);
-associatedMasterId = m01;
-attr = {
-coordinates = (
-0,
 0
 );
 };
@@ -84,6 +57,31 @@ ref = _body.sad;
 }
 );
 width = 360;
+},
+{
+anchors = (
+{
+name = exit;
+}
+);
+associatedMasterId = m01;
+attr = {
+coordinates = (
+100
+);
+};
+layerId = "342120A2-69CB-4D5B-B997-48E2238AD02F";
+name = "{0, 100} 17 May 23 at 01:25";
+shapes = (
+{
+ref = "lam-ar.medi";
+},
+{
+alignment = -1;
+ref = _body.sad;
+}
+);
+width = 5850;
 }
 );
 metricLeft = "=sad-ar.init";

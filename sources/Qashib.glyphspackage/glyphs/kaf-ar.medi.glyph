@@ -33,38 +33,6 @@ width = 815;
 anchors = (
 {
 name = entry;
-pos = (5874,0);
-},
-{
-name = exit;
-}
-);
-associatedMasterId = m01;
-attr = {
-coordinates = (
-100,
-0
-);
-};
-layerId = "79BB94E9-709B-4B8D-A308-DC550F0444BD";
-name = "17 May 23 at 02:07";
-shapes = (
-{
-alignment = -1;
-ref = "kaf-ar.init";
-},
-{
-alignment = -1;
-pos = (5772,0);
-ref = _c.dal;
-}
-);
-width = 5874;
-},
-{
-anchors = (
-{
-name = entry;
 pos = (384,0);
 },
 {
@@ -74,7 +42,6 @@ name = exit;
 associatedMasterId = m01;
 attr = {
 coordinates = (
-0,
 0
 );
 };
@@ -92,6 +59,37 @@ ref = _c.dal;
 }
 );
 width = 384;
+},
+{
+anchors = (
+{
+name = entry;
+pos = (5874,0);
+},
+{
+name = exit;
+}
+);
+associatedMasterId = m01;
+attr = {
+coordinates = (
+100
+);
+};
+layerId = "79BB94E9-709B-4B8D-A308-DC550F0444BD";
+name = "17 May 23 at 02:07";
+shapes = (
+{
+alignment = -1;
+ref = "kaf-ar.init";
+},
+{
+alignment = -1;
+pos = (5772,0);
+ref = _c.dal;
+}
+);
+width = 5874;
 }
 );
 metricLeft = "=kaf-ar.init";

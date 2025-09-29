@@ -5,10 +5,6 @@ axes = (
 {
 name = Mashq;
 tag = MSHQ;
-},
-{
-name = Ascender;
-tag = ASCD;
 }
 );
 classes = (
@@ -110,11 +106,6 @@ space
 {
 name = "Axis Mappings";
 value = {
-ASCD = {
-0 = 0;
-700 = 700;
-900 = 900;
-};
 MSHQ = {
 0 = 0;
 100 = 100;
@@ -537,25 +528,24 @@ tag = mark;
 fontMaster = (
 {
 axesValues = (
-10,
-700
+10
 );
 customParameters = (
 {
 name = typoAscender;
-value = 805;
+value = 800;
 },
 {
 name = typoDescender;
-value = -115;
+value = -450;
 },
 {
 name = hheaAscender;
-value = 805;
+value = 800;
 },
 {
 name = hheaDescender;
-value = -115;
+value = -450;
 },
 {
 name = winAscent;
@@ -571,6 +561,10 @@ value = -165;
 },
 {
 name = underlineThickness;
+value = 50;
+},
+{
+name = strikeoutSize;
 value = 50;
 }
 );
@@ -628,23 +622,23 @@ pos = (0,285);
 },
 {
 locked = 1;
-name = "alef, lam";
-pos = (500,700);
+pos = (0,115);
 },
 {
 locked = 1;
-pos = (0,115);
+name = "700";
+pos = (501,770);
 }
 );
 id = m01;
 metricValues = (
 {
 over = -10;
-pos = 920;
+pos = 800;
 },
 {
 over = -10;
-pos = 690;
+pos = 770;
 },
 {
 over = -10;
@@ -655,7 +649,7 @@ over = -10;
 },
 {
 over = -10;
-pos = -500;
+pos = -450;
 }
 );
 name = Regular;
@@ -668,14 +662,12 @@ GSOffsetPosition = 1;
 GSOffsetProportional = 1;
 GSOffsetVertical = 10;
 };
-visible = 1;
 }
 );
 instances = (
 {
 axesValues = (
-10,
-700
+10
 );
 name = Regular;
 properties = (
