@@ -1,0 +1,21 @@
+{
+glyphname = "sixFarsi-ar";
+kernLeft = "six-ar";
+kernRight = "seven-ar";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (525,0);
+ref = "two-ar";
+scale = (-1,1);
+}
+);
+width = 525;
+}
+);
+sortName = ar3145;
+sortNameKeep = ar3174;
+unicode = 1782;
+}

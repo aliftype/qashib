@@ -88,9 +88,14 @@ date = "2021-04-25 20:10:22 +0000";
 familyName = "Qashib";
 featurePrefixes = (
 {
+automatic = 1;
 code = "languagesystem DFLT dflt;
 
 languagesystem arab dflt;
+languagesystem arab URD;
+languagesystem arab KSH;
+languagesystem arab RHG;
+languagesystem arab SND;
 ";
 name = Languagesystems;
 },
@@ -463,6 +468,30 @@ code = "lookup ccmp_1;
 tag = ccmp;
 },
 {
+code = "script arab;
+  language URD;
+	sub fourFarsi-ar	by fourFarsi-ar.locl;
+	sub sixFarsi-ar		by six-ar;
+	sub sevenFarsi-ar	by sevenFarsi-ar.locl;
+#	sub dammainverted-ar by dammainverted-ar.locl;
+
+  language KSH;
+	sub fourFarsi-ar	by fourFarsi-ar.locl;
+	sub sixFarsi-ar		by six-ar;
+	sub sevenFarsi-ar	by sevenFarsi-ar.locl;
+
+  language RHG;
+	sub fourFarsi-ar	by four-ar;
+	sub sixFarsi-ar		by six-ar;
+	sub sevenFarsi-ar	by sevenFarsi-ar.locl;
+
+  language SND;
+	sub sixFarsi-ar		by six-ar;
+	sub sevenFarsi-ar	by sevenFarsi-ar.locl;
+";
+tag = locl;
+},
+{
 code = "lookup isol;";
 tag = isol;
 },
@@ -717,6 +746,29 @@ value = "Qashib";
 );
 }
 );
+kerningLTR = {
+m01 = {
+"@MMK_L_eight-ar" = {
+"@MMK_R_one-ar" = -60;
+"@MMK_R_zero-ar" = -50;
+};
+"@MMK_L_seven-ar" = {
+"@MMK_R_eight-ar" = -60;
+};
+"@MMK_L_two-ar" = {
+"@MMK_R_zero-ar" = -75;
+};
+"@MMK_L_zero-ar" = {
+"@MMK_R_one-ar" = -45;
+"@MMK_R_six-ar" = -135;
+};
+"four-ar" = {
+"@MMK_R_one-ar" = -75;
+"@MMK_R_six-ar" = -120;
+"@MMK_R_zero-ar" = -75;
+};
+};
+};
 kerningRTL = {
 m01 = {
 "@MMK_R_beh" = {

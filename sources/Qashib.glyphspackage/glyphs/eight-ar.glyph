@@ -1,16 +1,19 @@
 {
-category = Number;
 glyphname = "eight-ar";
+kernLeft = "eight-ar";
+kernRight = "eight-ar";
 layers = (
 {
 layerId = m01;
-width = 0;
+shapes = (
+{
+pos = (0,675);
+ref = "seven-ar";
+scale = (1,-1);
 }
 );
-metricWidth = "=0";
-script = arabic;
-sortName = arN0898;
-sortNameKeep = arN0898;
-subCategory = "Decimal Digit";
-unicode = 1640;
+width = 675;
+}
+);
+unicode = (1640,1784);
 }

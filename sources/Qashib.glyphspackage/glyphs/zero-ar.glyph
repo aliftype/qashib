@@ -1,16 +1,25 @@
 {
-category = Number;
 glyphname = "zero-ar";
+kernLeft = "zero-ar";
+kernRight = "zero-ar";
 layers = (
 {
 layerId = m01;
-width = 0;
+shapes = (
+{
+closed = 1;
+nodes = (
+(360,353,l),
+(255,459,l),
+(150,353,l),
+(255,246,l)
+);
 }
 );
-metricWidth = "=0";
-script = arabic;
-sortName = arN0890;
-sortNameKeep = arN0890;
-subCategory = "Decimal Digit";
-unicode = 1632;
+width = 510;
+}
+);
+metricLeft = "=150";
+metricRight = "=150";
+unicode = (1632,1776);
 }

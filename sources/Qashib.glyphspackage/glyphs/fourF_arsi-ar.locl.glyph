@@ -1,0 +1,45 @@
+{
+glyphname = "fourFarsi-ar.locl";
+kernLeft = "one-ar";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(317,27,l),
+(275,116,o),
+(150,399,o),
+(150,510,cs),
+(150,570,o),
+(182,600,o),
+(225,600,cs),
+(263,600,o),
+(300,554,o),
+(300,450,c),
+(360,405,l),
+(525,623,l),
+(465,668,l),
+(335,492,l),
+(375,473,l),
+(369,600,o),
+(306,675,o),
+(225,675,cs),
+(143,675,o),
+(75,614,o),
+(75,510,cs),
+(75,383,o),
+(198,105,o),
+(246,0,c)
+);
+}
+);
+width = 600;
+}
+);
+metricLeft = "=two-ar";
+metricRight = "=fourFarsi-ar";
+sortName = ar3140;
+sortNameKeep = ar3168.locl;
+}

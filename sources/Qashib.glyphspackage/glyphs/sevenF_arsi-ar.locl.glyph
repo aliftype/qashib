@@ -1,0 +1,53 @@
+{
+glyphname = "sevenFarsi-ar.locl";
+kernLeft = "eight-ar";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(432,105,o),
+(317,110,o),
+(155,81,c),
+(176,65,l),
+(252,248,o),
+(318,449,o),
+(369,650,c),
+(300,675,l),
+(246,456,o),
+(167,230,o),
+(75,15,c),
+(29,101,l),
+(177,-48,l),
+(77,-10,l),
+(282,35,o),
+(395,36,o),
+(587,0,c),
+(600,75,l)
+);
+}
+);
+width = 675;
+},
+{
+associatedMasterId = m01;
+layerId = "1FF49FCB-87DF-4379-B77C-5694559C335D";
+name = "4 Jul 25 at 08:32";
+shapes = (
+{
+alignment = -1;
+pos = (-4,450);
+ref = "seven-ar";
+scale = (1,-1);
+}
+);
+width = 443;
+}
+);
+metricLeft = "=eight-ar@449";
+metricRight = "=four-ar";
+sortName = ar3149;
+sortNameKeep = ar3177.locl;
+}

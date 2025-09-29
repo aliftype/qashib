@@ -1,16 +1,51 @@
 {
-category = Number;
 glyphname = "three-ar";
+kernLeft = "one-ar";
+kernRight = "two-ar";
 layers = (
 {
 layerId = m01;
-width = 0;
+shapes = (
+{
+closed = 1;
+nodes = (
+(270,480,o),
+(312,503,o),
+(338,540,c),
+(363,503,o),
+(401,480,o),
+(444,480,cs),
+(530,480,o),
+(585,567,o),
+(585,668,c),
+(510,668,l),
+(510,602,o),
+(480,555,o),
+(443,555,cs),
+(405,555,o),
+(375,600,o),
+(375,668,c),
+(300,668,l),
+(300,602,o),
+(267,555,o),
+(233,555,cs),
+(198,555,o),
+(179,576,o),
+(165,609,c),
+(99,578,l),
+(123,521,o),
+(168,480,o),
+(227,480,cs)
+);
+},
+{
+ref = "one-ar";
 }
 );
-metricWidth = "=0";
-script = arabic;
-sortName = arN0893;
-sortNameKeep = arN0893;
-subCategory = "Decimal Digit";
-unicode = 1635;
+width = 660;
+}
+);
+metricLeft = "=one-ar";
+metricRight = "=two-ar";
+unicode = (1635,1779);
 }
