@@ -10,7 +10,7 @@ shapes = (
 ref = "alef-ar";
 }
 );
-width = 592;
+width = 591;
 }
 );
 script = arabic;
