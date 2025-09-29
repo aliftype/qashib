@@ -1,7 +1,7 @@
 {
 category = Letter;
 glyphname = "ain-ar.init";
-kernLeft = ain.init;
+kernLeft = hah;
 kernRight = hah;
 layers = (
 {

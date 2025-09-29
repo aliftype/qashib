@@ -15,6 +15,10 @@ pos = (345,-20);
 name = exit;
 },
 {
+name = gaf;
+pos = (164,315);
+},
+{
 name = top;
 pos = (407,220);
 }
@@ -80,6 +84,10 @@ pos = (124,-20);
 },
 {
 name = exit;
+},
+{
+name = gaf;
+pos = (164,315);
 },
 {
 name = top;
@@ -148,6 +156,10 @@ pos = (2906,-20);
 },
 {
 name = exit;
+},
+{
+name = gaf;
+pos = (164,315);
 },
 {
 name = top;

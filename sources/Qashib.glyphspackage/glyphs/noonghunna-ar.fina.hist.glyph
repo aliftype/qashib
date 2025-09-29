@@ -1,21 +1,22 @@
 {
 category = Letter;
-glyphname = "noonghunna-ar.fina";
+color = 7;
+glyphname = "noonghunna-ar.fina.hist";
 layers = (
 {
 anchors = (
 {
 name = entry;
-pos = (370,0);
+pos = (210,0);
 }
 );
 layerId = m01;
 shapes = (
 {
-ref = "noonghunna-ar";
+ref = "noonghunna-ar.hist";
 }
 );
-width = 408;
+width = 237;
 }
 );
 metricLeft = "=-0@74";

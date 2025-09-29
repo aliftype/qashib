@@ -1,6 +1,6 @@
 {
 category = Letter;
-glyphname = "waw-ar.fina";
+glyphname = "waw-ar.fina.round";
 kernLeft = waw;
 kernRight = dal;
 layers = (
@@ -8,7 +8,7 @@ layers = (
 anchors = (
 {
 name = entry;
-pos = (420,0);
+pos = (390,0);
 }
 );
 backgroundImage = {
@@ -23,17 +23,12 @@ shapes = (
 alignment = -1;
 pos = (0,-88);
 ref = "waw-ar";
-},
-{
-pos = (318,0);
-ref = _c.dal;
 }
 );
-width = 420;
+width = 410;
 }
 );
 metricLeft = "=waw-ar";
-metricRight = "=-20";
 script = arabic;
 sortName = arL0077;
 sortNameKeep = arL0077;

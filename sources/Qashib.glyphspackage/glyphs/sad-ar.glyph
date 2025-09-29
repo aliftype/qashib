@@ -19,7 +19,7 @@ shapes = (
 {
 alignment = -1;
 pos = (0,50);
-ref = "noonghunna-ar";
+ref = "noonghunna-ar.hist";
 },
 {
 alignment = -1;
@@ -50,7 +50,7 @@ shapes = (
 {
 alignment = -1;
 pos = (0,50);
-ref = "noonghunna-ar";
+ref = "noonghunna-ar.hist";
 },
 {
 alignment = -1;
@@ -81,7 +81,7 @@ shapes = (
 {
 alignment = -1;
 pos = (0,50);
-ref = "noonghunna-ar";
+ref = "noonghunna-ar.hist";
 },
 {
 alignment = -1;

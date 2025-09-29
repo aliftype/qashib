@@ -10,11 +10,11 @@ shapes = (
 ref = "qafDotless-ar";
 },
 {
-pos = (-20,338);
-ref = "twodotsabove-ar.hist";
+pos = (180,329);
+ref = "twodotsabove-ar";
 }
 );
-width = 618;
+width = 449;
 }
 );
 script = arabic;

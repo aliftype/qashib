@@ -6,6 +6,60 @@ layers = (
 anchors = (
 {
 name = bottom;
+pos = (219,-344);
+},
+{
+name = top;
+pos = (225,-150);
+}
+);
+backgroundImage = {
+alpha = 80;
+imagePath = "images/image-0056.jpg";
+locked = 1;
+pos = (-8012,-2377);
+scale = (14.67,14.67);
+};
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(425,118,o),
+(210,186,c),
+(271,246,l),
+(249,119,o),
+(192,70,o),
+(118,-11,c),
+(131,81,l),
+(333,46,o),
+(360,-114,o),
+(359,-241,c),
+(373,-171,l),
+(271,-259,o),
+(67,-204,o),
+(36,-40,c),
+(99,-63,l),
+(71,-113,o),
+(50,-182,o),
+(-54,-235,c),
+(-53,-116,l),
+(-8,-237,o),
+(110,-288,o),
+(217,-288,cs),
+(289,-288,o),
+(358,-270,o),
+(399,-211,cs),
+(448,-142,o)
+);
+}
+);
+width = 441;
+},
+{
+anchors = (
+{
+name = bottom;
 pos = (89,-435);
 },
 {
@@ -17,6 +71,7 @@ name = top.hist;
 pos = (45,125);
 }
 );
+associatedMasterId = m01;
 backgroundImage = {
 alpha = 80;
 imagePath = "images/image-0056.jpg";
@@ -24,7 +79,8 @@ locked = 1;
 pos = (-8181,-2377);
 scale = (14.67,14.67);
 };
-layerId = m01;
+layerId = "6FC854E7-DAB3-416B-B03C-0A1E67CFAAE5";
+name = "30 Sep 25 at 00:09";
 shapes = (
 {
 closed = 1;
@@ -61,7 +117,7 @@ nodes = (
 width = 270;
 }
 );
-metricLeft = "=-10@64";
+metricLeft = "=0";
 metricRight = "=20";
 script = arabic;
 sortName = arL0061;

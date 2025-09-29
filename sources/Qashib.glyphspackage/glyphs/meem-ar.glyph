@@ -23,7 +23,7 @@ nodes = (
 );
 },
 {
-pos = (292,10);
+pos = (292,0);
 ref = "meem-ar.init.round";
 }
 );

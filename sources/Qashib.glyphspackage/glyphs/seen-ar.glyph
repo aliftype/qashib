@@ -56,13 +56,13 @@ nodes = (
 );
 },
 {
-ref = "noonghunna-ar";
+ref = "noonghunna-ar.hist";
 }
 );
 width = 380;
 }
 );
-metricLeft = "=noonghunna-ar";
+metricLeft = "=noonghunna-ar.hist";
 metricRight = "=behDotless-ar.init";
 script = arabic;
 sortName = arL0023;

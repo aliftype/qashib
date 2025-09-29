@@ -10,8 +10,8 @@ shapes = (
 ref = "fehDotless-ar";
 },
 {
-pos = (577,308);
-ref = "dotabove-ar.hist";
+pos = (684,410);
+ref = "dotabove-ar";
 }
 );
 width = 940;

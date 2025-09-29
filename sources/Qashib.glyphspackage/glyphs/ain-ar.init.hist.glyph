@@ -2,7 +2,7 @@
 category = Letter;
 color = 7;
 glyphname = "ain-ar.init.hist";
-kernLeft = ain.init;
+kernLeft = hah;
 kernRight = hah;
 layers = (
 {

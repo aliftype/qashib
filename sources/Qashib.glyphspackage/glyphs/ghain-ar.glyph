@@ -10,8 +10,8 @@ shapes = (
 ref = "ain-ar";
 },
 {
-pos = (69,363);
-ref = "dotabove-ar.hist";
+pos = (64,370);
+ref = "dotabove-ar";
 }
 );
 width = 439;

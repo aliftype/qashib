@@ -10,7 +10,7 @@ shapes = (
 ref = "kaf-ar";
 },
 {
-pos = (63,819);
+pos = (181,0);
 ref = "gafsarkashabove-ar";
 }
 );

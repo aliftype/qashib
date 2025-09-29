@@ -340,14 +340,21 @@ lookup rclt_yehbarree_baseline {
 	;
 } rclt_yehbarree_baseline;
 
-@aftermeem = [meem-ar.medi meem-ar.fina waw-ar.fina reh-ar.fina noonghunna-ar.fina];
-
 lookup short_lam {
 	sub lam-ar				by lam-ar.short;
 	sub lam-ar.fina			by lam-ar.fina.short;
 	sub lam-ar.medi			by lam-ar.medi.short;
 	sub alef-ar.fina		by alef-ar.fina.short;
 } short_lam;
+
+@aftermeem = [meem-ar.medi meem-ar.fina waw-ar.fina reh-ar.fina noonghunna-ar.fina];
+lookup rounded {
+	sub meem-ar.init		by meem-ar.init.round;
+	sub meem-ar.medi		by meem-ar.medi.round;
+	sub meem-ar.fina		by meem-ar.fina.round;
+	sub heh-ar.init			by heh-ar.init.round;
+	sub waw-ar.fina			by waw-ar.fina.round;
+} rounded;
 
 lookup rlig_short_lam {
 	lookupflag IgnoreMarks;
@@ -362,31 +369,34 @@ lookup rlig_short_lam {
 		[lam-ar lam-ar.medi lam-ar.fina alef-ar.fina]' lookup short_lam
 	;
 
-	#sub [meem-ar.medi.round]' lookup rounded2
-	#	 @aftermeem' lookup rounded;
-	#;
+
+	sub [meem-ar.init heh-ar.init]' lookup rounded
+		 @aftermeem' lookup rounded
+	;
 } rlig_short_lam;
 
 lookup hist_1 {
-	sub hah-ar by hah-ar.hist;
-	sub hah-ar.fina by hah-ar.fina.hist;
-	sub reh-ar by reh-ar.hist;
-	sub reh-ar.fina by reh-ar.fina.hist;
-	sub ain-ar by ain-ar.hist;
-	sub ain-ar.fina by ain-ar.fina.hist;
-	sub ain-ar.medi by ain-ar.medi.hist;
-	sub ain-ar.init by ain-ar.init.hist;
-	sub qafDotless-ar by qafDotless-ar.hist;
-	sub qafDotless-ar.fina by qafDotless-ar.fina.hist;
-	sub kaf-ar by kaf-ar.hist;
-	sub kaf-ar.fina by kaf-ar.fina.hist;
-	sub kaf-ar.medi by kaf-ar.medi.hist;
-	sub kaf-ar.init by kaf-ar.init.hist;
-	sub dotabove-ar by dotabove-ar.hist;
-	sub dotbelow-ar by dotbelow-ar.hist;
-	sub twodotsabove-ar by twodotsabove-ar.hist;
-	sub twodotsbelow-ar by twodotsbelow-ar.hist;
-	sub threedotsabove-ar by threedotsabove-ar.hist;
+	sub hah-ar				by hah-ar.hist;
+	sub hah-ar.fina			by hah-ar.fina.hist;
+	sub reh-ar				by reh-ar.hist;
+	sub reh-ar.fina			by reh-ar.fina.hist;
+	sub ain-ar				by ain-ar.hist;
+	sub ain-ar.fina			by ain-ar.fina.hist;
+	sub ain-ar.medi			by ain-ar.medi.hist;
+	sub ain-ar.init			by ain-ar.init.hist;
+	sub qafDotless-ar		by qafDotless-ar.hist;
+	sub qafDotless-ar.fina	by qafDotless-ar.fina.hist;
+	sub kaf-ar				by kaf-ar.hist;
+	sub kaf-ar.fina			by kaf-ar.fina.hist;
+	sub kaf-ar.medi			by kaf-ar.medi.hist;
+	sub kaf-ar.init			by kaf-ar.init.hist;
+	sub noonghunna-ar		by noonghunna-ar.hist;
+	sub noonghunna-ar.fina	by noonghunna-ar.fina.hist;
+	sub dotabove-ar			by dotabove-ar.hist;
+	sub dotbelow-ar			by dotbelow-ar.hist;
+	sub twodotsabove-ar		by twodotsabove-ar.hist;
+	sub twodotsbelow-ar		by twodotsbelow-ar.hist;
+	sub threedotsabove-ar	by threedotsabove-ar.hist;
 } hist_1;
 ";
 name = misc;
@@ -412,20 +422,26 @@ code = "lookup rclt_hist_sheen_dots {
 } rclt_hist_sheen_dots;
 
 @beh_dots = [dotabove-ar.hist twodotsabove-ar.hist threedotsabove-ar.hist
-			 twodotsbelow-ar.hist threedotsdownbelow-ar.hist];
+			 twodotsbelow-ar.hist threedotsbelow-ar.hist];
 lookup rclt_hist_beh_dots {
 	lookupflag UseMarkFilteringSet @beh_dots;
 
 	sub [behDotless-ar alefMaksura-ar alefMaksura-ar.fina
 		 alefMaksura-ar.salt alefMaksura-ar.fina.salt]
 		 @beh_dots'
-	by	[dotabove-ar.hist.beh twodotsabove-ar.hist.beh threedotsupabove-ar.hist.beh
-		 twodotsbelow-ar.hist.beh threedotsdownbelow-ar.hist.beh]
+	by	[dotabove-ar.hist.beh twodotsabove-ar.hist.beh threedotsabove-ar.hist.beh
+		 twodotsbelow-ar.hist.beh threedotsbelow-ar.hist.beh]
 	;
 
 	sub	[reh-ar.hist reh-ar.fina.hist]
 		 dotabove-ar.hist'
 	by	 dotabove-ar.hist.reh
+	;
+
+
+	sub	[noonghunna-ar.hist noonghunna-ar.fina.hist]
+		 dotabove-ar.hist'
+	by	 dotabove-ar.hist.noon
 	;
 } rclt_hist_beh_dots;
 
@@ -524,6 +540,21 @@ value = "حروف مهملة (بلا نقاط)";
 }
 );
 tag = ss01;
+},
+{
+code = "lookup hist_1;
+";
+labels = (
+{
+language = ENG;
+value = "Historical letter forms";
+},
+{
+language = ARA;
+value = "أشكال حروف تراثية";
+}
+);
+tag = ss02;
 },
 {
 code = "# Automatic Code
@@ -706,11 +737,17 @@ value = "Qashib";
 );
 kerningRTL = {
 m01 = {
-"@MMK_R_ain.init" = {
-"@MMK_L_hah" = -40;
-};
 "@MMK_R_beh" = {
 "@MMK_L_hah" = -30;
+};
+"@MMK_R_hah" = {
+"@MMK_L_hah" = -40;
+};
+"@MMK_R_hah" = {
+"@MMK_L_hah" = -40;
+};
+"@MMK_R_kaf" = {
+"lam_alef-ar.fina" = -20;
 };
 "@MMK_R_sad" = {
 "@MMK_L_hah" = -10;
@@ -732,10 +769,12 @@ m01 = {
 };
 "fehDotless-ar.init" = {
 "@MMK_L_hah" = -60;
+"lam_alef-ar.fina" = -50;
 "meem-ar.medi" = -20;
 };
 "fehDotless-ar.medi" = {
 "@MMK_L_hah" = -25;
+"lam_alef-ar.fina" = -30;
 "meem-ar.medi" = -12;
 };
 };

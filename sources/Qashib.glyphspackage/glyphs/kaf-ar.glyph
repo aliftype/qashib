@@ -11,6 +11,10 @@ name = bottom;
 pos = (470,-20);
 },
 {
+name = gaf;
+pos = (289,315);
+},
+{
 name = top;
 pos = (532,220);
 }
@@ -80,6 +84,10 @@ anchors = (
 {
 name = bottom;
 pos = (250,-20);
+},
+{
+name = gaf;
+pos = (299,315);
 },
 {
 name = top;
@@ -152,6 +160,10 @@ anchors = (
 {
 name = bottom;
 pos = (3032,-20);
+},
+{
+name = gaf;
+pos = (299,315);
 },
 {
 name = top;

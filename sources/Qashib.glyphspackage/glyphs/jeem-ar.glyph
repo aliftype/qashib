@@ -10,8 +10,8 @@ shapes = (
 ref = "hah-ar";
 },
 {
-pos = (554,-120);
-ref = "dotbelow-ar.hist";
+pos = (166,-187);
+ref = "dotbelow-ar";
 }
 );
 width = 508;

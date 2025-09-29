@@ -10,7 +10,7 @@ shapes = (
 ref = "qafDotless-ar";
 }
 );
-width = 618;
+width = 449;
 }
 );
 script = arabic;

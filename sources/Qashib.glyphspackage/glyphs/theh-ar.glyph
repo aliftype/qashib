@@ -10,8 +10,8 @@ shapes = (
 ref = "behDotless-ar";
 },
 {
-pos = (696,191);
-ref = "threedotsabove-ar.hist";
+pos = (388,155);
+ref = "threedotsabove-ar";
 }
 );
 width = 940;
