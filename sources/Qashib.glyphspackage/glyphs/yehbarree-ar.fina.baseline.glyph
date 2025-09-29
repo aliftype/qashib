@@ -2,18 +2,18 @@
 category = Letter;
 color = 9;
 glyphname = "yehbarree-ar.fina.baseline";
-kernRight = yehbarree;
+kernRight = yeh;
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
-pos = (0,110);
+pos = (0,82);
 ref = "yehbarree-ar.fina";
 }
 );
-width = 1080;
+width = 785;
 },
 {
 associatedMasterId = m01;
@@ -27,15 +27,16 @@ name = "23 May 23 at 04:29";
 shapes = (
 {
 alignment = -1;
-pos = (0,110);
+pos = (0,79);
 ref = "yehbarree-ar.fina";
 }
 );
 width = 6000;
 }
 );
-metricLeft = "=0";
-metricRight = "=0";
+metricLeft = "yehbarree-ar.fina";
+metricRight = "yehbarree-ar.fina";
+metricWidth = "yehbarree-ar.fina";
 production = yehbarreear.fina.baseline;
 script = arabic;
 sortName = arL0082.baseline;

@@ -282,8 +282,6 @@ code = "lookup rlig_ligatures_1 {
 
 	sub lam-ar.init alef-ar.fina			by lam_alef-ar;
 	sub lam-ar.medi alef-ar.fina			by lam_alef-ar.fina;
-
-	sub lam-ar.init lam-ar.medi heh-ar.fina	by lam_lam_heh-ar;
 } rlig_ligatures_1;
 ";
 name = ligatures;
@@ -322,19 +320,7 @@ lookup rlig_teeth_3 {
 name = teeth;
 },
 {
-code = "lookup wide_yeh {
-	sub alefMaksura-ar.fina	by alefMaksura-ar.fina.wide;
-} wide_yeh;
-
-lookup rlig_wide_yeh {
-	lookupflag IgnoreMarks;
-
-	sub [behDotless-ar.init lam-ar.init fehDotless-ar.init]' lookup wide_yeh
-		[alefMaksura-ar.fina yehbarree-ar.fina]' lookup wide_yeh
-	;
-} rlig_wide_yeh;
-
-@dots = [$[name LIKE \"*dot*\" && category == \"Mark\"]];
+code = "@dots = [$[name LIKE \"*dot*\" && category == \"Mark\"]];
 lookup ss01_dots {
 	sub @dots by NULL;
 } ss01_dots;
@@ -342,7 +328,6 @@ lookup ss01_dots {
 lookup salt_1 {
 	sub alefMaksura-ar from [alefMaksura-ar.salt yehbarree-ar];
 	sub alefMaksura-ar.fina from [alefMaksura-ar.fina.salt yehbarree-ar.fina];
-	sub alefMaksura-ar.fina.wide from [alefMaksura-ar.fina.wide.salt yehbarree-ar.fina];
 } salt_1;
 
 lookup yehbarree_baseline {
@@ -360,16 +345,6 @@ lookup rclt_yehbarree_baseline {
 } rclt_yehbarree_baseline;
 
 @aftermeem = [meem-ar.medi meem-ar.fina waw-ar.fina reh-ar.fina noonghunna-ar.fina];
-
-lookup rlig_dal_yehbarre {
-	lookupflag IgnoreMarks;
-
-	sub	[dal-ar dal-ar.fina]
-		 yehbarree-ar'
-	by	 yehbarree-ar.dal
-	;
-
-} rlig_dal_yehbarre;
 
 lookup hist_1 {
 	sub hah-ar by hah-ar.hist;
@@ -420,7 +395,8 @@ code = "lookup rclt_hist_sheen_dots {
 lookup rclt_hist_beh_dots {
 	lookupflag UseMarkFilteringSet @beh_dots;
 
-	sub  behDotless-ar
+	sub [behDotless-ar alefMaksura-ar alefMaksura-ar.fina
+		 alefMaksura-ar.salt alefMaksura-ar.fina.salt]
 		 @beh_dots'
 	by	[dotabove-ar.hist.beh twodotsabove-ar.hist.beh threedotsupabove-ar.hist.beh
 		 twodotsbelow-ar.hist.beh threedotsdownbelow-ar.hist.beh]
@@ -490,9 +466,7 @@ lookup rlig_hah_medi_l2;
 lookup rlig_hah_cleanup;
 lookup rlig_teeth_2;
 lookup rlig_teeth_3;
-lookup rlig_wide_yeh;
 lookup rlig_ligatures_1;
-lookup rlig_dal_yehbarre;
 ";
 tag = rlig;
 },

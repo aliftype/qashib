@@ -10,7 +10,7 @@ shapes = (
 ref = "alefMaksura-ar";
 }
 );
-width = 399;
+width = 274;
 }
 );
 script = arabic;

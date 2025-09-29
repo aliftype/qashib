@@ -10,11 +10,11 @@ shapes = (
 ref = "alefMaksura-ar";
 },
 {
-pos = (329,-287);
+pos = (221,-308);
 ref = "twodotsbelow-ar.hist";
 }
 );
-width = 399;
+width = 274;
 }
 );
 script = arabic;
