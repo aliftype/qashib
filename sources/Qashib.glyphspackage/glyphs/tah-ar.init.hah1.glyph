@@ -9,7 +9,7 @@ layers = (
 anchors = (
 {
 name = exit;
-pos = (0,114);
+pos = (0,90);
 }
 );
 layerId = m01;

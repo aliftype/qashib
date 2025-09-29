@@ -5,6 +5,12 @@ kernLeft = lam.fina;
 kernRight = beh;
 layers = (
 {
+anchors = (
+{
+name = entry;
+pos = (273,0);
+}
+);
 backgroundImage = {
 alpha = 80;
 angle = -0.6;
@@ -20,8 +26,16 @@ alignment = -1;
 ref = "lam-ar";
 },
 {
-pos = (153,0);
-ref = _c.beh;
+closed = 1;
+nodes = (
+(293,0,l),
+(293,70,l),
+(255,70,o),
+(249,93,o),
+(249,110,c),
+(193,110,l),
+(193,0,l)
+);
 }
 );
 width = 273;

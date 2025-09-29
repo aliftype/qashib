@@ -342,6 +342,31 @@ lookup rclt_yehbarree_baseline {
 
 @aftermeem = [meem-ar.medi meem-ar.fina waw-ar.fina reh-ar.fina noonghunna-ar.fina];
 
+lookup short_lam {
+	sub lam-ar				by lam-ar.short;
+	sub lam-ar.fina			by lam-ar.fina.short;
+	sub lam-ar.medi			by lam-ar.medi.short;
+	sub alef-ar.fina		by alef-ar.fina.short;
+} short_lam;
+
+lookup rlig_short_lam {
+	lookupflag IgnoreMarks;
+
+	ignore
+	sub [alef-ar.fina lam-ar.init lam-ar.medi tah-ar.init tah-ar.medi]
+		[lam-ar lam-ar.medi lam-ar.fina alef-ar.fina]'
+		[lam-ar.medi lam-ar.fina]
+	;
+
+	sub [alef-ar.fina lam-ar.init lam-ar.medi tah-ar.init tah-ar.medi]
+		[lam-ar lam-ar.medi lam-ar.fina alef-ar.fina]' lookup short_lam
+	;
+
+	#sub [meem-ar.medi.round]' lookup rounded2
+	#	 @aftermeem' lookup rounded;
+	#;
+} rlig_short_lam;
+
 lookup hist_1 {
 	sub hah-ar by hah-ar.hist;
 	sub hah-ar.fina by hah-ar.fina.hist;
@@ -463,6 +488,7 @@ lookup rlig_hah_cleanup;
 lookup rlig_teeth_2;
 lookup rlig_teeth_3;
 lookup rlig_ligatures_1;
+lookup rlig_short_lam;
 ";
 tag = rlig;
 },

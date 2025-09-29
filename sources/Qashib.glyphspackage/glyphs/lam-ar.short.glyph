@@ -1,16 +1,10 @@
 {
 category = Letter;
-glyphname = "lam-ar";
+glyphname = "lam-ar.short";
 kernLeft = lam.fina;
 kernRight = beh;
 layers = (
 {
-backgroundImage = {
-alpha = 80;
-imagePath = "images/lam-ar.jpg";
-pos = (-378,-514);
-scale = (14.67,14.67);
-};
 layerId = m01;
 shapes = (
 {
@@ -22,14 +16,14 @@ nodes = (
 (253,-207,o),
 (253,-190,cs),
 (248,143,o),
-(248,475,o),
-(253,808,c),
-(284,828,l),
-(269,779,o),
-(192,683,o),
-(142,655,c),
-(148,681,l),
-(197,651,o),
+(248,365,o),
+(253,698,c),
+(284,718,l),
+(269,669,o),
+(192,573,o),
+(142,545,c),
+(148,571,l),
+(197,541,o),
 (179,13,o),
 (175,-185,c),
 (191,-140,l),
@@ -46,10 +40,11 @@ nodes = (
 width = 273;
 }
 );
-metricLeft = "=-120";
-metricRight = "=alef-ar";
+metricLeft = "=lam-ar";
+metricRight = "=lam-ar";
+metricWidth = "=lam-ar";
+production = lamar.fina.short.001;
 script = arabic;
-sortName = arL0053;
-sortNameKeep = arL0053;
-unicode = 1604;
+sortName = arL0053.short;
+sortNameKeep = arL0054.short;
 }
