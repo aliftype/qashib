@@ -7,7 +7,7 @@ layers = (
 anchors = (
 {
 name = bottom;
-pos = (470,-20);
+pos = (520,-20);
 },
 {
 name = bottom.hist;
@@ -19,7 +19,7 @@ pos = (940,0);
 },
 {
 name = top;
-pos = (470,130);
+pos = (520,130);
 },
 {
 name = top.hist;
@@ -198,7 +198,7 @@ pos = (510,0);
 },
 {
 name = top;
-pos = (240,130);
+pos = (270,130);
 },
 {
 name = top.hist;
