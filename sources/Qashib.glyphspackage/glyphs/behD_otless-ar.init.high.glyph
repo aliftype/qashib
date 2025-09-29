@@ -8,7 +8,7 @@ layers = (
 anchors = (
 {
 name = bottom;
-pos = (42,-48);
+pos = (40,-10);
 },
 {
 name = damma;
@@ -27,7 +27,7 @@ pos = (44,-73);
 },
 {
 name = top;
-pos = (37,373);
+pos = (52,383);
 }
 );
 layerId = m01;

@@ -6,25 +6,21 @@ layers = (
 anchors = (
 {
 name = _top;
-pos = (143,30);
+pos = (72,24);
 }
 );
 layerId = m01;
 shapes = (
 {
-pos = (64,-8);
+pos = (-4,100);
 ref = "dotabove-ar";
 },
 {
-pos = (0,44);
-ref = "dotabove-ar";
-},
-{
-pos = (32,18);
-ref = "dotabove-ar";
+pos = (-4,0);
+ref = "twodotsverticalabove-ar";
 }
 );
-width = 174;
+width = 97;
 }
 );
 script = arabic;

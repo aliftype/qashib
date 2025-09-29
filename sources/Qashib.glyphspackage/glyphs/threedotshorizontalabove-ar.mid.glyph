@@ -12,18 +12,18 @@ pos = (183,67);
 layerId = m01;
 shapes = (
 {
-angle = 9.4;
-pos = (223,70);
+angle = 16.98425;
+pos = (226,84);
 ref = "dotabove-ar";
 },
 {
 angle = 12.8086;
-pos = (-1,8);
+pos = (23,8);
 ref = "dotabove-ar";
 },
 {
 angle = 14.43455;
-pos = (122,29);
+pos = (132,39);
 ref = "dotabove-ar";
 }
 );

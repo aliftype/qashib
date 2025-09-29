@@ -10,7 +10,7 @@ shapes = (
 ref = "noonghunna-ar";
 },
 {
-pos = (-76,96);
+pos = (-73,110);
 ref = "dotabove-ar";
 }
 );

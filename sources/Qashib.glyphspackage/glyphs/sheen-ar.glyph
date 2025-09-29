@@ -10,7 +10,7 @@ shapes = (
 ref = "seen-ar";
 },
 {
-pos = (-61,301);
+pos = (-104,230);
 ref = "threedotshorizontalabove-ar.fin";
 }
 );

@@ -6,18 +6,30 @@ layers = (
 anchors = (
 {
 name = _top;
-pos = (73,38);
+pos = (87,38);
 }
 );
 layerId = m01;
 shapes = (
 {
-angle = 9;
-pos = (3,-9);
-ref = "dotabove-ar";
+closed = 1;
+nodes = (
+(45,14,o),
+(113,81,o),
+(140,135,c),
+(159,89,l),
+(84,149,l),
+(132,147,l),
+(88,83,o),
+(34,42,o),
+(-15,5,c),
+(-29,39,l),
+(58,-27,l),
+(10,-8,l)
+);
 }
 );
-width = 95;
+width = 128;
 },
 {
 anchors = (
@@ -74,6 +86,8 @@ nodes = (
 width = 110;
 }
 );
+metricLeft = "=0";
+metricRight = "=0";
 production = dotabovear.beh;
 script = arabic;
 sortName = arM1060.beh;

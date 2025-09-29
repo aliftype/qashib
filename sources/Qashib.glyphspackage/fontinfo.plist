@@ -403,20 +403,6 @@ lookup fina {
 name = basic;
 },
 {
-code = "lookup rlig_vertical_dots {
-	lookupflag UseMarkFilteringSet [twodotsverticalabove-ar threedotsupabove-ar];
-
-	sub [behDotless-ar.init behDotless-ar.medi]
-		[twodotsverticalabove-ar threedotsupabove-ar]'
-		[alef-ar.fina lam-ar.medi lam-ar.fina
-		 heh-ar.fina heh-ar.medi heh-ar.medi.round]
-	by	[twodotsverticalabove-ar.vert threedotsupabove-ar.vert]
-	;
-} rlig_vertical_dots;
-";
-name = marks;
-},
-{
 code = "@medi.l0 = [$[name LIKE \"*.medi\" && ! name ENDSWITH \".l1\" && ! name BEGINSWITH \"_\" && ! name MATCHES \"^(lam|tah|alefabove)-ar.*\"] kashida-ar];
 @medi.l1 = [$[name LIKE \"*.medi.l1\"] kashida-ar.l1];
 @medi.l2 = [$[name LIKE \"*.medi.l2\"] kashida-ar.l2];
@@ -585,21 +571,17 @@ lookup rlig_sheen_dots {
 	;
 } rlig_sheen_dots;
 
-@beh1_dots = [dotabove-ar twodotsverticalabove-ar threedotsupabove-ar
-			  twodotsverticalabove-ar.vert threedotsupabove-ar.vert];
-
+@beh_dots = [dotabove-ar twodotsverticalabove-ar threedotsupabove-ar
+			 twodotsverticalbelow-ar threedotsdownbelow-ar];
 lookup rlig_beh_dots {
-	lookupflag UseMarkFilteringSet @beh1_dots;
+	lookupflag UseMarkFilteringSet @beh_dots;
 
-	sub [behDotless-ar.medi
-		 behDotless-ar.medi.high
-		 behDotless-ar.init.high]
-		@beh1_dots'
+	sub  behDotless-ar
+		 @beh_dots'
 	by	[dotabove-ar.beh twodotsverticalabove-ar.beh threedotsupabove-ar.beh
-		 twodotsverticalabove-ar.vert.beh threedotsupabove-ar.vert.beh]
+		 twodotsverticalbelow-ar.beh threedotsdownbelow-ar.beh]
 	;
-} rlig_beh_dots;
-";
+} rlig_beh_dots;";
 name = dots;
 }
 );
@@ -636,7 +618,6 @@ tag = fina;
 code = "lookup rlig_hah_medi_l1;
 lookup rlig_hah_medi_l2;
 lookup rlig_hah_cleanup;
-lookup rlig_vertical_dots;
 lookup rlig_teeth_2;
 lookup rlig_teeth_3;
 lookup rlig_wide_yeh;

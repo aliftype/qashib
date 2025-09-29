@@ -6,23 +6,25 @@ layers = (
 anchors = (
 {
 name = _top;
-pos = (134,30);
+pos = (153,38);
 }
 );
 layerId = m01;
 shapes = (
 {
-pos = (30,0);
+pos = (33,0);
 ref = "twodotsverticalabove-ar.beh";
 },
 {
-pos = (0,46);
+pos = (0,50);
 ref = "dotabove-ar.beh";
 }
 );
-width = 155;
+width = 194;
 }
 );
+metricLeft = "=0";
+metricRight = "=0";
 production = threedotsupabovear.beh;
 script = arabic;
 sortName = arM1067a.beh;

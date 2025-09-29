@@ -10,7 +10,7 @@ shapes = (
 ref = "alefMaksura-ar";
 },
 {
-pos = (355,-255);
+pos = (329,-287);
 ref = "twodotsverticalbelow-ar";
 }
 );

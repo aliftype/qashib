@@ -1,22 +1,30 @@
 {
 category = Mark;
-glyphname = "threedotsdownbelow-ar";
+glyphname = "threedotsdownbelow-ar.beh";
 layers = (
 {
 anchors = (
 {
 name = _bottom;
-pos = (49,191);
+pos = (18,141);
 }
 );
 layerId = m01;
 shapes = (
 {
-pos = (-4,0);
-ref = "threedotsupabove-ar";
+pos = (-4,63);
+ref = "dotabove-ar";
+},
+{
+pos = (18,32);
+ref = "dotabove-ar";
+},
+{
+pos = (41,0);
+ref = "dotabove-ar";
 }
 );
-width = 97;
+width = 142;
 }
 );
 script = arabic;

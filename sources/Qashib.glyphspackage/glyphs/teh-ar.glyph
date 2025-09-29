@@ -10,7 +10,7 @@ shapes = (
 ref = "behDotless-ar";
 },
 {
-pos = (648,197);
+pos = (692,191);
 ref = "twodotsverticalabove-ar";
 }
 );
