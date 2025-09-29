@@ -1,4 +1,4 @@
-Qalam
-====
+Qashib
+======
 
-_Qalam_ (قلم) is a manuscript Kufic typeface.
+_Qashib_ (قشيب) is a manuscript Kufic typeface.

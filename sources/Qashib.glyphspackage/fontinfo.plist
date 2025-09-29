@@ -118,7 +118,7 @@ SPAC = {
 }
 );
 date = "2021-04-25 20:10:22 +0000";
-familyName = Qalam;
+familyName = "Qashib";
 featurePrefixes = (
 {
 code = "languagesystem DFLT dflt;
@@ -701,7 +701,7 @@ code = "# Automatic Code
 @hah.medi	= [$[name MATCHES \"hah-ar.medi.*\"]];
 @seen.medi	= [$[name MATCHES \"seen-ar.medi.*\"]];
 
-include(Qalam-overhang.fea)
+include(Qashib-overhang.fea)
 ";
 tag = kern;
 },
@@ -865,19 +865,7 @@ name = Regular;
 properties = (
 {
 key = variablePostscriptFontName;
-value = "Qasab-Regular";
-}
-);
-},
-{
-axesValues = (
-10
-);
-name = Compact;
-properties = (
-{
-key = variablePostscriptFontName;
-value = "Qasab-Compact";
+value = "Qashib";
 }
 );
 }
@@ -941,11 +929,11 @@ key = copyrights;
 values = (
 {
 language = ENG;
-value = "Copyright 2025 The Qasab Project Authors (github.com/aliftype/qasab)";
+value = "Copyright 2025 The Qashib Project Authors (github.com/aliftype/qashib)";
 },
 {
 language = ARA;
-value = "حقوق النسخ ٢٠٢٥ لمؤلفي مشروع قصب (github.com/aliftype/qasab)";
+value = "حقوق النسخ ٢٠٢٥ لمؤلفي مشروع قشيب (github.com/aliftype/qashib)";
 }
 );
 },
@@ -954,11 +942,11 @@ key = descriptions;
 values = (
 {
 language = ENG;
-value = "Qalam (قلم) is a manuscript Kufic typeface";
+value = "Qashib (قشيب) is a manuscript Kufic typeface";
 },
 {
 language = ARA;
-value = "قلم هو خط كوفي مصحفي";
+value = "قشيب هو خط كوفي مصحفي";
 }
 );
 },
