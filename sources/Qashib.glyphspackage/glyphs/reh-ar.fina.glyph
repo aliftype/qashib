@@ -20,7 +20,7 @@ pos = (63,0);
 ref = _c.dal;
 }
 );
-width = 203;
+width = 165;
 }
 );
 metricLeft = "=reh-ar.hist";

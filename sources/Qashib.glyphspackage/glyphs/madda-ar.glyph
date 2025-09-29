@@ -3,12 +3,44 @@ category = Mark;
 glyphname = "madda-ar";
 layers = (
 {
-layerId = m01;
-width = 600;
+anchors = (
+{
+name = _top;
+pos = (106,670);
+},
+{
+name = _tophamza;
+pos = (106,670);
+},
+{
+name = top;
+pos = (136,770);
 }
 );
-metricLeft = "=hamzaabove-ar";
-metricRight = "=hamzaabove-ar";
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(59,752,l),
+(36,740,l),
+(74,715,o),
+(230,690,o),
+(260,805,c),
+(275,792,l),
+(206,730,o),
+(98,747,o),
+(50,775,c),
+(-17,696,l),
+(-15,730,l),
+(32,686,l),
+(-20,683,l)
+);
+}
+);
+width = 245;
+}
+);
 script = arabic;
 sortName = arM1073;
 sortNameKeep = arM1073;

@@ -3,6 +3,16 @@ category = Symbol;
 glyphname = dottedCircle;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (289,-14);
+},
+{
+name = top;
+pos = (290,592);
+}
+);
 layerId = m01;
 shapes = (
 {
