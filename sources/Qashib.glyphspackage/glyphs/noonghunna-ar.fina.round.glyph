@@ -1,16 +1,12 @@
 {
 category = Letter;
-glyphname = "noonghunna-ar";
+glyphname = "noonghunna-ar.fina.round";
 layers = (
 {
 anchors = (
 {
-name = bottom;
-pos = (219,-344);
-},
-{
-name = top;
-pos = (225,-150);
+name = entry;
+pos = (358,0);
 }
 );
 backgroundImage = {
@@ -23,35 +19,8 @@ scale = (14.67,14.67);
 layerId = m01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(425,118,o),
-(210,186,c),
-(271,246,l),
-(249,119,o),
-(192,70,o),
-(118,-11,c),
-(131,91,l),
-(333,56,o),
-(360,-104,o),
-(359,-231,c),
-(373,-171,l),
-(271,-259,o),
-(67,-204,o),
-(36,-40,c),
-(99,-63,l),
-(71,-113,o),
-(50,-182,o),
-(-54,-235,c),
-(-53,-116,l),
-(-8,-237,o),
-(110,-288,o),
-(217,-288,cs),
-(289,-288,o),
-(358,-270,o),
-(399,-211,cs),
-(448,-142,o)
-);
+alignment = -1;
+ref = "noonghunna-ar";
 }
 );
 width = 441;
@@ -122,5 +91,4 @@ metricRight = "=20";
 script = arabic;
 sortName = arL0061;
 sortNameKeep = arL0061;
-unicode = 1722;
 }

@@ -6,7 +6,7 @@ layers = (
 anchors = (
 {
 name = entry;
-pos = (165,0);
+pos = (195,0);
 }
 );
 layerId = m01;
@@ -16,11 +16,11 @@ alignment = -1;
 ref = "reh-ar";
 },
 {
-pos = (63,0);
+pos = (93,0);
 ref = _c.dal;
 }
 );
-width = 165;
+width = 195;
 }
 );
 metricLeft = "=reh-ar.hist";

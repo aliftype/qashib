@@ -10,11 +10,11 @@ shapes = (
 ref = "reh-ar";
 },
 {
-pos = (-1,252);
+pos = (29,252);
 ref = "threedotsabove-ar";
 }
 );
-width = 182;
+width = 212;
 }
 );
 script = arabic;
