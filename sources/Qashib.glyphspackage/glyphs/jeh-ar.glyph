@@ -10,8 +10,8 @@ shapes = (
 ref = "reh-ar";
 },
 {
-pos = (114,159);
-ref = "threedotsabove-ar.hist";
+pos = (-1,252);
+ref = "threedotsabove-ar";
 }
 );
 width = 182;

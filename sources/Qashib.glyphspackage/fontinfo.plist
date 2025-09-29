@@ -367,6 +367,7 @@ lookup hist_1 {
 	sub twodotsabove-ar		by twodotsabove-ar.hist;
 	sub twodotsbelow-ar		by twodotsbelow-ar.hist;
 	sub threedotsabove-ar	by threedotsabove-ar.hist;
+	sub threedotsbelow-ar	by threedotsbelow-ar.hist;
 } hist_1;
 
 

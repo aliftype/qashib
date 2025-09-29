@@ -10,8 +10,8 @@ shapes = (
 ref = "alefMaksura-ar";
 },
 {
-pos = (221,-308);
-ref = "twodotsbelow-ar.hist";
+pos = (48,-295);
+ref = "twodotsbelow-ar";
 }
 );
 width = 274;

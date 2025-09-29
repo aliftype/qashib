@@ -8,6 +8,10 @@ layerId = m01;
 shapes = (
 {
 ref = "heh-ar";
+},
+{
+pos = (63,445);
+ref = "twodotsabove-ar";
 }
 );
 width = 290;
