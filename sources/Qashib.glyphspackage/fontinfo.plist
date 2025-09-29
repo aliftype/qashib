@@ -832,7 +832,7 @@ fontType = variable;
 keepAlternatesTogether = 1;
 previewRemoveOverlap = 0;
 };
-unitsPerEm = 800;
+unitsPerEm = 600;
 userData = {
 GSDimensionPlugin.Dimensions = {
 m01 = {
