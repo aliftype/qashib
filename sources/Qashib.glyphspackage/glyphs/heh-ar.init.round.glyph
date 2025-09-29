@@ -9,7 +9,7 @@ anchors = (
 name = exit;
 },
 {
-name = top;
+name = top.hist;
 pos = (230,420);
 }
 );

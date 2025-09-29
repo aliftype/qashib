@@ -11,7 +11,7 @@ ref = "behDotless-ar";
 },
 {
 pos = (692,191);
-ref = "twodotsverticalabove-ar.hist";
+ref = "twodotsabove-ar.hist";
 }
 );
 width = 940;

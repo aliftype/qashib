@@ -5,7 +5,7 @@ layers = (
 {
 anchors = (
 {
-name = _top;
+name = _top.hist;
 pos = (153,38);
 }
 );
@@ -13,7 +13,7 @@ layerId = m01;
 shapes = (
 {
 pos = (33,0);
-ref = "twodotsverticalabove-ar.hist.beh";
+ref = "twodotsabove-ar.hist.beh";
 },
 {
 pos = (0,50);

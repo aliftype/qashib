@@ -1,0 +1,37 @@
+{
+category = Mark;
+glyphname = "threedotsabove-ar";
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (82,-25);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+ref = _dot;
+scale = (0.5,0.5);
+},
+{
+pos = (89,0);
+ref = _dot;
+scale = (0.5,0.5);
+},
+{
+alignment = -1;
+pos = (44,78);
+ref = _dot;
+scale = (0.5,0.5);
+}
+);
+width = 164;
+}
+);
+script = arabic;
+subCategory = Nonspacing;
+unicode = 1755;
+}

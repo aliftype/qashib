@@ -10,7 +10,7 @@ name = entry;
 pos = (376,0);
 },
 {
-name = top;
+name = top.hist;
 pos = (40,256);
 }
 );

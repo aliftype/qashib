@@ -1,18 +1,18 @@
 {
 category = Mark;
-glyphname = "twodotsverticalbelow-ar.hist";
+glyphname = "twodotsbelow-ar.hist";
 layers = (
 {
 anchors = (
 {
-name = _bottom;
+name = _bottom.hist;
 pos = (53,141);
 }
 );
 layerId = m01;
 shapes = (
 {
-ref = "twodotsverticalabove-ar.hist";
+ref = "twodotsabove-ar.hist";
 }
 );
 width = 140;

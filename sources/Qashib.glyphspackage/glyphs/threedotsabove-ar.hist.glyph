@@ -1,11 +1,11 @@
 {
 category = Mark;
-glyphname = "threedotsupabove-ar.hist";
+glyphname = "threedotsabove-ar.hist";
 layers = (
 {
 anchors = (
 {
-name = _top;
+name = _top.hist;
 pos = (72,24);
 }
 );
@@ -17,7 +17,7 @@ ref = "dotabove-ar.hist";
 },
 {
 pos = (-4,0);
-ref = "twodotsverticalabove-ar.hist";
+ref = "twodotsabove-ar.hist";
 }
 );
 width = 97;

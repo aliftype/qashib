@@ -1,6 +1,6 @@
 {
 category = Mark;
-glyphname = "dotabove-ar";
+glyphname = "threedotsabove-ar.vert";
 layers = (
 {
 anchors = (
@@ -12,11 +12,23 @@ pos = (38,-25);
 layerId = m01;
 shapes = (
 {
+alignment = -1;
+pos = (1,88);
+ref = _dot;
+scale = (0.5,0.5);
+},
+{
+ref = _dot;
+scale = (0.5,0.5);
+},
+{
+alignment = -1;
+pos = (1,176);
 ref = _dot;
 scale = (0.5,0.5);
 }
 );
-width = 75;
+width = 76;
 }
 );
 script = arabic;

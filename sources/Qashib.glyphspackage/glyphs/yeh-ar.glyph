@@ -11,7 +11,7 @@ ref = "alefMaksura-ar";
 },
 {
 pos = (329,-287);
-ref = "twodotsverticalbelow-ar.hist";
+ref = "twodotsbelow-ar.hist";
 }
 );
 width = 399;

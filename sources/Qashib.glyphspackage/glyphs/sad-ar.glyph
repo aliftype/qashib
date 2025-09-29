@@ -94,7 +94,7 @@ width = 446;
 {
 anchors = (
 {
-name = top;
+name = top.hist;
 pos = (504,277);
 }
 );

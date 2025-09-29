@@ -5,7 +5,7 @@ layers = (
 {
 anchors = (
 {
-name = _bottom;
+name = _bottom.hist;
 pos = (53,91);
 }
 );

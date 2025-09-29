@@ -1,16 +1,22 @@
 {
 category = Mark;
-glyphname = "dotbelow-ar";
+glyphname = "twodotsabove-ar.vert";
 layers = (
 {
 anchors = (
 {
-name = _bottom;
-pos = (38,97);
+name = _top;
+pos = (38,-25);
 }
 );
 layerId = m01;
 shapes = (
+{
+alignment = -1;
+pos = (1,88);
+ref = _dot;
+scale = (0.5,0.5);
+},
 {
 ref = _dot;
 scale = (0.5,0.5);

@@ -5,7 +5,7 @@ layers = (
 {
 anchors = (
 {
-name = _bottom;
+name = _bottom.hist;
 pos = (49,191);
 }
 );
@@ -13,7 +13,7 @@ layerId = m01;
 shapes = (
 {
 pos = (-4,0);
-ref = "threedotsupabove-ar.hist";
+ref = "threedotsabove-ar.hist";
 }
 );
 width = 97;

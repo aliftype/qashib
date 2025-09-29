@@ -1,11 +1,11 @@
 {
 category = Mark;
-glyphname = "twodotsverticalbelow-ar.hist.beh";
+glyphname = "twodotsbelow-ar.hist.beh";
 layers = (
 {
 anchors = (
 {
-name = _bottom;
+name = _bottom.hist;
 pos = (18,109);
 }
 );

@@ -11,7 +11,7 @@ ref = "qafDotless-ar";
 },
 {
 pos = (-20,338);
-ref = "twodotsverticalabove-ar.hist";
+ref = "twodotsabove-ar.hist";
 }
 );
 width = 618;
