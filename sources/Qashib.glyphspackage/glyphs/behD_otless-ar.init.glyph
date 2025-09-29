@@ -11,19 +11,7 @@ name = bottom;
 pos = (40,-10);
 },
 {
-name = damma;
-pos = (-23,175);
-},
-{
 name = exit;
-},
-{
-name = fatha;
-pos = (64,359);
-},
-{
-name = kasra;
-pos = (44,-73);
 },
 {
 name = top;

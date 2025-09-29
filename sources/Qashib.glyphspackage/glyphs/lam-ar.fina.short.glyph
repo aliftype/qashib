@@ -5,20 +5,6 @@ kernLeft = lam.fina;
 kernRight = beh;
 layers = (
 {
-anchors = (
-{
-name = damma;
-pos = (105,0);
-},
-{
-name = fatha;
-pos = (65,750);
-},
-{
-name = kasra;
-pos = (83,-310);
-}
-);
 layerId = m01;
 shapes = (
 {

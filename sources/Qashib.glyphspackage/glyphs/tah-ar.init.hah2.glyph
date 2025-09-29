@@ -8,20 +8,8 @@ layers = (
 {
 anchors = (
 {
-name = damma;
-pos = (-25,404);
-},
-{
 name = exit;
 pos = (0,230);
-},
-{
-name = fatha;
-pos = (-51,751);
-},
-{
-name = kasra;
-pos = (862,163);
 }
 );
 layerId = m01;
@@ -72,20 +60,8 @@ width = 790;
 {
 anchors = (
 {
-name = damma;
-pos = (-25,404);
-},
-{
 name = exit;
 pos = (0,230);
-},
-{
-name = fatha;
-pos = (-51,751);
-},
-{
-name = kasra;
-pos = (2949,163);
 }
 );
 associatedMasterId = m01;
@@ -143,20 +119,8 @@ width = 5850;
 {
 anchors = (
 {
-name = damma;
-pos = (-25,404);
-},
-{
 name = exit;
 pos = (0,230);
-},
-{
-name = fatha;
-pos = (-51,751);
-},
-{
-name = kasra;
-pos = (356,142);
 }
 );
 associatedMasterId = m01;

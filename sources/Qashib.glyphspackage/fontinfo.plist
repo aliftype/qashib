@@ -141,7 +141,7 @@ code = "lookup ccmp_1 {
 	sub tcheh-ar by hah-ar threedotsdownbelow-ar;
 	sub khah-ar by hah-ar dotabove-ar;
 	sub thal-ar by dal-ar dotabove-ar;
-	sub zain-ar by reh-ar dotabove-ar.reh;
+	sub zain-ar by reh-ar dotabove-ar;
 	sub jeh-ar by reh-ar threedotsupabove-ar;
 	sub sheen-ar by seen-ar threedotshorizontalabove-ar;
 	sub dad-ar by sad-ar dotabove-ar;
@@ -158,169 +158,6 @@ code = "lookup ccmp_1 {
 	sub yeh-ar by alefMaksura-ar twodotsverticalbelow-ar;
 	sub yehHamzaabove-ar by alefMaksura-ar hamzaabove-ar;
 } ccmp_1;
-
-lookup ccmp_hamza_1 {
-	sub kashida-ar hamzaabove-ar fathatan-ar by hamza_fathatan-ar;
-	sub hamzaabove-ar fatha-ar by fatha-ar;
-	sub hamzaabove-ar damma-ar by damma-ar;
-	sub kashida-ar hamzaabove-ar damma-ar by damma-ar;
-	sub hamzabelow-ar kasra-ar by kasra-ar;
-	sub hamzaabove-ar kasra-ar by kasra-ar;
-	sub hamzabelow-ar kasratan-ar by kasratan-ar;
-	sub hamza-ar fatha-ar by hamza_fatha-ar;
-	sub hamza-ar damma-ar by hamza_damma-ar;
-	sub hamza-ar kasra-ar by hamza_kasra-ar;
-} ccmp_hamza_1;
-
-lookup ccmp_hamza_2 {
-	ignore
-	sub waw-ar hamzaabove-ar';
-	sub hamzaabove-ar' by fatha-ar;
-
-	sub hamzabelow-ar' by kasra-ar;
-} ccmp_hamza_2;
-
-lookup ccmp_hamza_3 {
-	sub	hamza_fathatan-ar
-		alef-ar'
-	by	alef-ar fathatan-ar
-	;
-
-	sub [hamza-ar hamza_fatha-ar]
-		 alef-ar'
-	by	 alef-ar madda-ar
-	;
-
-	sub	 alef-ar
-		[hamza-ar hamza_fatha-ar]'
-	by	 madda-ar
-	;
-
-	sub	[hamza-ar hamza_damma-ar]'
-		 waw-ar
-	by	 hamza-ar.alt;
-	;
-
-	sub	 waw-ar
-		 hamza_kasra-ar'
-	by	 kasra-ar
-	;
-} ccmp_hamza_3;
-
-lookup vertical_vowels {
-	sub fathatan-ar by fathatan-ar.alt;
-	sub kasratan-ar by kasratan-ar.alt;
-} vertical_vowels;
-
-lookup ccmp_vertical_vowels {
-	sub	[alef-ar lam-ar tah-ar]
-		 fathatan-ar' lookup vertical_vowels
-	;
-} ccmp_vertical_vowels;
-
-@numbers = [$[category == \"Number\" && subCategory == \"Decimal Digit\"]];
-@one = [one one-ar];
-@two = [two two-ar];
-@three = [three three-ar];
-@four = [four four-ar];
-@five = [five five-ar];
-@six = [six six-ar];
-@seven = [seven seven-ar];
-@eight = [eight eight-ar];
-@nine = [nine nine-ar];
-@zero = [zero zero-ar];
-
-lookup ayah_05 {
-	sub endofayah-ar		by endofayah-ar.05;
-} ayah_05;
-
-lookup ayah_10 {
-	sub endofayah-ar		by endofayah-ar.10;
-} ayah_10;
-
-lookup ayah_numbers_10s {
-	sub @one @zero 			by ayah.010;
-	sub @two @zero 			by ayah.020;
-	sub @three @zero 		by ayah.030;
-	sub @four @zero 		by ayah.040;
-	sub @five @zero 		by ayah.050;
-	sub @six @zero 			by ayah.060;
-	sub @seven @zero 		by ayah.070;
-	sub @eight @zero 		by ayah.080;
-	sub @nine @zero 		by ayah.090;
-} ayah_numbers_10s;
-
-lookup ayah_numbers_100s {
-	sub @one @zero @zero 	by ayah.100;
-	sub @one @one @zero 	by ayah.110;
-	sub @one @two @zero 	by ayah.120;
-	sub @one @three @zero 	by ayah.130;
-	sub @one @four @zero 	by ayah.140;
-	sub @one @five @zero 	by ayah.150;
-	sub @one @six @zero 	by ayah.160;
-	sub @one @seven @zero 	by ayah.170;
-	sub @one @eight @zero 	by ayah.180;
-	sub @one @nine @zero 	by ayah.190;
-	sub @two @zero @zero 	by ayah.200;
-	sub @two @one @zero 	by ayah.210;
-	sub @two @two @zero 	by ayah.220;
-	sub @two @three @zero 	by ayah.230;
-	sub @two @four @zero 	by ayah.240;
-	sub @two @five @zero 	by ayah.250;
-	sub @two @six @zero 	by ayah.260;
-	sub @two @seven @zero 	by ayah.270;
-	sub @two @eight @zero 	by ayah.280;
-} ayah_numbers_100s;
-
-lookup ccmp_ayah_numbers {
-	sub  endofayah-ar' lookup ayah_05
-		 @numbers
-		 @numbers
-		 @five
-	;
-
-	ignore
-	sub  endofayah-ar' @numbers @five @numbers;
-	sub  endofayah-ar' lookup ayah_05
-		 @numbers
-		 @five
-	;
-
-	ignore
-	sub  endofayah-ar' @five @numbers;
-	sub  endofayah-ar' lookup ayah_05
-		 @five
-	;
-
-	sub  endofayah-ar
-		 @numbers' lookup ayah_numbers_100s
-		 @numbers'
-		 @numbers'
-	;
-
-	sub  endofayah-ar
-		 @numbers' lookup ayah_numbers_10s
-		 @numbers'
-	;
-} ccmp_ayah_numbers;
-
-lookup ccmp_ayah_10 {
-	sub  endofayah-ar' lookup ayah_10
-		[$[name LIKE \"ayah.*\"]]
-	;
-} ccmp_ayah_10;
-
-lookup ayah_numbers_delete {
-	sub @numbers by NULL;
-} ayah_numbers_delete;
-
-lookup ccmp_ayah_cleanup {
-	lookupflag IgnoreMarks;
-
-	sub [endofayah-ar endofayah-ar.05 endofayah-ar.10]
-		@numbers' lookup ayah_numbers_delete
-	;
-} ccmp_ayah_cleanup;
 ";
 name = ccmp;
 },
@@ -538,63 +375,43 @@ lookup rlig_dal_yehbarre {
 name = misc;
 },
 {
-code = "lookup rclt_fathatan {
-	lookupflag UseMarkFilteringSet [fathatan-ar];
-
-	sub [kaf-ar kaf-ar.fina]
-		 fathatan-ar' lookup vertical_vowels;
-	;
-} rclt_fathatan;
-
-lookup rclt_kasratan {
-	lookupflag UseMarkFilteringSet [kasratan-ar];
-
-	sub [seen-ar $[name LIKE \"seen-ar.fina*\"]
-		 $[name LIKE \"noonghunna-ar*\"]
-		 lam-ar $[name LIKE \"lam-ar.fina*\"]
-		 $[name LIKE \"alefMaksura-ar*salt\"]]
-		 kasratan-ar' lookup vertical_vowels;
-	;
-} rclt_kasratan;
-
-lookup rlig_sheen_dots {
-	lookupflag UseMarkFilteringSet [threedotshorizontalabove-ar];
+code = "lookup rlig_sheen_dots {
+	lookupflag UseMarkFilteringSet [threedotshorizontalabove-ar.hist];
 
 	sub [seen-ar.medi]
-		[threedotshorizontalabove-ar]'
-	by	[threedotshorizontalabove-ar.mid]
+		[threedotshorizontalabove-ar.hist]'
+	by	[threedotshorizontalabove-ar.hist.mid]
 	;
 
 	sub [seen-ar seen-ar.fina]
-		[threedotshorizontalabove-ar]'
-	by	[threedotshorizontalabove-ar.fin]
+		[threedotshorizontalabove-ar.hist]'
+	by	[threedotshorizontalabove-ar.hist.fin]
 	;
 } rlig_sheen_dots;
 
-@beh_dots = [dotabove-ar twodotsverticalabove-ar threedotsupabove-ar
-			 twodotsverticalbelow-ar threedotsdownbelow-ar];
+@beh_dots = [dotabove-ar.hist twodotsverticalabove-ar.hist threedotsupabove-ar.hist
+			 twodotsverticalbelow-ar.hist threedotsdownbelow-ar.hist];
 lookup rlig_beh_dots {
 	lookupflag UseMarkFilteringSet @beh_dots;
 
 	sub  behDotless-ar
 		 @beh_dots'
-	by	[dotabove-ar.beh twodotsverticalabove-ar.beh threedotsupabove-ar.beh
-		 twodotsverticalbelow-ar.beh threedotsdownbelow-ar.beh]
+	by	[dotabove-ar.hist.beh twodotsverticalabove-ar.hist.beh threedotsupabove-ar.hist.beh
+		 twodotsverticalbelow-ar.hist.beh threedotsdownbelow-ar.hist.beh]
 	;
-} rlig_beh_dots;";
+
+	sub	[reh-ar.hist reh-ar.fina.hist]
+		 dotabove-ar.hist'
+	by	 dotabove-ar.hist.reh
+	;
+} rlig_beh_dots;
+";
 name = dots;
 }
 );
 features = (
 {
 code = "lookup ccmp_1;
-lookup ccmp_hamza_1;
-lookup ccmp_hamza_2;
-lookup ccmp_hamza_3;
-lookup ccmp_vertical_vowels;
-lookup ccmp_ayah_numbers;
-lookup ccmp_ayah_10;
-lookup ccmp_ayah_cleanup;
 ";
 tag = ccmp;
 },
@@ -630,9 +447,6 @@ tag = rlig;
 },
 {
 code = "lookup rclt_yehbarree_baseline;
-#lookup rclt_connection;
-lookup rclt_fathatan;
-lookup rclt_kasratan;
 ";
 tag = rclt;
 },
@@ -652,6 +466,13 @@ sub kaf-ar by kaf-ar.hist;
 sub kaf-ar.fina by kaf-ar.fina.hist;
 sub kaf-ar.medi by kaf-ar.medi.hist;
 sub kaf-ar.init by kaf-ar.init.hist;
+sub dotabove-ar by dotabove-ar.hist;
+sub dotbelow-ar by dotbelow-ar.hist;
+sub twodotsverticalabove-ar by twodotsverticalabove-ar.hist;
+sub twodotsverticalbelow-ar by twodotsverticalbelow-ar.hist;
+sub threedotsupabove-ar by threedotsupabove-ar.hist;
+sub threedotsdownbelow-ar by threedotsdownbelow-ar.hist;
+sub threedotshorizontalabove-ar by threedotshorizontalabove-ar.hist;
 ";
 tag = hist;
 },
@@ -696,8 +517,11 @@ code = "# Automatic Code
 tag = mark;
 },
 {
-code = "lookup salt_1;
-sub endofayah-ar.05 by endofayah-ar.10 ayah.005;
+automatic = 1;
+code = "sub ain-ar.medi by ain-ar.medi.salt;
+sub alefMaksura-ar by alefMaksura-ar.salt;
+sub alefMaksura-ar.fina by alefMaksura-ar.fina.salt;
+sub alefMaksura-ar.fina.wide by alefMaksura-ar.fina.wide.salt;
 ";
 tag = salt;
 }

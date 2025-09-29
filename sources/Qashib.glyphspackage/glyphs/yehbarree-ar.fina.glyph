@@ -11,20 +11,8 @@ name = bottom;
 pos = (420,-147);
 },
 {
-name = damma;
-pos = (-31,37);
-},
-{
 name = entry;
 pos = (349,0);
-},
-{
-name = fatha;
-pos = (173,296);
-},
-{
-name = kasra;
-pos = (236,-162);
 }
 );
 backgroundImage = {
@@ -85,20 +73,8 @@ name = bottom;
 pos = (405,-147);
 },
 {
-name = damma;
-pos = (-46,37);
-},
-{
 name = entry;
 pos = (349,0);
-},
-{
-name = fatha;
-pos = (158,296);
-},
-{
-name = kasra;
-pos = (221,-162);
 }
 );
 associatedMasterId = m01;

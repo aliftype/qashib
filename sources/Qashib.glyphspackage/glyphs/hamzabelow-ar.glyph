@@ -4,12 +4,7 @@ glyphname = "hamzabelow-ar";
 layers = (
 {
 layerId = m01;
-shapes = (
-{
-ref = "kasra-ar";
-}
-);
-width = 150;
+width = 600;
 }
 );
 metricLeft = "=fatha-ar";

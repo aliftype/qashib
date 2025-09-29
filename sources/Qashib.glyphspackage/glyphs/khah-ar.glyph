@@ -11,7 +11,7 @@ ref = "hah-ar";
 },
 {
 pos = (-20,151);
-ref = "dotabove-ar";
+ref = "dotabove-ar.hist";
 }
 );
 width = 508;

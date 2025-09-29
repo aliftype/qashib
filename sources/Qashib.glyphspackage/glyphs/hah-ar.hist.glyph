@@ -11,18 +11,6 @@ name = bottom;
 pos = (581,-38);
 },
 {
-name = damma;
-pos = (-39,5);
-},
-{
-name = fatha;
-pos = (279,260);
-},
-{
-name = kasra;
-pos = (663,-75);
-},
-{
 name = top;
 pos = (234,175);
 }
@@ -95,18 +83,6 @@ anchors = (
 {
 name = bottom;
 pos = (892,-50);
-},
-{
-name = damma;
-pos = (-81,59);
-},
-{
-name = fatha;
-pos = (442,417);
-},
-{
-name = kasra;
-pos = (1091,-78);
 },
 {
 name = top;

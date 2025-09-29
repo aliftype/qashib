@@ -11,7 +11,7 @@ ref = "reh-ar";
 },
 {
 pos = (158,202);
-ref = "threedotsupabove-ar";
+ref = "threedotsupabove-ar.hist";
 }
 );
 width = 493;

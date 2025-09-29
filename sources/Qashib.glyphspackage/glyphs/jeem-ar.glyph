@@ -11,7 +11,7 @@ ref = "hah-ar";
 },
 {
 pos = (554,-120);
-ref = "dotbelow-ar";
+ref = "dotbelow-ar.hist";
 }
 );
 width = 508;

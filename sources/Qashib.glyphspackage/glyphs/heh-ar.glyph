@@ -7,18 +7,6 @@ layers = (
 {
 anchors = (
 {
-name = damma;
-pos = (-66,115);
-},
-{
-name = fatha;
-pos = (260,526);
-},
-{
-name = kasra;
-pos = (208,-69);
-},
-{
 name = top;
 pos = (230,420);
 }

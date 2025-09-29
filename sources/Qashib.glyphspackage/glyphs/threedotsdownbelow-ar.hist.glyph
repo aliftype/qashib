@@ -1,0 +1,26 @@
+{
+category = Mark;
+glyphname = "threedotsdownbelow-ar.hist";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (49,191);
+}
+);
+layerId = m01;
+shapes = (
+{
+pos = (-4,0);
+ref = "threedotsupabove-ar.hist";
+}
+);
+width = 97;
+}
+);
+script = arabic;
+sortName = arM1067b;
+sortNameKeep = arM1067b;
+subCategory = Nonspacing;
+}

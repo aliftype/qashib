@@ -11,7 +11,7 @@ ref = "dal-ar";
 },
 {
 pos = (456,261);
-ref = "dotabove-ar";
+ref = "dotabove-ar.hist";
 }
 );
 width = 940;

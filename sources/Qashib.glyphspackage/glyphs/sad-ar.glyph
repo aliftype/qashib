@@ -94,18 +94,6 @@ width = 446;
 {
 anchors = (
 {
-name = damma;
-pos = (84,-167);
-},
-{
-name = fatha;
-pos = (661,271);
-},
-{
-name = kasra;
-pos = (620,-71);
-},
-{
 name = top;
 pos = (504,277);
 }

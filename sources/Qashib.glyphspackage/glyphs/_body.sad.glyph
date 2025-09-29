@@ -4,14 +4,6 @@ layers = (
 {
 anchors = (
 {
-name = fatha;
-pos = (436,270);
-},
-{
-name = kasra;
-pos = (436,-90);
-},
-{
 name = top;
 pos = (454,270);
 }
@@ -59,14 +51,6 @@ width = 810;
 },
 {
 anchors = (
-{
-name = fatha;
-pos = (2956,270);
-},
-{
-name = kasra;
-pos = (2956,-90);
-},
 {
 name = top;
 pos = (2974,270);
@@ -122,14 +106,6 @@ width = 5850;
 },
 {
 anchors = (
-{
-name = fatha;
-pos = (286,270);
-},
-{
-name = kasra;
-pos = (286,-90);
-},
 {
 name = top;
 pos = (304,270);

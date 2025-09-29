@@ -11,7 +11,7 @@ ref = "seen-ar";
 },
 {
 pos = (-104,230);
-ref = "threedotshorizontalabove-ar.fin";
+ref = "threedotshorizontalabove-ar.hist.fin";
 }
 );
 width = 380;

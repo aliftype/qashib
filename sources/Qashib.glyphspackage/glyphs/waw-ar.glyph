@@ -4,24 +4,6 @@ glyphname = "waw-ar";
 kernLeft = waw;
 layers = (
 {
-anchors = (
-{
-name = damma;
-pos = (-37,65);
-},
-{
-name = fatha;
-pos = (265,454);
-},
-{
-name = hamzaabove;
-pos = (43,260);
-},
-{
-name = kasra;
-pos = (265,-41);
-}
-);
 layerId = m01;
 shapes = (
 {

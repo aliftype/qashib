@@ -11,7 +11,7 @@ ref = "noonghunna-ar";
 },
 {
 pos = (-73,110);
-ref = "dotabove-ar";
+ref = "dotabove-ar.hist";
 }
 );
 width = 270;

@@ -6,19 +6,7 @@ layers = (
 {
 anchors = (
 {
-name = damma;
-pos = (-66,115);
-},
-{
 name = exit;
-},
-{
-name = fatha;
-pos = (260,526);
-},
-{
-name = kasra;
-pos = (208,-69);
 },
 {
 name = top;
@@ -99,20 +87,8 @@ width = 290;
 {
 anchors = (
 {
-name = damma;
-pos = (-68,115);
-},
-{
 name = exit;
 pos = (-14,-21);
-},
-{
-name = fatha;
-pos = (142,451);
-},
-{
-name = kasra;
-pos = (138,-103);
 }
 );
 associatedMasterId = m01;

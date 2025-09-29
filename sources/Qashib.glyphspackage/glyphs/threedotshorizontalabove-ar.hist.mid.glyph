@@ -1,0 +1,38 @@
+{
+category = Mark;
+glyphname = "threedotshorizontalabove-ar.hist.mid";
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (183,67);
+}
+);
+layerId = m01;
+shapes = (
+{
+angle = 16.98425;
+pos = (226,84);
+ref = "dotabove-ar.hist";
+},
+{
+angle = 12.8086;
+pos = (23,8);
+ref = "dotabove-ar.hist";
+},
+{
+angle = 14.43455;
+pos = (132,39);
+ref = "dotabove-ar.hist";
+}
+);
+width = 358;
+}
+);
+production = threedotshorizontalabovear.1;
+script = arabic;
+sortName = arM1068.1;
+sortNameKeep = arM1068.1;
+subCategory = Nonspacing;
+}

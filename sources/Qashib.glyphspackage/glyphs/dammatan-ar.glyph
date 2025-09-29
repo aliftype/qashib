@@ -3,45 +3,8 @@ category = Mark;
 glyphname = "dammatan-ar";
 layers = (
 {
-anchors = (
-{
-name = _damma;
-pos = (75,147);
-}
-);
 layerId = m01;
-shapes = (
-{
-pos = (0,-4);
-ref = "damma-ar";
-},
-{
-pos = (0,147);
-ref = "damma-ar";
-}
-);
-width = 150;
-},
-{
-associatedMasterId = m01;
-attr = {
-colorPalette = 3;
-};
-layerId = "CDCF1E84-7251-4EF5-B909-E7186DCEAE9B";
-name = "Regular 25 Jun 22, 20:50";
-shapes = (
-{
-alignment = -1;
-pos = (0,-4);
-ref = _dot;
-},
-{
-alignment = -1;
-pos = (0,147);
-ref = _dot;
-}
-);
-width = 150;
+width = 600;
 }
 );
 metricLeft = "=damma-ar";

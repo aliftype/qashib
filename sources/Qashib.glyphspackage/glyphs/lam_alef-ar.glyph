@@ -7,30 +7,6 @@ anchors = (
 {
 name = caret_1;
 pos = (247,0);
-},
-{
-name = damma_2;
-pos = (-65,19);
-},
-{
-name = fatha_1;
-pos = (-94,773);
-},
-{
-name = fatha_2;
-pos = (438,789);
-},
-{
-name = kasra_1;
-pos = (475,-81);
-},
-{
-name = kasra_2;
-pos = (75,-86);
-},
-{
-name = madda_2;
-pos = (224,740);
 }
 );
 backgroundImage = {

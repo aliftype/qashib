@@ -1,37 +1,9 @@
 {
-category = Mark;
 glyphname = "threedotshorizontalabove-ar";
 layers = (
 {
-anchors = (
-{
-name = _top;
-pos = (183,67);
-}
-);
 layerId = m01;
-shapes = (
-{
-angle = 12.8086;
-pos = (30,-4);
-ref = "dotabove-ar";
-},
-{
-angle = 9.37999;
-pos = (132,55);
-ref = "dotabove-ar";
-},
-{
-angle = 0.30693;
-pos = (228,104);
-ref = "dotabove-ar";
+width = 200;
 }
 );
-width = 334;
-}
-);
-script = arabic;
-sortName = arM1068;
-sortNameKeep = arM1068;
-subCategory = Nonspacing;
 }

@@ -11,18 +11,6 @@ name = bottom;
 pos = (911,10);
 },
 {
-name = damma;
-pos = (-85,50);
-},
-{
-name = fatha;
-pos = (734,353);
-},
-{
-name = kasra;
-pos = (696,-60);
-},
-{
 name = top;
 pos = (768,215);
 }
@@ -73,18 +61,6 @@ anchors = (
 {
 name = bottom;
 pos = (5971,10);
-},
-{
-name = damma;
-pos = (-85,50);
-},
-{
-name = fatha;
-pos = (5794,353);
-},
-{
-name = kasra;
-pos = (5756,-60);
 },
 {
 name = top;
@@ -139,18 +115,6 @@ anchors = (
 {
 name = bottom;
 pos = (480,10);
-},
-{
-name = damma;
-pos = (-85,50);
-},
-{
-name = fatha;
-pos = (304,353);
-},
-{
-name = kasra;
-pos = (246,-60);
 },
 {
 name = top;

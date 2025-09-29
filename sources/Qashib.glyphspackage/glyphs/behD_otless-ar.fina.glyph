@@ -10,20 +10,8 @@ name = bottom;
 pos = (882,-10);
 },
 {
-name = damma;
-pos = (-85,50);
-},
-{
 name = entry;
 pos = (940,0);
-},
-{
-name = fatha;
-pos = (904,359);
-},
-{
-name = kasra;
-pos = (486,-60);
 },
 {
 name = top;
@@ -100,20 +88,8 @@ name = bottom;
 pos = (5942,-48);
 },
 {
-name = damma;
-pos = (-85,50);
-},
-{
 name = entry;
 pos = (6000,0);
-},
-{
-name = fatha;
-pos = (5964,359);
-},
-{
-name = kasra;
-pos = (3026,-60);
 },
 {
 name = top;
@@ -197,20 +173,8 @@ name = bottom;
 pos = (452,-48);
 },
 {
-name = damma;
-pos = (-85,50);
-},
-{
 name = entry;
 pos = (510,0);
-},
-{
-name = fatha;
-pos = (474,359);
-},
-{
-name = kasra;
-pos = (486,-60);
 },
 {
 name = top;

@@ -11,19 +11,7 @@ name = bottom;
 pos = (388,-38);
 },
 {
-name = damma;
-pos = (0,175);
-},
-{
 name = exit;
-},
-{
-name = fatha;
-pos = (86,260);
-},
-{
-name = kasra;
-pos = (470,-75);
 },
 {
 name = top;
@@ -78,19 +66,7 @@ name = bottom;
 pos = (368,-54);
 },
 {
-name = damma;
-pos = (0,175);
-},
-{
 name = exit;
-},
-{
-name = fatha;
-pos = (107,338);
-},
-{
-name = kasra;
-pos = (473,-52);
 },
 {
 name = top;

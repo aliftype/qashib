@@ -12,10 +12,6 @@ pos = (160,90);
 },
 {
 name = exit;
-},
-{
-name = fatha;
-pos = (81,337);
 }
 );
 backgroundImage = {

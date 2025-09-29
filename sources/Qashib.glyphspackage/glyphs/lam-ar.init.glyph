@@ -7,19 +7,7 @@ layers = (
 {
 anchors = (
 {
-name = damma;
-pos = (-20,175);
-},
-{
 name = exit;
-},
-{
-name = fatha;
-pos = (-46,787);
-},
-{
-name = kasra;
-pos = (48,-77);
 }
 );
 backgroundImage = {

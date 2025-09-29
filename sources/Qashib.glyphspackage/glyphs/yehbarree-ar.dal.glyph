@@ -8,18 +8,6 @@ anchors = (
 {
 name = bottom;
 pos = (722,-167);
-},
-{
-name = damma;
-pos = (-49,37);
-},
-{
-name = fatha;
-pos = (192,223);
-},
-{
-name = kasra;
-pos = (188,-162);
 }
 );
 backgroundImage = {
@@ -69,18 +57,6 @@ anchors = (
 {
 name = bottom;
 pos = (722,-167);
-},
-{
-name = damma;
-pos = (-49,37);
-},
-{
-name = fatha;
-pos = (192,223);
-},
-{
-name = kasra;
-pos = (188,-162);
 }
 );
 associatedMasterId = m01;

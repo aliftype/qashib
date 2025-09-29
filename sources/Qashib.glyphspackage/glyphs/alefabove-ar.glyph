@@ -3,22 +3,6 @@ category = Mark;
 glyphname = "alefabove-ar";
 layers = (
 {
-anchors = (
-{
-name = _alefabove;
-}
-);
-annotations = (
-{
-pos = (-200,655);
-text = "https://corpuscoranicum.de/en/manuscripts/594/page/148r";
-type = Text;
-width = 270;
-}
-);
-attr = {
-colorPalette = 3;
-};
 backgroundImage = {
 alpha = 80;
 imagePath = "images/alefabove-ar.medi.png";
@@ -26,35 +10,9 @@ pos = (-872,-7);
 scale = (0.6,0.6);
 };
 layerId = m01;
-shapes = (
-{
-closed = 1;
-nodes = (
-(0,333,o),
-(19,333,o),
-(19,358,cs),
-(19,516,o),
-(18,650,o),
-(29,781,cs),
-(31,808,o),
-(18,800,o),
-(15,786,cs),
-(10,761,o),
-(-6,737,o),
-(-21,714,cs),
-(-26,707,o),
-(-31,708,o),
-(-27,690,cs),
-(-11,610,o),
-(-5,478,o),
-(-1,357,cs)
-);
+width = 600;
 }
 );
-width = 0;
-}
-);
-metricWidth = "=0";
 script = arabic;
 sortName = arM1082;
 sortNameKeep = arM1082;

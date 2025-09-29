@@ -1,0 +1,29 @@
+{
+category = Mark;
+glyphname = "twodotsverticalabove-ar.hist";
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (76,24);
+}
+);
+layerId = m01;
+shapes = (
+{
+pos = (0,50);
+ref = "dotabove-ar.hist";
+},
+{
+ref = "dotabove-ar.hist";
+}
+);
+width = 114;
+}
+);
+script = arabic;
+sortName = arM1064;
+sortNameKeep = arM1064;
+subCategory = Nonspacing;
+}

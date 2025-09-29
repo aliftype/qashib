@@ -5,12 +5,6 @@ glyphname = "fehDotless-ar";
 kernRight = dal;
 layers = (
 {
-anchors = (
-{
-name = damma;
-pos = (-85,50);
-}
-);
 layerId = m01;
 shapes = (
 {
@@ -37,12 +31,6 @@ ref = "fehDotless-ar.init";
 width = 940;
 },
 {
-anchors = (
-{
-name = damma;
-pos = (-85,50);
-}
-);
 associatedMasterId = m01;
 attr = {
 coordinates = (
@@ -76,12 +64,6 @@ ref = "fehDotless-ar.init";
 width = 6000;
 },
 {
-anchors = (
-{
-name = damma;
-pos = (-85,50);
-}
-);
 associatedMasterId = m01;
 attr = {
 coordinates = (

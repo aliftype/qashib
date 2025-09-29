@@ -4,7 +4,7 @@ glyphname = "sukun-ar";
 layers = (
 {
 layerId = m01;
-width = 1200;
+width = 600;
 }
 );
 script = arabic;

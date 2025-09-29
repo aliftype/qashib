@@ -1,101 +1,15 @@
 {
-category = Mark;
 glyphname = "dotabove-ar";
 layers = (
 {
-anchors = (
-{
-name = _top;
-pos = (76,24);
-}
-);
-backgroundImage = {
-alpha = 80;
-angle = -11.97341;
-imagePath = "images/MS-Arabe-350-0000001.png";
-locked = 1;
-pos = (-658,-506);
-scale = (2.1,2.1);
-};
 layerId = m01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(-2,-11,l),
-(30,6,o),
-(95,62,o),
-(130,111,c),
-(127,48,l),
-(56,124,l),
-(115,114,l),
-(72,69,o),
-(19,32,o),
-(-25,5,c),
-(-16,48,l),
-(44,-27,l)
-);
+ref = _dot;
+scale = (0.5,0.5);
 }
 );
-width = 114;
-},
-{
-anchors = (
-{
-name = _top;
-pos = (90,50);
+width = 75;
 }
 );
-associatedMasterId = m01;
-layerId = "1951D83C-027C-46A2-BBE7-A485E6845D98";
-name = "1 May 21, 00:30";
-shapes = (
-{
-closed = 1;
-nodes = (
-(128,152,l),
-(112,164,l),
-(0,12,l),
-(16,0,l)
-);
-}
-);
-width = 128;
-},
-{
-anchors = (
-{
-name = _top;
-pos = (79,38);
-}
-);
-associatedMasterId = m01;
-layerId = "35FFA398-3489-4430-A27C-01EFA9C459D5";
-name = "25 Feb 23 at 15:48";
-shapes = (
-{
-closed = 1;
-nodes = (
-(52,38,o),
-(81,71,o),
-(106,100,cs),
-(117,113,o),
-(101,126,o),
-(91,113,cs),
-(67,84,o),
-(36,52,o),
-(6,27,cs),
-(-8,14,o),
-(4,1,o),
-(19,13,cs)
-);
-}
-);
-width = 110;
-}
-);
-script = arabic;
-sortName = arM1060;
-sortNameKeep = arM1060;
-subCategory = Nonspacing;
 }

@@ -4,12 +4,6 @@ glyphname = "meem-ar";
 kernRight = meem;
 layers = (
 {
-anchors = (
-{
-name = damma;
-pos = (-20,60);
-}
-);
 layerId = m01;
 shapes = (
 {

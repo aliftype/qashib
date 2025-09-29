@@ -7,22 +7,6 @@ anchors = (
 {
 name = bottom;
 pos = (382,-146);
-},
-{
-name = damma;
-pos = (-82,0);
-},
-{
-name = fatha;
-pos = (126,351);
-},
-{
-name = hamza;
-pos = (-86,137);
-},
-{
-name = kasra;
-pos = (105,-259);
 }
 );
 backgroundImage = {

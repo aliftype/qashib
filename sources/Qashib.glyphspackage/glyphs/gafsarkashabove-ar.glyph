@@ -3,21 +3,8 @@ category = Mark;
 glyphname = "gafsarkashabove-ar";
 layers = (
 {
-anchors = (
-{
-name = _gaf;
-pos = (79,36);
-}
-);
 layerId = m01;
-shapes = (
-{
-angle = 3;
-pos = (3,-3);
-ref = "dotabove-ar";
-}
-);
-width = 110;
+width = 600;
 }
 );
 script = arabic;

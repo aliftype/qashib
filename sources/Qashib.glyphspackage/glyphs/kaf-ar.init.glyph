@@ -8,19 +8,7 @@ layers = (
 {
 anchors = (
 {
-name = damma;
-pos = (0,175);
-},
-{
 name = exit;
-},
-{
-name = fatha;
-pos = (253,699);
-},
-{
-name = kasra;
-pos = (344,-60);
 }
 );
 backgroundImage = {
@@ -79,19 +67,7 @@ width = 815;
 {
 anchors = (
 {
-name = damma;
-pos = (0,175);
-},
-{
 name = exit;
-},
-{
-name = fatha;
-pos = (252,699);
-},
-{
-name = kasra;
-pos = (2843,-60);
 }
 );
 associatedMasterId = m01;
@@ -157,19 +133,7 @@ width = 5874;
 {
 anchors = (
 {
-name = damma;
-pos = (0,175);
-},
-{
 name = exit;
-},
-{
-name = fatha;
-pos = (252,699);
-},
-{
-name = kasra;
-pos = (123,-80);
 }
 );
 associatedMasterId = m01;

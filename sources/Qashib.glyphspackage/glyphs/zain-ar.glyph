@@ -11,7 +11,7 @@ ref = "reh-ar";
 },
 {
 pos = (170,169);
-ref = "dotabove-ar.reh";
+ref = "dotabove-ar.hist.reh";
 }
 );
 width = 493;

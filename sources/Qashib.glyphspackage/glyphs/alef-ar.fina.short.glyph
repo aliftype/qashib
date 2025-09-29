@@ -7,24 +7,8 @@ layers = (
 {
 anchors = (
 {
-name = damma;
-pos = (-71,61);
-},
-{
 name = entry;
 pos = (100,0);
-},
-{
-name = fatha;
-pos = (140,635);
-},
-{
-name = kasra;
-pos = (62,-56);
-},
-{
-name = madda;
-pos = (-81,620);
 }
 );
 backgroundImage = {

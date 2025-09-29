@@ -13,34 +13,6 @@ pos = (354,0);
 {
 name = caret_2;
 pos = (461,0);
-},
-{
-name = damma_3;
-pos = (-66,103);
-},
-{
-name = fatha_1;
-pos = (430,909);
-},
-{
-name = fatha_2;
-pos = (327,789);
-},
-{
-name = fatha_3;
-pos = (234,541);
-},
-{
-name = kasra_1;
-pos = (551,-53);
-},
-{
-name = kasra_2;
-pos = (414,-53);
-},
-{
-name = kasra_3;
-pos = (276,-56);
 }
 );
 backgroundImage = {

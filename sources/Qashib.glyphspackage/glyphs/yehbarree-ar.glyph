@@ -9,18 +9,6 @@ anchors = (
 {
 name = bottom;
 pos = (486,-34);
-},
-{
-name = damma;
-pos = (-54,163);
-},
-{
-name = fatha;
-pos = (150,392);
-},
-{
-name = kasra;
-pos = (286,-43);
 }
 );
 layerId = m01;
@@ -71,18 +59,6 @@ anchors = (
 {
 name = bottom;
 pos = (486,-34);
-},
-{
-name = damma;
-pos = (-54,163);
-},
-{
-name = fatha;
-pos = (150,392);
-},
-{
-name = kasra;
-pos = (286,-43);
 }
 );
 associatedMasterId = m01;

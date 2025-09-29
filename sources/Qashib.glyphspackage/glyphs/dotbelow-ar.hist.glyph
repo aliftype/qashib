@@ -1,0 +1,26 @@
+{
+category = Mark;
+glyphname = "dotbelow-ar.hist";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (53,91);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+ref = "dotabove-ar.hist";
+}
+);
+width = 110;
+}
+);
+script = arabic;
+sortName = arM1061;
+sortNameKeep = arM1061;
+subCategory = Nonspacing;
+}

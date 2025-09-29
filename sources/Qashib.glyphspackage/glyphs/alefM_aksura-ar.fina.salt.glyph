@@ -11,20 +11,8 @@ name = bottom;
 pos = (267,-610);
 },
 {
-name = damma;
-pos = (-30,24);
-},
-{
 name = entry;
 pos = (311,0);
-},
-{
-name = fatha;
-pos = (182,251);
-},
-{
-name = kasra;
-pos = (337,-271);
 }
 );
 backgroundImage = {

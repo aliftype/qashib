@@ -9,40 +9,8 @@ name = caret_1;
 pos = (288,0);
 },
 {
-name = damma_1;
-pos = (106,289);
-},
-{
-name = damma_2;
-pos = (-22,31);
-},
-{
 name = entry;
 pos = (514,0);
-},
-{
-name = fatha_1;
-pos = (-54,754);
-},
-{
-name = fatha_2;
-pos = (467,859);
-},
-{
-name = hasra_2;
-pos = (122,-66);
-},
-{
-name = kasra_1;
-pos = (456,-67);
-},
-{
-name = kasra_2;
-pos = (122,-66);
-},
-{
-name = madda_2;
-pos = (264,807);
 }
 );
 backgroundImage = {

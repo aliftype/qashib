@@ -4,24 +4,7 @@ glyphname = "threedots-ar";
 layers = (
 {
 layerId = m01;
-shapes = (
-{
-angle = -11.47961;
-pos = (62,45);
-ref = "dotabove-ar";
-},
-{
-angle = -11.47961;
-pos = (0,123);
-ref = "dotabove-ar";
-},
-{
-angle = -11.47961;
-pos = (31,84);
-ref = "dotabove-ar";
-}
-);
-width = 201;
+width = 600;
 }
 );
 metricLeft = "=0";

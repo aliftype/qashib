@@ -10,10 +10,6 @@ anchors = (
 {
 name = exit;
 pos = (0,114);
-},
-{
-name = kasra;
-pos = (702,48);
 }
 );
 layerId = m01;
@@ -34,10 +30,6 @@ anchors = (
 {
 name = exit;
 pos = (0,114);
-},
-{
-name = kasra;
-pos = (2819,48);
 }
 );
 associatedMasterId = m01;
@@ -65,10 +57,6 @@ anchors = (
 {
 name = exit;
 pos = (0,114);
-},
-{
-name = kasra;
-pos = (306,27);
 }
 );
 associatedMasterId = m01;
