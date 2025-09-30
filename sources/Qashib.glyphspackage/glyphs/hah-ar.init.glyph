@@ -8,7 +8,7 @@ layers = (
 anchors = (
 {
 name = bottom;
-pos = (254,-20);
+pos = (250,-20);
 },
 {
 name = bottom.hist;

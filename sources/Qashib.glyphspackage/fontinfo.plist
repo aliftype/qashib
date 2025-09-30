@@ -428,31 +428,32 @@ lookup rclt_hist_beh_dots {
 
 @vert_dots = [twodotsabove-ar threedotsabove-ar twodotsbelow-ar threedotsbelow-ar];
 @vert_dots.vert = [twodotsabove-ar.vert threedotsabove-ar.vert twodotsbelow-ar.vert threedotsbelow-ar.vert];
+
+lookup vert_dots {
+	sub @vert_dots by @vert_dots.vert;
+} vert_dots;
+
 lookup rclt_vert_dots {
 	lookupflag UseMarkFilteringSet @vert_dots;
 
-	sub	[behDotless-ar.init behDotless-ar.medi behDotless-ar.init.high behDotless-ar.medi.high]
-		 @vert_dots'
-		[alef-ar.fina behDotless-ar.fina behDotless-ar.medi behDotless-ar.medi.high
-		 reh-ar.fina alefMaksura-ar.fina alefMaksura-ar.salt noonghunna-ar.fina
+	sub	[behDotless-ar.init behDotless-ar.init.high behDotless-ar.medi behDotless-ar.medi.high]
+		[twodotsabove-ar threedotsabove-ar]' lookup vert_dots
+		[alef-ar.fina behDotless-ar.medi behDotless-ar.medi.high
 		 lam-ar.medi lam-ar.medi.hah1 lam-ar.medi.hah2 lam-ar.fina
-		 heh-ar.medi heh-ar.medi.l1 heh-ar.medi.l2 heh-ar.medi.round heh-ar.fina]
-	by	 @vert_dots.vert
+		 heh-ar.medi heh-ar.medi.round heh-ar.fina]
+	;
+
+	sub	[behDotless-ar.init behDotless-ar.init.high behDotless-ar.medi behDotless-ar.medi.high]
+		[twodotsbelow-ar threedotsbelow-ar]' lookup vert_dots
+		[behDotless-ar.medi behDotless-ar.medi.high
+		 reh-ar.fina lam-ar.fina noonghunna-ar.fina alefMaksura-ar.fina alefMaksura-ar.fina.salt]
+	;
+
+	sub	[behDotless-ar.init behDotless-ar.init.high behDotless-ar.medi behDotless-ar.medi.high]
+		[behDotless-ar.medi behDotless-ar.medi.high]
+		@vert_dots' lookup vert_dots
 	;
 } rclt_vert_dots;
-
-
-
-
-
-
-
-
-
-
-
-
-
 ";
 name = dots;
 }
@@ -585,6 +586,55 @@ tag = kern;
 },
 {
 code = "# Automatic Code
+
+@dotsbelow = [$[name LIKE '*dot*below-ar'] $[name LIKE '*dot*below-ar.vert']];
+@beh_width = [behDotless-ar.medi behDotless-ar.medi.high
+			  lam-ar.medi lam-ar.medi.short lam-ar.medi.hah1 lam-ar.medi.hah2];
+@overhanging_hah = [hah-ar.fina hah-ar.fina.hist hah-ar.medi];
+lookup shift_dots {
+	lookupflag UseMarkFilteringSet @dotsbelow;
+	pos	 hah-ar.init
+		 @dotsbelow' <250 0 0 0>
+		 @beh_width
+		 @overhanging_hah
+	;
+	pos	 hah-ar.medi
+		 @dotsbelow' <390 0 0 0>
+		 @beh_width
+		 @overhanging_hah
+	;
+
+	pos	 hah-ar.init
+		 @dotsbelow' <250 0 0 0>
+		 @overhanging_hah
+	;
+	pos	 hah-ar.medi
+		 @dotsbelow' <390 0 0 0>
+		 @overhanging_hah
+	;
+
+	pos	 behDotless-ar.init
+		 @dotsbelow' <250 -90 0 0>
+		 @overhanging_hah
+	;
+
+	pos	[behDotless-ar.medi behDotless-ar.medi.high]
+		 @dotsbelow' <0 -90 0 0>
+		 @overhanging_hah
+	;
+
+	pos	[behDotless-ar.init behDotless-ar.init.high behDotless-ar.medi behDotless-ar.medi.high]
+		 @dotsbelow' <0 -90 0 0>
+		 @beh_width
+		 @overhanging_hah
+	;
+	pos	[behDotless-ar.init behDotless-ar.init.high behDotless-ar.medi behDotless-ar.medi.high]
+		 @dotsbelow' <0 -90 0 0>
+		 @beh_width
+		 @dotsbelow
+		 @overhanging_hah
+	;
+} shift_dots;
 ";
 tag = mark;
 }
@@ -824,6 +874,10 @@ m01 = {
 };
 "ain-ar.medi.salt" = {
 "@MMK_L_hah" = -45;
+};
+"behDotless-ar.medi" = {
+"@MMK_L_hah" = -5;
+"hah-ar.fina" = -5;
 };
 "fehDotless-ar.init" = {
 "@MMK_L_hah" = -60;
