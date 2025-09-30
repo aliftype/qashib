@@ -7,21 +7,20 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(78,178,l),
-(89,770,l),
-(19,770,l),
-(28,178,l)
+(13,550,l),
+(20,125,l),
+(56,125,l),
+(63,550,l)
 );
 },
 {
 ref = period;
 }
 );
-width = 125;
+width = 95;
 }
 );
 metricLeft = "=period";
 metricRight = "=period";
-metricWidth = "=period";
 unicode = 33;
 }

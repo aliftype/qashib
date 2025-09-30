@@ -7,12 +7,12 @@ layers = (
 layerId = m01;
 shapes = (
 {
-pos = (0,675);
+pos = (0,540);
 ref = "seven-ar";
 scale = (1,-1);
 }
 );
-width = 675;
+width = 540;
 }
 );
 unicode = (1640,1784);

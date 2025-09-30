@@ -8,11 +8,11 @@ shapes = (
 ref = period;
 },
 {
-pos = (0,216);
+pos = (0,175);
 ref = period;
 }
 );
-width = 125;
+width = 95;
 }
 );
 metricLeft = "=period";

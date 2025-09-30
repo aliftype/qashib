@@ -6,11 +6,11 @@ layerId = m01;
 shapes = (
 {
 angle = 180;
-pos = (237,564);
+pos = (170,520);
 ref = braceleft;
 }
 );
-width = 257;
+width = 190;
 }
 );
 metricLeft = "=braceleft";

@@ -10,7 +10,7 @@ shapes = (
 ref = "seven-ar";
 }
 );
-width = 675;
+width = 540;
 }
 );
 metricLeft = "seven-ar";

@@ -9,17 +9,17 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(360,353,l),
-(255,459,l),
-(150,353,l),
-(255,246,l)
+(288,282,l),
+(204,367,l),
+(120,282,l),
+(204,197,l)
 );
 }
 );
-width = 510;
+width = 408;
 }
 );
-metricLeft = "=150";
-metricRight = "=150";
+metricLeft = "=120";
+metricRight = "=120";
 unicode = (1632,1776);
 }

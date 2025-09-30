@@ -5,16 +5,16 @@ layers = (
 layerId = m01;
 shapes = (
 {
-pos = (0,540);
+pos = (0,468);
 ref = slash;
 scale = (1,-1);
 }
 );
-width = 280;
+width = 300;
 }
 );
-metricLeft = "=slash";
-metricRight = "=slash";
+metricLeft = "=|slash";
+metricRight = "=|slash";
 metricWidth = "=slash";
 unicode = 92;
 }

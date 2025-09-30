@@ -718,6 +718,7 @@ pos = (0,345);
 },
 {
 lockAngle = 1;
+locked = 1;
 pos = (0,230);
 },
 {
@@ -751,6 +752,9 @@ pos = (0,115);
 locked = 1;
 name = "700";
 pos = (501,770);
+},
+{
+pos = (190,260);
 }
 );
 id = m01;
@@ -804,23 +808,23 @@ value = "Qashib";
 kerningLTR = {
 m01 = {
 "@MMK_L_eight-ar" = {
-"@MMK_R_one-ar" = -60;
-"@MMK_R_zero-ar" = -50;
+"@MMK_R_one-ar" = -48;
+"@MMK_R_zero-ar" = -60;
 };
 "@MMK_L_seven-ar" = {
-"@MMK_R_eight-ar" = -60;
+"@MMK_R_eight-ar" = -48;
 };
 "@MMK_L_two-ar" = {
-"@MMK_R_zero-ar" = -75;
+"@MMK_R_zero-ar" = -60;
 };
 "@MMK_L_zero-ar" = {
-"@MMK_R_one-ar" = -45;
-"@MMK_R_six-ar" = -135;
+"@MMK_R_one-ar" = -36;
+"@MMK_R_six-ar" = -108;
 };
 "four-ar" = {
-"@MMK_R_one-ar" = -75;
-"@MMK_R_six-ar" = -120;
-"@MMK_R_zero-ar" = -75;
+"@MMK_R_one-ar" = -60;
+"@MMK_R_six-ar" = -96;
+"@MMK_R_zero-ar" = -60;
 };
 };
 };

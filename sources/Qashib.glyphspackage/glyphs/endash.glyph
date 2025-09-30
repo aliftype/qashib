@@ -7,18 +7,18 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(280,295,l),
-(280,345,l),
-(20,345,l),
-(20,295,l)
+(280,200,l),
+(280,250,l),
+(0,250,l),
+(0,200,l)
 );
 }
 );
 width = 300;
 }
 );
-metricLeft = "=20";
-metricRight = "=|";
+metricLeft = "=0";
+metricRight = "=20";
 metricWidth = "=emdash/2";
 unicode = 8211;
 }

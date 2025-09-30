@@ -635,7 +635,7 @@
     {
       "only": "Qashib.ttf",
       "input": "۝٥",
-      "expectation": ".notdef=0+440|five-ar=1+525",
+      "expectation": ".notdef=0+440|five-ar=1+420",
       "direction": "ltr",
       "features": {
         "salt": 1
@@ -644,1807 +644,1807 @@
     {
       "only": "Qashib.ttf",
       "input": "۝٠",
-      "expectation": ".notdef=0+440|zero-ar=1+510",
+      "expectation": ".notdef=0+440|zero-ar=1+408",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١",
-      "expectation": ".notdef=0+440|one-ar=1+375",
+      "expectation": ".notdef=0+440|one-ar=1+300",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢",
-      "expectation": ".notdef=0+440|two-ar=1+525",
+      "expectation": ".notdef=0+440|two-ar=1+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٣",
-      "expectation": ".notdef=0+440|three-ar=1+660",
+      "expectation": ".notdef=0+440|three-ar=1+528",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٤",
-      "expectation": ".notdef=0+440|four-ar=1+533",
+      "expectation": ".notdef=0+440|four-ar=1+426",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٥",
-      "expectation": ".notdef=0+440|five-ar=1+525",
+      "expectation": ".notdef=0+440|five-ar=1+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٦",
-      "expectation": ".notdef=0+440|six-ar=1+630",
+      "expectation": ".notdef=0+440|six-ar=1+504",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٧",
-      "expectation": ".notdef=0+440|seven-ar=1+675",
+      "expectation": ".notdef=0+440|seven-ar=1+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٨",
-      "expectation": ".notdef=0+440|eight-ar=1+675",
+      "expectation": ".notdef=0+440|eight-ar=1+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٩",
-      "expectation": ".notdef=0+440|nine-ar=1+620",
+      "expectation": ".notdef=0+440|nine-ar=1+496",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٠",
-      "expectation": ".notdef=0+440|one-ar=1+375|zero-ar=2+510",
+      "expectation": ".notdef=0+440|one-ar=1+300|zero-ar=2+408",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١١",
-      "expectation": ".notdef=0+440|one-ar=1+375|one-ar=2+375",
+      "expectation": ".notdef=0+440|one-ar=1+300|one-ar=2+300",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٢",
-      "expectation": ".notdef=0+440|one-ar=1+375|two-ar=2+525",
+      "expectation": ".notdef=0+440|one-ar=1+300|two-ar=2+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٣",
-      "expectation": ".notdef=0+440|one-ar=1+375|three-ar=2+660",
+      "expectation": ".notdef=0+440|one-ar=1+300|three-ar=2+528",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٤",
-      "expectation": ".notdef=0+440|one-ar=1+375|four-ar=2+533",
+      "expectation": ".notdef=0+440|one-ar=1+300|four-ar=2+426",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٥",
-      "expectation": ".notdef=0+440|one-ar=1+375|five-ar=2+525",
+      "expectation": ".notdef=0+440|one-ar=1+300|five-ar=2+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٦",
-      "expectation": ".notdef=0+440|one-ar=1+375|six-ar=2+630",
+      "expectation": ".notdef=0+440|one-ar=1+300|six-ar=2+504",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٧",
-      "expectation": ".notdef=0+440|one-ar=1+375|seven-ar=2+675",
+      "expectation": ".notdef=0+440|one-ar=1+300|seven-ar=2+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٨",
-      "expectation": ".notdef=0+440|one-ar=1+375|eight-ar=2+675",
+      "expectation": ".notdef=0+440|one-ar=1+300|eight-ar=2+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٩",
-      "expectation": ".notdef=0+440|one-ar=1+375|nine-ar=2+620",
+      "expectation": ".notdef=0+440|one-ar=1+300|nine-ar=2+496",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٠",
-      "expectation": ".notdef=0+440|two-ar=1+450|zero-ar=2+510",
+      "expectation": ".notdef=0+440|two-ar=1+360|zero-ar=2+408",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢١",
-      "expectation": ".notdef=0+440|two-ar=1+525|one-ar=2+375",
+      "expectation": ".notdef=0+440|two-ar=1+420|one-ar=2+300",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٢",
-      "expectation": ".notdef=0+440|two-ar=1+525|two-ar=2+525",
+      "expectation": ".notdef=0+440|two-ar=1+420|two-ar=2+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٣",
-      "expectation": ".notdef=0+440|two-ar=1+525|three-ar=2+660",
+      "expectation": ".notdef=0+440|two-ar=1+420|three-ar=2+528",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٤",
-      "expectation": ".notdef=0+440|two-ar=1+525|four-ar=2+533",
+      "expectation": ".notdef=0+440|two-ar=1+420|four-ar=2+426",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٥",
-      "expectation": ".notdef=0+440|two-ar=1+450|five-ar=2+525",
+      "expectation": ".notdef=0+440|two-ar=1+360|five-ar=2+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٦",
-      "expectation": ".notdef=0+440|two-ar=1+525|six-ar=2+630",
+      "expectation": ".notdef=0+440|two-ar=1+420|six-ar=2+504",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٧",
-      "expectation": ".notdef=0+440|two-ar=1+525|seven-ar=2+675",
+      "expectation": ".notdef=0+440|two-ar=1+420|seven-ar=2+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٨",
-      "expectation": ".notdef=0+440|two-ar=1+525|eight-ar=2+675",
+      "expectation": ".notdef=0+440|two-ar=1+420|eight-ar=2+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٩",
-      "expectation": ".notdef=0+440|two-ar=1+525|nine-ar=2+620",
+      "expectation": ".notdef=0+440|two-ar=1+420|nine-ar=2+496",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٣٠",
-      "expectation": ".notdef=0+440|three-ar=1+585|zero-ar=2+510",
+      "expectation": ".notdef=0+440|three-ar=1+468|zero-ar=2+408",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٣١",
-      "expectation": ".notdef=0+440|three-ar=1+660|one-ar=2+375",
+      "expectation": ".notdef=0+440|three-ar=1+528|one-ar=2+300",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٣٢",
-      "expectation": ".notdef=0+440|three-ar=1+660|two-ar=2+525",
+      "expectation": ".notdef=0+440|three-ar=1+528|two-ar=2+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٣٣",
-      "expectation": ".notdef=0+440|three-ar=1+660|three-ar=2+660",
+      "expectation": ".notdef=0+440|three-ar=1+528|three-ar=2+528",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٣٤",
-      "expectation": ".notdef=0+440|three-ar=1+660|four-ar=2+533",
+      "expectation": ".notdef=0+440|three-ar=1+528|four-ar=2+426",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٣٥",
-      "expectation": ".notdef=0+440|three-ar=1+585|five-ar=2+525",
+      "expectation": ".notdef=0+440|three-ar=1+468|five-ar=2+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٣٦",
-      "expectation": ".notdef=0+440|three-ar=1+660|six-ar=2+630",
+      "expectation": ".notdef=0+440|three-ar=1+528|six-ar=2+504",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٣٧",
-      "expectation": ".notdef=0+440|three-ar=1+660|seven-ar=2+675",
+      "expectation": ".notdef=0+440|three-ar=1+528|seven-ar=2+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٣٨",
-      "expectation": ".notdef=0+440|three-ar=1+660|eight-ar=2+675",
+      "expectation": ".notdef=0+440|three-ar=1+528|eight-ar=2+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٣٩",
-      "expectation": ".notdef=0+440|three-ar=1+660|nine-ar=2+620",
+      "expectation": ".notdef=0+440|three-ar=1+528|nine-ar=2+496",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٤٠",
-      "expectation": ".notdef=0+440|four-ar=1+458|zero-ar=2+510",
+      "expectation": ".notdef=0+440|four-ar=1+366|zero-ar=2+408",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٤١",
-      "expectation": ".notdef=0+440|four-ar=1+458|one-ar=2+375",
+      "expectation": ".notdef=0+440|four-ar=1+366|one-ar=2+300",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٤٢",
-      "expectation": ".notdef=0+440|four-ar=1+458|two-ar=2+525",
+      "expectation": ".notdef=0+440|four-ar=1+366|two-ar=2+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٤٣",
-      "expectation": ".notdef=0+440|four-ar=1+458|three-ar=2+660",
+      "expectation": ".notdef=0+440|four-ar=1+366|three-ar=2+528",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٤٤",
-      "expectation": ".notdef=0+440|four-ar=1+533|four-ar=2+533",
+      "expectation": ".notdef=0+440|four-ar=1+426|four-ar=2+426",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٤٥",
-      "expectation": ".notdef=0+440|four-ar=1+458|five-ar=2+525",
+      "expectation": ".notdef=0+440|four-ar=1+366|five-ar=2+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٤٦",
-      "expectation": ".notdef=0+440|four-ar=1+413|six-ar=2+630",
+      "expectation": ".notdef=0+440|four-ar=1+330|six-ar=2+504",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٤٧",
-      "expectation": ".notdef=0+440|four-ar=1+458|seven-ar=2+675",
+      "expectation": ".notdef=0+440|four-ar=1+366|seven-ar=2+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٤٨",
-      "expectation": ".notdef=0+440|four-ar=1+533|eight-ar=2+675",
+      "expectation": ".notdef=0+440|four-ar=1+426|eight-ar=2+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٤٩",
-      "expectation": ".notdef=0+440|four-ar=1+413|nine-ar=2+620",
+      "expectation": ".notdef=0+440|four-ar=1+330|nine-ar=2+496",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٥٠",
-      "expectation": ".notdef=0+440|five-ar=1+525|zero-ar=2+510",
+      "expectation": ".notdef=0+440|five-ar=1+420|zero-ar=2+408",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٥١",
-      "expectation": ".notdef=0+440|five-ar=1+480|one-ar=2+375",
+      "expectation": ".notdef=0+440|five-ar=1+384|one-ar=2+300",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٥٢",
-      "expectation": ".notdef=0+440|five-ar=1+480|two-ar=2+525",
+      "expectation": ".notdef=0+440|five-ar=1+384|two-ar=2+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٥٣",
-      "expectation": ".notdef=0+440|five-ar=1+480|three-ar=2+660",
+      "expectation": ".notdef=0+440|five-ar=1+384|three-ar=2+528",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٥٤",
-      "expectation": ".notdef=0+440|five-ar=1+525|four-ar=2+533",
+      "expectation": ".notdef=0+440|five-ar=1+420|four-ar=2+426",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٥٥",
-      "expectation": ".notdef=0+440|five-ar=1+525|five-ar=2+525",
+      "expectation": ".notdef=0+440|five-ar=1+420|five-ar=2+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٥٦",
-      "expectation": ".notdef=0+440|five-ar=1+390|six-ar=2+630",
+      "expectation": ".notdef=0+440|five-ar=1+312|six-ar=2+504",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٥٧",
-      "expectation": ".notdef=0+440|five-ar=1+480|seven-ar=2+675",
+      "expectation": ".notdef=0+440|five-ar=1+384|seven-ar=2+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٥٨",
-      "expectation": ".notdef=0+440|five-ar=1+525|eight-ar=2+675",
+      "expectation": ".notdef=0+440|five-ar=1+420|eight-ar=2+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٥٩",
-      "expectation": ".notdef=0+440|five-ar=1+390|nine-ar=2+620",
+      "expectation": ".notdef=0+440|five-ar=1+312|nine-ar=2+496",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٦٠",
-      "expectation": ".notdef=0+440|six-ar=1+580|zero-ar=2+510",
+      "expectation": ".notdef=0+440|six-ar=1+444|zero-ar=2+408",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٦١",
-      "expectation": ".notdef=0+440|six-ar=1+570|one-ar=2+375",
+      "expectation": ".notdef=0+440|six-ar=1+456|one-ar=2+300",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٦٢",
-      "expectation": ".notdef=0+440|six-ar=1+570|two-ar=2+525",
+      "expectation": ".notdef=0+440|six-ar=1+456|two-ar=2+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٦٣",
-      "expectation": ".notdef=0+440|six-ar=1+570|three-ar=2+660",
+      "expectation": ".notdef=0+440|six-ar=1+456|three-ar=2+528",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٦٤",
-      "expectation": ".notdef=0+440|six-ar=1+630|four-ar=2+533",
+      "expectation": ".notdef=0+440|six-ar=1+504|four-ar=2+426",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٦٥",
-      "expectation": ".notdef=0+440|six-ar=1+580|five-ar=2+525",
+      "expectation": ".notdef=0+440|six-ar=1+444|five-ar=2+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٦٦",
-      "expectation": ".notdef=0+440|six-ar=1+630|six-ar=2+630",
+      "expectation": ".notdef=0+440|six-ar=1+504|six-ar=2+504",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٦٧",
-      "expectation": ".notdef=0+440|six-ar=1+570|seven-ar=2+675",
+      "expectation": ".notdef=0+440|six-ar=1+456|seven-ar=2+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٦٨",
-      "expectation": ".notdef=0+440|six-ar=1+630|eight-ar=2+675",
+      "expectation": ".notdef=0+440|six-ar=1+504|eight-ar=2+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٦٩",
-      "expectation": ".notdef=0+440|six-ar=1+630|nine-ar=2+620",
+      "expectation": ".notdef=0+440|six-ar=1+504|nine-ar=2+496",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٧٠",
-      "expectation": ".notdef=0+440|seven-ar=1+675|zero-ar=2+510",
+      "expectation": ".notdef=0+440|seven-ar=1+540|zero-ar=2+408",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٧١",
-      "expectation": ".notdef=0+440|seven-ar=1+675|one-ar=2+375",
+      "expectation": ".notdef=0+440|seven-ar=1+540|one-ar=2+300",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٧٢",
-      "expectation": ".notdef=0+440|seven-ar=1+675|two-ar=2+525",
+      "expectation": ".notdef=0+440|seven-ar=1+540|two-ar=2+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٧٣",
-      "expectation": ".notdef=0+440|seven-ar=1+675|three-ar=2+660",
+      "expectation": ".notdef=0+440|seven-ar=1+540|three-ar=2+528",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٧٤",
-      "expectation": ".notdef=0+440|seven-ar=1+675|four-ar=2+533",
+      "expectation": ".notdef=0+440|seven-ar=1+540|four-ar=2+426",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٧٥",
-      "expectation": ".notdef=0+440|seven-ar=1+675|five-ar=2+525",
+      "expectation": ".notdef=0+440|seven-ar=1+540|five-ar=2+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٧٦",
-      "expectation": ".notdef=0+440|seven-ar=1+675|six-ar=2+630",
+      "expectation": ".notdef=0+440|seven-ar=1+540|six-ar=2+504",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٧٧",
-      "expectation": ".notdef=0+440|seven-ar=1+675|seven-ar=2+675",
+      "expectation": ".notdef=0+440|seven-ar=1+540|seven-ar=2+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٧٨",
-      "expectation": ".notdef=0+440|seven-ar=1+615|eight-ar=2+675",
+      "expectation": ".notdef=0+440|seven-ar=1+492|eight-ar=2+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٧٩",
-      "expectation": ".notdef=0+440|seven-ar=1+675|nine-ar=2+620",
+      "expectation": ".notdef=0+440|seven-ar=1+540|nine-ar=2+496",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٨٠",
-      "expectation": ".notdef=0+440|eight-ar=1+625|zero-ar=2+510",
+      "expectation": ".notdef=0+440|eight-ar=1+480|zero-ar=2+408",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٨١",
-      "expectation": ".notdef=0+440|eight-ar=1+615|one-ar=2+375",
+      "expectation": ".notdef=0+440|eight-ar=1+492|one-ar=2+300",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٨٢",
-      "expectation": ".notdef=0+440|eight-ar=1+615|two-ar=2+525",
+      "expectation": ".notdef=0+440|eight-ar=1+492|two-ar=2+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٨٣",
-      "expectation": ".notdef=0+440|eight-ar=1+615|three-ar=2+660",
+      "expectation": ".notdef=0+440|eight-ar=1+492|three-ar=2+528",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٨٤",
-      "expectation": ".notdef=0+440|eight-ar=1+675|four-ar=2+533",
+      "expectation": ".notdef=0+440|eight-ar=1+540|four-ar=2+426",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٨٥",
-      "expectation": ".notdef=0+440|eight-ar=1+625|five-ar=2+525",
+      "expectation": ".notdef=0+440|eight-ar=1+480|five-ar=2+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٨٦",
-      "expectation": ".notdef=0+440|eight-ar=1+675|six-ar=2+630",
+      "expectation": ".notdef=0+440|eight-ar=1+540|six-ar=2+504",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٨٧",
-      "expectation": ".notdef=0+440|eight-ar=1+615|seven-ar=2+675",
+      "expectation": ".notdef=0+440|eight-ar=1+492|seven-ar=2+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٨٨",
-      "expectation": ".notdef=0+440|eight-ar=1+675|eight-ar=2+675",
+      "expectation": ".notdef=0+440|eight-ar=1+540|eight-ar=2+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٨٩",
-      "expectation": ".notdef=0+440|eight-ar=1+675|nine-ar=2+620",
+      "expectation": ".notdef=0+440|eight-ar=1+540|nine-ar=2+496",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٩٠",
-      "expectation": ".notdef=0+440|nine-ar=1+570|zero-ar=2+510",
+      "expectation": ".notdef=0+440|nine-ar=1+436|zero-ar=2+408",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٩١",
-      "expectation": ".notdef=0+440|nine-ar=1+560|one-ar=2+375",
+      "expectation": ".notdef=0+440|nine-ar=1+448|one-ar=2+300",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٩٢",
-      "expectation": ".notdef=0+440|nine-ar=1+560|two-ar=2+525",
+      "expectation": ".notdef=0+440|nine-ar=1+448|two-ar=2+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٩٣",
-      "expectation": ".notdef=0+440|nine-ar=1+560|three-ar=2+660",
+      "expectation": ".notdef=0+440|nine-ar=1+448|three-ar=2+528",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٩٤",
-      "expectation": ".notdef=0+440|nine-ar=1+620|four-ar=2+533",
+      "expectation": ".notdef=0+440|nine-ar=1+496|four-ar=2+426",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٩٥",
-      "expectation": ".notdef=0+440|nine-ar=1+570|five-ar=2+525",
+      "expectation": ".notdef=0+440|nine-ar=1+436|five-ar=2+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٩٦",
-      "expectation": ".notdef=0+440|nine-ar=1+620|six-ar=2+630",
+      "expectation": ".notdef=0+440|nine-ar=1+496|six-ar=2+504",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٩٧",
-      "expectation": ".notdef=0+440|nine-ar=1+560|seven-ar=2+675",
+      "expectation": ".notdef=0+440|nine-ar=1+448|seven-ar=2+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٩٨",
-      "expectation": ".notdef=0+440|nine-ar=1+620|eight-ar=2+675",
+      "expectation": ".notdef=0+440|nine-ar=1+496|eight-ar=2+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٩٩",
-      "expectation": ".notdef=0+440|nine-ar=1+620|nine-ar=2+620",
+      "expectation": ".notdef=0+440|nine-ar=1+496|nine-ar=2+496",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٠٠",
-      "expectation": ".notdef=0+440|one-ar=1+375|zero-ar=2+510|zero-ar=3+510",
+      "expectation": ".notdef=0+440|one-ar=1+300|zero-ar=2+408|zero-ar=3+408",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٠١",
-      "expectation": ".notdef=0+440|one-ar=1+375|zero-ar=2+465|one-ar=3+375",
+      "expectation": ".notdef=0+440|one-ar=1+300|zero-ar=2+372|one-ar=3+300",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٠٢",
-      "expectation": ".notdef=0+440|one-ar=1+375|zero-ar=2+465|two-ar=3+525",
+      "expectation": ".notdef=0+440|one-ar=1+300|zero-ar=2+372|two-ar=3+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٠٣",
-      "expectation": ".notdef=0+440|one-ar=1+375|zero-ar=2+465|three-ar=3+660",
+      "expectation": ".notdef=0+440|one-ar=1+300|zero-ar=2+372|three-ar=3+528",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٠٤",
-      "expectation": ".notdef=0+440|one-ar=1+375|zero-ar=2+510|four-ar=3+533",
+      "expectation": ".notdef=0+440|one-ar=1+300|zero-ar=2+408|four-ar=3+426",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٠٥",
-      "expectation": ".notdef=0+440|one-ar=1+375|zero-ar=2+510|five-ar=3+525",
+      "expectation": ".notdef=0+440|one-ar=1+300|zero-ar=2+408|five-ar=3+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٠٦",
-      "expectation": ".notdef=0+440|one-ar=1+375|zero-ar=2+375|six-ar=3+630",
+      "expectation": ".notdef=0+440|one-ar=1+300|zero-ar=2+300|six-ar=3+504",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٠٧",
-      "expectation": ".notdef=0+440|one-ar=1+375|zero-ar=2+465|seven-ar=3+675",
+      "expectation": ".notdef=0+440|one-ar=1+300|zero-ar=2+372|seven-ar=3+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٠٨",
-      "expectation": ".notdef=0+440|one-ar=1+375|zero-ar=2+510|eight-ar=3+675",
+      "expectation": ".notdef=0+440|one-ar=1+300|zero-ar=2+408|eight-ar=3+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٠٩",
-      "expectation": ".notdef=0+440|one-ar=1+375|zero-ar=2+375|nine-ar=3+620",
+      "expectation": ".notdef=0+440|one-ar=1+300|zero-ar=2+300|nine-ar=3+496",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١١٠",
-      "expectation": ".notdef=0+440|one-ar=1+375|one-ar=2+375|zero-ar=3+510",
+      "expectation": ".notdef=0+440|one-ar=1+300|one-ar=2+300|zero-ar=3+408",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١١١",
-      "expectation": ".notdef=0+440|one-ar=1+375|one-ar=2+375|one-ar=3+375",
+      "expectation": ".notdef=0+440|one-ar=1+300|one-ar=2+300|one-ar=3+300",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١١٢",
-      "expectation": ".notdef=0+440|one-ar=1+375|one-ar=2+375|two-ar=3+525",
+      "expectation": ".notdef=0+440|one-ar=1+300|one-ar=2+300|two-ar=3+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١١٣",
-      "expectation": ".notdef=0+440|one-ar=1+375|one-ar=2+375|three-ar=3+660",
+      "expectation": ".notdef=0+440|one-ar=1+300|one-ar=2+300|three-ar=3+528",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١١٤",
-      "expectation": ".notdef=0+440|one-ar=1+375|one-ar=2+375|four-ar=3+533",
+      "expectation": ".notdef=0+440|one-ar=1+300|one-ar=2+300|four-ar=3+426",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١١٥",
-      "expectation": ".notdef=0+440|one-ar=1+375|one-ar=2+375|five-ar=3+525",
+      "expectation": ".notdef=0+440|one-ar=1+300|one-ar=2+300|five-ar=3+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١١٦",
-      "expectation": ".notdef=0+440|one-ar=1+375|one-ar=2+375|six-ar=3+630",
+      "expectation": ".notdef=0+440|one-ar=1+300|one-ar=2+300|six-ar=3+504",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١١٧",
-      "expectation": ".notdef=0+440|one-ar=1+375|one-ar=2+375|seven-ar=3+675",
+      "expectation": ".notdef=0+440|one-ar=1+300|one-ar=2+300|seven-ar=3+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١١٨",
-      "expectation": ".notdef=0+440|one-ar=1+375|one-ar=2+375|eight-ar=3+675",
+      "expectation": ".notdef=0+440|one-ar=1+300|one-ar=2+300|eight-ar=3+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١١٩",
-      "expectation": ".notdef=0+440|one-ar=1+375|one-ar=2+375|nine-ar=3+620",
+      "expectation": ".notdef=0+440|one-ar=1+300|one-ar=2+300|nine-ar=3+496",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٢٠",
-      "expectation": ".notdef=0+440|one-ar=1+375|two-ar=2+450|zero-ar=3+510",
+      "expectation": ".notdef=0+440|one-ar=1+300|two-ar=2+360|zero-ar=3+408",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٢١",
-      "expectation": ".notdef=0+440|one-ar=1+375|two-ar=2+525|one-ar=3+375",
+      "expectation": ".notdef=0+440|one-ar=1+300|two-ar=2+420|one-ar=3+300",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٢٢",
-      "expectation": ".notdef=0+440|one-ar=1+375|two-ar=2+525|two-ar=3+525",
+      "expectation": ".notdef=0+440|one-ar=1+300|two-ar=2+420|two-ar=3+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٢٣",
-      "expectation": ".notdef=0+440|one-ar=1+375|two-ar=2+525|three-ar=3+660",
+      "expectation": ".notdef=0+440|one-ar=1+300|two-ar=2+420|three-ar=3+528",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٢٤",
-      "expectation": ".notdef=0+440|one-ar=1+375|two-ar=2+525|four-ar=3+533",
+      "expectation": ".notdef=0+440|one-ar=1+300|two-ar=2+420|four-ar=3+426",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٢٥",
-      "expectation": ".notdef=0+440|one-ar=1+375|two-ar=2+450|five-ar=3+525",
+      "expectation": ".notdef=0+440|one-ar=1+300|two-ar=2+360|five-ar=3+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٢٦",
-      "expectation": ".notdef=0+440|one-ar=1+375|two-ar=2+525|six-ar=3+630",
+      "expectation": ".notdef=0+440|one-ar=1+300|two-ar=2+420|six-ar=3+504",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٢٧",
-      "expectation": ".notdef=0+440|one-ar=1+375|two-ar=2+525|seven-ar=3+675",
+      "expectation": ".notdef=0+440|one-ar=1+300|two-ar=2+420|seven-ar=3+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٢٨",
-      "expectation": ".notdef=0+440|one-ar=1+375|two-ar=2+525|eight-ar=3+675",
+      "expectation": ".notdef=0+440|one-ar=1+300|two-ar=2+420|eight-ar=3+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٢٩",
-      "expectation": ".notdef=0+440|one-ar=1+375|two-ar=2+525|nine-ar=3+620",
+      "expectation": ".notdef=0+440|one-ar=1+300|two-ar=2+420|nine-ar=3+496",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٣٠",
-      "expectation": ".notdef=0+440|one-ar=1+375|three-ar=2+585|zero-ar=3+510",
+      "expectation": ".notdef=0+440|one-ar=1+300|three-ar=2+468|zero-ar=3+408",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٣١",
-      "expectation": ".notdef=0+440|one-ar=1+375|three-ar=2+660|one-ar=3+375",
+      "expectation": ".notdef=0+440|one-ar=1+300|three-ar=2+528|one-ar=3+300",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٣٢",
-      "expectation": ".notdef=0+440|one-ar=1+375|three-ar=2+660|two-ar=3+525",
+      "expectation": ".notdef=0+440|one-ar=1+300|three-ar=2+528|two-ar=3+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٣٣",
-      "expectation": ".notdef=0+440|one-ar=1+375|three-ar=2+660|three-ar=3+660",
+      "expectation": ".notdef=0+440|one-ar=1+300|three-ar=2+528|three-ar=3+528",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٣٤",
-      "expectation": ".notdef=0+440|one-ar=1+375|three-ar=2+660|four-ar=3+533",
+      "expectation": ".notdef=0+440|one-ar=1+300|three-ar=2+528|four-ar=3+426",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٣٥",
-      "expectation": ".notdef=0+440|one-ar=1+375|three-ar=2+585|five-ar=3+525",
+      "expectation": ".notdef=0+440|one-ar=1+300|three-ar=2+468|five-ar=3+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٣٦",
-      "expectation": ".notdef=0+440|one-ar=1+375|three-ar=2+660|six-ar=3+630",
+      "expectation": ".notdef=0+440|one-ar=1+300|three-ar=2+528|six-ar=3+504",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٣٧",
-      "expectation": ".notdef=0+440|one-ar=1+375|three-ar=2+660|seven-ar=3+675",
+      "expectation": ".notdef=0+440|one-ar=1+300|three-ar=2+528|seven-ar=3+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٣٨",
-      "expectation": ".notdef=0+440|one-ar=1+375|three-ar=2+660|eight-ar=3+675",
+      "expectation": ".notdef=0+440|one-ar=1+300|three-ar=2+528|eight-ar=3+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٣٩",
-      "expectation": ".notdef=0+440|one-ar=1+375|three-ar=2+660|nine-ar=3+620",
+      "expectation": ".notdef=0+440|one-ar=1+300|three-ar=2+528|nine-ar=3+496",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٤٠",
-      "expectation": ".notdef=0+440|one-ar=1+375|four-ar=2+458|zero-ar=3+510",
+      "expectation": ".notdef=0+440|one-ar=1+300|four-ar=2+366|zero-ar=3+408",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٤١",
-      "expectation": ".notdef=0+440|one-ar=1+375|four-ar=2+458|one-ar=3+375",
+      "expectation": ".notdef=0+440|one-ar=1+300|four-ar=2+366|one-ar=3+300",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٤٢",
-      "expectation": ".notdef=0+440|one-ar=1+375|four-ar=2+458|two-ar=3+525",
+      "expectation": ".notdef=0+440|one-ar=1+300|four-ar=2+366|two-ar=3+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٤٣",
-      "expectation": ".notdef=0+440|one-ar=1+375|four-ar=2+458|three-ar=3+660",
+      "expectation": ".notdef=0+440|one-ar=1+300|four-ar=2+366|three-ar=3+528",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٤٤",
-      "expectation": ".notdef=0+440|one-ar=1+375|four-ar=2+533|four-ar=3+533",
+      "expectation": ".notdef=0+440|one-ar=1+300|four-ar=2+426|four-ar=3+426",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٤٥",
-      "expectation": ".notdef=0+440|one-ar=1+375|four-ar=2+458|five-ar=3+525",
+      "expectation": ".notdef=0+440|one-ar=1+300|four-ar=2+366|five-ar=3+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٤٦",
-      "expectation": ".notdef=0+440|one-ar=1+375|four-ar=2+413|six-ar=3+630",
+      "expectation": ".notdef=0+440|one-ar=1+300|four-ar=2+330|six-ar=3+504",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٤٧",
-      "expectation": ".notdef=0+440|one-ar=1+375|four-ar=2+458|seven-ar=3+675",
+      "expectation": ".notdef=0+440|one-ar=1+300|four-ar=2+366|seven-ar=3+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٤٨",
-      "expectation": ".notdef=0+440|one-ar=1+375|four-ar=2+533|eight-ar=3+675",
+      "expectation": ".notdef=0+440|one-ar=1+300|four-ar=2+426|eight-ar=3+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٤٩",
-      "expectation": ".notdef=0+440|one-ar=1+375|four-ar=2+413|nine-ar=3+620",
+      "expectation": ".notdef=0+440|one-ar=1+300|four-ar=2+330|nine-ar=3+496",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٥٠",
-      "expectation": ".notdef=0+440|one-ar=1+375|five-ar=2+525|zero-ar=3+510",
+      "expectation": ".notdef=0+440|one-ar=1+300|five-ar=2+420|zero-ar=3+408",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٥١",
-      "expectation": ".notdef=0+440|one-ar=1+375|five-ar=2+480|one-ar=3+375",
+      "expectation": ".notdef=0+440|one-ar=1+300|five-ar=2+384|one-ar=3+300",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٥٢",
-      "expectation": ".notdef=0+440|one-ar=1+375|five-ar=2+480|two-ar=3+525",
+      "expectation": ".notdef=0+440|one-ar=1+300|five-ar=2+384|two-ar=3+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٥٣",
-      "expectation": ".notdef=0+440|one-ar=1+375|five-ar=2+480|three-ar=3+660",
+      "expectation": ".notdef=0+440|one-ar=1+300|five-ar=2+384|three-ar=3+528",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٥٤",
-      "expectation": ".notdef=0+440|one-ar=1+375|five-ar=2+525|four-ar=3+533",
+      "expectation": ".notdef=0+440|one-ar=1+300|five-ar=2+420|four-ar=3+426",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٥٥",
-      "expectation": ".notdef=0+440|one-ar=1+375|five-ar=2+525|five-ar=3+525",
+      "expectation": ".notdef=0+440|one-ar=1+300|five-ar=2+420|five-ar=3+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٥٦",
-      "expectation": ".notdef=0+440|one-ar=1+375|five-ar=2+390|six-ar=3+630",
+      "expectation": ".notdef=0+440|one-ar=1+300|five-ar=2+312|six-ar=3+504",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٥٧",
-      "expectation": ".notdef=0+440|one-ar=1+375|five-ar=2+480|seven-ar=3+675",
+      "expectation": ".notdef=0+440|one-ar=1+300|five-ar=2+384|seven-ar=3+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٥٨",
-      "expectation": ".notdef=0+440|one-ar=1+375|five-ar=2+525|eight-ar=3+675",
+      "expectation": ".notdef=0+440|one-ar=1+300|five-ar=2+420|eight-ar=3+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٥٩",
-      "expectation": ".notdef=0+440|one-ar=1+375|five-ar=2+390|nine-ar=3+620",
+      "expectation": ".notdef=0+440|one-ar=1+300|five-ar=2+312|nine-ar=3+496",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٦٠",
-      "expectation": ".notdef=0+440|one-ar=1+375|six-ar=2+580|zero-ar=3+510",
+      "expectation": ".notdef=0+440|one-ar=1+300|six-ar=2+444|zero-ar=3+408",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٦١",
-      "expectation": ".notdef=0+440|one-ar=1+375|six-ar=2+570|one-ar=3+375",
+      "expectation": ".notdef=0+440|one-ar=1+300|six-ar=2+456|one-ar=3+300",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٦٢",
-      "expectation": ".notdef=0+440|one-ar=1+375|six-ar=2+570|two-ar=3+525",
+      "expectation": ".notdef=0+440|one-ar=1+300|six-ar=2+456|two-ar=3+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٦٣",
-      "expectation": ".notdef=0+440|one-ar=1+375|six-ar=2+570|three-ar=3+660",
+      "expectation": ".notdef=0+440|one-ar=1+300|six-ar=2+456|three-ar=3+528",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٦٤",
-      "expectation": ".notdef=0+440|one-ar=1+375|six-ar=2+630|four-ar=3+533",
+      "expectation": ".notdef=0+440|one-ar=1+300|six-ar=2+504|four-ar=3+426",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٦٥",
-      "expectation": ".notdef=0+440|one-ar=1+375|six-ar=2+580|five-ar=3+525",
+      "expectation": ".notdef=0+440|one-ar=1+300|six-ar=2+444|five-ar=3+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٦٦",
-      "expectation": ".notdef=0+440|one-ar=1+375|six-ar=2+630|six-ar=3+630",
+      "expectation": ".notdef=0+440|one-ar=1+300|six-ar=2+504|six-ar=3+504",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٦٧",
-      "expectation": ".notdef=0+440|one-ar=1+375|six-ar=2+570|seven-ar=3+675",
+      "expectation": ".notdef=0+440|one-ar=1+300|six-ar=2+456|seven-ar=3+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٦٨",
-      "expectation": ".notdef=0+440|one-ar=1+375|six-ar=2+630|eight-ar=3+675",
+      "expectation": ".notdef=0+440|one-ar=1+300|six-ar=2+504|eight-ar=3+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٦٩",
-      "expectation": ".notdef=0+440|one-ar=1+375|six-ar=2+630|nine-ar=3+620",
+      "expectation": ".notdef=0+440|one-ar=1+300|six-ar=2+504|nine-ar=3+496",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٧٠",
-      "expectation": ".notdef=0+440|one-ar=1+375|seven-ar=2+675|zero-ar=3+510",
+      "expectation": ".notdef=0+440|one-ar=1+300|seven-ar=2+540|zero-ar=3+408",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٧١",
-      "expectation": ".notdef=0+440|one-ar=1+375|seven-ar=2+675|one-ar=3+375",
+      "expectation": ".notdef=0+440|one-ar=1+300|seven-ar=2+540|one-ar=3+300",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٧٢",
-      "expectation": ".notdef=0+440|one-ar=1+375|seven-ar=2+675|two-ar=3+525",
+      "expectation": ".notdef=0+440|one-ar=1+300|seven-ar=2+540|two-ar=3+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٧٣",
-      "expectation": ".notdef=0+440|one-ar=1+375|seven-ar=2+675|three-ar=3+660",
+      "expectation": ".notdef=0+440|one-ar=1+300|seven-ar=2+540|three-ar=3+528",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٧٤",
-      "expectation": ".notdef=0+440|one-ar=1+375|seven-ar=2+675|four-ar=3+533",
+      "expectation": ".notdef=0+440|one-ar=1+300|seven-ar=2+540|four-ar=3+426",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٧٥",
-      "expectation": ".notdef=0+440|one-ar=1+375|seven-ar=2+675|five-ar=3+525",
+      "expectation": ".notdef=0+440|one-ar=1+300|seven-ar=2+540|five-ar=3+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٧٦",
-      "expectation": ".notdef=0+440|one-ar=1+375|seven-ar=2+675|six-ar=3+630",
+      "expectation": ".notdef=0+440|one-ar=1+300|seven-ar=2+540|six-ar=3+504",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٧٧",
-      "expectation": ".notdef=0+440|one-ar=1+375|seven-ar=2+675|seven-ar=3+675",
+      "expectation": ".notdef=0+440|one-ar=1+300|seven-ar=2+540|seven-ar=3+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٧٨",
-      "expectation": ".notdef=0+440|one-ar=1+375|seven-ar=2+615|eight-ar=3+675",
+      "expectation": ".notdef=0+440|one-ar=1+300|seven-ar=2+492|eight-ar=3+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٧٩",
-      "expectation": ".notdef=0+440|one-ar=1+375|seven-ar=2+675|nine-ar=3+620",
+      "expectation": ".notdef=0+440|one-ar=1+300|seven-ar=2+540|nine-ar=3+496",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٨٠",
-      "expectation": ".notdef=0+440|one-ar=1+375|eight-ar=2+625|zero-ar=3+510",
+      "expectation": ".notdef=0+440|one-ar=1+300|eight-ar=2+480|zero-ar=3+408",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٨١",
-      "expectation": ".notdef=0+440|one-ar=1+375|eight-ar=2+615|one-ar=3+375",
+      "expectation": ".notdef=0+440|one-ar=1+300|eight-ar=2+492|one-ar=3+300",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٨٢",
-      "expectation": ".notdef=0+440|one-ar=1+375|eight-ar=2+615|two-ar=3+525",
+      "expectation": ".notdef=0+440|one-ar=1+300|eight-ar=2+492|two-ar=3+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٨٣",
-      "expectation": ".notdef=0+440|one-ar=1+375|eight-ar=2+615|three-ar=3+660",
+      "expectation": ".notdef=0+440|one-ar=1+300|eight-ar=2+492|three-ar=3+528",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٨٤",
-      "expectation": ".notdef=0+440|one-ar=1+375|eight-ar=2+675|four-ar=3+533",
+      "expectation": ".notdef=0+440|one-ar=1+300|eight-ar=2+540|four-ar=3+426",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٨٥",
-      "expectation": ".notdef=0+440|one-ar=1+375|eight-ar=2+625|five-ar=3+525",
+      "expectation": ".notdef=0+440|one-ar=1+300|eight-ar=2+480|five-ar=3+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٨٦",
-      "expectation": ".notdef=0+440|one-ar=1+375|eight-ar=2+675|six-ar=3+630",
+      "expectation": ".notdef=0+440|one-ar=1+300|eight-ar=2+540|six-ar=3+504",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٨٧",
-      "expectation": ".notdef=0+440|one-ar=1+375|eight-ar=2+615|seven-ar=3+675",
+      "expectation": ".notdef=0+440|one-ar=1+300|eight-ar=2+492|seven-ar=3+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٨٨",
-      "expectation": ".notdef=0+440|one-ar=1+375|eight-ar=2+675|eight-ar=3+675",
+      "expectation": ".notdef=0+440|one-ar=1+300|eight-ar=2+540|eight-ar=3+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٨٩",
-      "expectation": ".notdef=0+440|one-ar=1+375|eight-ar=2+675|nine-ar=3+620",
+      "expectation": ".notdef=0+440|one-ar=1+300|eight-ar=2+540|nine-ar=3+496",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٩٠",
-      "expectation": ".notdef=0+440|one-ar=1+375|nine-ar=2+570|zero-ar=3+510",
+      "expectation": ".notdef=0+440|one-ar=1+300|nine-ar=2+436|zero-ar=3+408",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٩١",
-      "expectation": ".notdef=0+440|one-ar=1+375|nine-ar=2+560|one-ar=3+375",
+      "expectation": ".notdef=0+440|one-ar=1+300|nine-ar=2+448|one-ar=3+300",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٩٢",
-      "expectation": ".notdef=0+440|one-ar=1+375|nine-ar=2+560|two-ar=3+525",
+      "expectation": ".notdef=0+440|one-ar=1+300|nine-ar=2+448|two-ar=3+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٩٣",
-      "expectation": ".notdef=0+440|one-ar=1+375|nine-ar=2+560|three-ar=3+660",
+      "expectation": ".notdef=0+440|one-ar=1+300|nine-ar=2+448|three-ar=3+528",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٩٤",
-      "expectation": ".notdef=0+440|one-ar=1+375|nine-ar=2+620|four-ar=3+533",
+      "expectation": ".notdef=0+440|one-ar=1+300|nine-ar=2+496|four-ar=3+426",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٩٥",
-      "expectation": ".notdef=0+440|one-ar=1+375|nine-ar=2+570|five-ar=3+525",
+      "expectation": ".notdef=0+440|one-ar=1+300|nine-ar=2+436|five-ar=3+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٩٦",
-      "expectation": ".notdef=0+440|one-ar=1+375|nine-ar=2+620|six-ar=3+630",
+      "expectation": ".notdef=0+440|one-ar=1+300|nine-ar=2+496|six-ar=3+504",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٩٧",
-      "expectation": ".notdef=0+440|one-ar=1+375|nine-ar=2+560|seven-ar=3+675",
+      "expectation": ".notdef=0+440|one-ar=1+300|nine-ar=2+448|seven-ar=3+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٩٨",
-      "expectation": ".notdef=0+440|one-ar=1+375|nine-ar=2+620|eight-ar=3+675",
+      "expectation": ".notdef=0+440|one-ar=1+300|nine-ar=2+496|eight-ar=3+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝١٩٩",
-      "expectation": ".notdef=0+440|one-ar=1+375|nine-ar=2+620|nine-ar=3+620",
+      "expectation": ".notdef=0+440|one-ar=1+300|nine-ar=2+496|nine-ar=3+496",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٠٠",
-      "expectation": ".notdef=0+440|two-ar=1+450|zero-ar=2+510|zero-ar=3+510",
+      "expectation": ".notdef=0+440|two-ar=1+360|zero-ar=2+408|zero-ar=3+408",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٠١",
-      "expectation": ".notdef=0+440|two-ar=1+450|zero-ar=2+465|one-ar=3+375",
+      "expectation": ".notdef=0+440|two-ar=1+360|zero-ar=2+372|one-ar=3+300",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٠٢",
-      "expectation": ".notdef=0+440|two-ar=1+450|zero-ar=2+465|two-ar=3+525",
+      "expectation": ".notdef=0+440|two-ar=1+360|zero-ar=2+372|two-ar=3+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٠٣",
-      "expectation": ".notdef=0+440|two-ar=1+450|zero-ar=2+465|three-ar=3+660",
+      "expectation": ".notdef=0+440|two-ar=1+360|zero-ar=2+372|three-ar=3+528",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٠٤",
-      "expectation": ".notdef=0+440|two-ar=1+450|zero-ar=2+510|four-ar=3+533",
+      "expectation": ".notdef=0+440|two-ar=1+360|zero-ar=2+408|four-ar=3+426",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٠٥",
-      "expectation": ".notdef=0+440|two-ar=1+450|zero-ar=2+510|five-ar=3+525",
+      "expectation": ".notdef=0+440|two-ar=1+360|zero-ar=2+408|five-ar=3+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٠٦",
-      "expectation": ".notdef=0+440|two-ar=1+450|zero-ar=2+375|six-ar=3+630",
+      "expectation": ".notdef=0+440|two-ar=1+360|zero-ar=2+300|six-ar=3+504",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٠٧",
-      "expectation": ".notdef=0+440|two-ar=1+450|zero-ar=2+465|seven-ar=3+675",
+      "expectation": ".notdef=0+440|two-ar=1+360|zero-ar=2+372|seven-ar=3+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٠٨",
-      "expectation": ".notdef=0+440|two-ar=1+450|zero-ar=2+510|eight-ar=3+675",
+      "expectation": ".notdef=0+440|two-ar=1+360|zero-ar=2+408|eight-ar=3+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٠٩",
-      "expectation": ".notdef=0+440|two-ar=1+450|zero-ar=2+375|nine-ar=3+620",
+      "expectation": ".notdef=0+440|two-ar=1+360|zero-ar=2+300|nine-ar=3+496",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢١٠",
-      "expectation": ".notdef=0+440|two-ar=1+525|one-ar=2+375|zero-ar=3+510",
+      "expectation": ".notdef=0+440|two-ar=1+420|one-ar=2+300|zero-ar=3+408",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢١١",
-      "expectation": ".notdef=0+440|two-ar=1+525|one-ar=2+375|one-ar=3+375",
+      "expectation": ".notdef=0+440|two-ar=1+420|one-ar=2+300|one-ar=3+300",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢١٢",
-      "expectation": ".notdef=0+440|two-ar=1+525|one-ar=2+375|two-ar=3+525",
+      "expectation": ".notdef=0+440|two-ar=1+420|one-ar=2+300|two-ar=3+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢١٣",
-      "expectation": ".notdef=0+440|two-ar=1+525|one-ar=2+375|three-ar=3+660",
+      "expectation": ".notdef=0+440|two-ar=1+420|one-ar=2+300|three-ar=3+528",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢١٤",
-      "expectation": ".notdef=0+440|two-ar=1+525|one-ar=2+375|four-ar=3+533",
+      "expectation": ".notdef=0+440|two-ar=1+420|one-ar=2+300|four-ar=3+426",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢١٥",
-      "expectation": ".notdef=0+440|two-ar=1+525|one-ar=2+375|five-ar=3+525",
+      "expectation": ".notdef=0+440|two-ar=1+420|one-ar=2+300|five-ar=3+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢١٦",
-      "expectation": ".notdef=0+440|two-ar=1+525|one-ar=2+375|six-ar=3+630",
+      "expectation": ".notdef=0+440|two-ar=1+420|one-ar=2+300|six-ar=3+504",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢١٧",
-      "expectation": ".notdef=0+440|two-ar=1+525|one-ar=2+375|seven-ar=3+675",
+      "expectation": ".notdef=0+440|two-ar=1+420|one-ar=2+300|seven-ar=3+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢١٨",
-      "expectation": ".notdef=0+440|two-ar=1+525|one-ar=2+375|eight-ar=3+675",
+      "expectation": ".notdef=0+440|two-ar=1+420|one-ar=2+300|eight-ar=3+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢١٩",
-      "expectation": ".notdef=0+440|two-ar=1+525|one-ar=2+375|nine-ar=3+620",
+      "expectation": ".notdef=0+440|two-ar=1+420|one-ar=2+300|nine-ar=3+496",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٢٠",
-      "expectation": ".notdef=0+440|two-ar=1+525|two-ar=2+450|zero-ar=3+510",
+      "expectation": ".notdef=0+440|two-ar=1+420|two-ar=2+360|zero-ar=3+408",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٢١",
-      "expectation": ".notdef=0+440|two-ar=1+525|two-ar=2+525|one-ar=3+375",
+      "expectation": ".notdef=0+440|two-ar=1+420|two-ar=2+420|one-ar=3+300",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٢٢",
-      "expectation": ".notdef=0+440|two-ar=1+525|two-ar=2+525|two-ar=3+525",
+      "expectation": ".notdef=0+440|two-ar=1+420|two-ar=2+420|two-ar=3+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٢٣",
-      "expectation": ".notdef=0+440|two-ar=1+525|two-ar=2+525|three-ar=3+660",
+      "expectation": ".notdef=0+440|two-ar=1+420|two-ar=2+420|three-ar=3+528",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٢٤",
-      "expectation": ".notdef=0+440|two-ar=1+525|two-ar=2+525|four-ar=3+533",
+      "expectation": ".notdef=0+440|two-ar=1+420|two-ar=2+420|four-ar=3+426",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٢٥",
-      "expectation": ".notdef=0+440|two-ar=1+525|two-ar=2+450|five-ar=3+525",
+      "expectation": ".notdef=0+440|two-ar=1+420|two-ar=2+360|five-ar=3+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٢٦",
-      "expectation": ".notdef=0+440|two-ar=1+525|two-ar=2+525|six-ar=3+630",
+      "expectation": ".notdef=0+440|two-ar=1+420|two-ar=2+420|six-ar=3+504",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٢٧",
-      "expectation": ".notdef=0+440|two-ar=1+525|two-ar=2+525|seven-ar=3+675",
+      "expectation": ".notdef=0+440|two-ar=1+420|two-ar=2+420|seven-ar=3+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٢٨",
-      "expectation": ".notdef=0+440|two-ar=1+525|two-ar=2+525|eight-ar=3+675",
+      "expectation": ".notdef=0+440|two-ar=1+420|two-ar=2+420|eight-ar=3+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٢٩",
-      "expectation": ".notdef=0+440|two-ar=1+525|two-ar=2+525|nine-ar=3+620",
+      "expectation": ".notdef=0+440|two-ar=1+420|two-ar=2+420|nine-ar=3+496",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٣٠",
-      "expectation": ".notdef=0+440|two-ar=1+525|three-ar=2+585|zero-ar=3+510",
+      "expectation": ".notdef=0+440|two-ar=1+420|three-ar=2+468|zero-ar=3+408",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٣١",
-      "expectation": ".notdef=0+440|two-ar=1+525|three-ar=2+660|one-ar=3+375",
+      "expectation": ".notdef=0+440|two-ar=1+420|three-ar=2+528|one-ar=3+300",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٣٢",
-      "expectation": ".notdef=0+440|two-ar=1+525|three-ar=2+660|two-ar=3+525",
+      "expectation": ".notdef=0+440|two-ar=1+420|three-ar=2+528|two-ar=3+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٣٣",
-      "expectation": ".notdef=0+440|two-ar=1+525|three-ar=2+660|three-ar=3+660",
+      "expectation": ".notdef=0+440|two-ar=1+420|three-ar=2+528|three-ar=3+528",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٣٤",
-      "expectation": ".notdef=0+440|two-ar=1+525|three-ar=2+660|four-ar=3+533",
+      "expectation": ".notdef=0+440|two-ar=1+420|three-ar=2+528|four-ar=3+426",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٣٥",
-      "expectation": ".notdef=0+440|two-ar=1+525|three-ar=2+585|five-ar=3+525",
+      "expectation": ".notdef=0+440|two-ar=1+420|three-ar=2+468|five-ar=3+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٣٦",
-      "expectation": ".notdef=0+440|two-ar=1+525|three-ar=2+660|six-ar=3+630",
+      "expectation": ".notdef=0+440|two-ar=1+420|three-ar=2+528|six-ar=3+504",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٣٧",
-      "expectation": ".notdef=0+440|two-ar=1+525|three-ar=2+660|seven-ar=3+675",
+      "expectation": ".notdef=0+440|two-ar=1+420|three-ar=2+528|seven-ar=3+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٣٨",
-      "expectation": ".notdef=0+440|two-ar=1+525|three-ar=2+660|eight-ar=3+675",
+      "expectation": ".notdef=0+440|two-ar=1+420|three-ar=2+528|eight-ar=3+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٣٩",
-      "expectation": ".notdef=0+440|two-ar=1+525|three-ar=2+660|nine-ar=3+620",
+      "expectation": ".notdef=0+440|two-ar=1+420|three-ar=2+528|nine-ar=3+496",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٤٠",
-      "expectation": ".notdef=0+440|two-ar=1+525|four-ar=2+458|zero-ar=3+510",
+      "expectation": ".notdef=0+440|two-ar=1+420|four-ar=2+366|zero-ar=3+408",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٤١",
-      "expectation": ".notdef=0+440|two-ar=1+525|four-ar=2+458|one-ar=3+375",
+      "expectation": ".notdef=0+440|two-ar=1+420|four-ar=2+366|one-ar=3+300",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٤٢",
-      "expectation": ".notdef=0+440|two-ar=1+525|four-ar=2+458|two-ar=3+525",
+      "expectation": ".notdef=0+440|two-ar=1+420|four-ar=2+366|two-ar=3+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٤٣",
-      "expectation": ".notdef=0+440|two-ar=1+525|four-ar=2+458|three-ar=3+660",
+      "expectation": ".notdef=0+440|two-ar=1+420|four-ar=2+366|three-ar=3+528",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٤٤",
-      "expectation": ".notdef=0+440|two-ar=1+525|four-ar=2+533|four-ar=3+533",
+      "expectation": ".notdef=0+440|two-ar=1+420|four-ar=2+426|four-ar=3+426",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٤٥",
-      "expectation": ".notdef=0+440|two-ar=1+525|four-ar=2+458|five-ar=3+525",
+      "expectation": ".notdef=0+440|two-ar=1+420|four-ar=2+366|five-ar=3+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٤٦",
-      "expectation": ".notdef=0+440|two-ar=1+525|four-ar=2+413|six-ar=3+630",
+      "expectation": ".notdef=0+440|two-ar=1+420|four-ar=2+330|six-ar=3+504",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٤٧",
-      "expectation": ".notdef=0+440|two-ar=1+525|four-ar=2+458|seven-ar=3+675",
+      "expectation": ".notdef=0+440|two-ar=1+420|four-ar=2+366|seven-ar=3+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٤٨",
-      "expectation": ".notdef=0+440|two-ar=1+525|four-ar=2+533|eight-ar=3+675",
+      "expectation": ".notdef=0+440|two-ar=1+420|four-ar=2+426|eight-ar=3+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٤٩",
-      "expectation": ".notdef=0+440|two-ar=1+525|four-ar=2+413|nine-ar=3+620",
+      "expectation": ".notdef=0+440|two-ar=1+420|four-ar=2+330|nine-ar=3+496",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٥٠",
-      "expectation": ".notdef=0+440|two-ar=1+450|five-ar=2+525|zero-ar=3+510",
+      "expectation": ".notdef=0+440|two-ar=1+360|five-ar=2+420|zero-ar=3+408",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٥١",
-      "expectation": ".notdef=0+440|two-ar=1+450|five-ar=2+480|one-ar=3+375",
+      "expectation": ".notdef=0+440|two-ar=1+360|five-ar=2+384|one-ar=3+300",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٥٢",
-      "expectation": ".notdef=0+440|two-ar=1+450|five-ar=2+480|two-ar=3+525",
+      "expectation": ".notdef=0+440|two-ar=1+360|five-ar=2+384|two-ar=3+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٥٣",
-      "expectation": ".notdef=0+440|two-ar=1+450|five-ar=2+480|three-ar=3+660",
+      "expectation": ".notdef=0+440|two-ar=1+360|five-ar=2+384|three-ar=3+528",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٥٤",
-      "expectation": ".notdef=0+440|two-ar=1+450|five-ar=2+525|four-ar=3+533",
+      "expectation": ".notdef=0+440|two-ar=1+360|five-ar=2+420|four-ar=3+426",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٥٥",
-      "expectation": ".notdef=0+440|two-ar=1+450|five-ar=2+525|five-ar=3+525",
+      "expectation": ".notdef=0+440|two-ar=1+360|five-ar=2+420|five-ar=3+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٥٦",
-      "expectation": ".notdef=0+440|two-ar=1+450|five-ar=2+390|six-ar=3+630",
+      "expectation": ".notdef=0+440|two-ar=1+360|five-ar=2+312|six-ar=3+504",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٥٧",
-      "expectation": ".notdef=0+440|two-ar=1+450|five-ar=2+480|seven-ar=3+675",
+      "expectation": ".notdef=0+440|two-ar=1+360|five-ar=2+384|seven-ar=3+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٥٨",
-      "expectation": ".notdef=0+440|two-ar=1+450|five-ar=2+525|eight-ar=3+675",
+      "expectation": ".notdef=0+440|two-ar=1+360|five-ar=2+420|eight-ar=3+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٥٩",
-      "expectation": ".notdef=0+440|two-ar=1+450|five-ar=2+390|nine-ar=3+620",
+      "expectation": ".notdef=0+440|two-ar=1+360|five-ar=2+312|nine-ar=3+496",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٦٠",
-      "expectation": ".notdef=0+440|two-ar=1+525|six-ar=2+580|zero-ar=3+510",
+      "expectation": ".notdef=0+440|two-ar=1+420|six-ar=2+444|zero-ar=3+408",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٦١",
-      "expectation": ".notdef=0+440|two-ar=1+525|six-ar=2+570|one-ar=3+375",
+      "expectation": ".notdef=0+440|two-ar=1+420|six-ar=2+456|one-ar=3+300",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٦٢",
-      "expectation": ".notdef=0+440|two-ar=1+525|six-ar=2+570|two-ar=3+525",
+      "expectation": ".notdef=0+440|two-ar=1+420|six-ar=2+456|two-ar=3+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٦٣",
-      "expectation": ".notdef=0+440|two-ar=1+525|six-ar=2+570|three-ar=3+660",
+      "expectation": ".notdef=0+440|two-ar=1+420|six-ar=2+456|three-ar=3+528",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٦٤",
-      "expectation": ".notdef=0+440|two-ar=1+525|six-ar=2+630|four-ar=3+533",
+      "expectation": ".notdef=0+440|two-ar=1+420|six-ar=2+504|four-ar=3+426",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٦٥",
-      "expectation": ".notdef=0+440|two-ar=1+525|six-ar=2+580|five-ar=3+525",
+      "expectation": ".notdef=0+440|two-ar=1+420|six-ar=2+444|five-ar=3+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٦٦",
-      "expectation": ".notdef=0+440|two-ar=1+525|six-ar=2+630|six-ar=3+630",
+      "expectation": ".notdef=0+440|two-ar=1+420|six-ar=2+504|six-ar=3+504",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٦٧",
-      "expectation": ".notdef=0+440|two-ar=1+525|six-ar=2+570|seven-ar=3+675",
+      "expectation": ".notdef=0+440|two-ar=1+420|six-ar=2+456|seven-ar=3+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٦٨",
-      "expectation": ".notdef=0+440|two-ar=1+525|six-ar=2+630|eight-ar=3+675",
+      "expectation": ".notdef=0+440|two-ar=1+420|six-ar=2+504|eight-ar=3+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٦٩",
-      "expectation": ".notdef=0+440|two-ar=1+525|six-ar=2+630|nine-ar=3+620",
+      "expectation": ".notdef=0+440|two-ar=1+420|six-ar=2+504|nine-ar=3+496",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٧٠",
-      "expectation": ".notdef=0+440|two-ar=1+525|seven-ar=2+675|zero-ar=3+510",
+      "expectation": ".notdef=0+440|two-ar=1+420|seven-ar=2+540|zero-ar=3+408",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٧١",
-      "expectation": ".notdef=0+440|two-ar=1+525|seven-ar=2+675|one-ar=3+375",
+      "expectation": ".notdef=0+440|two-ar=1+420|seven-ar=2+540|one-ar=3+300",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٧٢",
-      "expectation": ".notdef=0+440|two-ar=1+525|seven-ar=2+675|two-ar=3+525",
+      "expectation": ".notdef=0+440|two-ar=1+420|seven-ar=2+540|two-ar=3+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٧٣",
-      "expectation": ".notdef=0+440|two-ar=1+525|seven-ar=2+675|three-ar=3+660",
+      "expectation": ".notdef=0+440|two-ar=1+420|seven-ar=2+540|three-ar=3+528",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٧٤",
-      "expectation": ".notdef=0+440|two-ar=1+525|seven-ar=2+675|four-ar=3+533",
+      "expectation": ".notdef=0+440|two-ar=1+420|seven-ar=2+540|four-ar=3+426",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٧٥",
-      "expectation": ".notdef=0+440|two-ar=1+525|seven-ar=2+675|five-ar=3+525",
+      "expectation": ".notdef=0+440|two-ar=1+420|seven-ar=2+540|five-ar=3+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٧٦",
-      "expectation": ".notdef=0+440|two-ar=1+525|seven-ar=2+675|six-ar=3+630",
+      "expectation": ".notdef=0+440|two-ar=1+420|seven-ar=2+540|six-ar=3+504",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٧٧",
-      "expectation": ".notdef=0+440|two-ar=1+525|seven-ar=2+675|seven-ar=3+675",
+      "expectation": ".notdef=0+440|two-ar=1+420|seven-ar=2+540|seven-ar=3+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٧٨",
-      "expectation": ".notdef=0+440|two-ar=1+525|seven-ar=2+615|eight-ar=3+675",
+      "expectation": ".notdef=0+440|two-ar=1+420|seven-ar=2+492|eight-ar=3+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٧٩",
-      "expectation": ".notdef=0+440|two-ar=1+525|seven-ar=2+675|nine-ar=3+620",
+      "expectation": ".notdef=0+440|two-ar=1+420|seven-ar=2+540|nine-ar=3+496",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٨٠",
-      "expectation": ".notdef=0+440|two-ar=1+525|eight-ar=2+625|zero-ar=3+510",
+      "expectation": ".notdef=0+440|two-ar=1+420|eight-ar=2+480|zero-ar=3+408",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٨١",
-      "expectation": ".notdef=0+440|two-ar=1+525|eight-ar=2+615|one-ar=3+375",
+      "expectation": ".notdef=0+440|two-ar=1+420|eight-ar=2+492|one-ar=3+300",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٨٢",
-      "expectation": ".notdef=0+440|two-ar=1+525|eight-ar=2+615|two-ar=3+525",
+      "expectation": ".notdef=0+440|two-ar=1+420|eight-ar=2+492|two-ar=3+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٨٣",
-      "expectation": ".notdef=0+440|two-ar=1+525|eight-ar=2+615|three-ar=3+660",
+      "expectation": ".notdef=0+440|two-ar=1+420|eight-ar=2+492|three-ar=3+528",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٨٤",
-      "expectation": ".notdef=0+440|two-ar=1+525|eight-ar=2+675|four-ar=3+533",
+      "expectation": ".notdef=0+440|two-ar=1+420|eight-ar=2+540|four-ar=3+426",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٨٥",
-      "expectation": ".notdef=0+440|two-ar=1+525|eight-ar=2+625|five-ar=3+525",
+      "expectation": ".notdef=0+440|two-ar=1+420|eight-ar=2+480|five-ar=3+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٨٦",
-      "expectation": ".notdef=0+440|two-ar=1+525|eight-ar=2+675|six-ar=3+630",
+      "expectation": ".notdef=0+440|two-ar=1+420|eight-ar=2+540|six-ar=3+504",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٨٧",
-      "expectation": ".notdef=0+440|two-ar=1+525|eight-ar=2+615|seven-ar=3+675",
+      "expectation": ".notdef=0+440|two-ar=1+420|eight-ar=2+492|seven-ar=3+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٨٨",
-      "expectation": ".notdef=0+440|two-ar=1+525|eight-ar=2+675|eight-ar=3+675",
+      "expectation": ".notdef=0+440|two-ar=1+420|eight-ar=2+540|eight-ar=3+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٨٩",
-      "expectation": ".notdef=0+440|two-ar=1+525|eight-ar=2+675|nine-ar=3+620",
+      "expectation": ".notdef=0+440|two-ar=1+420|eight-ar=2+540|nine-ar=3+496",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٩٠",
-      "expectation": ".notdef=0+440|two-ar=1+525|nine-ar=2+570|zero-ar=3+510",
+      "expectation": ".notdef=0+440|two-ar=1+420|nine-ar=2+436|zero-ar=3+408",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٩١",
-      "expectation": ".notdef=0+440|two-ar=1+525|nine-ar=2+560|one-ar=3+375",
+      "expectation": ".notdef=0+440|two-ar=1+420|nine-ar=2+448|one-ar=3+300",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٩٢",
-      "expectation": ".notdef=0+440|two-ar=1+525|nine-ar=2+560|two-ar=3+525",
+      "expectation": ".notdef=0+440|two-ar=1+420|nine-ar=2+448|two-ar=3+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٩٣",
-      "expectation": ".notdef=0+440|two-ar=1+525|nine-ar=2+560|three-ar=3+660",
+      "expectation": ".notdef=0+440|two-ar=1+420|nine-ar=2+448|three-ar=3+528",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٩٤",
-      "expectation": ".notdef=0+440|two-ar=1+525|nine-ar=2+620|four-ar=3+533",
+      "expectation": ".notdef=0+440|two-ar=1+420|nine-ar=2+496|four-ar=3+426",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٩٥",
-      "expectation": ".notdef=0+440|two-ar=1+525|nine-ar=2+570|five-ar=3+525",
+      "expectation": ".notdef=0+440|two-ar=1+420|nine-ar=2+436|five-ar=3+420",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٩٦",
-      "expectation": ".notdef=0+440|two-ar=1+525|nine-ar=2+620|six-ar=3+630",
+      "expectation": ".notdef=0+440|two-ar=1+420|nine-ar=2+496|six-ar=3+504",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٩٧",
-      "expectation": ".notdef=0+440|two-ar=1+525|nine-ar=2+560|seven-ar=3+675",
+      "expectation": ".notdef=0+440|two-ar=1+420|nine-ar=2+448|seven-ar=3+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٩٨",
-      "expectation": ".notdef=0+440|two-ar=1+525|nine-ar=2+620|eight-ar=3+675",
+      "expectation": ".notdef=0+440|two-ar=1+420|nine-ar=2+496|eight-ar=3+540",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٢٩٩",
-      "expectation": ".notdef=0+440|two-ar=1+525|nine-ar=2+620|nine-ar=3+620",
+      "expectation": ".notdef=0+440|two-ar=1+420|nine-ar=2+496|nine-ar=3+496",
       "direction": "ltr"
     },
     {
       "only": "Qashib.ttf",
       "input": "۝٣٠٠",
-      "expectation": ".notdef=0+440|three-ar=1+585|zero-ar=2+510|zero-ar=3+510",
+      "expectation": ".notdef=0+440|three-ar=1+468|zero-ar=2+408|zero-ar=3+408",
       "direction": "ltr"
     },
     {

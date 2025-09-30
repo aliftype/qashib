@@ -5,14 +5,14 @@ layers = (
 layerId = m01;
 shapes = (
 {
+pos = (0,-125);
 ref = period;
 },
 {
-pos = (0,214);
 ref = "comma-ar";
 }
 );
-width = 125;
+width = 95;
 }
 );
 metricLeft = "=period";
