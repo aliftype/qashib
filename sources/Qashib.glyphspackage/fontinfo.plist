@@ -443,16 +443,24 @@ lookup rclt_vert_dots {
 		 heh-ar.medi heh-ar.medi.round heh-ar.fina]
 	;
 
+	sub	[alef-ar alef-ar.fina alef-ar.fina.short]
+		[behDotless-ar.init behDotless-ar.init.high]
+		[twodotsabove-ar threedotsabove-ar]' lookup vert_dots
+	;
+
 	sub	[behDotless-ar.init behDotless-ar.init.high behDotless-ar.medi behDotless-ar.medi.high]
 		[twodotsbelow-ar threedotsbelow-ar]' lookup vert_dots
 		[behDotless-ar.medi behDotless-ar.medi.high
 		 reh-ar.fina lam-ar.fina noonghunna-ar.fina alefMaksura-ar.fina alefMaksura-ar.fina.salt]
 	;
 
-	sub	[behDotless-ar.init behDotless-ar.init.high behDotless-ar.medi behDotless-ar.medi.high]
+	sub	[behDotless-ar.init behDotless-ar.init.high behDotless-ar.medi behDotless-ar.medi.high
+		 tah-ar.init tah-ar.init.hah1 tah-ar.init.hah2 tah-ar.medi tah-ar.medi.hah1 tah-ar.medi.hah2
+		 lam-ar.init lam-ar.init.hah1 lam-ar.init.hah2 lam-ar.medi lam-ar.medi.hah1 lam-ar.medi.hah2]
 		[behDotless-ar.medi behDotless-ar.medi.high]
 		@vert_dots' lookup vert_dots
 	;
+
 } rclt_vert_dots;
 ";
 name = dots;
@@ -851,6 +859,9 @@ m01 = {
 "@MMK_R_reh" = {
 "alef-ar" = -70;
 };
+"@MMK_R_reh.hist" = {
+"alef-ar" = -160;
+};
 "@MMK_R_sad" = {
 "@MMK_L_hah" = -10;
 };
@@ -888,9 +899,6 @@ m01 = {
 "@MMK_L_hah" = -25;
 "lam_alef-ar.fina" = -30;
 "meem-ar.medi" = -12;
-};
-"reh-ar.fina.hist" = {
-"alef-ar" = -210;
 };
 };
 };
