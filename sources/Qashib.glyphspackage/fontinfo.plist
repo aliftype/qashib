@@ -327,12 +327,12 @@ lookup rlig_short_lam {
 	lookupflag IgnoreMarks;
 
 	ignore
-	sub [alef-ar.fina lam-ar.init lam-ar.medi tah-ar.init tah-ar.medi]
+	sub [alef-ar alef-ar.fina lam-ar.init lam-ar.medi tah-ar.init tah-ar.medi]
 		[lam-ar lam-ar.medi lam-ar.fina alef-ar.fina]'
 		[lam-ar.medi lam-ar.fina]
 	;
 
-	sub [alef-ar.fina lam-ar.init lam-ar.medi tah-ar.init tah-ar.medi]
+	sub [alef-ar alef-ar.fina lam-ar.init lam-ar.medi tah-ar.init tah-ar.medi]
 		[lam-ar lam-ar.medi lam-ar.fina alef-ar.fina]' lookup short_lam
 	;
 } rlig_short_lam;
