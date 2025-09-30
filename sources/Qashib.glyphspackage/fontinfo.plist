@@ -318,8 +318,9 @@ lookup rclt_yehbarree_baseline {
 
 lookup short_lam {
 	sub lam-ar				by lam-ar.short;
-	sub lam-ar.fina			by lam-ar.fina.short;
+	sub lam-ar.init			by lam-ar.init.short;
 	sub lam-ar.medi			by lam-ar.medi.short;
+	sub lam-ar.fina			by lam-ar.fina.short;
 	sub alef-ar.fina		by alef-ar.fina.short;
 } short_lam;
 
@@ -328,12 +329,12 @@ lookup rlig_short_lam {
 
 	ignore
 	sub [alef-ar alef-ar.fina lam-ar.init lam-ar.medi tah-ar.init tah-ar.medi]
-		[lam-ar lam-ar.medi lam-ar.fina alef-ar.fina]'
+		[lam-ar lam-ar.init lam-ar.medi lam-ar.fina alef-ar.fina]'
 		[lam-ar.medi lam-ar.fina]
 	;
 
 	sub [alef-ar alef-ar.fina lam-ar.init lam-ar.medi tah-ar.init tah-ar.medi]
-		[lam-ar lam-ar.medi lam-ar.fina alef-ar.fina]' lookup short_lam
+		[lam-ar lam-ar.init lam-ar.medi lam-ar.fina alef-ar.fina]' lookup short_lam
 	;
 } rlig_short_lam;
 
@@ -439,7 +440,7 @@ lookup rclt_vert_dots {
 	sub	[behDotless-ar.init behDotless-ar.init.high behDotless-ar.medi behDotless-ar.medi.high]
 		[twodotsabove-ar threedotsabove-ar]' lookup vert_dots
 		[alef-ar.fina behDotless-ar.medi behDotless-ar.medi.high
-		 lam-ar.medi lam-ar.medi.hah1 lam-ar.medi.hah2 lam-ar.fina
+		 lam-ar.medi lam-ar.medi.short lam-ar.medi.hah1 lam-ar.medi.hah2 lam-ar.fina
 		 heh-ar.medi heh-ar.medi.round heh-ar.fina]
 	;
 
@@ -456,7 +457,7 @@ lookup rclt_vert_dots {
 
 	sub	[behDotless-ar.init behDotless-ar.init.high behDotless-ar.medi behDotless-ar.medi.high
 		 tah-ar.init tah-ar.init.hah1 tah-ar.init.hah2 tah-ar.medi tah-ar.medi.hah1 tah-ar.medi.hah2
-		 lam-ar.init lam-ar.init.hah1 lam-ar.init.hah2 lam-ar.medi lam-ar.medi.hah1 lam-ar.medi.hah2]
+		 lam-ar.init lam-ar.init.short lam-ar.init.hah1 lam-ar.init.hah2 lam-ar.medi lam-ar.medi.hah1 lam-ar.medi.hah2]
 		[behDotless-ar.medi behDotless-ar.medi.high]
 		@vert_dots' lookup vert_dots
 	;
@@ -849,6 +850,7 @@ m01 = {
 };
 "@MMK_R_noon" = {
 "alef-ar" = -210;
+period = 70;
 };
 "@MMK_R_noon.hist" = {
 "alef-ar" = -50;
@@ -899,6 +901,9 @@ m01 = {
 "@MMK_L_hah" = -25;
 "lam_alef-ar.fina" = -30;
 "meem-ar.medi" = -12;
+};
+"noonghunna-ar.fina" = {
+period = 88;
 };
 };
 };

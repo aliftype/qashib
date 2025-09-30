@@ -1,0 +1,31 @@
+{
+glyphname = "percent-ar";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(403,607,l),
+(357,633,l),
+(0,15,l),
+(46,-11,l)
+);
+},
+{
+pos = (298,0);
+ref = period;
+},
+{
+pos = (0,524);
+ref = period;
+}
+);
+width = 423;
+}
+);
+metricLeft = "=0";
+metricRight = "=20";
+unicode = 1642;
+}

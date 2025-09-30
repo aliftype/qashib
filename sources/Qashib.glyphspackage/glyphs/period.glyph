@@ -1,31 +1,30 @@
 {
-category = Punctuation;
 glyphname = period;
 layers = (
 {
-backgroundImage = {
-alpha = 80;
-angle = -1.4;
-imagePath = "images/MS-ADD-01116-000-00009.jpg";
-locked = 1;
-pos = (-1914,-3694);
-scale = (5,5);
-};
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-pos = (-7,-10);
-ref = _dot;
+closed = 1;
+nodes = (
+(81,0,o),
+(105,24,o),
+(105,53,cs),
+(105,81,o),
+(81,105,o),
+(53,105,cs),
+(24,105,o),
+(0,81,o),
+(0,53,cs),
+(0,24,o),
+(24,0,o),
+(53,0,cs)
+);
 }
 );
-width = 156;
+width = 125;
 }
 );
-metricLeft = "=0";
 metricRight = "=20";
-script = arabic;
-sortName = arP0945;
-sortNameKeep = arP0945;
 unicode = 46;
 }

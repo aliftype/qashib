@@ -12,7 +12,7 @@ pos = (520,-20);
 },
 {
 name = bottom.hist;
-pos = (882,-10);
+pos = (520,-10);
 },
 {
 name = entry;
@@ -98,7 +98,7 @@ pos = (3070,-20);
 },
 {
 name = bottom.hist;
-pos = (5942,-48);
+pos = (3070,-10);
 },
 {
 name = entry;
@@ -191,7 +191,7 @@ pos = (240,-20);
 },
 {
 name = bottom.hist;
-pos = (452,-48);
+pos = (240,-10);
 },
 {
 name = entry;

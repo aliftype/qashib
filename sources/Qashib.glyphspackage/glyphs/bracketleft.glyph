@@ -1,0 +1,27 @@
+{
+glyphname = bracketleft;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(210,-206,l),
+(210,-156,l),
+(50,-156,l),
+(50,721,l),
+(210,721,l),
+(210,770,l),
+(0,770,l),
+(0,-206,l)
+);
+}
+);
+width = 230;
+}
+);
+metricLeft = "=parenleft";
+metricRight = "=parenleft";
+unicode = 91;
+}

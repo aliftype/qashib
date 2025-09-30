@@ -6,25 +6,60 @@ layers = (
 {
 anchors = (
 {
+name = bottom;
+pos = (149,-344);
+},
+{
 name = entry;
-pos = (358,0);
+pos = (288,0);
+},
+{
+name = top;
+pos = (155,-150);
 }
 );
 backgroundImage = {
 alpha = 80;
 imagePath = "images/image-0056.jpg";
 locked = 1;
-pos = (-8012,-2377);
+pos = (-8082,-2377);
 scale = (14.67,14.67);
 };
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-ref = "noonghunna-ar";
+closed = 1;
+nodes = (
+(355,118,o),
+(140,186,c),
+(201,246,l),
+(179,119,o),
+(122,70,o),
+(48,-11,c),
+(61,91,l),
+(263,56,o),
+(290,-104,o),
+(289,-231,c),
+(303,-171,l),
+(201,-259,o),
+(-3,-204,o),
+(-34,-40,c),
+(29,-63,l),
+(1,-113,o),
+(-20,-182,o),
+(-124,-235,c),
+(-123,-116,l),
+(-78,-237,o),
+(40,-288,o),
+(147,-288,cs),
+(219,-288,o),
+(288,-270,o),
+(329,-211,cs),
+(378,-142,o)
+);
 }
 );
-width = 441;
+width = 371;
 },
 {
 anchors = (
@@ -87,7 +122,6 @@ nodes = (
 width = 270;
 }
 );
-metricLeft = "=0";
 metricRight = "=20";
 script = arabic;
 sortName = arL0061;

@@ -19,11 +19,15 @@ pos = (202,0);
 },
 {
 name = top_1;
-pos = (306,744);
+pos = (306,680);
 },
 {
 name = top_2;
 pos = (3,669);
+},
+{
+name = tophamza_1;
+pos = (306,750);
 }
 );
 backgroundImage = {

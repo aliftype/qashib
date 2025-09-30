@@ -1,0 +1,21 @@
+{
+glyphname = "semicolon-ar";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = period;
+},
+{
+pos = (0,214);
+ref = "comma-ar";
+}
+);
+width = 125;
+}
+);
+metricLeft = "=period";
+metricWidth = "=period";
+unicode = 1563;
+}

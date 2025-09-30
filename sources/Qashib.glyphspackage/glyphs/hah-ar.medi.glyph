@@ -11,6 +11,10 @@ name = bottom;
 pos = (110,-20);
 },
 {
+name = bottom.hist;
+pos = (388,-38);
+},
+{
 name = entry;
 pos = (160,90);
 },
@@ -20,6 +24,10 @@ name = exit;
 {
 name = top;
 pos = (40,230);
+},
+{
+name = top.hist;
+pos = (41,175);
 }
 );
 backgroundImage = {
@@ -33,13 +41,40 @@ scale = (3.4,3.4);
 layerId = m01;
 shapes = (
 {
-ref = "hah-ar.init";
+closed = 1;
+nodes = (
+(564,0,l),
+(545,-7,l),
+(570,12,o),
+(607,52,o),
+(669,81,c),
+(706,68,l),
+(585,64,o),
+(543,67,o),
+(447,70,cs),
+(222,78,o),
+(138,171,o),
+(64,233,c),
+(93,242,l),
+(59,192,o),
+(21,153,o),
+(-19,116,c),
+(-19,151,l),
+(18,114,o),
+(69,80,o),
+(115,56,c),
+(105,70,l),
+(-20,70,l),
+(-20,0,l)
+);
 }
 );
 width = 661;
 }
 );
-metricRight = "=0";
+metricLeft = "=hah-ar.init";
+metricRight = "=hah-ar.init";
+metricWidth = "=hah-ar.init";
 script = arabic;
 sortName = arL0016;
 sortNameKeep = arL0016;

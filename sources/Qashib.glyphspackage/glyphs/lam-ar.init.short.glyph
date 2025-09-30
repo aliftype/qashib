@@ -1,0 +1,62 @@
+{
+category = Letter;
+glyphname = "lam-ar.init.short";
+kernLeft = beh;
+kernRight = beh;
+layers = (
+{
+anchors = (
+{
+name = exit;
+}
+);
+guides = (
+{
+name = "700";
+pos = (501,770);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(78,0,o),
+(80,23,o),
+(80,40,cs),
+(80,698,l),
+(111,718,l),
+(96,669,o),
+(19,573,o),
+(-31,545,c),
+(-25,571,l),
+(1,555,o),
+(0,434,o),
+(0,382,cs),
+(0,40,ls),
+(0,23,o),
+(0,0,o),
+(40,0,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(40,0,l),
+(40,80,l),
+(-20,80,l),
+(-20,0,l)
+);
+}
+);
+width = 100;
+}
+);
+metricLeft = "=lam-ar.init";
+metricRight = "=lam-ar.init";
+metricWidth = "=lam-ar.init";
+production = lamar.init.hah1.001;
+script = arabic;
+sortName = arL0056.short;
+sortNameKeep = arL0056.hah1;
+}
