@@ -2,6 +2,7 @@
 category = Letter;
 color = 9;
 glyphname = "tah-ar.fina";
+kernLeft = beh;
 kernRight = dal;
 layers = (
 {

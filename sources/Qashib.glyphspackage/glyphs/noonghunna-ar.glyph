@@ -1,6 +1,7 @@
 {
 category = Letter;
 glyphname = "noonghunna-ar";
+kernLeft = noon;
 layers = (
 {
 anchors = (

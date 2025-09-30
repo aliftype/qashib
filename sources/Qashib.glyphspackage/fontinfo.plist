@@ -769,20 +769,49 @@ kerningRTL = {
 m01 = {
 "@MMK_R_beh" = {
 "@MMK_L_hah" = -30;
+"alef-ar" = -130;
 };
 "@MMK_R_hah" = {
 "@MMK_L_hah" = -40;
+"alef-ar" = -20;
 "lam_alef-ar.fina" = -40;
 "reh-ar.fina" = -10;
 };
+"@MMK_R_hah.hist" = {
+"alef-ar" = -50;
+};
 "@MMK_R_kaf" = {
 "lam_alef-ar.fina" = -20;
+};
+"@MMK_R_lam-alef" = {
+"alef-ar" = -100;
+};
+"@MMK_R_lam.fina" = {
+"alef-ar" = -160;
+};
+"@MMK_R_noon" = {
+"alef-ar" = -210;
+};
+"@MMK_R_noon.hist" = {
+"alef-ar" = -50;
+};
+"@MMK_R_qaf" = {
+"alef-ar" = -80;
+};
+"@MMK_R_reh" = {
+"alef-ar" = -70;
 };
 "@MMK_R_sad" = {
 "@MMK_L_hah" = -10;
 };
 "@MMK_R_seen" = {
 "@MMK_L_hah" = -5;
+};
+"@MMK_R_waw" = {
+"alef-ar" = -80;
+};
+"@MMK_R_yeh" = {
+"alef-ar" = -30;
 };
 "ain-ar.medi" = {
 "@MMK_L_hah" = -60;
@@ -805,6 +834,9 @@ m01 = {
 "@MMK_L_hah" = -25;
 "lam_alef-ar.fina" = -30;
 "meem-ar.medi" = -12;
+};
+"reh-ar.fina.hist" = {
+"alef-ar" = -210;
 };
 };
 };

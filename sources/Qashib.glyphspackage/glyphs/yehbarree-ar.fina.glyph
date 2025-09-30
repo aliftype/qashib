@@ -2,6 +2,7 @@
 category = Letter;
 color = 9;
 glyphname = "yehbarree-ar.fina";
+kernLeft = yeh;
 kernRight = yeh;
 layers = (
 {

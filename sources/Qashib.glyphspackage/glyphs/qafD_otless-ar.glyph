@@ -1,6 +1,7 @@
 {
 category = Letter;
 glyphname = "qafDotless-ar";
+kernLeft = qaf;
 layers = (
 {
 associatedMasterId = m01;

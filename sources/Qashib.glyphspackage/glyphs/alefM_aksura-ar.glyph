@@ -1,6 +1,7 @@
 {
 category = Letter;
 glyphname = "alefMaksura-ar";
+kernLeft = yeh;
 layers = (
 {
 anchors = (

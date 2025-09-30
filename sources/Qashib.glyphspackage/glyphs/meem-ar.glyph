@@ -1,6 +1,7 @@
 {
 category = Letter;
 glyphname = "meem-ar";
+kernLeft = beh;
 kernRight = meem;
 layers = (
 {

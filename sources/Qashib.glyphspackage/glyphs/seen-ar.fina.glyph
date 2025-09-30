@@ -1,7 +1,7 @@
 {
 category = Letter;
 glyphname = "seen-ar.fina";
-kernLeft = noon;
+kernLeft = noon.hist;
 kernRight = beh;
 layers = (
 {

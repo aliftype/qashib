@@ -2,6 +2,7 @@
 category = Letter;
 color = 9;
 glyphname = "kaf-ar";
+kernLeft = beh;
 kernRight = dal;
 layers = (
 {

@@ -1,6 +1,7 @@
 {
 category = Letter;
 glyphname = "qafDotless-ar.fina";
+kernLeft = qaf;
 layers = (
 {
 anchors = (

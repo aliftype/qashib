@@ -1,6 +1,7 @@
 {
 category = Letter;
 glyphname = "lam_alef-ar.fina";
+kernLeft = "lam-alef";
 layers = (
 {
 anchors = (

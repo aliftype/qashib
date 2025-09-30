@@ -1,6 +1,7 @@
 {
 category = Letter;
 glyphname = "hah-ar";
+kernLeft = hah;
 kernRight = hah;
 layers = (
 {

@@ -2,6 +2,7 @@
 category = Letter;
 color = 7;
 glyphname = "kaf-ar.fina.hist";
+kernLeft = beh;
 kernRight = dal;
 layers = (
 {

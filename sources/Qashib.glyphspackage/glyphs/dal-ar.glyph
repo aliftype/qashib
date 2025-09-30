@@ -2,7 +2,7 @@
 category = Letter;
 color = 9;
 glyphname = "dal-ar";
-kernLeft = dal;
+kernLeft = beh;
 kernRight = dal;
 layers = (
 {

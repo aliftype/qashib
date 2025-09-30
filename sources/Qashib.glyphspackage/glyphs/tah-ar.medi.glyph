@@ -2,7 +2,7 @@
 category = Letter;
 color = 9;
 glyphname = "tah-ar.medi";
-kernLeft = sad;
+kernLeft = beh;
 kernRight = dal;
 layers = (
 {

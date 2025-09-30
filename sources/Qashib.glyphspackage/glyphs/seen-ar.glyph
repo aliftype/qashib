@@ -1,7 +1,7 @@
 {
 category = Letter;
 glyphname = "seen-ar";
-kernLeft = noon;
+kernLeft = noon.hist;
 kernRight = beh.init;
 layers = (
 {
@@ -49,9 +49,10 @@ nodes = (
 (202,198,o),
 (159,160,c),
 (160,287,l),
-(169,173,o),
-(199,61,o),
-(234,16,c),
+(170,161,o),
+(206,37,o),
+(245,4,c),
+(233,90,l),
 (169,0,l)
 );
 },

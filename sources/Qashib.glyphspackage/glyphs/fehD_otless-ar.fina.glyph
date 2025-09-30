@@ -2,6 +2,7 @@
 category = Letter;
 color = 9;
 glyphname = "fehDotless-ar.fina";
+kernLeft = beh;
 kernRight = beh;
 layers = (
 {

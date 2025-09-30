@@ -2,6 +2,7 @@
 category = Letter;
 color = 7;
 glyphname = "noonghunna-ar.fina.hist";
+kernLeft = noon.hist;
 layers = (
 {
 anchors = (

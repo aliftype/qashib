@@ -1,6 +1,7 @@
 {
 category = Letter;
 glyphname = "reh-ar.fina";
+kernLeft = reh;
 layers = (
 {
 anchors = (

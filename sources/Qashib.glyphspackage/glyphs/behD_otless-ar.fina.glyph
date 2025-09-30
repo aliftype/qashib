@@ -2,6 +2,7 @@
 category = Letter;
 color = 9;
 glyphname = "behDotless-ar.fina";
+kernLeft = beh;
 layers = (
 {
 anchors = (
@@ -38,8 +39,8 @@ nodes = (
 (241,70,o),
 (120,79,o),
 (104,105,c),
-(132,121,l),
-(104,71,o),
+(130,121,l),
+(102,71,o),
 (6,-6,o),
 (-43,-21,c)
 );

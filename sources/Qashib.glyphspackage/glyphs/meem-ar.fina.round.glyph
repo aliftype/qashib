@@ -1,7 +1,7 @@
 {
 category = Letter;
 glyphname = "meem-ar.fina.round";
-kernLeft = meem.fina;
+kernLeft = beh;
 layers = (
 {
 anchors = (

@@ -2,6 +2,7 @@
 category = Letter;
 color = 7;
 glyphname = "reh-ar.hist";
+kernLeft = beh;
 layers = (
 {
 anchors = (
