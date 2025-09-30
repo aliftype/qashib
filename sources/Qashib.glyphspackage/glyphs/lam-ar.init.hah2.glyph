@@ -2,7 +2,7 @@
 category = Letter;
 glyphname = "lam-ar.init.hah2";
 kernLeft = beh;
-kernRight = beh;
+kernRight = lam;
 layers = (
 {
 anchors = (

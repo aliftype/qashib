@@ -2,7 +2,7 @@
 category = Letter;
 glyphname = "lam-ar.short";
 kernLeft = lam.fina;
-kernRight = beh;
+kernRight = lam;
 layers = (
 {
 layerId = m01;
