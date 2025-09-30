@@ -829,6 +829,7 @@ m01 = {
 "@MMK_R_beh" = {
 "@MMK_L_hah" = -30;
 "alef-ar" = -130;
+parenleft = -60;
 };
 "@MMK_R_hah" = {
 "@MMK_L_hah" = -40;
@@ -892,6 +893,12 @@ period = 70;
 "@MMK_L_hah" = -5;
 "hah-ar.fina" = -5;
 };
+braceright = {
+"alef-ar" = -50;
+};
+bracketright = {
+"alef-ar" = -120;
+};
 "fehDotless-ar.init" = {
 "@MMK_L_hah" = -60;
 "lam_alef-ar.fina" = -50;
@@ -904,6 +911,9 @@ period = 70;
 };
 "noonghunna-ar.fina" = {
 period = 88;
+};
+parenright = {
+"alef-ar" = -100;
 };
 };
 };
