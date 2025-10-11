@@ -65,6 +65,10 @@ def shape(font, text, direction="rtl", script="arab", features=None):
             glyph = "@hah.medi"
         elif glyph.startswith("seen-ar.medi"):
             glyph = "@seen.medi"
+        elif glyph in ["alefMaksura-ar.fina", "alefMaksura-ar.fina.salt"]:
+            glyph = "@yeh.fina"
+        elif glyph in ["hah-ar.fina", "hah-ar.fina.salt"]:
+            glyph = "@hah.fina"
         glyphs.append(glyph)
         advance += pos.x_advance
 
