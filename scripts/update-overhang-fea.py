@@ -101,7 +101,6 @@ def main(args):
     script_tags = face.get_table_script_tags("GSUB")
     assert "arab" in script_tags
     feature_tags = face.get_language_feature_tags("GSUB", script_tags.index("arab"))
-    has_hist = "hist" in feature_tags
 
     rules = []
     for overhanger in OVERHANGERS:
@@ -123,12 +122,13 @@ def main(args):
                 if text.count("ح") > 1:
                     continue
 
-                for hist in [False, True]:
-                    if hist and not has_hist:
-                        continue
-                    glyphs, adj, adj2 = shape(
-                        font, text, features={"kern": False, "hist": hist}
-                    )
+                for fea in [None, "hist", "salt"]:
+                    features = {"kern": False}
+                    if fea:
+                        if fea not in feature_tags:
+                            continue
+                        features[fea] = True
+                    glyphs, adj, adj2 = shape(font, text, features=features)
                     if adj < THRESHOLD:
                         continue
                     found = True

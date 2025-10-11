@@ -530,6 +530,22 @@
     },
     {
       "only": "Qashib.ttf",
+      "input": "اللطح",
+      "expectation": "hah-ar.fina=4+174|tah-ar.medi.hah1=3@-30,0+760|lam-ar.medi.hah1=2+100|lam-ar.init.hah1=1+100|alef-ar=0+591",
+      "features": {
+        "salt": 1
+      }
+    },
+    {
+      "only": "Qashib.ttf",
+      "input": "اللطحح",
+      "expectation": "hah-ar.fina=5+174|hah-ar.medi=4@-40,90+120|tah-ar.medi.hah2=3@-30,0+760|lam-ar.medi.hah2=2+100|lam-ar.init.hah2=1+100|alef-ar=0+591",
+      "features": {
+        "salt": 1
+      }
+    },
+    {
+      "only": "Qashib.ttf",
       "input": "بي",
       "expectation": "twodotsbelow-ar=1@301,-121+0|yehbarree-ar.fina.baseline=1+245|dotbelow-ar=0@2,-35+0|behDotless-ar.init=0@0,82+540",
       "features": {
