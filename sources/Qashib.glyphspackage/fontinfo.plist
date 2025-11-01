@@ -287,6 +287,15 @@ lookup rclt_yehbarree_baseline {
 	;
 } rclt_yehbarree_baseline;
 
+lookup rclt_feh_yeh {
+	lookupflag IgnoreMarks;
+
+	sub	 fehDotless-ar.init'
+		[alefMaksura-ar.fina alefMaksura-ar.fina.salt yehbarree-ar.fina.baseline]
+	by	 fehDotless-ar.init.short
+	;
+} rclt_feh_yeh;
+
 lookup short_lam {
 	sub lam-ar				by lam-ar.short;
 	sub lam-ar.init			by lam-ar.init.short;
@@ -511,6 +520,7 @@ lookup rclt_hist_sheen_dots;
 lookup rclt_hist_beh_dots;
 lookup rclt_vert_dots;
 lookup rclt_rounded;
+lookup rclt_feh_yeh;
 ";
 tag = rclt;
 },
@@ -816,10 +826,12 @@ kerningRTL = {
 m01 = {
 "@MMK_R_beh" = {
 "@MMK_L_hah" = -30;
+"@MMK_L_yeh" = 40;
 "alef-ar" = -130;
 parenleft = -60;
 };
 "@MMK_R_hah" = {
+"@MMK_L_ain" = -30;
 "@MMK_L_hah" = -40;
 "alef-ar" = -20;
 "lam_alef-ar.fina" = -40;
@@ -865,6 +877,12 @@ period = 70;
 };
 "@MMK_R_yeh" = {
 "alef-ar" = -30;
+};
+"ain-ar.init" = {
+"@MMK_L_ain" = 0;
+};
+"ain-ar.init.hist" = {
+"@MMK_L_ain" = -20;
 };
 "ain-ar.medi" = {
 "@MMK_L_hah" = -60;

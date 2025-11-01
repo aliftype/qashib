@@ -17,7 +17,7 @@ pos = (251,-406);
 },
 {
 name = entry;
-pos = (274,0);
+pos = (240,0);
 },
 {
 name = top;
@@ -85,11 +85,97 @@ nodes = (
 );
 }
 );
-width = 274;
+width = 283;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (130,-198);
+},
+{
+name = bottom.hist;
+pos = (274,-167);
+},
+{
+name = entry;
+pos = (283,0);
+},
+{
+name = top;
+pos = (120,180);
+}
+);
+associatedMasterId = m01;
+backgroundImage = {
+alpha = 80;
+imagePath = "images/CBL-MS-1407-000004.png";
+locked = 1;
+pos = (-954,-963);
+scale = (0.9,0.9);
+};
+layerId = "02A3851C-84FA-4BFA-8113-CF5D302EEC3C";
+name = "1 Nov 25 at 23:35";
+shapes = (
+{
+closed = 1;
+nodes = (
+(86,82,l),
+(96,26,o),
+(145,0,o),
+(230,0,cs),
+(303,0,l),
+(303,70,l),
+(239,70,o),
+(223,72,o),
+(188,115,cs),
+(167,143,o),
+(148,160,o),
+(120,160,cs),
+(62,160,o),
+(0,89,o),
+(0,20,cs),
+(0,-36,o),
+(34,-81,o),
+(189,-88,c),
+(150,-29,l),
+(162,-66,o),
+(169,-91,o),
+(173,-134,c),
+(195,-108,l),
+(165,-112,o),
+(6,-104,o),
+(-12,-74,c),
+(16,-74,l),
+(-12,-124,o),
+(-110,-201,o),
+(-159,-216,c),
+(-139,-178,l),
+(242,-178,ls),
+(280,-178,o),
+(284,-155,o),
+(282,-138,cs),
+(278,-95,o),
+(271,-70,o),
+(259,-33,cs),
+(255,-21,o),
+(244,-18,o),
+(237,-18,cs),
+(130,-18,o),
+(89,8,o),
+(64,63,c),
+(42,33,l),
+(128,81,l)
+);
+}
+);
+visible = 1;
+width = 283;
 }
 );
 metricLeft = "=alefMaksura-ar.salt";
-metricWidth = "=alefMaksura-ar.salt";
+metricRight = "=-20";
+metricWidth = "=alefMaksura-ar.fina";
 script = arabic;
 sortName = arL0080b;
 sortNameKeep = arL0080b;
