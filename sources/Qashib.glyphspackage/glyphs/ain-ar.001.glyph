@@ -1,7 +1,7 @@
 {
 category = Letter;
 color = 7;
-glyphname = "ain-ar.hist.001";
+glyphname = "ain-ar.001";
 kernLeft = hah.hist;
 kernRight = hah;
 layers = (
@@ -65,6 +65,6 @@ width = 598;
 metricLeft = "=0";
 metricRight = "=20";
 script = arabic;
-sortName = arL0035.hist;
+sortName = arL0035.001;
 sortNameKeep = arL0035;
 }
