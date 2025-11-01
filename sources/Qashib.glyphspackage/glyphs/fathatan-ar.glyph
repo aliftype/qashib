@@ -6,10 +6,42 @@ layers = (
 anchors = (
 {
 name = _top;
-pos = (83,406);
+pos = (67,406);
 }
 );
 layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(101,516,l),
+(91,532,l),
+(2,469,l),
+(10,456,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(117,489,l),
+(106,507,l),
+(16,446,l),
+(24,433,l)
+);
+}
+);
+width = 150;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (83,406);
+}
+);
+associatedMasterId = m01;
+layerId = "4A5A0976-79F0-4A64-B755-7CCB66A28DA0";
+name = "1 Nov 25 at 23:09";
 shapes = (
 {
 closed = 1;

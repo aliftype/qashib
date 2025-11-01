@@ -7,6 +7,10 @@ layers = (
 {
 anchors = (
 {
+name = bottom;
+pos = (40,-20);
+},
+{
 name = exit;
 },
 {
