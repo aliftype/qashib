@@ -7913,6 +7913,11 @@
       "only": "Qashib.ttf",
       "input": "باثم",
       "expectation": "meem-ar.fina=3+620|threedotsabove-ar.vert=2@4,341+0|behDotless-ar.init=2+100|alef-ar.fina=1+100|dotbelow-ar=0@2,-117+0|behDotless-ar.init=0+100"
+    },
+    {
+      "only": "Qashib.ttf",
+      "input": "المُتَقَدِّمونَ",
+      "expectation": "fatha-ar=13@80,-453+0|dotabove-ar=13@117,-125+0|noonghunna-ar=13+371|waw-ar.fina.round=12+390|meem-ar.init.round=11+308|kasra-ar=8@395,80+0|shadda-ar=8@457,-180+0|dal-ar.fina=8+940|fatha-ar=6@59,44+0|twodotsabove-ar=6@52,372+0|fehDotless-ar.medi=6+289|fatha-ar=4@-33,13+0|twodotsabove-ar=4@-40,341+0|behDotless-ar.medi=4+100|damma-ar=2@104,-86+0|meem-ar.medi=2+328|lam-ar.init.short=1+100|alef-ar=0+591"
     }
   ],
   "configuration": {

@@ -12,7 +12,7 @@ name = bottom;
 pos = (468,-20);
 },
 {
-name = exit;
+name = entry;
 pos = (876,0);
 },
 {
@@ -115,7 +115,7 @@ name = bottom;
 pos = (278,-20);
 },
 {
-name = exit;
+name = entry;
 pos = (446,0);
 },
 {
@@ -225,7 +225,7 @@ name = bottom;
 pos = (3060,-20);
 },
 {
-name = exit;
+name = entry;
 pos = (5936,0);
 },
 {

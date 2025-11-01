@@ -16,6 +16,10 @@ name = bottom.hist;
 pos = (786,-44);
 },
 {
+name = entry;
+pos = (940,0);
+},
+{
 name = top;
 pos = (785,347);
 },
@@ -112,6 +116,10 @@ name = bottom.hist;
 pos = (356,-44);
 },
 {
+name = entry;
+pos = (510,0);
+},
+{
 name = top;
 pos = (355,347);
 },
@@ -205,6 +213,10 @@ pos = (5846,-20);
 {
 name = bottom.hist;
 pos = (5846,-44);
+},
+{
+name = entry;
+pos = (6000,0);
 },
 {
 name = top;
