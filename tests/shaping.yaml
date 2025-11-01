@@ -155,6 +155,21 @@ input:
   - علي
   - مني
 
+- features:
+   hist: 1
+  text:
+  - لهن
+  - من
+  - هن
+  - بهم
+  - لهم
+  - بهو
+  - لهم
+  - مما
+  - مو
+  - مر
+  - ممر
+
 - direction: ltr
   features:
     salt: 1

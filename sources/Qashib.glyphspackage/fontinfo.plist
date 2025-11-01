@@ -342,16 +342,25 @@ lookup rounded {
 	sub meem-ar.fina		by meem-ar.fina.round;
 	sub noonghunna-ar.fina	by noonghunna-ar.fina.round;
 	sub heh-ar.init			by heh-ar.init.round;
+	sub heh-ar.medi			by heh-ar.medi.round;
 	sub waw-ar.fina			by waw-ar.fina.round;
 } rounded;
 
 lookup rclt_rounded {
 	lookupflag IgnoreMarks;
 
-	sub [meem-ar.init heh-ar.init]' lookup rounded
-		 @aftermeem' lookup rounded
+	sub [meem-ar.init heh-ar.init heh-ar.medi]' lookup rounded
+		 noonghunna-ar.fina' lookup rounded
 	;
 } rclt_rounded;
+
+lookup hist_2 {
+	lookupflag IgnoreMarks;
+
+	sub [meem-ar.init heh-ar.init heh-ar.medi]' lookup rounded
+		 @aftermeem' lookup rounded
+	;
+} hist_2;
 ";
 name = misc;
 },
@@ -512,6 +521,7 @@ tag = salt;
 },
 {
 code = "lookup hist_1;
+lookup hist_2;
 ";
 tag = hist;
 },
@@ -889,10 +899,12 @@ bracketright = {
 "meem-ar.medi" = -12;
 };
 "heh-ar.init.round" = {
+"@MMK_L_dal" = -10;
 "noonghunna-ar.fina.hist" = -20;
 "noonghunna-ar.fina.round" = -20;
 };
 "heh-ar.medi.round" = {
+"@MMK_L_dal" = -10;
 "noonghunna-ar.fina.hist" = -20;
 "noonghunna-ar.fina.round" = -20;
 };
