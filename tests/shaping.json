@@ -5182,7 +5182,7 @@
     {
       "only": "Qashib.ttf",
       "input": "لً",
-      "expectation": "fathatan-ar=0+0|lam-ar=0+273"
+      "expectation": "fathatan-ar=0@133,374+0|lam-ar=0+273"
     },
     {
       "only": "Qashib.ttf",
@@ -5192,7 +5192,7 @@
     {
       "only": "Qashib.ttf",
       "input": "لَ",
-      "expectation": "fatha-ar=0+0|lam-ar=0+273"
+      "expectation": "fatha-ar=0@141,380+0|lam-ar=0+273"
     },
     {
       "only": "Qashib.ttf",
@@ -7772,7 +7772,7 @@
     {
       "only": "Qashib.ttf",
       "input": "يُضِلُ",
-      "expectation": "damma-ar=4+0|lam-ar.fina=4+273|kasra-ar=2@307,80+0|dotabove-ar=2@344,245+0|sad-ar.medi=2+790|damma-ar=0@-8,-84+0|twodotsbelow-ar=0@-42,-117+0|behDotless-ar.init=0+100"
+      "expectation": "damma-ar=4@166,380+0|lam-ar.fina=4+273|kasra-ar=2@307,80+0|dotabove-ar=2@344,245+0|sad-ar.medi=2+790|damma-ar=0@-8,-84+0|twodotsbelow-ar=0@-42,-117+0|behDotless-ar.init=0+100"
     },
     {
       "only": "Qashib.ttf",

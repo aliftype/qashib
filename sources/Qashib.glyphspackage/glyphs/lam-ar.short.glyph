@@ -5,6 +5,12 @@ kernLeft = lam.fina;
 kernRight = lam;
 layers = (
 {
+anchors = (
+{
+name = top;
+pos = (216,670);
+}
+);
 layerId = m01;
 shapes = (
 {

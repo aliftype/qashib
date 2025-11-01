@@ -8,6 +8,10 @@ layers = (
 anchors = (
 {
 name = exit;
+},
+{
+name = top;
+pos = (43,780);
 }
 );
 backgroundImage = {

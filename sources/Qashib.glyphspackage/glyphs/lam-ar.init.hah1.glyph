@@ -9,6 +9,10 @@ anchors = (
 {
 name = exit;
 pos = (0,90);
+},
+{
+name = top;
+pos = (43,780);
 }
 );
 guides = (

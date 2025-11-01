@@ -12,6 +12,10 @@ pos = (100,0);
 },
 {
 name = exit;
+},
+{
+name = top;
+pos = (43,673);
 }
 );
 layerId = m01;

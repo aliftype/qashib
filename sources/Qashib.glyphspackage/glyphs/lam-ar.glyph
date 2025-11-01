@@ -5,6 +5,12 @@ kernLeft = lam.fina;
 kernRight = lam;
 layers = (
 {
+anchors = (
+{
+name = top;
+pos = (216,780);
+}
+);
 backgroundImage = {
 alpha = 80;
 imagePath = "images/lam-ar.jpg";
