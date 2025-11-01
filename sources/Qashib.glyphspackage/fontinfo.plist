@@ -1,5 +1,5 @@
 {
-.appVersion = "3434";
+.appVersion = "3436";
 .formatVersion = 3;
 axes = (
 {
@@ -43,13 +43,6 @@ value = (
 );
 },
 {
-name = glyphOrder;
-value = (
-.notdef,
-space
-);
-},
-{
 name = "Axis Mappings";
 value = {
 MSHQ = {
@@ -60,7 +53,7 @@ MSHQ = {
 }
 );
 date = "2021-04-25 20:10:22 +0000";
-familyName = "Qashib";
+familyName = Qashib;
 featurePrefixes = (
 {
 automatic = 1;
@@ -777,7 +770,7 @@ name = Regular;
 properties = (
 {
 key = variablePostscriptFontName;
-value = "Qashib";
+value = Qashib;
 }
 );
 }
