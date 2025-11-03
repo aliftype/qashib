@@ -224,6 +224,6 @@ width = 6000;
 metricLeft = "=dal-ar";
 metricRight = "=dal-ar";
 script = arabic;
-sortName = arL0046;
+sortName = arL0046.xhist;
 sortNameKeep = arL0046;
 }

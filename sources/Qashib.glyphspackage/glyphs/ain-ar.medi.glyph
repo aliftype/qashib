@@ -19,10 +19,6 @@ name = exit;
 {
 name = top;
 pos = (150,312);
-},
-{
-name = top.hist;
-pos = (150,340);
 }
 );
 layerId = m01;

@@ -16,13 +16,6 @@ name = top.hist;
 pos = (234,175);
 }
 );
-backgroundImage = {
-alpha = 80;
-imagePath = "images/hah-ar.1.jpg";
-locked = 1;
-pos = (-409,-299);
-scale = (14.67,14.67);
-};
 layerId = m01;
 shapes = (
 {
@@ -181,6 +174,6 @@ metricLeft = "=ain-ar.hist";
 metricRight = "=ain-ar.hist";
 metricWidth = "=ain-ar.hist";
 script = arabic;
-sortName = arL0014;
+sortName = arL0014.xhist;
 sortNameKeep = arL0014;
 }

@@ -80,8 +80,7 @@ width = 851;
 metricLeft = "=hah-ar.hist";
 metricRight = "=hah-ar.hist";
 metricWidth = "=hah-ar.hist";
-production = hahar.fina.alt.001;
 script = arabic;
-sortName = arL0015.alt;
+sortName = arL0015.xhist;
 sortNameKeep = arL0015.alt;
 }

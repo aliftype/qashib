@@ -71,7 +71,6 @@ width = 328;
 );
 metricLeft = "=0";
 metricRight = "=20";
-production = meemar.medi.round;
 script = arabic;
 sortName = arL0059.round;
 sortNameKeep = arL0059.round;

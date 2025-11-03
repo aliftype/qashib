@@ -269,8 +269,12 @@ lookup ss01_dots {
 } ss01_dots;
 
 lookup salt_1 {
-	sub alefMaksura-ar from [alefMaksura-ar.salt yehbarree-ar];
-	sub alefMaksura-ar.fina from [alefMaksura-ar.fina.salt yehbarree-ar.fina];
+	sub hah-ar				from [hah-ar.salt1 hah-ar.salt2];
+	sub hah-ar.fina			from [hah-ar.fina.salt1 hah-ar.fina.salt2];
+	sub ain-ar				from [ain-ar.salt1 ain-ar.salt2];
+	sub ain-ar.fina			from [ain-ar.fina.salt1 ain-ar.fina.salt2];
+	sub alefMaksura-ar		from [alefMaksura-ar.salt yehbarree-ar];
+	sub alefMaksura-ar.fina	from [alefMaksura-ar.fina.salt yehbarree-ar.fina];
 } salt_1;
 
 lookup yehbarree_baseline {
@@ -783,6 +787,7 @@ GSOffsetPosition = 1;
 GSOffsetProportional = 1;
 GSOffsetVertical = 10;
 };
+visible = 1;
 }
 );
 instances = (
@@ -828,6 +833,7 @@ m01 = {
 "@MMK_L_hah" = -30;
 "@MMK_L_yeh" = 40;
 "alef-ar" = -130;
+"hah-ar.fina" = -30;
 parenleft = -60;
 };
 "@MMK_R_hah" = {

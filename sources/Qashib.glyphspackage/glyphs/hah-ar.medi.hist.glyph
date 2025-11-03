@@ -1,6 +1,7 @@
 {
 category = Letter;
-glyphname = "hah-ar.medi";
+color = 7;
+glyphname = "hah-ar.medi.hist";
 kernLeft = hah;
 kernRight = hah;
 layers = (
@@ -24,6 +25,10 @@ name = exit;
 {
 name = top;
 pos = (40,230);
+},
+{
+name = top.hist;
+pos = (41,175);
 }
 );
 backgroundImage = {
@@ -37,16 +42,16 @@ scale = (3.4,3.4);
 layerId = m01;
 shapes = (
 {
-ref = "hah-ar.init";
+ref = "hah-ar.init.hist";
 }
 );
-width = 523;
+width = 661;
 }
 );
 metricLeft = "=hah-ar.init";
 metricRight = "=hah-ar.init";
 metricWidth = "=hah-ar.init";
 script = arabic;
-sortName = arL0016;
+sortName = arL0016.xhist;
 sortNameKeep = arL0016;
 }

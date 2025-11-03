@@ -202,8 +202,7 @@ width = 5874;
 );
 metricLeft = "=-20";
 metricRight = "=kaf-ar";
-production = kafar.init.alt.001;
 script = arabic;
-sortName = arL0049;
+sortName = arL0049.xhist;
 sortNameKeep = arL0049;
 }

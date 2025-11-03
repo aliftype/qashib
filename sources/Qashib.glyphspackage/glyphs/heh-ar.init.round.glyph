@@ -87,7 +87,6 @@ width = 290;
 );
 metricLeft = "=heh-ar";
 metricRight = "=heh-ar";
-production = hehar.init.round;
 script = arabic;
 sortName = arL0067.round;
 sortNameKeep = arL0067.round;

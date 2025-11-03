@@ -261,6 +261,6 @@ metricLeft = "=kaf-ar";
 metricRight = "=dal-ar.fina";
 metricWidth = "=kaf-ar";
 script = arabic;
-sortName = arL0047;
+sortName = arL0047.xhist;
 sortNameKeep = arL0047;
 }

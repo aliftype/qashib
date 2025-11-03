@@ -53,7 +53,6 @@ width = 273;
 metricLeft = "=lam-ar";
 metricRight = "=lam-ar";
 metricWidth = "=lam-ar";
-production = lamar.fina.short.001;
 script = arabic;
 sortName = arL0053.short;
 sortNameKeep = arL0054.short;

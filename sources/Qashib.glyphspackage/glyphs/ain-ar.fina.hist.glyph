@@ -15,14 +15,6 @@ name = top.hist;
 pos = (134,224);
 }
 );
-backgroundImage = {
-alpha = 80;
-angle = -1.3;
-imagePath = "images/seen-ar.init.2.jpg";
-locked = 1;
-pos = (-96,-667);
-scale = (9.2421,9.2421);
-};
 layerId = m01;
 shapes = (
 {
@@ -92,6 +84,6 @@ width = 180;
 metricLeft = "=0";
 metricRight = "=-20@10";
 script = arabic;
-sortName = arL0036;
+sortName = arL0036.xhist;
 sortNameKeep = arL0036;
 }

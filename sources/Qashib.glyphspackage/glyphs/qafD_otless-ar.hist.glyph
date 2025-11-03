@@ -278,6 +278,6 @@ width = 471;
 metricLeft = "=0";
 metricRight = "=20";
 script = arabic;
-sortName = arL0043;
+sortName = arL0043.xhist;
 sortNameKeep = arL0043;
 }

@@ -377,7 +377,6 @@ width = 5850;
 metricLeft = "=tah-ar.medi";
 metricRight = "=tah-ar.medi";
 metricWidth = "=tah-ar.medi";
-production = tahar.medi.hah1;
 script = arabic;
 sortName = arL0033.hah1;
 sortNameKeep = arL0033.hah1;

@@ -1,0 +1,139 @@
+{
+category = Letter;
+color = 7;
+glyphname = "hah-ar.init.hist";
+kernLeft = hah;
+kernRight = hah;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (250,-20);
+},
+{
+name = bottom.hist;
+pos = (388,-38);
+},
+{
+name = exit;
+},
+{
+name = top;
+pos = (254,230);
+},
+{
+name = top.hist;
+pos = (41,175);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(564,0,l),
+(545,-7,l),
+(570,12,o),
+(607,52,o),
+(669,81,c),
+(706,68,l),
+(585,64,o),
+(543,67,o),
+(447,70,cs),
+(222,78,o),
+(138,171,o),
+(64,233,c),
+(93,242,l),
+(59,192,o),
+(21,153,o),
+(-19,116,c),
+(-19,151,l),
+(18,114,o),
+(69,80,o),
+(115,56,c),
+(105,70,l),
+(-20,70,l),
+(-20,0,l)
+);
+}
+);
+width = 661;
+},
+{
+anchors = (
+{
+name = bottom.hist;
+pos = (368,-54);
+},
+{
+name = exit;
+},
+{
+name = top.hist;
+pos = (59,215);
+}
+);
+associatedMasterId = m01;
+backgroundImage = {
+alpha = 80;
+angle = 0.5;
+imagePath = "images/hah-ar.init.jpg";
+locked = 1;
+pos = (-335,-208);
+scale = (14.67,14.67);
+};
+layerId = "B51E4E94-5C4A-4B16-92BF-8159F020CE5C";
+name = "29 Sep 25 at 01:12";
+shapes = (
+{
+closed = 1;
+nodes = (
+(111,264,o),
+(106,266,o),
+(101,260,cs),
+(67,218,o),
+(38,186,o),
+(12,169,cs),
+(5,165,o),
+(2,161,o),
+(12,155,cs),
+(67,120,o),
+(158,83,o),
+(215,64,c),
+(205,110,l),
+(-20,110,l),
+(-20,0,l),
+(170,2,o),
+(392,4,o),
+(555,4,cs),
+(697,4,o),
+(806,1,o),
+(842,1,cs),
+(851,1,o),
+(884,0,o),
+(896,11,cs),
+(917,30,o),
+(968,46,o),
+(1017,68,cs),
+(1023,71,o),
+(1023,78,o),
+(1018,78,cs),
+(885,78,o),
+(720,87,o),
+(585,98,cs),
+(467,106,o),
+(274,161,o),
+(115,262,c)
+);
+}
+);
+width = 1022;
+}
+);
+metricLeft = "=-20";
+metricRight = "=hah-ar.hist";
+script = arabic;
+sortName = arL0017.xhist;
+sortNameKeep = arL0017;
+}

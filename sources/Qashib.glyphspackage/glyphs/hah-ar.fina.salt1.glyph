@@ -1,6 +1,6 @@
 {
 category = Letter;
-glyphname = "hah-ar.fina";
+glyphname = "hah-ar.fina.salt1";
 kernLeft = hah;
 kernRight = hah;
 layers = (
@@ -8,7 +8,7 @@ layers = (
 anchors = (
 {
 name = bottom;
-pos = (177,-16);
+pos = (161,-100);
 },
 {
 name = entry;
@@ -22,16 +22,16 @@ pos = (40,230);
 layerId = m01;
 shapes = (
 {
-ref = "hah-ar";
+ref = "hah-ar.salt1";
 }
 );
-width = 515;
+width = 554;
 }
 );
 metricLeft = "=hah-ar";
 metricRight = "=hah-ar";
 metricWidth = "=hah-ar";
 script = arabic;
-sortName = arL0015;
+sortName = arL0015.fina.salt1;
 sortNameKeep = arL0015.alt;
 }

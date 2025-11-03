@@ -116,6 +116,6 @@ width = 307;
 metricLeft = "=qafDotless-ar.hist";
 metricRight = "=-20@10";
 script = arabic;
-sortName = arL0044;
+sortName = arL0044.xhist;
 sortNameKeep = arL0044;
 }

@@ -63,6 +63,6 @@ width = 270;
 metricLeft = "=noonghunna-ar.hist";
 metricRight = "=noonghunna-ar.hist";
 script = arabic;
-sortName = arL0062;
+sortName = arL0062.xhist;
 sortNameKeep = arL0062;
 }
