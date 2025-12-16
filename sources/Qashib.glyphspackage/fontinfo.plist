@@ -45,12 +45,12 @@ value = (
 );
 },
 {
-name = "Write lastChange";
-value = 0;
-},
-{
 name = "Don't use Production Names";
 value = 1;
+},
+{
+name = "Write lastChange";
+value = 0;
 },
 {
 name = "Write DisplayStrings";
