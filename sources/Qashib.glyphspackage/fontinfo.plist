@@ -294,8 +294,12 @@ name = teeth;
 {
 code = "@dots = [$[name LIKE \"*dot*\" && category == \"Mark\"]];
 lookup ss01_dots {
-	sub @dots by NULL;
+	sub @dots by dummy.mark;
 } ss01_dots;
+
+lookup ss01_cleanup {
+	sub dummy.mark by NULL;
+} ss01_cleanup;
 
 lookup salt_1 {
 	sub hah-ar				from [hah-ar.salt1 hah-ar.salt2];
@@ -562,6 +566,7 @@ tag = hist;
 },
 {
 code = "lookup ss01_dots;
+lookup ss01_cleanup;
 ";
 labels = (
 {
