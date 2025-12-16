@@ -74,7 +74,7 @@ width = 328;
 }
 );
 metricLeft = "=meem-ar.medi";
-metricRight = "=meem-ar";
+metricRight = "=meem-ar.isol";
 script = arabic;
 sortName = arL0060;
 sortNameKeep = arL0060;

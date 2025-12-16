@@ -1,0 +1,206 @@
+{
+category = Letter;
+color = 9;
+glyphname = "beh-ar.isol";
+kernLeft = beh;
+kernRight = dal;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (470,-20);
+},
+{
+name = bottom.hist;
+pos = (911,10);
+},
+{
+name = top;
+pos = (470,130);
+},
+{
+name = top.hist;
+pos = (768,215);
+}
+);
+backgroundImage = {
+alpha = 80;
+imagePath = "images/behDotless-ar.jpg";
+pos = (-428,-293);
+scale = (14.67,14.67);
+};
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-23,0,l),
+(880,0,ls),
+(918,0,o),
+(920,23,o),
+(920,40,cs),
+(913,145,o),
+(849,262,o),
+(788,321,c),
+(861,361,l),
+(809,244,o),
+(768,203,o),
+(677,143,c),
+(653,192,l),
+(746,152,o),
+(804,102,o),
+(814,64,c),
+(831,70,l),
+(293,70,ls),
+(241,70,o),
+(120,79,o),
+(104,105,c),
+(130,121,l),
+(102,71,o),
+(6,-6,o),
+(-43,-21,c)
+);
+}
+);
+width = 940;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (3070,-20);
+},
+{
+name = bottom.hist;
+pos = (5971,10);
+},
+{
+name = top;
+pos = (3070,130);
+},
+{
+name = top.hist;
+pos = (5817,227);
+}
+);
+associatedMasterId = m01;
+attr = {
+coordinates = (
+100
+);
+};
+layerId = "307A62E0-5030-4782-86E3-03AB3DF697F9";
+metricWidth = "=6000";
+name = "17 May 23 at 02:24";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-23,0,l),
+(5940,0,ls),
+(5978,0,o),
+(5980,23,o),
+(5980,40,cs),
+(5973,145,o),
+(5909,262,o),
+(5848,321,c),
+(5921,361,l),
+(5869,244,o),
+(5828,203,o),
+(5737,143,c),
+(5713,192,l),
+(5806,152,o),
+(5864,102,o),
+(5874,64,c),
+(5891,70,l),
+(293,70,ls),
+(241,70,o),
+(120,79,o),
+(104,105,c),
+(130,121,l),
+(102,71,o),
+(6,-6,o),
+(-43,-21,c)
+);
+}
+);
+width = 6000;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (240,-20);
+},
+{
+name = bottom.hist;
+pos = (480,10);
+},
+{
+name = top;
+pos = (240,180);
+},
+{
+name = top.hist;
+pos = (327,227);
+}
+);
+associatedMasterId = m01;
+attr = {
+coordinates = (
+0
+);
+};
+backgroundImage = {
+alpha = 80;
+imagePath = "images/CBL-MS-1407-000001.png";
+locked = 1;
+pos = (-3289,-3507);
+scale = (3.4,3.4);
+};
+layerId = "E3D62362-D447-4A83-A898-84C06634E39F";
+metricWidth = "=510";
+name = "{0, 0} 23 Sep 25 at 11:37";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-23,0,l),
+(450,0,ls),
+(488,0,o),
+(490,23,o),
+(490,40,cs),
+(483,145,o),
+(419,262,o),
+(358,321,c),
+(431,361,l),
+(379,244,o),
+(338,203,o),
+(247,143,c),
+(223,192,l),
+(316,152,o),
+(374,102,o),
+(384,64,c),
+(401,70,l),
+(313,70,ls),
+(261,70,o),
+(120,79,o),
+(104,105,c),
+(130,121,l),
+(102,71,o),
+(6,-6,o),
+(-43,-21,c)
+);
+}
+);
+width = 510;
+}
+);
+metricLeft = "=0";
+metricRight = "=20";
+metricWidth = "=940";
+script = arabic;
+sortName = arL0008;
+sortNameKeep = arL0008;
+}

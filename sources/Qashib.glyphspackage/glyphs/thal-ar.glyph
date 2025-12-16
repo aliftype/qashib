@@ -6,7 +6,7 @@ layers = (
 layerId = m01;
 shapes = (
 {
-ref = "dal-ar";
+ref = "dal-ar.isol";
 },
 {
 pos = (494,245);

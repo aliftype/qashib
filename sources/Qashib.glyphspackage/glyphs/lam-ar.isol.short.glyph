@@ -1,0 +1,59 @@
+{
+category = Letter;
+glyphname = "lam-ar.isol.short";
+kernLeft = lam.fina;
+kernRight = lam;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (92,-250);
+},
+{
+name = top;
+pos = (216,670);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-143,-230,l),
+(213,-230,ls),
+(251,-230,o),
+(253,-207,o),
+(253,-190,cs),
+(248,143,o),
+(248,365,o),
+(253,698,c),
+(284,718,l),
+(269,669,o),
+(192,573,o),
+(142,545,c),
+(148,571,l),
+(197,541,o),
+(179,13,o),
+(175,-185,c),
+(191,-140,l),
+(161,-143,o),
+(2,-135,o),
+(-16,-105,c),
+(12,-109,l),
+(-16,-159,o),
+(-114,-236,o),
+(-163,-251,c)
+);
+}
+);
+width = 273;
+}
+);
+metricLeft = "=lam-ar.isol";
+metricRight = "=lam-ar.isol";
+metricWidth = "=lam-ar.isol";
+script = arabic;
+sortName = arL0053.short;
+sortNameKeep = arL0054.short;
+}

@@ -22,15 +22,15 @@ pos = (40,230);
 layerId = m01;
 shapes = (
 {
-ref = "hah-ar";
+ref = "hah-ar.isol";
 }
 );
 width = 515;
 }
 );
-metricLeft = "=hah-ar";
-metricRight = "=hah-ar";
-metricWidth = "=hah-ar";
+metricLeft = "=hah-ar.isol";
+metricRight = "=hah-ar.isol";
+metricWidth = "=hah-ar.isol";
 script = arabic;
 sortName = arL0015;
 sortNameKeep = arL0015.alt;

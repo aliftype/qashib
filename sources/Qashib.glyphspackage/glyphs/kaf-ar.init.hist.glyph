@@ -201,7 +201,7 @@ width = 5874;
 }
 );
 metricLeft = "=-20";
-metricRight = "=kaf-ar";
+metricRight = "=kaf-ar.isol";
 script = arabic;
 sortName = arL0049.xhist;
 sortNameKeep = arL0049;

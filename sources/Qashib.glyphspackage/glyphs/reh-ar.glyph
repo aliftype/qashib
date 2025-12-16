@@ -1,51 +1,17 @@
 {
-category = Letter;
+category = Placeholder;
 glyphname = "reh-ar";
-kernLeft = reh;
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (111,-145);
-},
-{
-name = top;
-pos = (111,227);
-}
-);
 layerId = m01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(5,113,l),
-(77,90,o),
-(110,32,o),
-(110,-22,cs),
-(110,-82,o),
-(71,-137,o),
-(0,-138,c),
-(90,-173,o),
-(192,-113,o),
-(192,-9,cs),
-(192,80,o),
-(149,124,o),
-(91,229,c),
-(131,231,l),
-(102,152,o),
-(61,90,o),
-(-1,63,c)
-);
+ref = "reh-ar.isol";
 }
 );
 width = 212;
 }
 );
-metricLeft = "=0";
-metricRight = "=20";
-script = arabic;
-sortName = arL0020;
-sortNameKeep = arL0020;
+subCategory = Base;
 unicode = 1585;
 }

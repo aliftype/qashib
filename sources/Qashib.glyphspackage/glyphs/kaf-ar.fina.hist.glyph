@@ -257,9 +257,9 @@ nodes = (
 width = 6000;
 }
 );
-metricLeft = "=kaf-ar";
+metricLeft = "=kaf-ar.isol";
 metricRight = "=dal-ar.fina";
-metricWidth = "=kaf-ar";
+metricWidth = "=kaf-ar.isol";
 script = arabic;
 sortName = arL0047.xhist;
 sortNameKeep = arL0047;

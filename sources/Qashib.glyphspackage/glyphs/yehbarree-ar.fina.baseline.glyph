@@ -128,9 +128,9 @@ nodes = (
 width = 6000;
 }
 );
-metricLeft = "yehbarree-ar.fina";
-metricRight = "yehbarree-ar.fina";
-metricWidth = "yehbarree-ar.fina";
+metricLeft = "=yehbarree-ar.fina";
+metricRight = "=yehbarree-ar.fina";
+metricWidth = "=yehbarree-ar.fina";
 script = arabic;
 sortName = arL0082.baseline;
 sortNameKeep = arL0082.baseline;

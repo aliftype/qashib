@@ -76,7 +76,7 @@ nodes = (
 width = 100;
 }
 );
-metricLeft = "=behDotless-ar.medi";
+metricLeft = "=beh-ar.medi";
 metricRight = "=alef-ar.fina";
 metricWidth = "=alef-ar.fina";
 script = arabic;

@@ -161,8 +161,8 @@ nodes = (
 width = 366;
 }
 );
-metricLeft = "=behDotless-ar.init";
-metricRight = "=behDotless-ar.init";
+metricLeft = "=beh-ar.init";
+metricRight = "=beh-ar.init";
 script = arabic;
 sortName = arL0026;
 sortNameKeep = arL0026;

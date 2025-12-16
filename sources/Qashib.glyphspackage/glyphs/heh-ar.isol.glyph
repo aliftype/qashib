@@ -1,0 +1,80 @@
+{
+category = Letter;
+glyphname = "heh-ar.isol";
+kernLeft = heh;
+kernRight = beh.init;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (145,-20);
+},
+{
+name = top;
+pos = (145,420);
+},
+{
+name = top.hist;
+pos = (242,423);
+}
+);
+backgroundImage = {
+alpha = 80;
+imagePath = "images/heh-ar.jpg";
+pos = (-144,-213);
+scale = (14.67,14.67);
+};
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(268,1,o),
+(270,23,o),
+(270,40,cs),
+(270,482,l),
+(301,503,l),
+(286,454,o),
+(209,388,o),
+(159,360,c),
+(165,374,l),
+(192,352,o),
+(190,280,o),
+(190,220,c),
+(226,306,l),
+(124,301,o),
+(0,230,o),
+(0,119,cs),
+(0,-4,o),
+(154,-2,o),
+(230,0,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(158,144,o),
+(151,151,o),
+(151,159,cs),
+(151,167,o),
+(158,174,o),
+(166,174,cs),
+(174,174,o),
+(181,167,o),
+(181,159,cs),
+(181,151,o),
+(174,144,o),
+(166,144,cs)
+);
+}
+);
+width = 290;
+}
+);
+metricLeft = "=0";
+metricRight = "=beh-ar.init";
+script = arabic;
+sortName = arL0063;
+sortNameKeep = arL0063;
+}

@@ -260,9 +260,9 @@ nodes = (
 width = 510;
 }
 );
-metricLeft = "=dal-ar";
+metricLeft = "=dal-ar.isol";
 metricRight = "=-20";
-metricWidth = "=dal-ar";
+metricWidth = "=dal-ar.isol";
 script = arabic;
 sortName = arL0019;
 sortNameKeep = arL0019;

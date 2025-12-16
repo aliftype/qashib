@@ -97,7 +97,7 @@ nodes = (
 width = 420;
 }
 );
-metricLeft = "=waw-ar";
+metricLeft = "=waw-ar.isol";
 metricRight = "=-20";
 script = arabic;
 sortName = arL0077;

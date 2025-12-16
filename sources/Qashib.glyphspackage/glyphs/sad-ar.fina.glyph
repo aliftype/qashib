@@ -329,9 +329,9 @@ nodes = (
 width = 5936;
 }
 );
-metricLeft = "=sad-ar";
-metricRight = "=behDotless-ar.medi";
-metricWidth = "=sad-ar";
+metricLeft = "=sad-ar.isol";
+metricRight = "=beh-ar.medi";
+metricWidth = "=sad-ar.isol";
 script = arabic;
 sortName = arL0028;
 sortNameKeep = arL0028;

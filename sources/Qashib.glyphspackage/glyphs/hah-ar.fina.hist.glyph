@@ -77,9 +77,9 @@ nodes = (
 width = 851;
 }
 );
-metricLeft = "=hah-ar.hist";
-metricRight = "=hah-ar.hist";
-metricWidth = "=hah-ar.hist";
+metricLeft = "=hah-ar.isol.hist";
+metricRight = "=hah-ar.isol.hist";
+metricWidth = "=hah-ar.isol.hist";
 script = arabic;
 sortName = arL0015.xhist;
 sortNameKeep = arL0015.alt;

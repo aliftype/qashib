@@ -58,7 +58,7 @@ nodes = (
 width = 195;
 }
 );
-metricLeft = "=reh-ar.hist";
+metricLeft = "=reh-ar.isol.hist";
 metricRight = "=-20";
 script = arabic;
 sortName = arL0021;
