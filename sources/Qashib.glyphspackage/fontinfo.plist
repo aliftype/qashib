@@ -50,6 +50,15 @@ MSHQ = {
 100 = 100;
 };
 };
+},
+{
+name = "Virtual Master";
+value = (
+{
+Axis = Mashq;
+Location = 100;
+}
+);
 }
 );
 date = "2021-04-25 20:10:22 +0000";
