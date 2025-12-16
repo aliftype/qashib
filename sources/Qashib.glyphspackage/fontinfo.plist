@@ -9,20 +9,22 @@ tag = MSHQ;
 );
 customParameters = (
 {
-name = "Write lastChange";
-value = 0;
+name = "Virtual Master";
+value = (
+{
+Axis = Mashq;
+Location = 100;
+}
+);
 },
 {
-name = "Don't use Production Names";
-value = 1;
-},
-{
-name = "Write DisplayStrings";
-value = 0;
-},
-{
-name = "Use Line Breaks";
-value = 1;
+name = "Axis Mappings";
+value = {
+MSHQ = {
+0 = 0;
+100 = 100;
+};
+};
 },
 {
 name = unicodeRanges;
@@ -43,22 +45,20 @@ value = (
 );
 },
 {
-name = "Axis Mappings";
-value = {
-MSHQ = {
-0 = 0;
-100 = 100;
-};
-};
+name = "Write lastChange";
+value = 0;
 },
 {
-name = "Virtual Master";
-value = (
+name = "Don't use Production Names";
+value = 1;
+},
 {
-Axis = Mashq;
-Location = 100;
-}
-);
+name = "Write DisplayStrings";
+value = 0;
+},
+{
+name = "Use Line Breaks";
+value = 1;
 }
 );
 date = "2021-04-25 20:10:22 +0000";
