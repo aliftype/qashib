@@ -1,6 +1,5 @@
 {
 category = Placeholder;
-color = 0;
 glyphname = "gaf-ar";
 layers = (
 {
@@ -18,7 +17,6 @@ width = 940;
 }
 );
 script = arabic;
-sortName = arL0240;
-sortNameKeep = arL0240;
+subCategory = Base;
 unicode = 1711;
 }

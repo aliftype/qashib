@@ -1,6 +1,5 @@
 {
 category = Placeholder;
-color = 0;
 glyphname = "wawHamzaabove-ar";
 layers = (
 {
@@ -18,7 +17,6 @@ width = 430;
 }
 );
 script = arabic;
-sortName = arL0288;
-sortNameKeep = arL0288;
+subCategory = Base;
 unicode = 1572;
 }

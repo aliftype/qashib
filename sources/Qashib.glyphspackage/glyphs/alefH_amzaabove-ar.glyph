@@ -1,6 +1,5 @@
 {
 category = Placeholder;
-color = 0;
 glyphname = "alefHamzaabove-ar";
 layers = (
 {
@@ -18,7 +17,6 @@ width = 591;
 }
 );
 script = arabic;
-sortName = arL0091;
-sortNameKeep = arL0091;
+subCategory = Base;
 unicode = 1571;
 }

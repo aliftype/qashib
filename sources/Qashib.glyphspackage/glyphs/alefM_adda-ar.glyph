@@ -1,6 +1,5 @@
 {
 category = Placeholder;
-color = 0;
 glyphname = "alefMadda-ar";
 layers = (
 {
@@ -18,7 +17,6 @@ width = 591;
 }
 );
 script = arabic;
-sortName = arL0093;
-sortNameKeep = arL0093;
+subCategory = Base;
 unicode = 1570;
 }

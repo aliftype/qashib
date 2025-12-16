@@ -1,6 +1,5 @@
 {
 category = Placeholder;
-color = 0;
 glyphname = "khah-ar";
 layers = (
 {
@@ -18,7 +17,6 @@ width = 515;
 }
 );
 script = arabic;
-sortName = arL0145;
-sortNameKeep = arL0145;
+subCategory = Base;
 unicode = 1582;
 }

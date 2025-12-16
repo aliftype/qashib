@@ -1,6 +1,5 @@
 {
 category = Placeholder;
-color = 0;
 glyphname = "seen-ar.medi.l2";
 layers = (
 {
@@ -14,6 +13,5 @@ width = 274;
 }
 );
 script = arabic;
-sortName = arL0342;
-sortNameKeep = arL0342;
+subCategory = "Level 2";
 }
