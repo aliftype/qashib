@@ -77,6 +77,26 @@ languagesystem arab SND;
 name = Languagesystems;
 },
 {
+code = "lookup locl_1 {
+	sub fourFarsi-ar	by fourFarsi-ar.locl;
+	sub sixFarsi-ar		by six-ar;
+	sub sevenFarsi-ar	by sevenFarsi-ar.locl;
+} locl_1;
+
+lookup locl_2 {
+	sub fourFarsi-ar	by four-ar;
+	sub sixFarsi-ar		by six-ar;
+	sub sevenFarsi-ar	by sevenFarsi-ar.locl;
+} locl_2;
+
+lookup locl_3 {
+	sub sixFarsi-ar		by six-ar;
+	sub sevenFarsi-ar	by sevenFarsi-ar.locl;
+} locl_3;
+";
+name = locl;
+},
+{
 code = "lookup ccmp_1 {
 	sub alefHamzaabove-ar by alef-ar hamzaabove-ar;
 	sub alefHamzabelow-ar by alef-ar hamzabelow-ar;
@@ -479,24 +499,16 @@ tag = ccmp;
 {
 code = "script arab;
   language URD;
-	sub fourFarsi-ar	by fourFarsi-ar.locl;
-	sub sixFarsi-ar		by six-ar;
-	sub sevenFarsi-ar	by sevenFarsi-ar.locl;
-#	sub dammainverted-ar by dammainverted-ar.locl;
+	lookup locl_1;
 
   language KSH;
-	sub fourFarsi-ar	by fourFarsi-ar.locl;
-	sub sixFarsi-ar		by six-ar;
-	sub sevenFarsi-ar	by sevenFarsi-ar.locl;
+	lookup locl_1;
 
   language RHG;
-	sub fourFarsi-ar	by four-ar;
-	sub sixFarsi-ar		by six-ar;
-	sub sevenFarsi-ar	by sevenFarsi-ar.locl;
+	lookup locl_2;
 
   language SND;
-	sub sixFarsi-ar		by six-ar;
-	sub sevenFarsi-ar	by sevenFarsi-ar.locl;
+	lookup locl_3;
 ";
 tag = locl;
 },
