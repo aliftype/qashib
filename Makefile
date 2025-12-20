@@ -33,8 +33,6 @@ GLYPHSFILE = ${SOURCEDIR}/${NAME}.glyphspackage
 
 export SOURCE_DATE_EPOCH ?= $(shell stat -c "%Y" ${GLYPHSFILE})
 
-FEA = ${SOURCEDIR}/${NAME}-overhang.fea
-
 TAG = $(shell git describe --tags --abbrev=0)
 VERSION = $(if ${TAG},${TAG:v%=%},0.0)
 DIST = ${NAME}-${VERSION}
@@ -51,10 +49,10 @@ expectation: ${JSON}
 doc: ${SVG}
 
 update-fea: ${FONT}
-	$(info   GEN   ${@F})
-	${PYTHON} ${SCRIPTDIR}/update-overhang-fea.py ${FONT} ${FEA}
+	$(info   GEN    ${@F})
+	${PYTHON} ${SCRIPTDIR}/update-overhang-fea.py ${FONT} ${GLYPHSFILE}/fontinfo.plist
 
-${FONT}: ${GLYPHSFILE} ${FEA}
+${FONT}: ${GLYPHSFILE} ${GLYPHSFILE}/fontinfo.plist
 	$(info   BUILD  ${@F})
 	${PYTHON} -m fontmake $< \
 			      --output-path=$@ \

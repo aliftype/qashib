@@ -15,6 +15,7 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 import itertools
+import re
 
 import uharfbuzz as hb
 
@@ -149,12 +150,22 @@ def main(args):
                 break
             i += 1
 
-    with open(args.fea, "w") as fea:
-        fea.write("# THIS FILE IS AUTO GENERATED, DO NOT EDIT\n\n")
-        fea.write("lookup overhang {\n")
-        fea.write("  lookupflag IgnoreMarks;\n")
-        fea.write("\n".join(rules))
-        fea.write("\n} overhang;\n\n")
+    with open(args.plist, "r") as f:
+        data = f.read()
+
+    lookup = f"""
+# THIS FILE IS AUTO GENERATED, DO NOT EDIT
+lookup overhang {{
+    lookupflag IgnoreMarks;
+{"\n".join(rules)}
+}} overhang;
+"""
+    pat = re.compile("# Overhang Begin.*.# Overhang End", flags=re.DOTALL)
+    assert pat.findall(data), pat.findall(data)
+    data = pat.sub(f"# Overhang Begin\n{lookup}\n# Overhang End", data)
+
+    with open(args.plist, "w") as f:
+        f.write(data)
 
 
 if __name__ == "__main__":
@@ -163,7 +174,7 @@ if __name__ == "__main__":
 
     parser = ArgumentParser()
     parser.add_argument("font", type=Path, help="input font file path.")
-    parser.add_argument("fea", type=Path, help="output .fea file path.")
+    parser.add_argument("plist", type=Path, help="output .plist file path.")
 
     args = parser.parse_args()
     main(args)
