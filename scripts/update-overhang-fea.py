@@ -86,7 +86,7 @@ def shape(font, text, direction="rtl", script="arab", features=None):
         font2.set_variations({"MSHQ": 100})
         overhang2 = font2.get_glyph_h_advance(infos[-1].codepoint)
         adj2 = adj + (overhang2 - overhang)
-        adj2 = f"(MSHQ=10:{adj} MSHQ=100:{adj2})"
+        adj2 = f"{adj} (MSHQ:100) {adj2}"
 
     return glyphs, adj, adj2
 
