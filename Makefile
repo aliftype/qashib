@@ -34,7 +34,7 @@ GLYPHSFILE = ${SOURCEDIR}/${NAME}.glyphspackage
 export SOURCE_DATE_EPOCH ?= $(shell stat -c "%Y" ${GLYPHSFILE})
 
 TAG = $(shell git describe --tags --abbrev=0)
-VERSION = $(if ${TAG},${TAG:v%=%},0.0)
+VERSION = ${TAG:v%=%}
 DIST = ${NAME}-${VERSION}
 
 
