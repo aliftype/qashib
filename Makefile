@@ -59,10 +59,10 @@ ${FONT}: ${GLYPHSFILE} ${GLYPHSFILE}/fontinfo.plist
 			      --output=variable \
 			      --verbose=WARNING \
 			      --flatten-components \
-			      --filter ... \
-			      --filter "alifTools.filters::VariableFeaConvertorFilter(default='MSHQ=10')" \
-			      --filter "alifTools.filters::ClearPlaceholdersFilter(outlines=True)" \
-			      --filter "alifTools.filters::FontVersionFilter(fontVersion=${VERSION})"
+			      --filter=... \
+			      --filter="alifTools.filters::VariableFeaConvertorFilter(default='MSHQ=10')" \
+			      --filter="alifTools.filters::ClearPlaceholdersFilter(outlines=True)" \
+			      --filter="alifTools.filters::FontVersionFilter(fontVersion=${VERSION})"
 
 ${TESTDIR}/%.json: ${TESTDIR}/%.yaml ${FONT}
 	$(info   GEN    ${@F})
