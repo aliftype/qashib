@@ -57,11 +57,11 @@ nodes = (
 );
 }
 );
-width = 270;
+width = 210;
 }
 );
 metricLeft = "=noon-ar.isol.hist";
-metricRight = "=noon-ar.isol.hist";
+metricRight = "=-40";
 script = arabic;
 sortName = arL0062.xhist;
 sortNameKeep = arL0062;

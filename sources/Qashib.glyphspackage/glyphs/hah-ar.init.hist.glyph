@@ -20,7 +20,7 @@ name = exit;
 },
 {
 name = top;
-pos = (254,230);
+pos = (78,251);
 },
 {
 name = top.hist;

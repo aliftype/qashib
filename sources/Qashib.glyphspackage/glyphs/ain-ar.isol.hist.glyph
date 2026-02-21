@@ -8,6 +8,10 @@ layers = (
 {
 anchors = (
 {
+name = top;
+pos = (252,313);
+},
+{
 name = top.hist;
 pos = (252,251);
 }

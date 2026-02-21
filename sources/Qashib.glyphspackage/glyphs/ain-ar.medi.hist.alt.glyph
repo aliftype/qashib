@@ -16,6 +16,10 @@ name = exit;
 pos = (20,0);
 },
 {
+name = top;
+pos = (140,313);
+},
+{
 name = top.hist;
 pos = (187,250);
 }

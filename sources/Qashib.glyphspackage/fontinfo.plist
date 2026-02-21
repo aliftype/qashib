@@ -373,7 +373,7 @@ lookup rlig_short_lam {
 	;
 } rlig_short_lam;
 
-lookup hist_1 {
+lookup hist_letters {
 	sub hah-ar.isol			by hah-ar.isol.hist;
 	sub hah-ar.fina			by hah-ar.fina.hist;
 	sub reh-ar.isol			by reh-ar.isol.hist;
@@ -390,6 +390,9 @@ lookup hist_1 {
 	sub kaf-ar.init			by kaf-ar.init.hist;
 	sub noon-ar.isol		by noon-ar.isol.hist;
 	sub noon-ar.fina		by noon-ar.fina.hist;
+} hist_letters;
+
+lookup hist_dots {
 	sub dotabove-ar			by dotabove-ar.hist;
 	sub dotcenter-ar		by dotabove-ar.hist;
 	sub dotbelow-ar			by dotbelow-ar.hist;
@@ -397,7 +400,7 @@ lookup hist_1 {
 	sub twodotsbelow-ar		by twodotsbelow-ar.hist;
 	sub threedotsabove-ar	by threedotsabove-ar.hist;
 	sub threedotsbelow-ar	by threedotsbelow-ar.hist;
-} hist_1;
+} hist_dots;
 
 @aftermeem = [meem-ar.medi meem-ar.fina waw-ar.fina reh-ar.fina.hist noon-ar.fina noon-ar.fina.hist];
 lookup rounded {
@@ -418,13 +421,13 @@ lookup rclt_rounded {
 	;
 } rclt_rounded;
 
-lookup hist_2 {
+lookup hist_kissing {
 	lookupflag IgnoreMarks;
 
 	sub [meem-ar.init heh-ar.init heh-ar.medi]' lookup rounded
 		 @aftermeem' lookup rounded
 	;
-} hist_2;
+} hist_kissing;
 ";
 name = misc;
 },
@@ -508,6 +511,14 @@ lookup rclt_vert_dots {
 	;
 
 } rclt_vert_dots;
+
+lookup ss02_fix_dots {
+	lookupflag UseMarkFilteringSet [dotcenter-ar];
+	sub [$[name LIKE 'noon*.hist']]
+		 dotcenter-ar'
+	by	 dotabove-ar
+	;
+} ss02_fix_dots;
 ";
 name = dots;
 }
@@ -577,8 +588,9 @@ code = "lookup salt_1;
 tag = salt;
 },
 {
-code = "lookup hist_1;
-lookup hist_2;
+code = "lookup hist_letters;
+lookup hist_dots;
+lookup hist_kissing;
 ";
 tag = hist;
 },
@@ -599,7 +611,24 @@ value = "حروف مهملة (بلا نقاط)";
 tag = ss01;
 },
 {
-code = "lookup hist_1;
+code = "lookup hist_dots;
+";
+labels = (
+{
+language = ENG;
+value = "Rectangular dots";
+},
+{
+language = ARA;
+value = "نقاط مستطيلة";
+}
+);
+tag = ss02;
+},
+{
+code = "lookup hist_letters;
+lookup hist_kissing;
+lookup ss02_fix_dots;
 ";
 labels = (
 {
@@ -611,7 +640,7 @@ language = ARA;
 value = "أشكال حروف تراثية";
 }
 );
-tag = ss02;
+tag = ss03;
 },
 {
 code = "# Automatic Code
