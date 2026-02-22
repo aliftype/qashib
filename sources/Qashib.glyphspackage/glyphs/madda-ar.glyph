@@ -22,6 +22,42 @@ shapes = (
 {
 closed = 1;
 nodes = (
+(42,737,l),
+(83,716,o),
+(198,699,o),
+(245,771,c),
+(178,735,o),
+(92,751,o),
+(50,775,c),
+(0,716,l),
+(9,708,l)
+);
+}
+);
+width = 245;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (106,670);
+},
+{
+name = _tophamza;
+pos = (106,670);
+},
+{
+name = top;
+pos = (136,770);
+}
+);
+associatedMasterId = m01;
+layerId = "9BC4D74D-855A-4764-91AA-CFA5B8245517";
+name = "22 Feb 26 at 00:45";
+shapes = (
+{
+closed = 1;
+nodes = (
 (59,752,l),
 (36,740,l),
 (74,715,o),

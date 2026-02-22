@@ -5,6 +5,23 @@ layers = (
 layerId = m01;
 shapes = (
 {
+closed = 1;
+nodes = (
+(250,-116,l),
+(99,594,l),
+(50,584,l),
+(201,-126,l)
+);
+}
+);
+width = 300;
+},
+{
+associatedMasterId = m01;
+layerId = "0242F232-9826-455F-BDE3-AA9E7E728D76";
+name = "22 Feb 26 at 00:43";
+shapes = (
+{
 pos = (0,468);
 ref = slash;
 scale = (1,-1);

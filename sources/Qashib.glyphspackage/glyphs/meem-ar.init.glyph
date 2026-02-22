@@ -29,6 +29,68 @@ shapes = (
 {
 closed = 1;
 nodes = (
+(154,0,ls),
+(277,0,o),
+(308,20,o),
+(308,86,cs),
+(308,197,o),
+(239,304,o),
+(154,304,cs),
+(69,304,o),
+(0,197,o),
+(0,86,cs),
+(0,70,l),
+(0,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(145,124,o),
+(138,131,o),
+(138,139,cs),
+(138,147,o),
+(145,154,o),
+(153,154,cs),
+(161,154,o),
+(168,147,o),
+(168,139,cs),
+(168,131,o),
+(161,124,o),
+(153,124,cs)
+);
+}
+);
+width = 328;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (154,-20);
+},
+{
+name = exit;
+},
+{
+name = top;
+pos = (154,324);
+}
+);
+associatedMasterId = m01;
+backgroundImage = {
+alpha = 80;
+imagePath = "images/heh-ar.fina.jpg";
+locked = 1;
+pos = (-2747,-181);
+scale = (14.67,14.67);
+};
+layerId = "9A43C2CB-C6C5-40D6-B9B1-6E39531B583F";
+name = "22 Feb 26 at 00:35";
+shapes = (
+{
+closed = 1;
+nodes = (
 (148,0,l),
 (148,70,l),
 (0,70,l),

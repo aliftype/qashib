@@ -30,6 +30,53 @@ shapes = (
 {
 closed = 1;
 nodes = (
+(40,180,ls),
+(78,180,o),
+(80,203,o),
+(80,220,cs),
+(80,769,l),
+(54,731,o),
+(17,690,o),
+(-14,666,c),
+(1,628,o),
+(0,536,o),
+(0,492,cs),
+(0,260,l),
+(-20,260,l),
+(-20,180,l)
+);
+}
+);
+width = 100;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (40,160);
+},
+{
+name = exit;
+pos = (0,180);
+},
+{
+name = top;
+pos = (43,780);
+}
+);
+associatedMasterId = m01;
+guides = (
+{
+name = "700";
+pos = (501,770);
+}
+);
+layerId = "C2A252F4-CA49-40C5-AC86-A79EC1731CD9";
+name = "22 Feb 26 at 00:33";
+shapes = (
+{
+closed = 1;
+nodes = (
 (78,180,o),
 (80,203,o),
 (80,220,cs),

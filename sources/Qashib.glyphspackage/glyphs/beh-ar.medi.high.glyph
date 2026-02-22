@@ -35,6 +35,59 @@ shapes = (
 {
 closed = 1;
 nodes = (
+(120,0,l),
+(120,70,l),
+(82,70,o),
+(80,93,o),
+(80,110,cs),
+(80,412,l),
+(53,379,o),
+(13,347,o),
+(-19,327,c),
+(2,300,o),
+(0,235,o),
+(0,180,cs),
+(0,70,l),
+(-20,70,l),
+(-20,0,l)
+);
+}
+);
+width = 100;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (40,-20);
+},
+{
+name = bottom.hist;
+pos = (40,-10);
+},
+{
+name = entry;
+pos = (100,0);
+},
+{
+name = exit;
+},
+{
+name = top;
+pos = (42,416);
+},
+{
+name = top.hist;
+pos = (52,383);
+}
+);
+associatedMasterId = m01;
+layerId = "DA7F3EB2-8164-4696-9AE7-D1193F05C657";
+name = "22 Feb 26 at 00:00";
+shapes = (
+{
+closed = 1;
+nodes = (
 (40,0,l),
 (40,70,l),
 (-20,70,l),

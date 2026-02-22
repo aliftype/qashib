@@ -23,6 +23,66 @@ shapes = (
 {
 closed = 1;
 nodes = (
+(446,0,ls),
+(569,0,o),
+(600,20,o),
+(600,86,cs),
+(600,197,o),
+(531,304,o),
+(446,304,cs),
+(345,304,o),
+(284,165,o),
+(293,70,c),
+(247,70,o),
+(146,77,o),
+(113,97,c),
+(86,63,o),
+(39,24,o),
+(0,0,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(437,124,o),
+(430,131,o),
+(430,139,cs),
+(430,147,o),
+(437,154,o),
+(445,154,cs),
+(453,154,o),
+(460,147,o),
+(460,139,cs),
+(460,131,o),
+(453,124,o),
+(445,124,cs)
+);
+}
+);
+width = 590;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (446,-20);
+},
+{
+name = entry;
+pos = (590,0);
+},
+{
+name = top;
+pos = (446,324);
+}
+);
+associatedMasterId = m01;
+layerId = "C7C782DD-0A69-41E9-B888-4C3C34D5984D";
+name = "22 Feb 26 at 00:34";
+shapes = (
+{
+closed = 1;
+nodes = (
 (-23,0,l),
 (446,0,l),
 (446,70,l),
@@ -71,11 +131,12 @@ nodes = (
 );
 }
 );
-width = 620;
+visible = 1;
+width = 590;
 }
 );
 metricLeft = "=0";
-metricRight = "=20";
+metricRight = "=-10";
 script = arabic;
 sortName = arL0058.round;
 sortNameKeep = arL0058.round;

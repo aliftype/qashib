@@ -38,6 +38,61 @@ shapes = (
 {
 closed = 1;
 nodes = (
+(40,0,ls),
+(78,0,o),
+(80,23,o),
+(80,40,cs),
+(80,312,l),
+(53,279,o),
+(13,247,o),
+(-19,227,c),
+(2,200,o),
+(0,135,o),
+(0,80,cs),
+(0,70,l),
+(-20,70,l),
+(-20,0,l)
+);
+}
+);
+width = 100;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (40,-20);
+},
+{
+name = bottom.hist;
+pos = (40,-10);
+},
+{
+name = exit;
+},
+{
+name = top;
+pos = (42,316);
+},
+{
+name = top.hist;
+pos = (52,283);
+}
+);
+associatedMasterId = m01;
+backgroundImage = {
+alpha = 80;
+imagePath = "images/behDotless-ar.init.jpg";
+locked = 1;
+pos = (-443,-546);
+scale = (14.67,14.67);
+};
+layerId = "00E648EC-AFCC-44A7-8780-C8F30EE00515";
+name = "22 Feb 26 at 00:00";
+shapes = (
+{
+closed = 1;
+nodes = (
 (78,0,o),
 (80,23,o),
 (80,40,cs),

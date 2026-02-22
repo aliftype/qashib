@@ -35,6 +35,58 @@ shapes = (
 {
 closed = 1;
 nodes = (
+(40,0,ls),
+(78,0,o),
+(80,23,o),
+(80,40,cs),
+(80,769,l),
+(54,731,o),
+(17,690,o),
+(-14,666,c),
+(1,628,o),
+(0,536,o),
+(0,492,cs),
+(0,70,l),
+(-20,70,l),
+(-20,0,l)
+);
+}
+);
+width = 100;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (40,-20);
+},
+{
+name = exit;
+},
+{
+name = top;
+pos = (43,780);
+}
+);
+associatedMasterId = m01;
+backgroundImage = {
+alpha = 80;
+imagePath = "images/lam-ar.init.jpg";
+pos = (-388,-151);
+scale = (14.67,14.67);
+};
+guides = (
+{
+name = "700";
+pos = (501,770);
+}
+);
+layerId = "56948274-BD3C-4D9B-9BA7-F91B009DA43A";
+name = "22 Feb 26 at 00:33";
+shapes = (
+{
+closed = 1;
+nodes = (
 (78,0,o),
 (80,23,o),
 (80,40,cs),

@@ -25,6 +25,65 @@ shapes = (
 {
 closed = 1;
 nodes = (
+(154,0,ls),
+(277,0,o),
+(308,20,o),
+(308,86,cs),
+(308,197,o),
+(239,304,o),
+(154,304,cs),
+(69,304,o),
+(0,197,o),
+(0,86,cs),
+(0,70,l),
+(0,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(145,124,o),
+(138,131,o),
+(138,139,cs),
+(138,147,o),
+(145,154,o),
+(153,154,cs),
+(161,154,o),
+(168,147,o),
+(168,139,cs),
+(168,131,o),
+(161,124,o),
+(153,124,cs)
+);
+}
+);
+width = 298;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (154,-20);
+},
+{
+name = entry;
+pos = (298,0);
+},
+{
+name = exit;
+},
+{
+name = top;
+pos = (154,324);
+}
+);
+associatedMasterId = m01;
+layerId = "443D390B-5E83-48FB-B98E-882D64842980";
+name = "22 Feb 26 at 00:35";
+shapes = (
+{
+closed = 1;
+nodes = (
 (148,0,l),
 (148,70,l),
 (0,70,l),
@@ -66,11 +125,11 @@ nodes = (
 );
 }
 );
-width = 328;
+width = 298;
 }
 );
 metricLeft = "=0";
-metricRight = "=20";
+metricRight = "=-10";
 script = arabic;
 sortName = arL0059.round;
 sortNameKeep = arL0059.round;

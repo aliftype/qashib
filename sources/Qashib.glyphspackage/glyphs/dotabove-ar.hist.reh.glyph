@@ -14,6 +14,29 @@ shapes = (
 {
 closed = 1;
 nodes = (
+(93,114,l),
+(81,125,l),
+(-18,32,l),
+(5,15,l)
+);
+}
+);
+width = 103;
+},
+{
+anchors = (
+{
+name = _top.hist;
+pos = (60,57);
+}
+);
+associatedMasterId = m01;
+layerId = "9F2DE3FE-C8D4-4C0F-962C-BCEF88696B58";
+name = "22 Feb 26 at 00:44";
+shapes = (
+{
+closed = 1;
+nodes = (
 (31,45,o),
 (86,107,o),
 (125,151,c),

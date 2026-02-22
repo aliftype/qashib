@@ -39,6 +39,85 @@ shapes = (
 {
 closed = 1;
 nodes = (
+(299,0,ls),
+(333,0,o),
+(337,28,o),
+(335,43,cs),
+(327,127,o),
+(265,358,o),
+(137,358,cs),
+(59,358,o),
+(0,264,o),
+(0,191,cs),
+(0,157,o),
+(13,127,o),
+(40,111,cs),
+(84,84,o),
+(183,87,o),
+(231,88,c),
+(235,70,l),
+(70,70,l),
+(70,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(125,202,o),
+(118,209,o),
+(118,217,cs),
+(118,225,o),
+(125,232,o),
+(133,232,cs),
+(141,232,o),
+(148,225,o),
+(148,217,cs),
+(148,209,o),
+(141,202,o),
+(133,202,cs)
+);
+}
+);
+width = 355;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (176,-18);
+},
+{
+name = bottom.hist;
+pos = (326,6);
+},
+{
+name = exit;
+pos = (60,0);
+},
+{
+name = top;
+pos = (137,385);
+},
+{
+name = top.hist;
+pos = (68,332);
+}
+);
+associatedMasterId = m01;
+backgroundImage = {
+alpha = 80;
+angle = 0.1;
+imagePath = "images/fehDotless-ar.init.jpg";
+locked = 1;
+pos = (-1333,-175);
+scale = (13.203,13.203);
+};
+layerId = "1ACAA7E8-599F-4304-91D4-A2C056248FE1";
+name = "22 Feb 26 at 00:25";
+shapes = (
+{
+closed = 1;
+nodes = (
 (327,127,o),
 (265,358,o),
 (137,358,cs),

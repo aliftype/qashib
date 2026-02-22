@@ -10,10 +10,6 @@ name = bottom;
 pos = (154,-20);
 },
 {
-name = entry;
-pos = (298,0);
-},
-{
 name = exit;
 },
 {
@@ -58,11 +54,11 @@ nodes = (
 );
 }
 );
-width = 308;
+width = 328;
 }
 );
 metricLeft = "=0";
-metricRight = "=0";
+metricRight = "=meem-ar.isol";
 script = arabic;
 sortName = arL0060.round;
 sortNameKeep = arL0060.round;
