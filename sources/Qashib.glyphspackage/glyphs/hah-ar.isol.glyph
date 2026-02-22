@@ -7,8 +7,19 @@ layers = (
 {
 anchors = (
 {
+name = "*bottom";
+pos = (177,-165);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet [dotcenter-ar kasra-ar kasratan-ar]; * [dotcenter-ar] &;";
+};
+},
+{
 name = bottom;
-pos = (177,-16);
+pos = (247,10);
+},
+{
+name = center;
+pos = (177,-79);
 },
 {
 name = top;

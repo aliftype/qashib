@@ -9,7 +9,7 @@ shapes = (
 ref = "hah-ar.isol";
 },
 {
-pos = (95,-113);
+pos = (165,-87);
 ref = "threedotsbelow-ar";
 }
 );

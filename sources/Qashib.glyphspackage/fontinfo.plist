@@ -96,7 +96,7 @@ code = "lookup ccmp_1 {
 	sub theh-ar by beh-ar.isol threedotsabove-ar;
 	sub peh-ar by beh-ar.isol threedotsbelow-ar;
 	sub hah-ar by hah-ar.isol;
-	sub jeem-ar by hah-ar.isol dotbelow-ar;
+	sub jeem-ar by hah-ar.isol dotcenter-ar;
 	sub tcheh-ar by hah-ar.isol threedotsbelow-ar;
 	sub khah-ar by hah-ar.isol dotabove-ar;
 	sub dal-ar by dal-ar.isol;
@@ -163,6 +163,7 @@ lookup init {
 	sub heh-ar.isol by heh-ar.init;
 	sub yeh-ar.isol by beh-ar.init;
 	sub yehFarsi-ar by beh-ar.init twodotsbelow-ar;
+	sub dotcenter-ar by dotbelow-ar;
 } init;
 
 lookup medi {
@@ -185,6 +186,7 @@ lookup medi {
 	sub heh-ar.isol by heh-ar.medi;
 	sub yeh-ar.isol by beh-ar.medi;
 	sub yehFarsi-ar by beh-ar.medi twodotsbelow-ar;
+	sub dotcenter-ar by dotbelow-ar;
 } medi;
 
 lookup fina {
@@ -379,16 +381,6 @@ lookup hist_letters {
 	sub noon-ar.fina		by noon-ar.fina.hist;
 } hist_letters;
 
-lookup hist_dots {
-	sub dotabove-ar			by dotabove-ar.hist;
-	sub dotcenter-ar		by dotabove-ar.hist;
-	sub dotbelow-ar			by dotbelow-ar.hist;
-	sub twodotsabove-ar		by twodotsabove-ar.hist;
-	sub twodotsbelow-ar		by twodotsbelow-ar.hist;
-	sub threedotsabove-ar	by threedotsabove-ar.hist;
-	sub threedotsbelow-ar	by threedotsbelow-ar.hist;
-} hist_dots;
-
 @aftermeem = [meem-ar.medi meem-ar.fina waw-ar.fina reh-ar.fina.hist noon-ar.fina noon-ar.fina.hist];
 lookup rounded {
 	sub meem-ar.init		by meem-ar.init.round;
@@ -419,7 +411,29 @@ lookup hist_kissing {
 name = misc;
 },
 {
-code = "lookup rclt_hist_sheen_dots {
+code = "lookup ss02_fix_dots {
+	lookupflag UseMarkFilteringSet [dotcenter-ar];
+	sub [$[name LIKE 'noon*.hist']]
+		 dotcenter-ar'
+	by	 dotabove-ar
+	;
+
+	sub [$[name LIKE 'hah*.hist']]
+		 dotcenter-ar'
+	by	 dotbelow-ar
+	;
+} ss02_fix_dots;
+
+lookup hist_dots {
+	sub dotabove-ar			by dotabove-ar.hist;
+	sub dotbelow-ar			by dotbelow-ar.hist;
+	sub twodotsabove-ar		by twodotsabove-ar.hist;
+	sub twodotsbelow-ar		by twodotsbelow-ar.hist;
+	sub threedotsabove-ar	by threedotsabove-ar.hist;
+	sub threedotsbelow-ar	by threedotsbelow-ar.hist;
+} hist_dots;
+
+lookup rclt_hist_sheen_dots {
 	lookupflag UseMarkFilteringSet [threedotsabove-ar.hist];
 
 	sub [seen-ar.init]
@@ -498,14 +512,6 @@ lookup rclt_vert_dots {
 	;
 
 } rclt_vert_dots;
-
-lookup ss02_fix_dots {
-	lookupflag UseMarkFilteringSet [dotcenter-ar];
-	sub [$[name LIKE 'noon*.hist']]
-		 dotcenter-ar'
-	by	 dotabove-ar
-	;
-} ss02_fix_dots;
 ";
 name = dots;
 }
@@ -578,6 +584,7 @@ tag = salt;
 code = "lookup hist_letters;
 lookup hist_dots;
 lookup hist_kissing;
+lookup ss02_fix_dots;
 ";
 tag = hist;
 },

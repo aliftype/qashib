@@ -9,8 +9,8 @@ shapes = (
 ref = "hah-ar.isol";
 },
 {
-pos = (139,-113);
-ref = "dotbelow-ar";
+pos = (139,-114);
+ref = "dotcenter-ar";
 }
 );
 width = 515;
