@@ -742,7 +742,7 @@ code = "# Automatic Code
 			  lam-ar.medi lam-ar.medi.short lam-ar.medi.hah1 lam-ar.medi.hah2];
 @overhanging_hah = [hah-ar.fina hah-ar.medi];
 lookup mark_shift_dots {
-	lookupflag UseMarkFilteringSet @dotsbelow;
+	lookupflag UseMarkFilteringSet [@dotsbelow dotcenter-ar];
 	pos	[hah-ar.init hah-ar.medi]
 		 @dotsbelow' <190 0 0 0>
 		 @beh_width
@@ -762,6 +762,19 @@ lookup mark_shift_dots {
 	pos	[beh-ar.medi beh-ar.medi.high]
 		 @dotsbelow' <0 -90 0 0>
 		 @overhanging_hah
+	;
+	pos	[beh-ar.init beh-ar.init.high beh-ar.medi beh-ar.medi.high]
+		 @dotsbelow' <100 -90 0 0>
+		 @beh_width
+		 @overhanging_hah
+		 dotcenter-ar
+	;
+	pos	[beh-ar.init beh-ar.init.high beh-ar.medi beh-ar.medi.high]
+		 @dotsbelow' <100 -90 0 0>
+		 @beh_width
+		 @dotsbelow
+		 @overhanging_hah
+		 dotcenter-ar
 	;
 
 	pos	[beh-ar.init beh-ar.init.high beh-ar.medi beh-ar.medi.high]
@@ -821,7 +834,8 @@ lookup mark_shift_dots_hist {
 		 @dotsbelow
 		 @overhanging_hah.hist
 	;
-} mark_shift_dots_hist;";
+} mark_shift_dots_hist;
+";
 tag = mark;
 }
 );
