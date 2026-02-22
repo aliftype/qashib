@@ -364,6 +364,8 @@ lookup rlig_short_lam {
 
 lookup hist_letters {
 	sub hah-ar.isol			by hah-ar.isol.hist;
+	sub hah-ar.init			by hah-ar.init.hist;
+	sub hah-ar.medi			by hah-ar.medi.hist;
 	sub hah-ar.fina			by hah-ar.fina.hist;
 	sub reh-ar.isol			by reh-ar.isol.hist;
 	sub reh-ar.fina			by reh-ar.fina.hist;

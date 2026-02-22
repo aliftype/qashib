@@ -899,7 +899,7 @@
     {
       "only": "Qashib.ttf",
       "input": "ججج",
-      "expectation": "dotbelow-ar=2@603,-117+0|hah-ar.fina.hist=2+351|dotbelow-ar=1@422,-27+0|hah-ar.medi=1@-40,90+120|dotbelow-ar=0@322,63+0|hah-ar.init=0@-40,180+483",
+      "expectation": "dotbelow-ar=2@603,-117+0|hah-ar.fina.hist=2+351|dotbelow-ar=1@32,-26+0|hah-ar.medi.hist=1@-40,90+120|dotbelow-ar=0@172,63+0|hah-ar.init.hist=0@-40,180+621",
       "features": {
         "ss03": 1
       }
