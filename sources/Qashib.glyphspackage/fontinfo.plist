@@ -411,7 +411,7 @@ lookup hist_kissing {
 name = misc;
 },
 {
-code = "lookup ss02_fix_dots {
+code = "lookup rclt_hist_center_dot {
 	lookupflag UseMarkFilteringSet [dotcenter-ar];
 	sub [$[name LIKE 'noon*.hist']]
 		 dotcenter-ar'
@@ -422,7 +422,7 @@ code = "lookup ss02_fix_dots {
 		 dotcenter-ar'
 	by	 dotbelow-ar
 	;
-} ss02_fix_dots;
+} rclt_hist_center_dot;
 
 lookup hist_dots {
 	sub dotabove-ar			by dotabove-ar.hist;
@@ -567,6 +567,7 @@ tag = rlig;
 },
 {
 code = "lookup rclt_yehbarree_baseline;
+lookup rclt_hist_center_dot;
 lookup rclt_hist_sheen_dots;
 lookup rclt_hist_beh_dots;
 lookup rclt_vert_dots;
@@ -584,7 +585,6 @@ tag = salt;
 code = "lookup hist_letters;
 lookup hist_dots;
 lookup hist_kissing;
-lookup ss02_fix_dots;
 ";
 tag = hist;
 },
@@ -622,7 +622,6 @@ tag = ss02;
 {
 code = "lookup hist_letters;
 lookup hist_kissing;
-lookup ss02_fix_dots;
 ";
 labels = (
 {
