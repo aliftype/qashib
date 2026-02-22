@@ -738,31 +738,22 @@ code = "# Automatic Code
 @dotsbelow = [$[name LIKE '*dot*below-ar'] $[name LIKE '*dot*below-ar.vert']];
 @beh_width = [beh-ar.medi beh-ar.medi.high
 			  lam-ar.medi lam-ar.medi.short lam-ar.medi.hah1 lam-ar.medi.hah2];
-@overhanging_hah = [hah-ar.fina hah-ar.fina.hist hah-ar.medi];
-lookup shift_dots {
+@overhanging_hah = [hah-ar.fina hah-ar.medi];
+lookup mark_shift_dots {
 	lookupflag UseMarkFilteringSet @dotsbelow;
-	pos	 hah-ar.init
-		 @dotsbelow' <250 0 0 0>
-		 @beh_width
-		 @overhanging_hah
-	;
-	pos	 hah-ar.medi
-		 @dotsbelow' <390 0 0 0>
+	pos	[hah-ar.init hah-ar.medi]
+		 @dotsbelow' <190 0 0 0>
 		 @beh_width
 		 @overhanging_hah
 	;
 
-	pos	 hah-ar.init
-		 @dotsbelow' <250 0 0 0>
-		 @overhanging_hah
-	;
-	pos	 hah-ar.medi
-		 @dotsbelow' <390 0 0 0>
+	pos	[hah-ar.init hah-ar.medi]
+		 @dotsbelow' <290 0 0 0>
 		 @overhanging_hah
 	;
 
 	pos	 beh-ar.init
-		 @dotsbelow' <250 -90 0 0>
+		 @dotsbelow' <140 -90 0 0>
 		 @overhanging_hah
 	;
 
@@ -782,8 +773,53 @@ lookup shift_dots {
 		 @dotsbelow
 		 @overhanging_hah
 	;
-} shift_dots;
-";
+} mark_shift_dots;
+
+@overhanging_hah.hist = [hah-ar.fina.hist hah-ar.medi.hist];
+lookup mark_shift_dots_hist {
+	lookupflag UseMarkFilteringSet @dotsbelow;
+	pos	 hah-ar.init
+		 @dotsbelow' <250 0 0 0>
+		 @beh_width
+		 @overhanging_hah.hist
+	;
+	pos	 hah-ar.medi
+		 @dotsbelow' <390 0 0 0>
+		 @beh_width
+		 @overhanging_hah.hist
+	;
+
+	pos	 hah-ar.init
+		 @dotsbelow' <250 0 0 0>
+		 @overhanging_hah.hist
+	;
+	pos	 hah-ar.medi
+		 @dotsbelow' <390 0 0 0>
+		 @overhanging_hah.hist
+	;
+
+	pos	 beh-ar.init
+		 @dotsbelow' <250 -90 0 0>
+		 @overhanging_hah.hist
+	;
+
+	pos	[beh-ar.medi beh-ar.medi.high]
+		 @dotsbelow' <0 -90 0 0>
+		 @overhanging_hah.hist
+	;
+
+	pos	[beh-ar.init beh-ar.init.high beh-ar.medi beh-ar.medi.high]
+		 @dotsbelow' <0 -90 0 0>
+		 @beh_width
+		 @overhanging_hah.hist
+	;
+	pos	[beh-ar.init beh-ar.init.high beh-ar.medi beh-ar.medi.high]
+		 @dotsbelow' <0 -90 0 0>
+		 @beh_width
+		 @dotsbelow
+		 @overhanging_hah.hist
+	;
+} mark_shift_dots_hist;";
 tag = mark;
 }
 );
