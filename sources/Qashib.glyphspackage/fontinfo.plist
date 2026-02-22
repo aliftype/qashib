@@ -27,15 +27,6 @@ Location = 0;
 );
 },
 {
-name = "Axis Mappings";
-value = {
-MSHQ = {
-0 = 0;
-100 = 100;
-};
-};
-},
-{
 name = unicodeRanges;
 value = (
 13
