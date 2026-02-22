@@ -18,6 +18,15 @@ Location = 100;
 );
 },
 {
+name = "Virtual Master";
+value = (
+{
+Axis = Mashq;
+Location = 0;
+}
+);
+},
+{
 name = "Axis Mappings";
 value = {
 MSHQ = {
@@ -650,6 +659,14 @@ tag = curs;
 {
 code = "# Automatic Code
 
+lookup kern_reh {
+    lookupflag IgnoreMarks;
+	pos [$[leftKerningGroup == 'reh']] <-50 0 -50 0
+							   (MSHQ:0) -20 0 -20 0
+							 (MSHQ:100) -70 0 -70 0>
+		 alef-ar.isol;
+} kern_reh;
+
 @beh.init	= [$[name MATCHES '(beh|lam)-ar.init.*']];
 @beh.medi	= [$[name MATCHES '(beh|lam)-ar.medi.*']];
 @sad.init	= [$[name MATCHES '(sad|tah|kaf)-ar.init.*']];
@@ -1007,7 +1024,9 @@ period = 70;
 "alef-ar.isol" = -80;
 };
 "@MMK_R_reh" = {
-"alef-ar.isol" = -70;
+"@MMK_L_dal" = -20;
+"yeh-ar.isol" = 33;
+"yeh-ar.isol.salt" = 9;
 };
 "@MMK_R_reh.hist" = {
 "alef-ar.isol" = -160;
