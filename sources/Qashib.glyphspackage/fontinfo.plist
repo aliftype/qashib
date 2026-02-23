@@ -744,18 +744,18 @@ code = "# Automatic Code
 lookup mark_shift_dots {
 	lookupflag UseMarkFilteringSet [@dotsbelow dotcenter-ar];
 	pos	[hah-ar.init hah-ar.medi]
-		 @dotsbelow' <190 0 0 0>
+		 @dotsbelow' <200 0 0 0>
 		 @beh_width
 		 @overhanging_hah
 	;
 
 	pos	[hah-ar.init hah-ar.medi]
-		 @dotsbelow' <290 0 0 0>
+		 @dotsbelow' <330 0 0 0>
 		 @overhanging_hah
 	;
 
 	pos	 beh-ar.init
-		 @dotsbelow' <140 -90 0 0>
+		 @dotsbelow' <150 -90 0 0>
 		 @overhanging_hah
 	;
 
@@ -764,13 +764,13 @@ lookup mark_shift_dots {
 		 @overhanging_hah
 	;
 	pos	[beh-ar.init beh-ar.init.high beh-ar.medi beh-ar.medi.high]
-		 @dotsbelow' <100 -90 0 0>
+		 @dotsbelow' <110 -90 0 0>
 		 @beh_width
 		 @overhanging_hah
 		 dotcenter-ar
 	;
 	pos	[beh-ar.init beh-ar.init.high beh-ar.medi beh-ar.medi.high]
-		 @dotsbelow' <100 -90 0 0>
+		 @dotsbelow' <110 -90 0 0>
 		 @beh_width
 		 @dotsbelow
 		 @overhanging_hah
@@ -1031,13 +1031,23 @@ parenleft = -60;
 };
 "@MMK_R_hah" = {
 "@MMK_L_ain" = -30;
-"@MMK_L_hah" = -40;
-"alef-ar.isol" = -20;
-"lam_alef-ar.fina" = -40;
-"reh-ar.fina" = -10;
+"@MMK_L_dal" = -10;
+"@MMK_L_hah" = -60;
+"ain-ar.medi.salt" = -10;
+"hah-ar.fina" = -75;
+"hah-ar.fina.salt1" = -35;
+"hah-ar.fina.salt2" = -78;
+"lam_alef-ar.fina" = -30;
+"noon-ar.fina" = -50;
+"qaf-ar.fina" = -10;
+"reh-ar.fina" = -20;
+"yehbarree-ar.fina" = -60;
 };
 "@MMK_R_hah.hist" = {
 "alef-ar.isol" = -50;
+};
+"@MMK_R_hah.isol" = {
+"alef-ar.isol" = -20;
 };
 "@MMK_R_kaf" = {
 "lam_alef-ar.fina" = -20;

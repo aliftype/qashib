@@ -1,7 +1,7 @@
 {
 category = Letter;
 glyphname = "hah-ar.fina.salt1";
-kernLeft = hah;
+kernLeft = hah.isol;
 kernRight = hah;
 layers = (
 {
