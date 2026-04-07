@@ -61,7 +61,7 @@ ${FONT}: ${GLYPHSFILE} ${GLYPHSFILE}/fontinfo.plist
 			      --flatten-components \
 			      --filter=... \
 			      --filter="alifTools.filters::VariableFeaConvertorFilter(default='MSHQ=10')" \
-			      --filter="alifTools.filters::ClearPlaceholdersFilter(outlines=True)" \
+			      --filter="alifTools.filters::ClearPlaceholdersFilter()" \
 			      --filter="alifTools.filters::FontVersionFilter(fontVersion=${VERSION})"
 
 ${TESTDIR}/%.json: ${TESTDIR}/%.yaml ${FONT}
