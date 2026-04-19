@@ -3,7 +3,7 @@
     {
       "only": "Qashib.ttf",
       "input": "ر ارا",
-      "expectation": "alef-ar.isol=4+591|reh-ar.isol=3@-50,0+136|alef-ar.isol=2+591|space=1+200|reh-ar.isol=0+186",
+      "expectation": "alef-ar.isol=4+591|reh-ar.isol=3@-50,0+136|alef-ar.isol=2+591|space=1+0|reh-ar.isol=0+186",
       "variations": {
         "SPAC": -100
       }
@@ -11,7 +11,7 @@
     {
       "only": "Qashib.ttf",
       "input": "مر امرا",
-      "expectation": "alef-ar.isol=6+591|reh-ar.fina=5@-50,0+119|meem-ar.init=4+328|alef-ar.isol=3+591|space=2+200|reh-ar.fina=1+169|meem-ar.init=0+328",
+      "expectation": "alef-ar.isol=6+591|reh-ar.fina=5@-50,0+119|meem-ar.init=4+328|alef-ar.isol=3+591|space=2+0|reh-ar.fina=1+169|meem-ar.init=0+328",
       "variations": {
         "SPAC": -100
       }

@@ -63,7 +63,8 @@ pos = (196,618);
 associatedMasterId = m01;
 attr = {
 coordinates = (
-0
+0,
+-50
 );
 };
 guides = (
@@ -115,7 +116,8 @@ pos = (203,618);
 associatedMasterId = m01;
 attr = {
 coordinates = (
-100
+100,
+-50
 );
 };
 backgroundImage = {
