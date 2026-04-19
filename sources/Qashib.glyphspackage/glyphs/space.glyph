@@ -4,7 +4,7 @@ glyphname = space;
 layers = (
 {
 layerId = m01;
-width = 100;
+width = 200;
 }
 );
 sortName = "-s001";
