@@ -973,10 +973,10 @@ pos = -450;
 name = Regular;
 userData = {
 GSCornerRadius = -10;
-GSOffsetHorizontal = 30;
+GSOffsetHorizontal = 10;
 GSOffsetKeepCompatible = 1;
 GSOffsetMakeStroke = 1;
-GSOffsetPosition = 1;
+GSOffsetPosition = 0;
 GSOffsetProportional = 1;
 GSOffsetVertical = 10;
 };
