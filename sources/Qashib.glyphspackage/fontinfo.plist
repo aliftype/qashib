@@ -1259,7 +1259,7 @@ fontType = variable;
 keepAlternatesTogether = 1;
 previewRemoveOverlap = 0;
 };
-unitsPerEm = 600;
+unitsPerEm = 1000;
 userData = {
 GSDimensionPlugin.Dimensions = {
 m01 = {
