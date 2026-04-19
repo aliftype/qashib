@@ -6,7 +6,7 @@ layers = (
 anchors = (
 {
 name = _top;
-pos = (71,401);
+pos = (71,380);
 }
 );
 layerId = m01;
