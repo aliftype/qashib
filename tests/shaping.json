@@ -3775,7 +3775,7 @@
     {
       "only": "Qashib.ttf",
       "input": "سِيء",
-      "expectation": "hamza-ar=3+445|twodotsbelow-ar=2@48,-295+0|yeh-ar.fina=2+240|kasra-ar=0+0|seen-ar.init=0+278"
+      "expectation": "hamza-ar=3+445|twodotsbelow-ar=2@48,-295+0|yeh-ar.fina=2+240|kasra-ar=0@94,80+0|seen-ar.init=0+278"
     },
     {
       "only": "Qashib.ttf",
