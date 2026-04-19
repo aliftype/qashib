@@ -5,6 +5,10 @@ axes = (
 {
 name = Mashq;
 tag = MSHQ;
+},
+{
+name = Spacing;
+tag = SPAC;
 }
 );
 customParameters = (
@@ -23,6 +27,24 @@ value = (
 {
 Axis = Mashq;
 Location = 100;
+}
+);
+},
+{
+name = "Virtual Master";
+value = (
+{
+Axis = Spacing;
+Location = -100;
+}
+);
+},
+{
+name = "Virtual Master";
+value = (
+{
+Axis = Spacing;
+Location = 125;
 }
 );
 },
@@ -842,7 +864,8 @@ tag = mark;
 fontMaster = (
 {
 axesValues = (
-10
+10,
+-50
 );
 customParameters = (
 {
@@ -986,7 +1009,8 @@ visible = 1;
 instances = (
 {
 axesValues = (
-10
+10,
+-50
 );
 name = Regular;
 properties = (
