@@ -12,6 +12,10 @@ pos = (149,-344);
 {
 name = center;
 pos = (155,-90);
+},
+{
+name = top;
+pos = (178,200);
 }
 );
 backgroundImage = {

@@ -9,7 +9,7 @@ shapes = (
 ref = "noon-ar.isol";
 },
 {
-pos = (117,-125);
+pos = (140,225);
 ref = "dotabove-ar";
 }
 );

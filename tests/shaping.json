@@ -4660,7 +4660,7 @@
     {
       "only": "Qashib.ttf",
       "input": "المُتَقَدِّمونَ",
-      "expectation": "fatha-ar=13+0|dotcenter-ar=13@117,-125+0|noon-ar.isol=13+371|waw-ar.fina=12+420|meem-ar.init=11+328|kasra-ar=8@425,80+0|shadda-ar=8@449,-184+0|dal-ar.fina=8+940|fatha-ar=6@63,64+0|twodotsabove-ar=6@52,372+0|feh-ar.medi=6+289|fatha-ar=4@-29,33+0|twodotsabove-ar=4@-40,341+0|beh-ar.medi=4+100|damma-ar=2@94,-86+0|meem-ar.medi=2+328|lam-ar.init.short=1+100|alef-ar.isol=0+591"
+      "expectation": "fatha-ar=13@107,-180+0|dotcenter-ar=13@117,-125+0|noon-ar.isol=13+371|waw-ar.fina=12+420|meem-ar.init=11+328|kasra-ar=8@425,80+0|shadda-ar=8@449,-184+0|dal-ar.fina=8+940|fatha-ar=6@63,64+0|twodotsabove-ar=6@52,372+0|feh-ar.medi=6+289|fatha-ar=4@-29,33+0|twodotsabove-ar=4@-40,341+0|beh-ar.medi=4+100|damma-ar=2@94,-86+0|meem-ar.medi=2+328|lam-ar.init.short=1+100|alef-ar.isol=0+591"
     },
     {
       "only": "Qashib.ttf",
