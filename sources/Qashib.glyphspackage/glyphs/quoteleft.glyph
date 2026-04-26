@@ -1,0 +1,18 @@
+{
+glyphname = quoteleft;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,620);
+ref = "comma-ar";
+}
+);
+width = 116;
+}
+);
+metricLeft = "=0";
+metricRight = "=40";
+unicode = 8216;
+}

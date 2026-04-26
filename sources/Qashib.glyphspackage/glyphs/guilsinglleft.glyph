@@ -1,0 +1,33 @@
+{
+glyphname = guilsinglleft;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(109,-88,l),
+(75,-33,o),
+(54,36,o),
+(54,112,cs),
+(54,190,o),
+(75,257,o),
+(109,313,c),
+(90,328,l),
+(39,282,o),
+(0,203,o),
+(0,112,cs),
+(0,24,o),
+(39,-56,o),
+(90,-103,c)
+);
+}
+);
+width = 149;
+}
+);
+metricLeft = "=0";
+metricRight = "=40";
+unicode = 8249;
+}

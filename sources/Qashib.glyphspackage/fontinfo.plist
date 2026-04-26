@@ -998,7 +998,6 @@ userData = {
 GSCornerRadius = -10;
 GSOffsetHorizontal = 10;
 GSOffsetKeepCompatible = 1;
-GSOffsetMakeStroke = 1;
 GSOffsetPosition = 0;
 GSOffsetProportional = 1;
 GSOffsetVertical = 10;
