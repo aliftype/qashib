@@ -7,18 +7,18 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(150,-91,l),
-(150,609,l),
-(0,609,l),
-(0,559,l),
-(100,559,l),
-(100,-41,l),
-(0,-41,l),
-(0,-91,l)
+(190,-91,l),
+(190,609,l),
+(40,609,l),
+(40,559,l),
+(140,559,l),
+(140,-41,l),
+(40,-41,l),
+(40,-91,l)
 );
 }
 );
-width = 170;
+width = 190;
 },
 {
 associatedMasterId = m01;
@@ -34,8 +34,8 @@ ref = bracketleft;
 width = 170;
 }
 );
-metricLeft = "=bracketleft";
-metricRight = "=bracketleft";
+metricLeft = "=|bracketleft";
+metricRight = "=|bracketleft";
 metricWidth = "=bracketleft";
 unicode = 93;
 }

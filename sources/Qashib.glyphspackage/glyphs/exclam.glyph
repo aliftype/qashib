@@ -17,7 +17,7 @@ nodes = (
 ref = period;
 }
 );
-width = 95;
+width = 115;
 }
 );
 metricLeft = "=period";

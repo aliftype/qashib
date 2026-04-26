@@ -38,7 +38,7 @@ pos = (137,0);
 ref = period;
 }
 );
-width = 296;
+width = 316;
 },
 {
 associatedMasterId = m01;

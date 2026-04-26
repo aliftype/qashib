@@ -14,10 +14,10 @@ nodes = (
 );
 }
 );
-width = 70;
+width = 90;
 }
 );
 metricLeft = "=bracketleft";
-metricRight = "=bracketright";
+metricRight = "=|bracketright";
 unicode = 124;
 }

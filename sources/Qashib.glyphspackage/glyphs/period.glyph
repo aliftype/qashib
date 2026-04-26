@@ -22,9 +22,9 @@ nodes = (
 );
 }
 );
-width = 95;
+width = 115;
 }
 );
-metricRight = "=20";
+metricRight = "=40";
 unicode = 46;
 }

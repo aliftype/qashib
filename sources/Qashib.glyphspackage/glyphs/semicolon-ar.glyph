@@ -12,10 +12,10 @@ ref = period;
 ref = "comma-ar";
 }
 );
-width = 95;
+width = 116;
 }
 );
 metricLeft = "=period";
-metricWidth = "=period";
+metricRight = "=comma-ar";
 unicode = 1563;
 }

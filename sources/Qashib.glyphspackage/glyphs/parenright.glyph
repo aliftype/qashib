@@ -7,24 +7,24 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(89,-12,o),
-(150,116,o),
-(150,260,cs),
-(150,403,o),
-(89,532,o),
-(9,610,c),
-(0,603,l),
-(53,516,o),
-(90,395,o),
-(90,260,cs),
-(90,124,o),
-(53,4,o),
-(0,-83,c),
-(9,-90,l)
+(129,-12,o),
+(190,116,o),
+(190,260,cs),
+(190,403,o),
+(129,532,o),
+(49,610,c),
+(40,603,l),
+(93,516,o),
+(130,395,o),
+(130,260,cs),
+(130,124,o),
+(93,4,o),
+(40,-83,c),
+(49,-90,l)
 );
 }
 );
-width = 170;
+width = 190;
 },
 {
 associatedMasterId = m01;
@@ -40,8 +40,8 @@ ref = parenleft;
 width = 170;
 }
 );
-metricLeft = "=parenleft";
-metricRight = "=parenleft";
+metricLeft = "=|parenleft";
+metricRight = "=|parenleft";
 metricWidth = "=parenleft";
 unicode = 41;
 }
