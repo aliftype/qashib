@@ -76,7 +76,7 @@ width = 245;
 }
 );
 script = arabic;
-sortName = arM1073;
+sortName = arM1072;
 sortNameKeep = arM1073;
 subCategory = Nonspacing;
 unicode = 1619;

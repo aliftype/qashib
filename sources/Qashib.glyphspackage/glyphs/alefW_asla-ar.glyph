@@ -7,6 +7,10 @@ layerId = m01;
 shapes = (
 {
 ref = "alef-ar.isol";
+},
+{
+pos = (97,-52);
+ref = "wasla-ar";
 }
 );
 width = 591;

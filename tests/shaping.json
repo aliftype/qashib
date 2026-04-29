@@ -980,7 +980,7 @@
     {
       "only": "Qashib.ttf",
       "input": "ٱ ‍ٱ",
-      "expectation": "alef-ar.fina=3+100|space=1+0|space=1+200|alef-ar.isol=0+591"
+      "expectation": "wasla-ar=3@-63,111+0|alef-ar.fina=3+100|space=1+0|space=1+200|wasla-ar=0@97,-52+0|alef-ar.isol=0+591"
     },
     {
       "only": "Qashib.ttf",

@@ -111,7 +111,7 @@ code = "lookup ccmp_1 {
 	sub alefHamzaabove-ar by alef-ar.isol hamzaabove-ar;
 	sub alefHamzabelow-ar by alef-ar.isol hamzabelow-ar;
 	sub alefMadda-ar by alef-ar.isol madda-ar;
-	sub alefWasla-ar by alef-ar.isol; # wasla-ar
+	sub alefWasla-ar by alef-ar.isol wasla-ar;
 	sub behDotless-ar by beh-ar.isol;
 	sub beh-ar by beh-ar.isol dotbelow-ar;
 	sub teh-ar by beh-ar.isol twodotsabove-ar;
