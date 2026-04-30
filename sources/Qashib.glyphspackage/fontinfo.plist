@@ -93,12 +93,14 @@ code = "lookup locl_1 {
 } locl_1;
 
 lookup locl_2 {
+	sub zeroFarsi-ar	by zero-ar;
 	sub fourFarsi-ar	by four-ar;
 	sub sixFarsi-ar		by six-ar;
 	sub sevenFarsi-ar	by sevenFarsi-ar.locl;
 } locl_2;
 
 lookup locl_3 {
+	sub zeroFarsi-ar	by zero-ar;
 	sub sixFarsi-ar		by six-ar;
 	sub sevenFarsi-ar	by sevenFarsi-ar.locl;
 } locl_3;
@@ -996,9 +998,10 @@ pos = -450;
 name = Regular;
 userData = {
 GSCornerRadius = -10;
-GSOffsetHorizontal = 10;
+GSOffsetHorizontal = 30;
 GSOffsetKeepCompatible = 1;
-GSOffsetPosition = 0;
+GSOffsetMakeStroke = 1;
+GSOffsetPosition = 1;
 GSOffsetProportional = 1;
 GSOffsetVertical = 10;
 };
