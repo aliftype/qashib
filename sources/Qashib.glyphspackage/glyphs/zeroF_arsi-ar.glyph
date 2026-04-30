@@ -1,111 +1,17 @@
 {
 glyphname = "zeroFarsi-ar";
-kernLeft = "zero-ar";
-kernRight = "zero-ar";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(245,172,o),
-(286,229,o),
-(286,285,cs),
-(286,341,o),
-(245,398,o),
-(173,398,cs),
-(101,398,o),
-(60,341,o),
-(60,285,cs),
-(60,229,o),
-(101,172,o),
-(173,172,cs)
-);
-},
-{
-closed = 1;
-nodes = (
-(134,232,o),
-(120,262,o),
-(120,285,cs),
-(120,308,o),
-(134,338,o),
-(173,338,cs),
-(212,338,o),
-(226,308,o),
-(226,285,cs),
-(226,262,o),
-(212,232,o),
-(173,232,cs)
-);
+alignment = 1;
+ref = "zero-ar";
 }
 );
-width = 346;
-},
-{
-associatedMasterId = m01;
-layerId = "86029A36-0F11-486B-B149-DD25DF0EF3F4";
-name = "30 Apr 26 at 03:23";
-shapes = (
-{
-closed = 1;
-nodes = (
-(288,282,l),
-(204,367,l),
-(120,282,l),
-(204,197,l)
-);
-}
-);
-visible = 1;
 width = 408;
-},
-{
-associatedMasterId = m01;
-layerId = "C495E442-F224-4219-9938-02E155DD0E11";
-name = "30 Apr 26 at 03:24";
-shapes = (
-{
-closed = 1;
-nodes = (
-(306,133,o),
-(360,187,o),
-(360,283,cs),
-(360,342,o),
-(319,433,o),
-(210,433,cs),
-(101,433,o),
-(60,342,o),
-(60,283,cs),
-(60,187,o),
-(114,133,o),
-(210,133,cs)
-);
-},
-{
-closed = 1;
-nodes = (
-(150,193,o),
-(120,218,o),
-(120,283,cs),
-(120,320,o),
-(144,373,o),
-(210,373,cs),
-(276,373,o),
-(300,320,o),
-(300,283,cs),
-(300,218,o),
-(270,193,o),
-(210,193,cs)
-);
 }
 );
-width = 420;
-}
-);
-metricLeft = "=five-ar";
-metricRight = "=five-ar";
 sortName = ar3126;
 sortNameKeep = ar3156;
 unicode = 1776;

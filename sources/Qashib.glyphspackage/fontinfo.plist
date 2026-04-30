@@ -82,6 +82,7 @@ languagesystem arab URD;
 languagesystem arab KSH;
 languagesystem arab RHG;
 languagesystem arab SND;
+languagesystem arab FAR;
 ";
 name = Languagesystems;
 },
@@ -93,18 +94,19 @@ code = "lookup locl_1 {
 } locl_1;
 
 lookup locl_2 {
-	sub zeroFarsi-ar	by zero-ar;
 	sub fourFarsi-ar	by four-ar;
 	sub sixFarsi-ar		by six-ar;
 	sub sevenFarsi-ar	by sevenFarsi-ar.locl;
 } locl_2;
 
 lookup locl_3 {
-	sub zeroFarsi-ar	by zero-ar;
 	sub sixFarsi-ar		by six-ar;
 	sub sevenFarsi-ar	by sevenFarsi-ar.locl;
 } locl_3;
-";
+
+lookup locl_4 {
+	sub zeroFarsi-ar	by zeroFarsi-ar.locl;
+} locl_4;";
 name = locl;
 },
 {
@@ -339,11 +341,16 @@ lookup salt_1 {
 	sub ain-ar.fina			from [ain-ar.fina.salt1 ain-ar.fina.salt2];
 	sub yeh-ar.isol			from [yeh-ar.isol.salt yehbarree-ar];
 	sub yeh-ar.fina			from [yeh-ar.fina.salt yehbarree-ar.fina];
-	sub zero-ar				from [zeroFarsi-ar];
+	sub zero-ar				from [zeroFarsi-ar.locl];
+	sub zeroFarsi-ar		from [zeroFarsi-ar.locl];
 	sub four-ar				from [fourFarsi-ar fourFarsi-ar.locl];
+	sub fourFarsi-ar		from [four-ar fourFarsi-ar.locl];
 	sub five-ar				from [fiveFarsi-ar];
+	sub fiveFarsi-ar		from [five-ar];
 	sub six-ar				from [sixFarsi-ar];
+	sub sixFarsi-ar			from [six-ar];
 	sub seven-ar			from [sevenFarsi-ar.locl];
+	sub sevenFarsi-ar		from [sevenFarsi-ar.locl];
 } salt_1;
 
 lookup yehbarree_baseline {
@@ -566,7 +573,9 @@ code = "script arab;
 
   language SND;
 	lookup locl_3;
-";
+
+  language FAR;
+	lookup locl_4;";
 tag = locl;
 },
 {
