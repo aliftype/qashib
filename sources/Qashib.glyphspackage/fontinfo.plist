@@ -339,6 +339,11 @@ lookup salt_1 {
 	sub ain-ar.fina			from [ain-ar.fina.salt1 ain-ar.fina.salt2];
 	sub yeh-ar.isol			from [yeh-ar.isol.salt yehbarree-ar];
 	sub yeh-ar.fina			from [yeh-ar.fina.salt yehbarree-ar.fina];
+	sub zero-ar				from [zeroFarsi-ar];
+	sub four-ar				from [fourFarsi-ar fourFarsi-ar.locl];
+	sub five-ar				from [fiveFarsi-ar];
+	sub six-ar				from [sixFarsi-ar];
+	sub seven-ar			from [sevenFarsi-ar.locl];
 } salt_1;
 
 lookup yehbarree_baseline {
