@@ -347,6 +347,7 @@ lookup salt_1 {
 	sub yeh-ar.fina			from [yeh-ar.fina.salt yehbarree-ar.fina];
 	sub zero-ar				from [zeroFarsi-ar.locl];
 	sub zeroFarsi-ar		from [zeroFarsi-ar.locl];
+	sub two-ar				from [two-ar.alt];
 	sub four-ar				from [fourFarsi-ar fourFarsi-ar.locl];
 	sub fourFarsi-ar		from [four-ar fourFarsi-ar.locl];
 	sub five-ar				from [fiveFarsi-ar];
