@@ -335,10 +335,14 @@ lookup ss01_cleanup {
 } ss01_cleanup;
 
 lookup salt_1 {
-	sub hah-ar.isol			from [hah-ar.isol.salt1 hah-ar.isol.salt2];
-	sub hah-ar.fina			from [hah-ar.fina.salt1 hah-ar.fina.salt2];
-	sub ain-ar.isol			from [ain-ar.isol.salt1 ain-ar.isol.salt2];
-	sub ain-ar.fina			from [ain-ar.fina.salt1 ain-ar.fina.salt2];
+	sub hah-ar.isol			from [hah-ar.isol.salt1 hah-ar.isol.salt2 hah-ar.isol.hist];
+	sub hah-ar.init			from [hah-ar.init.hist];
+	sub hah-ar.medi			from [hah-ar.medi.hist];
+	sub hah-ar.fina			from [hah-ar.fina.salt1 hah-ar.fina.salt2 hah-ar.fina.hist];
+	sub ain-ar.isol			from [ain-ar.isol.salt1 ain-ar.isol.salt2 ain-ar.isol.hist];
+	sub ain-ar.init			from [ain-ar.init.hist];
+	sub ain-ar.medi			from [ain-ar.medi.hist];
+	sub ain-ar.fina			from [ain-ar.fina.salt1 ain-ar.fina.salt2 ain-ar.fina.hist];
 	sub yeh-ar.isol			from [yeh-ar.isol.salt yehbarree-ar];
 	sub yeh-ar.fina			from [yeh-ar.fina.salt yehbarree-ar.fina];
 	sub zero-ar				from [zeroFarsi-ar.locl];
