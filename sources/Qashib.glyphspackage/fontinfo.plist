@@ -343,6 +343,14 @@ lookup salt_1 {
 	sub ain-ar.init			from [ain-ar.init.hist];
 	sub ain-ar.medi			from [ain-ar.medi.hist];
 	sub ain-ar.fina			from [ain-ar.fina.salt1 ain-ar.fina.salt2 ain-ar.fina.hist];
+	sub qaf-ar.isol			from [qaf-ar.isol.hist];
+	sub qaf-ar.fina			from [qaf-ar.fina.hist];
+	sub kaf-ar.isol			from [kaf-ar.isol.hist];
+	sub kaf-ar.init			from [kaf-ar.init.hist];
+	sub kaf-ar.medi			from [kaf-ar.medi.hist];
+	sub kaf-ar.fina			from [kaf-ar.fina.hist];
+	sub noon-ar.isol		from [noon-ar.isol.hist];
+	sub noon-ar.fina		from [noon-ar.fina.hist];
 	sub yeh-ar.isol			from [yeh-ar.isol.salt yehbarree-ar];
 	sub yeh-ar.fina			from [yeh-ar.fina.salt yehbarree-ar.fina];
 	sub zero-ar				from [zeroFarsi-ar.locl];

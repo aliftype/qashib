@@ -171,7 +171,7 @@
     {
       "only": "Qashib.ttf",
       "input": "كي",
-      "expectation": "twodotsbelow-ar=1@25,-534+0|yeh-ar.fina.salt=1+240|kaf-ar.init=0+815",
+      "expectation": "twodotsbelow-ar=1@25,-534+0|yeh-ar.fina.salt=1+240|kaf-ar.init.hist=0+815",
       "features": {
         "salt": 1
       }
@@ -291,7 +291,7 @@
     {
       "only": "Qashib.ttf",
       "input": "كسي",
-      "expectation": "twodotsbelow-ar=2@25,-534+0|yeh-ar.fina.salt=2+240|seen-ar.medi=1+274|kaf-ar.init=0+815",
+      "expectation": "twodotsbelow-ar=2@25,-534+0|yeh-ar.fina.salt=2+240|seen-ar.medi=1+274|kaf-ar.init.hist=0+815",
       "features": {
         "salt": 1
       }
@@ -419,7 +419,7 @@
     {
       "only": "Qashib.ttf",
       "input": "بكسي",
-      "expectation": "twodotsbelow-ar=3@25,-534+0|yeh-ar.fina.salt=3+240|seen-ar.medi=2+274|kaf-ar.medi=1+815|dotbelow-ar=0@2,-117+0|beh-ar.init=0+100",
+      "expectation": "twodotsbelow-ar=3@25,-534+0|yeh-ar.fina.salt=3+240|seen-ar.medi=2+274|kaf-ar.medi.hist=1+815|dotbelow-ar=0@2,-117+0|beh-ar.init=0+100",
       "features": {
         "salt": 1
       }
