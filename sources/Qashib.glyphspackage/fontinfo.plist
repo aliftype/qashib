@@ -923,15 +923,15 @@ value = 500;
 },
 {
 name = underlinePosition;
-value = -165;
+value = -235;
 },
 {
 name = underlineThickness;
-value = 50;
+value = 60;
 },
 {
-name = strikeoutSize;
-value = 50;
+name = strikeoutPosition;
+value = 320;
 }
 );
 guides = (
